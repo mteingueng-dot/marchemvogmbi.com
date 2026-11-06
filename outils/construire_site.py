@@ -375,7 +375,8 @@ def page_recettes(source: str, langue: str) -> str:
     </section>
 ''', v(r, "titre"), v(r, "resume"), r["photo"])
     source = source.replace('<div class="tuiles">\n<!--SOMMAIRE-->',
-                            filtre + '\n        <div class="tuiles tuiles-recettes">\n<!--SOMMAIRE-->')
+                            '<div class="recettes-mise">\n' + filtre + '\n        <div class="tuiles tuiles-recettes">\n<!--SOMMAIRE-->')
+    source = source.replace("<!--SOMMAIRE-->\n        </div>", "<!--SOMMAIRE-->\n        </div>\n        </div>", 1)   # ferme .recettes-mise
     return source.replace("<!--SOMMAIRE-->", "\n".join(sommaire)).replace("<!--RECETTES-->", ""), pages
 
 
