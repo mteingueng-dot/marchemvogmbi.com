@@ -57,3 +57,25 @@ python -m http.server 8811
 ```
 
 Ouvrez ensuite http://127.0.0.1:8811/. La boutique lit `data/produits.json` : ouverte en double-cliquant sur le fichier, sans ce petit serveur, elle ne peut pas charger les produits.
+
+## Langues, formulaire, photos
+
+- Deux langues : `sources/*.html` (français, racine du site) et `sources/en/*.html` (anglais, dossier `en/`). Le choix FR / EN est dans le menu.
+- `contact.php` : formulaire des pages Contact et Carrière, envoyé à contact@marchemvogmbi.com avec la pièce jointe (PDF ou Word, 10 Mo au plus). Il faut un hébergement avec PHP et `mail()` (WHC). Faites un envoi d'essai après la mise en ligne.
+- Photos professionnelles : `outils/photos_pro.py` détoure les produits sur fond blanc avec rembg, installé à part (voir l'en-tête du script). Une photo ratée s'écarte en ajoutant son code-barres dans `data/photos_refusees.json`.
+- Photos du magasin : `outils/photos_magasin.py "E:/site web"` (photos choisies par nom de fichier).
+- Aucun prix n'est publié : règle du propriétaire.
+
+## Assistant et ergonomie
+
+- `assistant.js` : fenêtre de discussion (bouton en bas à droite, « Discuter » dans la barre du téléphone). Elle répond sans aucun service externe : heures (ouvert ou fermé en ce moment, heure de Sherbrooke), adresse, livraison, garantie du meilleur prix, paiement, commande, emploi, contact ; elle cherche aussi les produits dans `data/produits.json` et les recettes dans `data/recettes.json`. Elle ne donne aucun prix. Pour changer une réponse, modifier l'objet `R` du fichier (français et anglais).
+- `site.js` : en-tête qui se resserre au défilement, apparition douce des blocs (désactivée si la personne préfère moins d'animations), bouton « haut de page ».
+- Téléphone : barre d'actions fixe en bas (Appeler, Itinéraire, Boutique, Discuter).
+
+## Photos des produits trouvées en ligne
+
+`python outils/photos_web.py` cherche une image pour chaque produit d'après son nom exact (marque, sorte, format),
+garde celle dont le titre ressemble le plus au produit, de préférence sur fond blanc, et l'enregistre dans
+`images/web/<id>.jpg` (carré blanc 700 × 700). Les choix sont dans `data/photos_web.json`, avec la page d'origine
+affichée comme source sur la fiche. Une photo mauvaise : ajouter l'ID du produit dans `data/photos_web_refusees.json`,
+puis `python outils/photos_web.py --refaire <ID>` et relancer l'export. Les photos prises au magasin restent prioritaires.

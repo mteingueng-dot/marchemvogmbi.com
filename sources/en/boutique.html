@@ -1,0 +1,37 @@
+  <main class="conteneur boutique">
+    <div class="boutique-tete">
+      <h1>Our products</h1>
+      <p class="intro">Over 2,000 products from Africa, the Caribbean and Latin America, with their sizes, colours and recipe ideas. Availability depends on arrivals: call us for a specific product.</p>
+      <div class="mini-promesses">
+        <span><strong>Unbeatable prices</strong>: seen it cheaper elsewhere? 1¢ less with us.</span>
+        <span><strong>Free delivery</strong> from $100 within 5 km: <a href="tel:+18192399864">819 239-9864</a></span>
+      </div>
+      <div class="outils">
+        <label class="recherche">
+          <span class="visuellement-cache">Search for a product</span>
+          <input type="search" id="recherche" placeholder="Search: plantain, gari, palm oil…" autocomplete="off">
+        </label>
+        <label class="tri">
+          <span>Sort</span>
+          <select id="tri">
+            <option value="photo">Featured</option>
+            <option value="rayon">By aisle</option>
+            <option value="nom">Name (A to Z)</option>
+          </select>
+        </label>
+        <label class="case-photo"><input type="checkbox" id="avec-photo"> With photo only</label>
+      </div>
+    </div>
+
+    <div class="boutique-grille">
+      <aside class="rayons-liste" aria-label="Aisles">
+        <h2>Aisles</h2>
+        <ul id="rayons"></ul>
+      </aside>
+      <section aria-live="polite">
+        <p id="compte" class="compte">Loading the catalogue…</p>
+        <div id="produits" class="produits"></div>
+        <div class="plus-ligne"><button id="plus" class="bouton bouton-clair" hidden>Show more products</button></div>
+      </section>
+    </div>
+  </main>

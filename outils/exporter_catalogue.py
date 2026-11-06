@@ -15,6 +15,7 @@ import json
 import re
 import sys
 import unicodedata
+import urllib.parse
 from pathlib import Path
 
 SITE = Path(__file__).resolve().parent.parent
@@ -47,6 +48,8 @@ RAYONS = {
     "Divers": "Autres produits",
 }
 ORDRE = list(dict.fromkeys(list(RAYONS.values()) + ["Autres produits"]))
+PHOTOS_MECHES = [("TWISTED UP", "images/magasin/meches-twisted-up.jpg"),
+                 ("X-PRESSION PRES STRETCHED", "images/magasin/meches-xpression.jpg")]
 RAYONS_FRAIS = {"Fruits & légumes", "Féculents", "Viandes & volailles", "Produits de la mer", "Légumes congelés"}
 EXCLUS = {"article personnalisé", "custom item"}
 
@@ -76,15 +79,34 @@ def rayon_de(article: dict) -> str:
     return "Autres produits"
 
 
+def photo_pro(code: str) -> str:
+    """Photo des banques libres, détourée sur fond blanc (outils/photos_pro.py), seulement si elle est réussie :
+    produit entier (pas coupé par plus d'un bord de la photo), assez grand dans la photo d'origine, net."""
+    if not code:
+        return ""
+    chemin = f"images/pro/off/{code}.jpg"
+    note = NOTES_PRO.get(chemin)
+    if not note or not (SITE / chemin).exists() or code in PHOTOS_REFUSEES:
+        return ""
+    if note.get("bords", 0) >= 2 or note.get("part", 0) < 0.06 or min(note.get("source", [0, 0])) < 300:
+        return ""
+    return chemin
+
+
+NOTES_PRO = lire_json(DONNEES / "photos_pro.json", {})
+PHOTOS_REFUSEES = set(lire_json(DONNEES / "photos_refusees.json", []))   # écartées à l'œil
+
+
 def produits(articles: list[dict]) -> list[dict]:
     sys.path.insert(0, str(SITE / "outils"))
     from photos_illustration import sorte_de
     illustrations = lire_json(DONNEES / "illustrations.json", {})   # Wikimedia Commons, par sorte de produit
+    magasin = lire_json(DONNEES / "photos_magasin.json", {})        # photos prises au magasin, par sorte
     fiches = lire_json(DONNEES / "fiches.json", {})          # saisies du propriétaire, par ID Clover
     off = lire_json(DONNEES / "off_cache.json", {})          # Open Food Facts, par code-barres
     sortie = []
     for a in articles:
-        nom = (a.get("name") or "").strip()
+        nom = re.sub(r"^copy of\s+", "", (a.get("name") or "").strip(), flags=re.I)
         if (a.get("deleted") or a.get("hidden") or not a.get("isRevenue", True) or not nom
                 or nom.lower() in EXCLUS or a.get("priceType") == "VARIABLE" or not a.get("price")):
             continue
@@ -94,14 +116,17 @@ def produits(articles: list[dict]) -> list[dict]:
         if not o.get("trouve"):
             o = {}
         propre = SITE / "images" / "produits" / f"{a['id']}.jpg"      # photo du marché, nommée par l'ID Clover
-        photo = f.get("photo") or (f"images/produits/{a['id']}.jpg" if propre.exists() else "") or (
-            f"images/produits/{code}.jpg" if code and (SITE / "images" / "produits" / f"{code}.jpg").exists() else "")
+        photo = f.get("photo") or (f"images/produits/{a['id']}.jpg" if propre.exists() else "") or photo_pro(code)
         a_nous = bool(f.get("photo") or propre.exists())
         source = "" if a_nous or not photo else (o.get("base") or "Open Food Facts") + " (CC BY-SA)"
         lien = "" if a_nous or not photo else f"https://world.openfoodfacts.org/product/{code}"
         illustration = False
-        if not photo and rayon_de(a) in RAYONS_FRAIS:
-            ill = illustrations.get(sorte_de(nom) or "")
+        sorte = sorte_de(nom) if rayon_de(a) in RAYONS_FRAIS else None
+        if not photo and sorte and magasin.get(sorte) and (SITE / magasin[sorte]).exists():
+            photo, illustration, lien = magasin[sorte], True, ""
+            source = "Photo prise au Marché Mvog-Mbi"
+        if not photo and sorte:
+            ill = illustrations.get(sorte)
             if ill and ill.get("fichier") and (SITE / ill["fichier"]).exists():
                 photo, illustration = ill["fichier"], True
                 source = f"{ill.get('auteur', 'Wikimedia Commons')}, {ill.get('licence', '')}, Wikimedia Commons"
@@ -131,10 +156,47 @@ def produits(articles: list[dict]) -> list[dict]:
             "photo_source": source,
             "photo_lien": lien,
             "illustration": illustration,
-            "description": f.get("description") or o.get("nom_complet", ""),
+            "description": "",
             "caracteristiques": carac,
             "slug": slug(nom),
         })
+    from couleurs_meches import regrouper
+    import conditionnements
+    from descriptions import decrire
+    from descriptions_en import decrire_en
+    from langues import RAYONS_EN, CARACTERISTIQUES_EN, VALEURS_EN, couleur_en
+    sortie = regrouper(sortie)                 # une fiche par modèle de mèche, avec ses couleurs
+    sortie = conditionnements.regrouper(sortie)   # une fiche par produit, avec ses formats
+    for p in sortie:                           # photos des paquets prises au magasin
+        if p["rayon"] == "Mèches & accessoires" and (not p["photo"] or p["illustration"]):
+            for motif, fichier in PHOTOS_MECHES:
+                if motif in p["nom"].upper() and (SITE / fichier).exists():
+                    p.update(photo=fichier, illustration=False, photo_source="Photo prise au Marché Mvog-Mbi", photo_lien="")
+                    break
+    web = lire_json(DONNEES / "photos_web.json", {})
+    refusees_web = set(lire_json(DONNEES / "photos_web_refusees.json", []))
+    for p in sortie:
+        w = web.get(p["id"]) or {}             # photo trouvée en ligne (outils/photos_web.py), sauf photo du magasin
+        a_nous = p["photo_source"].startswith("Photo prise") and not p["illustration"]
+        if (w.get("fichier") and (SITE / w["fichier"]).exists() and p["id"] not in refusees_web
+                and not a_nous and not p["photo"].startswith("images/produits/")):
+            domaine = urllib.parse.urlsplit(w.get("page") or w.get("image", "")).netloc.removeprefix("www.")
+            p.update(photo=w["fichier"], illustration=False, photo_source=domaine, photo_lien=w.get("page", ""))
+        propre = fiches.get(p["id"], {}).get("description")
+        texte, recettes = decrire(p)
+        p["description"] = propre or texte
+        p["description_en"] = fiches.get(p["id"], {}).get("description_en") or decrire_en(p)
+        p["recettes"] = recettes
+        p["rayon_en"] = RAYONS_EN.get(p["rayon"], p["rayon"])
+        p["caracteristiques_en"] = {CARACTERISTIQUES_EN.get(k, k): VALEURS_EN.get(v, v)
+                                    for k, v in p.get("caracteristiques", {}).items()}
+        for c in p.get("couleurs", []):
+            c["description_en"] = couleur_en(c["description"])
+        # Règle du propriétaire (2026-11-06) : aucun prix sur le site
+        for cle in ("prix", "prix_max"):
+            p.pop(cle, None)
+        for c in p.get("couleurs", []):
+            c.pop("prix", None)
     sortie.sort(key=lambda p: (ORDRE.index(p["rayon"]) if p["rayon"] in ORDRE else 99, p["nom"].lower()))
     return sortie
 
@@ -158,8 +220,11 @@ def main() -> None:
     liste = produits(articles)
     DONNEES.mkdir(exist_ok=True)
     rayons = [r for r in ORDRE if any(x["rayon"] == r for x in liste)]
+    sys.path.insert(0, str(SITE / "outils"))
+    from langues import RAYONS_EN as RAYONS_EN_NOMS
     (DONNEES / "produits.json").write_text(
-        json.dumps({"rayons": rayons, "produits": liste}, ensure_ascii=False, separators=(",", ":")),
+        json.dumps({"rayons": rayons, "rayons_en": [RAYONS_EN_NOMS.get(r, r) for r in rayons], "produits": liste},
+                   ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8")
     avec_photo = sum(1 for x in liste if x["photo"] and not x["illustration"])
     illustres = sum(1 for x in liste if x["illustration"])

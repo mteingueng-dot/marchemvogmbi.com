@@ -1,0 +1,532 @@
+[
+ {
+  "id": "ndole",
+  "titre": "Ndolé aux crevettes",
+  "pays": "Cameroun",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "photo": "images/recettes/ndole.jpg",
+  "resume": "Le plat national du Cameroun : des feuilles de ndolé fondantes dans une crème d’arachides, avec crevettes et viande.",
+  "ingredients": [
+   {
+    "texte": "500 g de feuilles de ndolé (congelées ou séchées)",
+    "cherche": "ndole",
+    "texte_en": "500 g ndolé leaves (frozen or dried)"
+   },
+   {
+    "texte": "500 g d’arachides crues décortiquées",
+    "cherche": "arachide",
+    "texte_en": "500 g raw shelled peanuts"
+   },
+   {
+    "texte": "500 g de bœuf coupé en morceaux",
+    "cherche": "boeuf",
+    "texte_en": "500 g beef, cut into pieces"
+   },
+   {
+    "texte": "200 g de crevettes séchées ou fumées",
+    "cherche": "crevette",
+    "texte_en": "200 g dried or smoked shrimp"
+   },
+   {
+    "texte": "2 oignons et 4 gousses d’ail",
+    "cherche": "oignon",
+    "texte_en": "2 onions and 4 garlic cloves"
+   },
+   {
+    "texte": "1 morceau de gingembre",
+    "cherche": "gingembre",
+    "texte_en": "1 piece of ginger"
+   },
+   {
+    "texte": "15 cl d’huile d’arachide",
+    "cherche": "huile arachide",
+    "texte_en": "15 cl peanut oil"
+   },
+   {
+    "texte": "Sel, poivre, 1 cube d’assaisonnement",
+    "cherche": "cube",
+    "texte_en": "Salt, pepper, 1 stock cube"
+   }
+  ],
+  "etapes": [
+   "Faire bouillir les arachides 15 minutes, les égoutter et les mixer avec un peu d’eau en une pâte lisse.",
+   "Cuire la viande avec un oignon, l’ail, le gingembre, le sel et le cube, environ 45 minutes, jusqu’à ce qu’elle soit tendre.",
+   "Rincer les feuilles de ndolé plusieurs fois (et les faire bouillir 10 minutes si elles sont séchées) pour enlever l’amertume.",
+   "Ajouter la pâte d’arachide au bouillon de viande et laisser mijoter 20 minutes à feu doux en remuant.",
+   "Incorporer les feuilles de ndolé et les crevettes, puis laisser mijoter 15 minutes.",
+   "Faire revenir le deuxième oignon émincé dans l’huile chaude et le verser sur le ndolé au moment de servir.",
+   "Servir avec du plantain mûr frit, du bâton de manioc (bobolo, miondo) ou du riz."
+  ],
+  "titre_en": "Ndolé with shrimp",
+  "pays_en": "Cameroon",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume_en": "Cameroon’s national dish: tender ndolé leaves in a creamy peanut sauce, with shrimp and meat.",
+  "etapes_en": [
+   "Boil the peanuts for 15 minutes, drain and blend with a little water into a smooth paste.",
+   "Cook the meat with one onion, the garlic, ginger, salt and stock cube for about 45 minutes, until tender.",
+   "Rinse the ndolé leaves several times (boil them for 10 minutes if dried) to remove the bitterness.",
+   "Add the peanut paste to the meat broth and simmer for 20 minutes over low heat, stirring.",
+   "Stir in the ndolé leaves and shrimp, then simmer for 15 minutes.",
+   "Fry the second onion, sliced, in the hot oil and pour it over the ndolé just before serving.",
+   "Serve with fried ripe plantain, cassava sticks (bobolo, miondo) or rice."
+  ]
+ },
+ {
+  "id": "attieke-poisson",
+  "titre": "Attiéké poisson braisé",
+  "pays": "Côte d’Ivoire",
+  "temps": "45 min",
+  "portions": "4 personnes",
+  "photo": "images/magasin/maquereau.jpg",
+  "resume": "Le classique des maquis d’Abidjan : un poisson mariné et braisé, servi avec de l’attiéké et une sauce crue pimentée.",
+  "ingredients": [
+   {
+    "texte": "1 kg d’attiéké",
+    "cherche": "attieke",
+    "texte_en": "1 kg attiéké"
+   },
+   {
+    "texte": "2 poissons entiers (tilapia, maquereau ou bar)",
+    "cherche": "tilapia",
+    "texte_en": "2 whole fish (tilapia, mackerel or sea bass)"
+   },
+   {
+    "texte": "3 tomates et 2 oignons",
+    "cherche": "tomate",
+    "texte_en": "3 tomatoes and 2 onions"
+   },
+   {
+    "texte": "1 à 2 piments frais",
+    "cherche": "piment",
+    "texte_en": "1 to 2 fresh chilies"
+   },
+   {
+    "texte": "1 morceau de gingembre et 3 gousses d’ail",
+    "cherche": "gingembre",
+    "texte_en": "1 piece of ginger and 3 garlic cloves"
+   },
+   {
+    "texte": "Huile, sel, cube d’assaisonnement, jus de citron",
+    "cherche": "cube",
+    "texte_en": "Oil, salt, stock cube, lemon juice"
+   }
+  ],
+  "etapes": [
+   "Écailler et vider les poissons, faire des entailles sur les côtés.",
+   "Mixer l’ail, le gingembre, un demi-oignon, un peu de piment, le cube, le sel et l’huile, et en badigeonner les poissons. Laisser mariner 30 minutes.",
+   "Braiser les poissons sur le gril ou au four (220 °C) environ 12 minutes de chaque côté.",
+   "Couper finement les tomates, les oignons et le piment, assaisonner de sel, de citron et d’un filet d’huile.",
+   "Réchauffer l’attiéké à la vapeur ou au micro-ondes en l’égrenant à la fourchette.",
+   "Servir le poisson sur l’attiéké, avec la sauce crue et, si on aime, de l’alloco."
+  ],
+  "titre_en": "Attiéké with grilled fish",
+  "pays_en": "Côte d’Ivoire",
+  "temps_en": "45 min",
+  "portions_en": "4 people",
+  "resume_en": "An Abidjan street-food classic: marinated grilled fish served with attiéké and a fresh chili sauce.",
+  "etapes_en": [
+   "Scale and gut the fish, then score both sides.",
+   "Blend the garlic, ginger, half an onion, a little chili, the stock cube, salt and oil, and brush it over the fish. Marinate for 30 minutes.",
+   "Grill the fish on the barbecue or in the oven (220 °C) for about 12 minutes per side.",
+   "Finely chop the tomatoes, onions and chili, and season with salt, lemon and a drizzle of oil.",
+   "Reheat the attiéké by steaming or in the microwave, fluffing it with a fork.",
+   "Serve the fish on the attiéké with the fresh sauce and, if you like, alloco."
+  ]
+ },
+ {
+  "id": "pondu",
+  "titre": "Pondu (saka-saka)",
+  "pays": "RD Congo",
+  "temps": "2 h",
+  "portions": "6 personnes",
+  "photo": "images/magasin/congeles.jpg",
+  "resume": "Des feuilles de manioc pilées qui mijotent longuement avec l’huile de palme, l’oignon et le poisson salé.",
+  "ingredients": [
+   {
+    "texte": "1 kg de pondu (feuilles de manioc pilées, congelées)",
+    "cherche": "pondu",
+    "texte_en": "1 kg pondu (frozen pounded cassava leaves)"
+   },
+   {
+    "texte": "300 g de poisson salé ou fumé",
+    "cherche": "poisson fume",
+    "texte_en": "300 g salted or smoked fish"
+   },
+   {
+    "texte": "15 cl d’huile de palme rouge",
+    "cherche": "huile de palme",
+    "texte_en": "15 cl red palm oil"
+   },
+   {
+    "texte": "2 oignons, 3 gousses d’ail",
+    "cherche": "oignon",
+    "texte_en": "2 onions, 3 garlic cloves"
+   },
+   {
+    "texte": "1 aubergine ou quelques gombos (facultatif)",
+    "cherche": "gombo",
+    "texte_en": "1 eggplant or a few okra (optional)"
+   },
+   {
+    "texte": "Sel, piment, cube d’assaisonnement",
+    "cherche": "piment",
+    "texte_en": "Salt, chili, stock cube"
+   }
+  ],
+  "etapes": [
+   "Faire tremper le poisson salé quelques heures pour le dessaler, puis l’émietter.",
+   "Mettre le pondu dans une grande casserole, couvrir d’eau et cuire à feu moyen au moins 1 heure, en ajoutant de l’eau si besoin.",
+   "Ajouter les oignons et l’ail hachés, le poisson et l’aubergine, puis laisser cuire 30 minutes.",
+   "Verser l’huile de palme, saler, pimenter et ajouter le cube. Laisser mijoter encore 20 minutes, jusqu’à ce que l’eau soit presque absorbée.",
+   "Servir avec du foufou, de la chikwangue ou du riz."
+  ],
+  "titre_en": "Pondu (saka-saka)",
+  "pays_en": "DR Congo",
+  "temps_en": "2 h",
+  "portions_en": "6 people",
+  "resume_en": "Pounded cassava leaves slowly simmered with palm oil, onion and salted fish.",
+  "etapes_en": [
+   "Soak the salted fish for a few hours to remove the salt, then flake it.",
+   "Put the pondu in a large pot, cover with water and cook over medium heat for at least 1 hour, adding water as needed.",
+   "Add the chopped onions and garlic, the fish and the eggplant, then cook for 30 minutes.",
+   "Pour in the palm oil, add salt, chili and the stock cube. Simmer for another 20 minutes, until the water is almost absorbed.",
+   "Serve with fufu, chikwangue or rice."
+  ]
+ },
+ {
+  "id": "egusi-foufou",
+  "titre": "Soupe egusi et foufou",
+  "pays": "Nigeria",
+  "temps": "1 h",
+  "portions": "6 personnes",
+  "photo": "images/magasin/egusi.jpg",
+  "resume": "Une sauce épaisse aux graines de courge moulues, aux légumes-feuilles et à la viande, servie avec un foufou ou de l’igname pilée.",
+  "ingredients": [
+   {
+    "texte": "300 g de graines d’egusi moulues",
+    "cherche": "egusi",
+    "texte_en": "300 g ground egusi seeds"
+   },
+   {
+    "texte": "500 g de viande (bœuf, chèvre) et du poisson fumé",
+    "cherche": "chevre",
+    "texte_en": "500 g meat (beef, goat) and some smoked fish"
+   },
+   {
+    "texte": "200 g d’épinards ou de feuilles amères",
+    "cherche": "epinard",
+    "texte_en": "200 g spinach or bitter leaves"
+   },
+   {
+    "texte": "15 cl d’huile de palme rouge",
+    "cherche": "huile de palme",
+    "texte_en": "15 cl red palm oil"
+   },
+   {
+    "texte": "2 oignons, piment, crevettes séchées moulues",
+    "cherche": "crevette",
+    "texte_en": "2 onions, chili, ground dried shrimp"
+   },
+   {
+    "texte": "Farine de foufou ou d’igname pilée pour l’accompagnement",
+    "cherche": "pounded yam",
+    "texte_en": "Fufu flour or pounded yam flour to serve"
+   }
+  ],
+  "etapes": [
+   "Cuire la viande avec un oignon, du sel et du cube jusqu’à ce qu’elle soit tendre ; garder le bouillon.",
+   "Mélanger l’egusi moulu avec un oignon mixé et un peu d’eau pour former une pâte.",
+   "Chauffer l’huile de palme, y faire revenir la pâte d’egusi 10 minutes en remuant, jusqu’à ce qu’elle forme des grumeaux.",
+   "Ajouter le bouillon, la viande, le poisson fumé, les crevettes et le piment. Laisser mijoter 20 minutes.",
+   "Ajouter les feuilles émincées et cuire encore 5 minutes.",
+   "Préparer le foufou : verser la farine dans l’eau bouillante en remuant vigoureusement jusqu’à obtenir une pâte lisse et ferme. Servir avec la soupe."
+  ],
+  "titre_en": "Egusi soup with fufu",
+  "pays_en": "Nigeria",
+  "temps_en": "1 h",
+  "portions_en": "6 people",
+  "resume_en": "A thick sauce of ground melon seeds, leafy greens and meat, served with fufu or pounded yam.",
+  "etapes_en": [
+   "Cook the meat with one onion, salt and stock cube until tender; keep the broth.",
+   "Mix the ground egusi with one blended onion and a little water to form a paste.",
+   "Heat the palm oil and fry the egusi paste for 10 minutes, stirring, until it forms small curds.",
+   "Add the broth, meat, smoked fish, shrimp and chili. Simmer for 20 minutes.",
+   "Add the sliced greens and cook for another 5 minutes.",
+   "Make the fufu: pour the flour into boiling water and stir vigorously until you get a smooth, firm dough. Serve with the soup."
+  ]
+ },
+ {
+  "id": "eba-sauce-gombo",
+  "titre": "Sauce gombo et eba",
+  "pays": "Afrique de l’Ouest",
+  "temps": "50 min",
+  "portions": "4 personnes",
+  "photo": "images/magasin/gombo.jpg",
+  "resume": "Une sauce onctueuse au gombo, au poisson fumé et à l’huile de palme, servie avec de l’eba (pâte de gari).",
+  "ingredients": [
+   {
+    "texte": "500 g de gombos frais ou congelés",
+    "cherche": "gombo",
+    "texte_en": "500 g fresh or frozen okra"
+   },
+   {
+    "texte": "300 g de poisson fumé et 300 g de viande",
+    "cherche": "poisson fume",
+    "texte_en": "300 g smoked fish and 300 g meat"
+   },
+   {
+    "texte": "10 cl d’huile de palme rouge",
+    "cherche": "huile de palme",
+    "texte_en": "10 cl red palm oil"
+   },
+   {
+    "texte": "1 oignon, piment, crevettes séchées",
+    "cherche": "piment",
+    "texte_en": "1 onion, chili, dried shrimp"
+   },
+   {
+    "texte": "500 g de gari pour l’eba",
+    "cherche": "gari",
+    "texte_en": "500 g gari for the eba"
+   }
+  ],
+  "etapes": [
+   "Cuire la viande avec l’oignon, le sel et le cube ; garder le bouillon.",
+   "Couper les gombos en fines rondelles (ou les râper).",
+   "Ajouter au bouillon l’huile de palme, le poisson fumé émietté, les crevettes et le piment. Laisser cuire 10 minutes.",
+   "Ajouter les gombos et cuire 5 à 8 minutes à feu doux, sans couvrir, pour qu’ils restent verts et filants.",
+   "Pour l’eba : verser le gari dans de l’eau bouillante hors du feu, laisser gonfler une minute puis travailler à la spatule jusqu’à obtenir une pâte ferme."
+  ],
+  "titre_en": "Okra soup with eba",
+  "pays_en": "West Africa",
+  "temps_en": "50 min",
+  "portions_en": "4 people",
+  "resume_en": "A silky okra sauce with smoked fish and palm oil, served with eba (gari dough).",
+  "etapes_en": [
+   "Cook the meat with the onion, salt and stock cube; keep the broth.",
+   "Cut the okra into thin slices (or grate it).",
+   "Add the palm oil, flaked smoked fish, shrimp and chili to the broth. Cook for 10 minutes.",
+   "Add the okra and cook for 5 to 8 minutes over low heat, uncovered, so it stays green and silky.",
+   "For the eba: pour the gari into boiling water off the heat, let it swell for a minute, then work it with a spatula into a firm dough."
+  ]
+ },
+ {
+  "id": "alloco",
+  "titre": "Alloco (plantains frits)",
+  "pays": "Côte d’Ivoire",
+  "temps": "20 min",
+  "portions": "4 personnes",
+  "photo": "images/magasin/banane.jpg",
+  "resume": "Des plantains bien mûrs frits jusqu’à être dorés et caramélisés, à servir avec du poisson, des œufs ou une sauce pimentée.",
+  "ingredients": [
+   {
+    "texte": "4 plantains bien mûrs (peau jaune tachée de noir)",
+    "cherche": "plantain",
+    "texte_en": "4 very ripe plantains (yellow skin with black spots)"
+   },
+   {
+    "texte": "Huile d’arachide pour la friture",
+    "cherche": "huile arachide",
+    "texte_en": "Peanut oil for frying"
+   },
+   {
+    "texte": "Sel, piment et oignon pour la sauce",
+    "cherche": "piment",
+    "texte_en": "Salt, chili and onion for the sauce"
+   }
+  ],
+  "etapes": [
+   "Éplucher les plantains et les couper en rondelles ou en tronçons en biais.",
+   "Saler légèrement.",
+   "Frire dans l’huile bien chaude (170 °C) 3 à 4 minutes, jusqu’à ce qu’ils soient bien dorés.",
+   "Égoutter sur du papier absorbant et servir chaud avec une sauce de piment, d’oignon et de tomate."
+  ],
+  "titre_en": "Alloco (fried plantains)",
+  "pays_en": "Côte d’Ivoire",
+  "temps_en": "20 min",
+  "portions_en": "4 people",
+  "resume_en": "Very ripe plantains fried until golden and caramelized, served with fish, eggs or a spicy sauce.",
+  "etapes_en": [
+   "Peel the plantains and cut them into rounds or diagonal chunks.",
+   "Salt lightly.",
+   "Fry in hot oil (170 °C) for 3 to 4 minutes, until nicely golden.",
+   "Drain on paper towels and serve hot with a chili, onion and tomato sauce."
+  ]
+ },
+ {
+  "id": "griot-bananes-pesees",
+  "titre": "Griot et bananes pesées",
+  "pays": "Haïti",
+  "temps": "2 h (plus la marinade)",
+  "portions": "6 personnes",
+  "photo": "images/magasin/plantain.jpg",
+  "resume": "Le plat de fête haïtien : du porc mariné aux agrumes et à l’épis, mijoté puis frit, servi avec des plantains verts écrasés et frits.",
+  "ingredients": [
+   {
+    "texte": "1,5 kg d’épaule de porc en cubes",
+    "cherche": "porc",
+    "texte_en": "1.5 kg pork shoulder, cubed"
+   },
+   {
+    "texte": "Jus de 2 oranges amères (ou oranges et limes)",
+    "cherche": "lime",
+    "texte_en": "Juice of 2 sour oranges (or oranges and limes)"
+   },
+   {
+    "texte": "Épis : persil, thym, ail, oignon vert, piment scotch bonnet",
+    "cherche": "piment",
+    "texte_en": "Epis: parsley, thyme, garlic, green onion, scotch bonnet pepper"
+   },
+   {
+    "texte": "3 plantains verts",
+    "cherche": "plantain",
+    "texte_en": "3 green plantains"
+   },
+   {
+    "texte": "Huile pour la friture",
+    "cherche": "huile",
+    "texte_en": "Oil for frying"
+   }
+  ],
+  "etapes": [
+   "Laver le porc au jus d’agrumes, puis le faire mariner avec l’épis mixé au moins 4 heures (idéalement une nuit).",
+   "Cuire le porc avec sa marinade et un peu d’eau, à couvert, 1 heure, puis à découvert jusqu’à évaporation du liquide.",
+   "Frire les morceaux de porc dans l’huile chaude jusqu’à ce qu’ils soient bien dorés.",
+   "Éplucher les plantains verts, les couper en tronçons et les frire 4 minutes.",
+   "Les écraser entre deux planches, puis les refrire jusqu’à ce qu’ils soient croustillants.",
+   "Servir le griot avec les bananes pesées et du pikliz (chou et carottes marinés au piment)."
+  ],
+  "titre_en": "Griot with bananes pesées",
+  "pays_en": "Haiti",
+  "temps_en": "2 h (plus marinating)",
+  "portions_en": "6 people",
+  "resume_en": "Haiti’s festive dish: pork marinated in citrus and epis, simmered then fried, served with flattened fried green plantains.",
+  "etapes_en": [
+   "Wash the pork with the citrus juice, then marinate it with the blended epis for at least 4 hours (ideally overnight).",
+   "Cook the pork with its marinade and a little water, covered, for 1 hour, then uncovered until the liquid evaporates.",
+   "Fry the pork pieces in hot oil until well browned.",
+   "Peel the green plantains, cut them into chunks and fry for 4 minutes.",
+   "Flatten them between two boards, then fry again until crispy.",
+   "Serve the griot with the bananes pesées and pikliz (spicy pickled cabbage and carrots)."
+  ]
+ },
+ {
+  "id": "poulet-dg",
+  "titre": "Poulet DG",
+  "pays": "Cameroun",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "photo": "images/recettes/poulet-dg.jpg",
+  "resume": "Le « poulet directeur général » : du poulet frit, mijoté avec des plantains mûrs, des carottes, des haricots verts et des poivrons.",
+  "ingredients": [
+   {
+    "texte": "1 poulet découpé en morceaux",
+    "cherche": "poulet",
+    "texte_en": "1 chicken, cut into pieces"
+   },
+   {
+    "texte": "4 plantains mûrs",
+    "cherche": "plantain",
+    "texte_en": "4 ripe plantains"
+   },
+   {
+    "texte": "3 carottes, 200 g de haricots verts, 2 poivrons",
+    "cherche": "poivron",
+    "texte_en": "3 carrots, 200 g green beans, 2 bell peppers"
+   },
+   {
+    "texte": "2 tomates, 2 oignons, ail, gingembre",
+    "cherche": "tomate",
+    "texte_en": "2 tomatoes, 2 onions, garlic, ginger"
+   },
+   {
+    "texte": "Huile, sel, poivre, cube d’assaisonnement",
+    "cherche": "cube",
+    "texte_en": "Oil, salt, pepper, stock cube"
+   }
+  ],
+  "etapes": [
+   "Assaisonner le poulet avec l’ail, le gingembre, le sel et le cube, et le faire revenir dans l’huile jusqu’à ce qu’il soit doré.",
+   "Couper les plantains en rondelles et les frire ; réserver.",
+   "Dans la même huile, faire revenir les oignons, les tomates, les carottes et les haricots verts 10 minutes.",
+   "Ajouter le poulet, un verre d’eau et laisser mijoter 25 minutes.",
+   "Ajouter les poivrons et les plantains frits, mélanger délicatement et cuire encore 10 minutes."
+  ],
+  "titre_en": "Poulet DG",
+  "pays_en": "Cameroon",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume_en": "“Director General” chicken: fried chicken simmered with ripe plantains, carrots, green beans and peppers.",
+  "etapes_en": [
+   "Season the chicken with garlic, ginger, salt and stock cube, and brown it in oil.",
+   "Slice the plantains into rounds and fry them; set aside.",
+   "In the same oil, sauté the onions, tomatoes, carrots and green beans for 10 minutes.",
+   "Add the chicken and a glass of water, and simmer for 25 minutes.",
+   "Add the peppers and fried plantains, stir gently and cook for another 10 minutes."
+  ]
+ },
+ {
+  "id": "mafe",
+  "titre": "Mafé (sauce arachide)",
+  "pays": "Sénégal et Mali",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "photo": "images/magasin/arachides.jpg",
+  "resume": "Un ragoût réconfortant de viande et de légumes dans une sauce à la pâte d’arachide et à la tomate, servi avec du riz.",
+  "ingredients": [
+   {
+    "texte": "1 kg de bœuf, d’agneau ou de poulet",
+    "cherche": "boeuf",
+    "texte_en": "1 kg beef, lamb or chicken"
+   },
+   {
+    "texte": "250 g de pâte d’arachide",
+    "cherche": "pate d'arachide",
+    "texte_en": "250 g peanut paste"
+   },
+   {
+    "texte": "2 c. à soupe de concentré de tomate",
+    "cherche": "pate de tomate",
+    "texte_en": "2 tbsp tomato paste"
+   },
+   {
+    "texte": "2 oignons, 3 gousses d’ail, 1 piment",
+    "cherche": "oignon",
+    "texte_en": "2 onions, 3 garlic cloves, 1 chili"
+   },
+   {
+    "texte": "Carottes, patate douce, chou ou manioc",
+    "cherche": "patate douce",
+    "texte_en": "Carrots, sweet potato, cabbage or cassava"
+   },
+   {
+    "texte": "Riz pour l’accompagnement",
+    "cherche": "riz",
+    "texte_en": "Rice to serve"
+   }
+  ],
+  "etapes": [
+   "Faire dorer la viande dans un peu d’huile avec les oignons et l’ail.",
+   "Ajouter le concentré de tomate et laisser revenir 5 minutes.",
+   "Délayer la pâte d’arachide dans un litre d’eau chaude et verser sur la viande.",
+   "Ajouter les légumes coupés en gros morceaux, le piment entier, le sel et le cube.",
+   "Laisser mijoter à feu doux 45 minutes en remuant de temps en temps, jusqu’à ce que l’huile remonte à la surface.",
+   "Servir avec du riz blanc."
+  ],
+  "titre_en": "Mafé (peanut stew)",
+  "pays_en": "Senegal and Mali",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume_en": "A comforting stew of meat and vegetables in a peanut and tomato sauce, served with rice.",
+  "etapes_en": [
+   "Brown the meat in a little oil with the onions and garlic.",
+   "Add the tomato paste and cook for 5 minutes.",
+   "Dissolve the peanut paste in one litre of hot water and pour over the meat.",
+   "Add the vegetables in large pieces, the whole chili, salt and stock cube.",
+   "Simmer over low heat for 45 minutes, stirring now and then, until the oil rises to the surface.",
+   "Serve with white rice."
+  ]
+ }
+]
