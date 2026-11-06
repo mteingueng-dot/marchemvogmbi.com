@@ -294,7 +294,7 @@ def page_recettes(source: str, langue: str) -> str:
       <div class="conteneur recette-grille">
         <a class="retour" href="recettes.html" data-retour>← {lib["retour"]}</a>
         <div class="recette-tete">
-          <figure class="recette-photo"><img src="{racine}{r["photo"]}" alt="" loading="lazy">{credit_photo(r, en)}</figure>
+          <figure class="recette-photo"><img src="{racine}{r["photo"]}" alt="" loading="lazy"></figure>
           <div>
             <p class="surtitre">{html.escape(v(r, "pays"))}</p>
             <h1>{html.escape(v(r, "titre"))}</h1>

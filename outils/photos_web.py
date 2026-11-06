@@ -32,6 +32,7 @@ SITE = Path(__file__).resolve().parent.parent
 DOSSIER = SITE / "images" / "web"
 NOTES = SITE / "data" / "photos_web.json"
 REFUSEES = SITE / "data" / "photos_web_refusees.json"
+EXCLUES = SITE / "data" / "photos_web_exclues.json"    # images refusées (affiche avec prix…) : jamais reprises
 COTE = 800
 MARGE = 0.06
 AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -110,7 +111,8 @@ def requete(p: dict) -> str:
 def choisir(p: dict) -> dict | None:
     frais = p.get("rayon") in FRAIS
     cible = mots(requete(p).replace(" frais fruit légume", ""))
-    candidats = resultats(requete(p))[:8]
+    exclues = set(json.loads(EXCLUES.read_text(encoding="utf-8"))) if EXCLUES.exists() else set()
+    candidats = [c for c in resultats(requete(p)) if c["image"] not in exclues][:8]
     meilleur = None
     for rang, c in enumerate(candidats):
         try:

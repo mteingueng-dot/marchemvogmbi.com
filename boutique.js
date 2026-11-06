@@ -204,7 +204,8 @@
       const blocRecettes = liees.length
         ? `<h2>${T.recettes}</h2><div class="recettes-liees">${liees.map((r) =>
             `<a href="recette-${r.id}.html"><strong>${echapper((EN && r.titre_en) || r.titre)}</strong><span>${echapper((EN && r.pays_en) || r.pays)} · ${T.voirRecette} →</span></a>`).join("")}</div>` : "";
-      const source = p.photo_source
+      // mention de la photo seulement quand sa licence l'exige (Creative Commons : Wikimedia, Open Food Facts)
+      const source = p.photo_source && /\bCC\b/.test(p.photo_source)
         ? `<p class="source">${p.illustration ? T.illustration : T.photo}${T.deuxPoints}${p.photo_lien ? `<a href="${echapper(p.photo_lien)}" rel="noopener" target="_blank">${echapper(p.photo_source)}</a>` : echapper(p.photo_source)}</p>` : "";
       fiche.innerHTML = `
         <div class="fiche-image">${image}${source}</div>
