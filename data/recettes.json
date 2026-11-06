@@ -79,7 +79,7 @@
   "pays": "Côte d’Ivoire",
   "temps": "45 min",
   "portions": "4 personnes",
-  "photo": "images/magasin/maquereau.jpg",
+  "photo": "images/recettes/attieke-poisson.jpg",
   "resume": "Le classique des maquis d’Abidjan : un poisson mariné et braisé, servi avec de l’attiéké et une sauce crue pimentée.",
   "ingredients": [
    {
@@ -133,7 +133,9 @@
    "Finely chop the tomatoes, onions and chili, and season with salt, lemon and a drizzle of oil.",
    "Reheat the attiéké by steaming or in the microwave, fluffing it with a fork.",
    "Serve the fish on the attiéké with the fresh sauce and, if you like, alloco."
-  ]
+  ],
+  "photo_source": "kelianfood.com",
+  "photo_lien": "https://kelianfood.com/attieke-poisson/"
  },
  {
   "id": "pondu",
@@ -141,7 +143,7 @@
   "pays": "RD Congo",
   "temps": "2 h",
   "portions": "6 personnes",
-  "photo": "images/magasin/congeles.jpg",
+  "photo": "images/recettes/pondu.jpg",
   "resume": "Des feuilles de manioc pilées qui mijotent longuement avec l’huile de palme, l’oignon et le poisson salé.",
   "ingredients": [
    {
@@ -193,7 +195,9 @@
    "Add the chopped onions and garlic, the fish and the eggplant, then cook for 30 minutes.",
    "Pour in the palm oil, add salt, chili and the stock cube. Simmer for another 20 minutes, until the water is almost absorbed.",
    "Serve with fufu, chikwangue or rice."
-  ]
+  ],
+  "photo_source": "congoquotidien.com",
+  "photo_lien": "https://www.congoquotidien.com/2025/06/21/saka-saka-pondu-recette-congolaise-authentique/"
  },
  {
   "id": "egusi-foufou",
@@ -201,7 +205,7 @@
   "pays": "Nigeria",
   "temps": "1 h",
   "portions": "6 personnes",
-  "photo": "images/magasin/egusi.jpg",
+  "photo": "images/recettes/egusi-foufou.jpg",
   "resume": "Une sauce épaisse aux graines de courge moulues, aux légumes-feuilles et à la viande, servie avec un foufou ou de l’igname pilée.",
   "ingredients": [
    {
@@ -255,7 +259,9 @@
    "Add the broth, meat, smoked fish, shrimp and chili. Simmer for 20 minutes.",
    "Add the sliced greens and cook for another 5 minutes.",
    "Make the fufu: pour the flour into boiling water and stir vigorously until you get a smooth, firm dough. Serve with the soup."
-  ]
+  ],
+  "photo_source": "lovewithrecipes.com",
+  "photo_lien": "https://lovewithrecipes.com/authentic-nigerian-fufu-and-egusi-soup-recipe/"
  },
  {
   "id": "eba-sauce-gombo",
@@ -263,7 +269,7 @@
   "pays": "Afrique de l’Ouest",
   "temps": "50 min",
   "portions": "4 personnes",
-  "photo": "images/magasin/gombo.jpg",
+  "photo": "images/recettes/eba-sauce-gombo.jpg",
   "resume": "Une sauce onctueuse au gombo, au poisson fumé et à l’huile de palme, servie avec de l’eba (pâte de gari).",
   "ingredients": [
    {
@@ -310,7 +316,9 @@
    "Add the palm oil, flaked smoked fish, shrimp and chili to the broth. Cook for 10 minutes.",
    "Add the okra and cook for 5 to 8 minutes over low heat, uncovered, so it stays green and silky.",
    "For the eba: pour the gari into boiling water off the heat, let it swell for a minute, then work it with a spatula into a firm dough."
-  ]
+  ],
+  "photo_source": "hfce.eu",
+  "photo_lien": "https://hfce.eu/resources/eba-with-okra-soup/"
  },
  {
   "id": "alloco",
@@ -318,7 +326,7 @@
   "pays": "Côte d’Ivoire",
   "temps": "20 min",
   "portions": "4 personnes",
-  "photo": "images/magasin/banane.jpg",
+  "photo": "images/recettes/alloco.jpg",
   "resume": "Des plantains bien mûrs frits jusqu’à être dorés et caramélisés, à servir avec du poisson, des œufs ou une sauce pimentée.",
   "ingredients": [
    {
@@ -353,7 +361,9 @@
    "Salt lightly.",
    "Fry in hot oil (170 °C) for 3 to 4 minutes, until nicely golden.",
    "Drain on paper towels and serve hot with a chili, onion and tomato sauce."
-  ]
+  ],
+  "photo_source": "famactu.com",
+  "photo_lien": "https://famactu.com/index.php?option=com_content&view=article&id=4977:Top-10-des-plats-traditionnels-ivoiriens-à-savourer&catid=2&Itemid=107"
  },
  {
   "id": "griot-bananes-pesees",
@@ -361,7 +371,7 @@
   "pays": "Haïti",
   "temps": "2 h (plus la marinade)",
   "portions": "6 personnes",
-  "photo": "images/magasin/plantain.jpg",
+  "photo": "images/recettes/griot-bananes-pesees.jpg",
   "resume": "Le plat de fête haïtien : du porc mariné aux agrumes et à l’épis, mijoté puis frit, servi avec des plantains verts écrasés et frits.",
   "ingredients": [
    {
@@ -410,7 +420,9 @@
    "Peel the green plantains, cut them into chunks and fry for 4 minutes.",
    "Flatten them between two boards, then fry again until crispy.",
    "Serve the griot with the bananes pesées and pikliz (spicy pickled cabbage and carrots)."
-  ]
+  ],
+  "photo_source": "bu.edu",
+  "photo_lien": "https://www.bu.edu/lernet/artemis/years/2017/projects/StudentWebsites/Taisha/Pages/page2.html"
  },
  {
   "id": "poulet-dg",
@@ -473,7 +485,7 @@
   "pays": "Sénégal et Mali",
   "temps": "1 h 15",
   "portions": "6 personnes",
-  "photo": "images/magasin/arachides.jpg",
+  "photo": "images/recettes/mafe.jpg",
   "resume": "Un ragoût réconfortant de viande et de légumes dans une sauce à la pâte d’arachide et à la tomate, servi avec du riz.",
   "ingredients": [
    {
@@ -527,6 +539,8 @@
    "Add the vegetables in large pieces, the whole chili, salt and stock cube.",
    "Simmer over low heat for 45 minutes, stirring now and then, until the oil rises to the surface.",
    "Serve with white rice."
-  ]
+  ],
+  "photo_source": "travelwithziggy.com",
+  "photo_lien": "https://travelwithziggy.com/la-cuisine-senegalaise-plats-traditionnels-a-tester-et-comment-les-preparer/"
  }
 ]

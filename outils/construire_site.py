@@ -129,6 +129,16 @@ FORMULAIRE = {
 }
 
 
+
+def credit_photo(r: dict, en: bool) -> str:
+    """Mention de la source d'une photo de plat trouvée en ligne (aucune pour les photos du magasin)."""
+    if not r.get("photo_source"):
+        return ""
+    lien = html.escape(r.get("photo_lien", ""))
+    nom = html.escape(r["photo_source"])
+    texte = f'<a href="{lien}" rel="noopener" target="_blank">{nom}</a>' if lien else nom
+    return f'<figcaption>{"Photo" if en else "Photo"} : {texte}</figcaption>'
+
 def formulaire(langue: str, page: str, sujet: str) -> str:
     f = FORMULAIRE[langue]
     options = "".join(f'<option value="{v}"{" selected" if v == sujet else ""}>{html.escape(n)}</option>' for v, n in f["sujets"])
@@ -282,7 +292,7 @@ def page_recettes(source: str, langue: str) -> str:
         fiches.append(f'''    <section id="{r["id"]}" class="section recette">
       <div class="conteneur recette-grille">
         <div class="recette-tete">
-          <img src="{racine}{r["photo"]}" alt="" loading="lazy">
+          <figure class="recette-photo"><img src="{racine}{r["photo"]}" alt="" loading="lazy">{credit_photo(r, en)}</figure>
           <div>
             <p class="surtitre">{html.escape(v(r, "pays"))}</p>
             <h2>{html.escape(v(r, "titre"))}</h2>
