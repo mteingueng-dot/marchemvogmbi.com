@@ -76,18 +76,42 @@
   }
 
   /* ---------- Accueil : produits vedettes ---------- */
+  // Produits en stock avec une vraie photo (data/vitrine.json, écrit par l'export du catalogue), tirés au hasard
+  // à chaque visite ; la sélection change d'elle-même toutes les 8 secondes (pause au survol, jamais si la
+  // personne préfère moins d'animations). Sans la liste : tous les produits avec photo.
   function vedettes() {
     const zone = document.getElementById("vedettes");
-    charger().then((d) => {
-      const avecPhoto = d.produits.filter((p) => p.photo && !p.illustration);
-      const jour = Math.floor(Date.now() / 864e5);          // change chaque jour, pareil pour tous
-      const choix = [];
-      const vus = new Set();
-      for (let i = 0; choix.length < 10 && i < avecPhoto.length * 2; i++) {
-        const p = avecPhoto[(jour * 37 + i * 97) % avecPhoto.length];
-        if (!vus.has(p.id)) { vus.add(p.id); choix.push(p); }
+    const N = 10, DELAI = 8000;
+    const vitrine = fetch(RACINE + "data/vitrine.json", { cache: "no-cache" })
+      .then((r) => (r.ok ? r.json() : [])).catch(() => []);
+    Promise.all([charger(), vitrine]).then(([d, ids]) => {
+      const parId = new Map(d.produits.map((p) => [p.id, p]));
+      let liste = ids.map((i) => parId.get(i)).filter(Boolean);
+      if (liste.length < N) liste = d.produits.filter((p) => p.photo && !p.illustration);
+      for (let i = liste.length - 1; i > 0; i--) {             // mélange : un ordre différent à chaque visite
+        const j = Math.floor(Math.random() * (i + 1));
+        [liste[i], liste[j]] = [liste[j], liste[i]];
       }
-      zone.innerHTML = choix.map(vignette).join("");
+      let debut = 0;
+      const montrer = () => {
+        const choix = [];
+        for (let k = 0; k < N; k++) choix.push(liste[(debut + k) % liste.length]);
+        debut = (debut + N) % liste.length;
+        zone.innerHTML = choix.map(vignette).join("");
+      };
+      montrer();
+      if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      let arret = false;
+      zone.addEventListener("mouseenter", () => { arret = true; });
+      zone.addEventListener("mouseleave", () => { arret = false; });
+      zone.addEventListener("focusin", () => { arret = true; });
+      zone.addEventListener("focusout", () => { arret = false; });
+      setInterval(() => {
+        if (arret || document.hidden || zone.getBoundingClientRect().bottom < 0
+            || zone.getBoundingClientRect().top > innerHeight) return;   // seulement quand on la regarde
+        zone.classList.add("vedettes-sortie");
+        setTimeout(() => { montrer(); zone.classList.remove("vedettes-sortie"); }, 350);
+      }, DELAI);
     }).catch(() => { zone.closest("section").hidden = true; });
   }
 

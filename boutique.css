@@ -136,3 +136,7 @@
 .fiche-texte h1 { font-family: var(--titre); }
 .dispo { background: linear-gradient(135deg, var(--vert-pale), #fff8ea); border: 1px solid #d3e8d9; }
 @media (max-width: 820px) { .outils { top: 64px; } }
+
+/* Accueil : la vitrine change d'elle-même (fondu) */
+#vedettes { transition: opacity .35s ease, transform .35s ease; }
+#vedettes.vedettes-sortie { opacity: 0; transform: translateY(6px); }

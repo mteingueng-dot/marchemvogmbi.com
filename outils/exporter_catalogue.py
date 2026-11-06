@@ -201,6 +201,13 @@ def produits(articles: list[dict]) -> list[dict]:
     return sortie
 
 
+def en_stock(article: dict) -> bool:
+    """Vrai si Clover compte du stock (itemStock) ; garde la valeur notée dans clover_articles.json si on relit ce fichier."""
+    if "en_stock" in article:
+        return bool(article["en_stock"])
+    return ((article.get("itemStock") or {}).get("quantity") or 0) > 0
+
+
 def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--sync", default=r"E:\claude code\MVOGMBI_Sync_2026.1", help="dossier de MVOGMBI_Sync")
@@ -215,9 +222,15 @@ def main() -> None:
         articles = points_vente.client(Path(args.sync)).inventaire()
     if args.garder_articles:
         garde = [{k: a.get(k) for k in ("id", "name", "code", "price", "priceType", "hidden", "deleted",
-                                        "isRevenue", "categories")} for a in articles]
+                                        "isRevenue", "categories")} | {"en_stock": en_stock(a)} for a in articles]
         (DONNEES / "clover_articles.json").write_text(json.dumps(garde, ensure_ascii=False), encoding="utf-8")
     liste = produits(articles)
+    # vitrine de l'accueil : produits en stock avec une vraie photo (identifiants seulement, jamais de quantité)
+    stock = {a["id"] for a in articles if en_stock(a)}
+    vitrine = [x["id"] for x in liste if x["photo"] and not x["illustration"]
+               and any(i in stock for i in (x.get("ids") or [x["id"]]))]
+    (DONNEES / "vitrine.json").write_text(json.dumps(vitrine), encoding="utf-8")
+    print(f"Vitrine de l'accueil : {len(vitrine)} produits en stock avec photo.")
     DONNEES.mkdir(exist_ok=True)
     rayons = [r for r in ORDRE if any(x["rayon"] == r for x in liste)]
     sys.path.insert(0, str(SITE / "outils"))
