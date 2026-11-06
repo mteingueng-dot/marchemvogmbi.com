@@ -79,3 +79,9 @@ garde celle dont le titre ressemble le plus au produit, de préférence sur fond
 `images/web/<id>.jpg` (carré blanc 700 × 700). Les choix sont dans `data/photos_web.json`, avec la page d'origine
 affichée comme source sur la fiche. Une photo mauvaise : ajouter l'ID du produit dans `data/photos_web_refusees.json`,
 puis `python outils/photos_web.py --refaire <ID>` et relancer l'export. Les photos prises au magasin restent prioritaires.
+
+## Recettes
+
+`data/recettes.json` : une recette par entrée (titre, pays, temps, portions, ingrédients avec le mot cherché dans la
+boutique, étapes, en français et en anglais, photo et sa source). La page Recettes montre les vignettes ; chaque recette
+a sa page `recette-<id>.html` (et `en/recette-<id>.html`) avec un bouton « Retour aux recettes ».

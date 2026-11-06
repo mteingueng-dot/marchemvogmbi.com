@@ -1048,5 +1048,493 @@
   "photo": "images/recettes/sauce-graine.jpg",
   "photo_source": "kitchafrica.home.blog",
   "photo_lien": "https://kitchafrica.home.blog/2019/02/03/foutou-a-la-sauce-graine/"
+ },
+ {
+  "id": "poulet-jerk",
+  "titre": "Poulet jerk",
+  "titre_en": "Jerk chicken",
+  "pays": "Jamaïque",
+  "pays_en": "Jamaica",
+  "temps": "1 h (+ 4 h de marinade)",
+  "temps_en": "1 h (+ 4 h marinating)",
+  "portions": "6 personnes",
+  "portions_en": "6 people",
+  "resume": "Le poulet grillé de la Jamaïque, mariné dans une pâte de piment scotch bonnet, de piment de la Jamaïque et de thym, au goût fumé.",
+  "resume_en": "Jamaica’s grilled chicken, marinated in a paste of scotch bonnet, allspice and thyme, with a smoky taste.",
+  "ingredients": [
+   {
+    "texte": "1,5 kg de cuisses de poulet",
+    "cherche": "poulet",
+    "texte_en": "1.5 kg chicken legs"
+   },
+   {
+    "texte": "Marinade jerk (ou 2 piments scotch bonnet)",
+    "cherche": "jerk",
+    "texte_en": "Jerk marinade (or 2 scotch bonnet peppers)"
+   },
+   {
+    "texte": "1 c. à soupe de piment de la Jamaïque en grains",
+    "cherche": "piment de la jamaique",
+    "texte_en": "1 tbsp allspice berries"
+   },
+   {
+    "texte": "Thym, ail, gingembre, oignons",
+    "cherche": "thym",
+    "texte_en": "Thyme, garlic, ginger, onions"
+   },
+   {
+    "texte": "Jus de 2 limes, sauce soya, cassonade",
+    "cherche": "lime",
+    "texte_en": "Juice of 2 limes, soy sauce, brown sugar"
+   },
+   {
+    "texte": "Riz et pois ou plantains frits pour servir",
+    "cherche": "plantain",
+    "texte_en": "Rice and peas or fried plantains to serve"
+   }
+  ],
+  "etapes": [
+   "Mixer le piment, le piment de la Jamaïque moulu, le thym, l’ail, le gingembre, les oignons, le jus de lime, la sauce soya et la cassonade.",
+   "Entailler le poulet, l’enrober de la marinade et laisser reposer au moins 4 heures (idéalement une nuit).",
+   "Griller au barbecue à feu moyen, couvercle fermé, 35 à 40 minutes en retournant souvent (ou au four à 200 °C).",
+   "Badigeonner de marinade pendant la cuisson ; la peau doit être bien marquée.",
+   "Servir avec du riz et pois ou des plantains frits."
+  ],
+  "etapes_en": [
+   "Blend the chili, ground allspice, thyme, garlic, ginger, onions, lime juice, soy sauce and brown sugar.",
+   "Score the chicken, coat it with the marinade and rest for at least 4 hours (ideally overnight).",
+   "Grill over medium heat, lid closed, 35 to 40 minutes, turning often (or bake at 200 °C).",
+   "Baste with marinade while cooking; the skin should be well charred.",
+   "Serve with rice and peas or fried plantains."
+  ],
+  "photo": "images/recettes/poulet-jerk.jpg",
+  "photo_source": "whatdadcooked.com",
+  "photo_lien": "https://www.whatdadcooked.com/recipe/jerk-chicken-with-rice-and-peas/"
+ },
+ {
+  "id": "ackee-morue",
+  "titre": "Ackee et morue",
+  "titre_en": "Ackee and saltfish",
+  "pays": "Jamaïque",
+  "pays_en": "Jamaica",
+  "temps": "45 min (+ 1 nuit de dessalage)",
+  "temps_en": "45 min (+ overnight soaking)",
+  "portions": "4 personnes",
+  "portions_en": "4 people",
+  "resume": "Le plat national de la Jamaïque : le fruit d’ackee, tendre comme un œuf brouillé, sauté avec de la morue salée, des poivrons et des oignons.",
+  "resume_en": "Jamaica’s national dish: ackee fruit, soft like scrambled eggs, sautéed with salt cod, peppers and onions.",
+  "ingredients": [
+   {
+    "texte": "1 boîte d’ackee (540 g)",
+    "cherche": "ackee",
+    "texte_en": "1 can ackee (540 g)"
+   },
+   {
+    "texte": "300 g de morue ou de poisson salé",
+    "cherche": "poisson sale",
+    "texte_en": "300 g salt cod or salted fish"
+   },
+   {
+    "texte": "1 oignon, 1 poivron, 2 tomates",
+    "cherche": "oignon",
+    "texte_en": "1 onion, 1 sweet pepper, 2 tomatoes"
+   },
+   {
+    "texte": "1 piment scotch bonnet, thym",
+    "cherche": "scotch",
+    "texte_en": "1 scotch bonnet pepper, thyme"
+   },
+   {
+    "texte": "Huile, poivre noir",
+    "cherche": "huile",
+    "texte_en": "Oil, black pepper"
+   },
+   {
+    "texte": "Plantains frits ou bananes vertes bouillies",
+    "cherche": "plantain",
+    "texte_en": "Fried plantains or boiled green bananas"
+   }
+  ],
+  "etapes": [
+   "Dessaler le poisson une nuit dans l’eau froide, puis le faire bouillir 15 minutes, l’égoutter et l’effeuiller.",
+   "Faire revenir l’oignon, le poivron, le piment et le thym dans l’huile 5 minutes.",
+   "Ajouter les tomates et le poisson effeuillé, cuire 5 minutes.",
+   "Égoutter l’ackee et l’ajouter très délicatement : il ne doit pas s’écraser. Chauffer 3 minutes.",
+   "Poivrer et servir avec des plantains frits ou des bananes vertes."
+  ],
+  "etapes_en": [
+   "Soak the fish overnight in cold water, then boil it 15 minutes, drain and flake.",
+   "Fry the onion, pepper, chili and thyme in the oil for 5 minutes.",
+   "Add the tomatoes and flaked fish and cook 5 minutes.",
+   "Drain the ackee and fold it in very gently so it does not break. Heat 3 minutes.",
+   "Season with pepper and serve with fried plantains or green bananas."
+  ],
+  "photo": "images/recettes/ackee-morue.jpg",
+  "photo_source": "visitjamaicavillas.com",
+  "photo_lien": "https://visitjamaicavillas.com/2023/06/08/ackee-saltfish-jamaican-style/"
+ },
+ {
+  "id": "diri-djon-djon",
+  "titre": "Diri djon djon",
+  "titre_en": "Diri djon djon (black mushroom rice)",
+  "pays": "Haïti",
+  "pays_en": "Haiti",
+  "temps": "50 min",
+  "temps_en": "50 min",
+  "portions": "6 personnes",
+  "portions_en": "6 people",
+  "resume": "Le riz noir des grandes occasions en Haïti, cuit dans l’eau parfumée des champignons djon djon, avec des petits pois.",
+  "resume_en": "Haiti’s black rice for special occasions, cooked in the fragrant water of djon djon mushrooms, with green peas.",
+  "ingredients": [
+   {
+    "texte": "30 g de champignons djon djon séchés",
+    "cherche": "djon",
+    "texte_en": "30 g dried djon djon mushrooms"
+   },
+   {
+    "texte": "500 g de riz long grain",
+    "cherche": "riz",
+    "texte_en": "500 g long-grain rice"
+   },
+   {
+    "texte": "1 tasse de petits pois (ou pois de lima)",
+    "cherche": "pois",
+    "texte_en": "1 cup green peas (or lima beans)"
+   },
+   {
+    "texte": "Épis (ail, persil, oignon vert, poivron, thym), 1 piment",
+    "cherche": "ail",
+    "texte_en": "Epis (garlic, parsley, green onion, pepper, thyme), 1 chili"
+   },
+   {
+    "texte": "1 cube, clous de girofle, sel",
+    "cherche": "cube",
+    "texte_en": "1 stock cube, cloves, salt"
+   },
+   {
+    "texte": "3 c. à soupe d’huile ou de beurre",
+    "cherche": "huile",
+    "texte_en": "3 tbsp oil or butter"
+   }
+  ],
+  "etapes": [
+   "Faire tremper les djon djon dans 1 litre d’eau bouillante 20 minutes, puis filtrer : garder l’eau noire.",
+   "Faire revenir l’épis dans l’huile, ajouter les petits pois et le riz rincé, mélanger 2 minutes.",
+   "Verser l’eau de djon djon (environ 750 ml), le cube, les clous de girofle, le sel et le piment entier.",
+   "Cuire à feu moyen sans couvrir jusqu’à ce que l’eau soit absorbée.",
+   "Couvrir et terminer à feu très doux 20 minutes. Servir avec du griot ou du poulet."
+  ],
+  "etapes_en": [
+   "Soak the djon djon in 1 litre of boiling water for 20 minutes, then strain: keep the black water.",
+   "Fry the epis in the oil, add the peas and rinsed rice and stir for 2 minutes.",
+   "Pour in the djon djon water (about 750 ml), stock cube, cloves, salt and whole chili.",
+   "Cook uncovered over medium heat until the water is absorbed.",
+   "Cover and finish over very low heat for 20 minutes. Serve with griot or chicken."
+  ],
+  "photo": "images/recettes/diri-djon-djon.jpg",
+  "photo_source": "savorythoughts.com",
+  "photo_lien": "https://www.savorythoughts.com/haitian-black-rice-diri-djon-djon/"
+ },
+ {
+  "id": "pozole",
+  "titre": "Pozole rojo",
+  "titre_en": "Pozole rojo",
+  "pays": "Mexique",
+  "pays_en": "Mexico",
+  "temps": "2 h",
+  "temps_en": "2 h",
+  "portions": "8 personnes",
+  "portions_en": "8 people",
+  "resume": "La soupe de fête mexicaine : du porc et du maïs hominy dans un bouillon rouge aux piments, garnie de chou, de radis et de lime.",
+  "resume_en": "Mexico’s festive soup: pork and hominy corn in a red chili broth, topped with cabbage, radish and lime.",
+  "ingredients": [
+   {
+    "texte": "1,5 kg d’épaule de porc",
+    "cherche": "porc",
+    "texte_en": "1.5 kg pork shoulder"
+   },
+   {
+    "texte": "1 pot de maïs hominy blanc",
+    "cherche": "hominy",
+    "texte_en": "1 jar white hominy"
+   },
+   {
+    "texte": "Piments séchés guajillo ou ancho (ou poudre de chili)",
+    "cherche": "chili",
+    "texte_en": "Dried guajillo or ancho chilies (or chili powder)"
+   },
+   {
+    "texte": "1 oignon, 1 tête d’ail, origan, cumin",
+    "cherche": "origan",
+    "texte_en": "1 onion, 1 head of garlic, oregano, cumin"
+   },
+   {
+    "texte": "Chou émincé, radis, oignon, limes",
+    "cherche": "chou",
+    "texte_en": "Shredded cabbage, radishes, onion, limes"
+   },
+   {
+    "texte": "Tostadas ou tortillas pour servir",
+    "cherche": "tortilla",
+    "texte_en": "Tostadas or tortillas to serve"
+   }
+  ],
+  "etapes": [
+   "Cuire le porc en morceaux avec l’oignon, l’ail et le sel dans 4 litres d’eau, 1 h 30 à feu doux.",
+   "Faire tremper les piments épépinés dans l’eau chaude 20 minutes, puis les mixer avec un peu d’ail et d’origan ; filtrer.",
+   "Ajouter la sauce de piments et le maïs hominy rincé au bouillon ; mijoter 30 minutes.",
+   "Rectifier le sel et ajouter le cumin.",
+   "Servir dans de grands bols avec le chou, les radis, l’oignon, l’origan et la lime à part, et des tostadas."
+  ],
+  "etapes_en": [
+   "Cook the pork in pieces with the onion, garlic and salt in 4 litres of water, 1 h 30 over low heat.",
+   "Soak the seeded chilies in hot water 20 minutes, then blend with a little garlic and oregano; strain.",
+   "Add the chili sauce and rinsed hominy to the broth; simmer 30 minutes.",
+   "Adjust the salt and add the cumin.",
+   "Serve in large bowls with cabbage, radish, onion, oregano and lime on the side, and tostadas."
+  ],
+  "photo": "images/recettes/pozole.jpg",
+  "photo_source": "tastemadeeasy.com",
+  "photo_lien": "https://tastemadeeasy.com/easy-slow-cooker-mexican-pozole-rojo-recipe/"
+ },
+ {
+  "id": "arepas",
+  "titre": "Arepas au fromage",
+  "titre_en": "Cheese arepas",
+  "pays": "Colombie et Venezuela",
+  "pays_en": "Colombia and Venezuela",
+  "temps": "30 min",
+  "temps_en": "30 min",
+  "portions": "8 arepas",
+  "portions_en": "8 arepas",
+  "resume": "Les galettes de maïs dorées de la Colombie et du Venezuela, croustillantes dehors, fondantes dedans, garnies de fromage.",
+  "resume_en": "The golden corn cakes of Colombia and Venezuela, crisp outside, soft inside, filled with cheese.",
+  "ingredients": [
+   {
+    "texte": "2 tasses de farine de maïs précuite (masarepa)",
+    "cherche": "farine de mais",
+    "texte_en": "2 cups pre-cooked corn flour (masarepa)"
+   },
+   {
+    "texte": "2½ tasses d’eau tiède, 1 c. à thé de sel",
+    "cherche": "sel de mer",
+    "texte_en": "2½ cups warm water, 1 tsp salt"
+   },
+   {
+    "texte": "200 g de fromage blanc (queso blanco ou costeño)",
+    "cherche": "queso",
+    "texte_en": "200 g white cheese (queso blanco or costeño)"
+   },
+   {
+    "texte": "Beurre ou huile",
+    "cherche": "huile",
+    "texte_en": "Butter or oil"
+   },
+   {
+    "texte": "Ou des arepas toutes prêtes à réchauffer",
+    "cherche": "arepa",
+    "texte_en": "Or ready-made arepas to reheat"
+   }
+  ],
+  "etapes": [
+   "Mélanger l’eau tiède et le sel, ajouter la farine petit à petit et pétrir jusqu’à une pâte lisse ; laisser reposer 5 minutes.",
+   "Ajouter la moitié du fromage râpé à la pâte (facultatif).",
+   "Former 8 boules, les aplatir en galettes de 1,5 cm d’épaisseur.",
+   "Les cuire dans une poêle beurrée à feu moyen 6 à 8 minutes de chaque côté, jusqu’à ce qu’elles sonnent creux.",
+   "Ouvrir sur le côté, garnir de fromage et servir chaud."
+  ],
+  "etapes_en": [
+   "Mix the warm water and salt, add the flour little by little and knead into a smooth dough; rest 5 minutes.",
+   "Add half the grated cheese to the dough (optional).",
+   "Shape 8 balls and flatten into 1.5 cm thick cakes.",
+   "Cook in a buttered pan over medium heat 6 to 8 minutes per side, until they sound hollow.",
+   "Split on the side, fill with cheese and serve hot."
+  ],
+  "photo": "images/recettes/arepas.jpg",
+  "photo_source": "arepasdelgringo.com",
+  "photo_lien": "https://arepasdelgringo.com/make-arepas-de-queso-colombian-recipe/"
+ },
+ {
+  "id": "pupusas",
+  "titre": "Pupusas au fromage et loroco",
+  "titre_en": "Cheese and loroco pupusas",
+  "pays": "Salvador",
+  "pays_en": "El Salvador",
+  "temps": "40 min",
+  "temps_en": "40 min",
+  "portions": "10 pupusas",
+  "portions_en": "10 pupusas",
+  "resume": "Les galettes farcies du Salvador, faites de pâte de maïs fourrée au fromage et à la fleur de loroco, servies avec du curtido.",
+  "resume_en": "El Salvador’s stuffed corn cakes, filled with cheese and loroco flower, served with curtido slaw.",
+  "ingredients": [
+   {
+    "texte": "3 tasses de farine de maïs masa (Maseca)",
+    "cherche": "maseca",
+    "texte_en": "3 cups masa corn flour (Maseca)"
+   },
+   {
+    "texte": "250 g de fromage à griller (quesillo, mozzarella)",
+    "cherche": "fromage",
+    "texte_en": "250 g melting cheese (quesillo, mozzarella)"
+   },
+   {
+    "texte": "100 g de loroco",
+    "cherche": "loroco",
+    "texte_en": "100 g loroco"
+   },
+   {
+    "texte": "Curtido : chou, carotte, oignon, origan, vinaigre",
+    "cherche": "chou",
+    "texte_en": "Curtido: cabbage, carrot, onion, oregano, vinegar"
+   },
+   {
+    "texte": "Sauce tomate pour servir",
+    "cherche": "tomate",
+    "texte_en": "Tomato sauce to serve"
+   }
+  ],
+  "etapes": [
+   "La veille, préparer le curtido : chou et carotte râpés, oignon, origan, sel et vinaigre.",
+   "Mélanger la masa avec environ 2 tasses d’eau tiède et du sel jusqu’à une pâte souple qui ne colle pas.",
+   "Mélanger le fromage râpé et le loroco haché.",
+   "Former une boule de pâte, la creuser, la farcir, la refermer et l’aplatir doucement entre les mains.",
+   "Cuire sur une plaque chaude sans gras 3 à 4 minutes de chaque côté. Servir avec le curtido et la sauce tomate."
+  ],
+  "etapes_en": [
+   "The day before, make the curtido: grated cabbage and carrot, onion, oregano, salt and vinegar.",
+   "Mix the masa with about 2 cups of warm water and salt into a soft dough that does not stick.",
+   "Mix the grated cheese and chopped loroco.",
+   "Shape a ball of dough, hollow it, fill it, close it and gently flatten between your hands.",
+   "Cook on a hot dry griddle 3 to 4 minutes per side. Serve with curtido and tomato sauce."
+  ],
+  "photo": "images/recettes/pupusas.jpg",
+  "photo_source": "elsalvador.com",
+  "photo_lien": "https://www.elsalvador.com/vida/hogar-y-espacios/loroco-el-salvador-platillos-tradiciones/1239741/2025/"
+ },
+ {
+  "id": "feijoada",
+  "titre": "Feijoada",
+  "titre_en": "Feijoada",
+  "pays": "Brésil",
+  "pays_en": "Brazil",
+  "temps": "3 h (+ 1 nuit de trempage)",
+  "temps_en": "3 h (+ overnight soaking)",
+  "portions": "8 personnes",
+  "portions_en": "8 people",
+  "resume": "Le grand ragoût brésilien de haricots noirs mijotés avec plusieurs viandes de porc et de la saucisse, servi avec du riz et des oranges.",
+  "resume_en": "Brazil’s great stew of black beans simmered with several cuts of pork and sausage, served with rice and oranges.",
+  "ingredients": [
+   {
+    "texte": "1 kg de haricots noirs (tortue)",
+    "cherche": "haricot tortue",
+    "texte_en": "1 kg black (turtle) beans"
+   },
+   {
+    "texte": "1,5 kg de porc : côtes, épaule, pied ou queue",
+    "cherche": "porc",
+    "texte_en": "1.5 kg pork: ribs, shoulder, trotter or tail"
+   },
+   {
+    "texte": "400 g de chorizo ou de saucisse fumée",
+    "cherche": "chorizo",
+    "texte_en": "400 g chorizo or smoked sausage"
+   },
+   {
+    "texte": "2 oignons, 1 tête d’ail, laurier",
+    "cherche": "ail",
+    "texte_en": "2 onions, 1 head of garlic, bay leaves"
+   },
+   {
+    "texte": "Riz blanc, oranges, chou vert sauté",
+    "cherche": "orange",
+    "texte_en": "White rice, oranges, sautéed collard greens"
+   },
+   {
+    "texte": "Farine de manioc grillée (farofa)",
+    "cherche": "farine de manioc",
+    "texte_en": "Toasted cassava flour (farofa)"
+   }
+  ],
+  "etapes": [
+   "Faire tremper les haricots une nuit ; dessaler les viandes salées s’il y a lieu.",
+   "Cuire les haricots avec le laurier dans beaucoup d’eau 1 heure.",
+   "Faire dorer les viandes en morceaux et le chorizo, puis les ajouter aux haricots.",
+   "Faire revenir les oignons et l’ail, ajouter une louche de haricots, écraser et reverser dans la marmite.",
+   "Mijoter 1 h 30 à feu doux, jusqu’à ce que la sauce soit épaisse et les viandes fondantes.",
+   "Servir avec le riz, le chou sauté, la farofa et des quartiers d’orange."
+  ],
+  "etapes_en": [
+   "Soak the beans overnight; desalt any salted meats.",
+   "Cook the beans with the bay leaves in plenty of water for 1 hour.",
+   "Brown the meats in pieces and the chorizo, then add them to the beans.",
+   "Fry the onions and garlic, add a ladle of beans, mash and return to the pot.",
+   "Simmer 1 h 30 over low heat until the sauce is thick and the meats are tender.",
+   "Serve with rice, sautéed greens, farofa and orange wedges."
+  ],
+  "photo": "images/recettes/feijoada.jpg",
+  "photo_source": "receitas.blogdolago.com.br",
+  "photo_lien": "https://receitas.blogdolago.com.br/feijoada-completa-o-sabor-da-tradicao-brasileira-🇧🇷🍲-45-minutos-de-preparo-receita-dificil/"
+ },
+ {
+  "id": "couscous-legumes",
+  "titre": "Couscous aux légumes et à l’agneau",
+  "titre_en": "Couscous with vegetables and lamb",
+  "pays": "Maroc",
+  "pays_en": "Morocco",
+  "temps": "1 h 30",
+  "temps_en": "1 h 30",
+  "portions": "6 personnes",
+  "portions_en": "6 people",
+  "resume": "Le couscous du vendredi : une semoule fine et légère, un bouillon parfumé au ras el-hanout, de l’agneau et sept légumes.",
+  "resume_en": "The Friday couscous: light fine semolina, a broth fragrant with spices, lamb and seven vegetables.",
+  "ingredients": [
+   {
+    "texte": "500 g de couscous fin ou moyen",
+    "cherche": "couscous",
+    "texte_en": "500 g fine or medium couscous"
+   },
+   {
+    "texte": "1 kg d’agneau, de mouton ou de poulet",
+    "cherche": "mouton",
+    "texte_en": "1 kg lamb, mutton or chicken"
+   },
+   {
+    "texte": "Carottes, navets, courgettes, chou, potiron",
+    "cherche": "carotte",
+    "texte_en": "Carrots, turnips, zucchini, cabbage, pumpkin"
+   },
+   {
+    "texte": "1 boîte de pois chiches",
+    "cherche": "pois chiche",
+    "texte_en": "1 can chickpeas"
+   },
+   {
+    "texte": "Gingembre, curcuma, cannelle, poivre, coriandre",
+    "cherche": "gingembre",
+    "texte_en": "Ginger, turmeric, cinnamon, pepper, coriander"
+   },
+   {
+    "texte": "2 oignons, 2 tomates, huile d’olive, beurre",
+    "cherche": "huile d olive",
+    "texte_en": "2 onions, 2 tomatoes, olive oil, butter"
+   }
+  ],
+  "etapes": [
+   "Faire revenir la viande avec les oignons, les tomates, l’huile d’olive et les épices dans le bas du couscoussier.",
+   "Couvrir de 2,5 litres d’eau et cuire 45 minutes.",
+   "Ajouter les légumes en commençant par les plus fermes (carottes, navets), puis courgettes, chou et potiron ; ajouter les pois chiches.",
+   "Mouiller la semoule d’eau salée, l’égrener, puis la cuire à la vapeur au-dessus du bouillon deux fois 15 minutes.",
+   "Égrener la semoule avec le beurre, la dresser en dôme avec la viande et les légumes, et servir le bouillon à part."
+  ],
+  "etapes_en": [
+   "Brown the meat with the onions, tomatoes, olive oil and spices in the bottom of the couscous pot.",
+   "Cover with 2.5 litres of water and cook 45 minutes.",
+   "Add the vegetables starting with the firmest (carrots, turnips), then zucchini, cabbage and pumpkin; add the chickpeas.",
+   "Moisten the semolina with salted water, fluff it, then steam it over the broth twice for 15 minutes.",
+   "Fluff the semolina with butter, mound it with the meat and vegetables, and serve the broth on the side."
+  ],
+  "photo": "images/recettes/couscous-legumes.jpg",
+  "photo_source": "fr.le7tv.ma",
+  "photo_lien": "https://fr.le7tv.ma/2020/02/14/art-culinaire-couscous-marocain-aux-7-legumes/"
  }
 ]

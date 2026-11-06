@@ -36,7 +36,7 @@ L = {
             "boutique.html": ("Boutique – Marché Mvog-Mbi Sherbrooke", "Tous les produits du Marché Mvog-Mbi avec leurs photos, descriptions, formats et couleurs."),
             "produit.html": ("Produit – Marché Mvog-Mbi Sherbrooke", "Fiche produit du Marché Mvog-Mbi, épicerie africaine, caribéenne et latine à Sherbrooke."),
             "rayons.html": ("Nos rayons – Marché Mvog-Mbi Sherbrooke", "Tous les rayons du Marché Mvog-Mbi : fruits et légumes, féculents, farines, épices, poissons, viandes, boissons, beauté…"),
-            "recettes.html": ("Recettes – Marché Mvog-Mbi Sherbrooke", "Recettes d’Afrique et des Caraïbes pas à pas : ndolé, jollof, thiéboudienne, yassa, moambé, eru, koki, attiéké poisson, mafé…"),
+            "recettes.html": ("Recettes – Marché Mvog-Mbi Sherbrooke", "Recettes d’Afrique, des Caraïbes et d’Amérique latine pas à pas : ndolé, jollof, thiéboudienne, yassa, moambé, eru, koki, attiéké poisson, mafé…"),
             "a-propos.html": ("À propos de nous – Marché Mvog-Mbi Sherbrooke", "Le Marché Mvog-Mbi, le carrefour où toutes les cultures se rencontrent, à Sherbrooke."),
             "carriere.html": ("Carrière – Marché Mvog-Mbi Sherbrooke", "Travailler au Marché Mvog-Mbi à Sherbrooke : envoyez votre candidature."),
             "contact.html": ("Contact – Marché Mvog-Mbi Sherbrooke", "Adresse, heures, téléphone et courriel du Marché Mvog-Mbi, 3071 boulevard Portland, Sherbrooke."),
@@ -61,7 +61,7 @@ L = {
             "boutique.html": ("Shop – Marché Mvog-Mbi Sherbrooke", "All Marché Mvog-Mbi products with photos, descriptions, sizes and colours."),
             "produit.html": ("Product – Marché Mvog-Mbi Sherbrooke", "Product page of Marché Mvog-Mbi, African, Caribbean and Latin American grocery in Sherbrooke."),
             "rayons.html": ("Our aisles – Marché Mvog-Mbi Sherbrooke", "Every aisle at Marché Mvog-Mbi: produce, roots and tubers, flours, spices, fish, meat, drinks, beauty…"),
-            "recettes.html": ("Recipes – Marché Mvog-Mbi Sherbrooke", "Step-by-step African and Caribbean recipes: ndolé, jollof, thieboudienne, yassa, moambe, eru, koki, attiéké with fish, mafé…"),
+            "recettes.html": ("Recipes – Marché Mvog-Mbi Sherbrooke", "Step-by-step African, Caribbean and Latin American recipes: ndolé, jollof, thieboudienne, yassa, moambe, eru, koki, attiéké with fish, mafé…"),
             "a-propos.html": ("About us – Marché Mvog-Mbi Sherbrooke", "Marché Mvog-Mbi, where all cultures meet, in Sherbrooke."),
             "carriere.html": ("Careers – Marché Mvog-Mbi Sherbrooke", "Work at Marché Mvog-Mbi in Sherbrooke: send us your application."),
             "contact.html": ("Contact – Marché Mvog-Mbi Sherbrooke", "Address, hours, phone and email of Marché Mvog-Mbi, 3071 boulevard Portland, Sherbrooke."),
@@ -278,10 +278,11 @@ def page_recettes(source: str, langue: str) -> str:
     racine = "../" if en else ""
     v = (lambda r, k: r.get(k + "_en") or r[k]) if en else (lambda r, k: r[k])
     lib = {"ing": "Ingredients" if en else "Ingrédients", "prep": "Method" if en else "Préparation",
-           "temps": "Time" if en else "Temps", "pour": "Serves" if en else "Pour", "trouver": "Find in the shop" if en else "Trouver à la boutique"}
+           "temps": "Time" if en else "Temps", "pour": "Serves" if en else "Pour", "trouver": "Find in the shop" if en else "Trouver à la boutique",
+           "retour": "Back to recipes" if en else "Retour aux recettes", "autres": "Other recipes" if en else "Autres recettes"}
     sommaire, fiches = [], []
     for r in recettes:
-        sommaire.append(f'          <a class="tuile" href="#{r["id"]}"><img src="{racine}{r["photo"]}" alt="" loading="lazy">'
+        sommaire.append(f'          <a class="tuile" href="recette-{r["id"]}.html"><img src="{racine}{r["photo"]}" alt="" loading="lazy">'
                         f'<em class="tuile-nombre">{html.escape(v(r, "pays"))}</em><strong>{html.escape(v(r, "titre"))}</strong>'
                         f'<span>{html.escape(v(r, "temps"))}</span></a>')
         ingredients = "\n".join(
@@ -289,13 +290,14 @@ def page_recettes(source: str, langue: str) -> str:
             f'<a href="boutique.html?q={quote_plus(i["cherche"])}" title="{lib["trouver"]}">{lib["trouver"]} →</a></li>'
             for i in r["ingredients"])
         etapes = "\n".join(f"              <li>{html.escape(e)}</li>" for e in (r.get("etapes_en") if en and r.get("etapes_en") else r["etapes"]))
-        fiches.append(f'''    <section id="{r["id"]}" class="section recette">
+        fiches.append(f'''    <section id="{r["id"]}" class="section recette recette-seule">
       <div class="conteneur recette-grille">
+        <a class="retour" href="recettes.html" data-retour>← {lib["retour"]}</a>
         <div class="recette-tete">
           <figure class="recette-photo"><img src="{racine}{r["photo"]}" alt="" loading="lazy">{credit_photo(r, en)}</figure>
           <div>
             <p class="surtitre">{html.escape(v(r, "pays"))}</p>
-            <h2>{html.escape(v(r, "titre"))}</h2>
+            <h1>{html.escape(v(r, "titre"))}</h1>
             <p class="intro">{html.escape(v(r, "resume"))}</p>
             <ul class="pastilles"><li>{lib["temps"]} : {html.escape(v(r, "temps"))}</li><li>{lib["pour"]} : {html.escape(v(r, "portions"))}</li></ul>
           </div>
@@ -317,18 +319,40 @@ def page_recettes(source: str, langue: str) -> str:
       </div>
     </section>
 ''')
-    return source.replace("<!--SOMMAIRE-->", "\n".join(sommaire)).replace("<!--RECETTES-->", "\n".join(fiches))
+    pages = {}
+    for rang, (r, fiche) in enumerate(zip(recettes, fiches)):   # une page par recette, 4 autres recettes en bas
+        suivantes = [sommaire[(rang + k) % len(recettes)] for k in range(1, 5)]
+        pages[r["id"]] = (fiche + f'''    <section class="section autres-recettes">
+      <div class="conteneur">
+        <h2>{lib["autres"]}</h2>
+        <div class="tuiles">
+{chr(10).join(suivantes)}
+        </div>
+        <p class="centre"><a class="retour retour-bas" href="recettes.html" data-retour>← {lib["retour"]}</a></p>
+      </div>
+    </section>
+''', v(r, "titre"), v(r, "resume"), r["photo"])
+    return source.replace("<!--SOMMAIRE-->", "\n".join(sommaire)).replace("<!--RECETTES-->", ""), pages
 
 
-def construire(fichier: str, langue: str) -> None:
+def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
+    """Écrit une page ; rend le nombre de pages écrites (la page Recettes écrit aussi une page par recette)."""
     t = L[langue]
-    titre, description = t["pages"][fichier]
-    dossier = SOURCES if langue == "fr" else SOURCES / "en"
-    contenu = (dossier / f"{SOURCE.get(fichier, fichier[:-5])}.html").read_text(encoding="utf-8")
+    n = 1
+    if impose:                                          # page d'une recette : (contenu, titre, description, photo)
+        contenu, titre_r, description, photo = impose
+        titre = f"{titre_r} – {t['pages']['recettes.html'][0]}"
+    else:
+        titre, description = t["pages"][fichier]
+        photo = "images/logo.png"
+        dossier = SOURCES if langue == "fr" else SOURCES / "en"
+        contenu = (dossier / f"{SOURCE.get(fichier, fichier[:-5])}.html").read_text(encoding="utf-8")
     if fichier == "rayons.html":
         contenu = page_rayons(contenu, langue)
     elif fichier == "recettes.html":
-        contenu = page_recettes(contenu, langue)
+        contenu, pages = page_recettes(contenu, langue)
+        for rid, (corps, titre_r, resume, photo_r) in pages.items():
+            n += construire(f"recette-{rid}.html", langue, (corps, titre_r, resume, photo_r))
     if "<!--FORMULAIRE-->" in contenu:
         sujet = "candidature" if fichier == "carriere.html" else "produit"
         contenu = contenu.replace("<!--FORMULAIRE-->", formulaire(langue, t["dossier"] + fichier, sujet))
@@ -344,7 +368,7 @@ def construire(fichier: str, langue: str) -> None:
     fiche = ""
     if fichier in ("index.html", "contact.html"):
         fiche = '  <script type="application/ld+json">\n  ' + json.dumps(FICHE_COMMERCE, ensure_ascii=False) + "\n  </script>\n"
-    actif = fichier if fichier != "produit.html" else "boutique.html"
+    actif = {"produit.html": "boutique.html"}.get(fichier, "recettes.html" if fichier.startswith("recette-") else fichier)
     alternatives = (f'  <link rel="alternate" hreflang="fr-CA" href="{URL}/{fichier}">\n'
                     f'  <link rel="alternate" hreflang="en-CA" href="{URL}/en/{fichier}">\n')
     page = f'''<!doctype html>
@@ -359,7 +383,7 @@ def construire(fichier: str, langue: str) -> None:
   <link rel="apple-touch-icon" href="{racine}images/icone.png">
 {alternatives}  <meta property="og:title" content="{html.escape(titre)}">
   <meta property="og:description" content="{html.escape(description)}">
-  <meta property="og:image" content="{URL}/images/logo.png">
+  <meta property="og:image" content="{URL}/{photo}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -376,6 +400,7 @@ def construire(fichier: str, langue: str) -> None:
     sortie = SITE / t["dossier"] / fichier
     sortie.parent.mkdir(exist_ok=True)
     sortie.write_text(page, encoding="utf-8")
+    return n
 
 
 def main() -> None:
@@ -383,8 +408,7 @@ def main() -> None:
     for langue in ("fr", "en"):
         for fichier in FICHIERS:
             if (SOURCES if langue == "fr" else SOURCES / "en").joinpath(f"{SOURCE.get(fichier, fichier[:-5])}.html").exists():
-                construire(fichier, langue)
-                n += 1
+                n += construire(fichier, langue)
             else:
                 print(f"{langue} : sources manquantes pour {fichier}")
     print(f"{n} pages construites.")

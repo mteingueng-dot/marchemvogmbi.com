@@ -738,3 +738,16 @@ html, body { overflow-x: clip; }
 .recette-photo { margin: 0; }
 .recette-photo figcaption { margin-top: 6px; font-size: .72rem; color: var(--gris-clair); }
 .recette-photo figcaption a { color: inherit; }
+
+/* Page d'une recette */
+.recette-seule { border-top: 0; padding-top: 28px; }
+.retour { display: inline-flex; align-items: center; gap: 6px; margin-bottom: 22px; padding: 9px 16px; border-radius: 999px;
+  background: var(--blanc, #fff); border: 1px solid var(--bord); color: var(--vert-fonce, #0f5f25); font-weight: 700; font-size: .9rem;
+  text-decoration: none; box-shadow: var(--ombre-douce); transition: background .2s, transform .2s; }
+.retour:hover { background: var(--vert-pale); transform: translateX(-2px); }
+.recette-seule h1 { font-size: clamp(2rem, 4.5vw, 3.2rem); margin-bottom: 8px; }
+.autres-recettes { background: var(--blanc, #fff); border-top: 1px solid var(--bord); }
+.autres-recettes h2 { margin-bottom: 22px; }
+.autres-recettes .centre { text-align: center; margin-top: 28px; }
+.retour-bas { margin-bottom: 0; }
+@media (max-width: 820px) { .recette-tete { grid-template-columns: 1fr; } }

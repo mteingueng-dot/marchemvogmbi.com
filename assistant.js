@@ -200,7 +200,7 @@
     const ing = r.ingredients.slice(0, 6).map((i) =>
       `<li><a href="boutique.html?q=${encodeURIComponent(i.cherche)}">${echapper((EN && i.texte_en) || i.texte)}</a></li>`).join("");
     return `🍲 <strong>${echapper(titre)}</strong> (${echapper(pays)}) · ${echapper((EN && r.temps_en) || r.temps)}<br>${echapper((EN && r.resume_en) || r.resume)}
-      <br><small>${T.ingredients}</small><ul>${ing}</ul><a href="recettes.html#${r.id}">${T.voirRecette}</a>`;
+      <br><small>${T.ingredients}</small><ul>${ing}</ul><a href="recette-${r.id}.html">${T.voirRecette}</a>`;
   }
   function comprendre(texte) {
     const n = normal(texte).replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
@@ -210,7 +210,7 @@
         .some((m) => (" " + n + " ").includes(" " + m + " ")) || (" " + n + " ").includes(" " + mots_de(x.titre) + " "));
       if (r) return [reponseRecette(r), ["recettes", "produit", "humain"]];
       if (/\b(recette|recettes|cuisiner|cuisine|plat|plats|preparer|recipe|recipes|cook|cooking|dish)\b/.test(n)) {
-        return [`${T.recettesListe}<ul>${liste.map((x) => `<li><a href="recettes.html#${x.id}">${echapper((EN && x.titre_en) || x.titre)}</a> · ${echapper((EN && x.pays_en) || x.pays)}</li>`).join("")}</ul>`,
+        return [`${T.recettesListe}<ul>${liste.map((x) => `<li><a href="recette-${x.id}.html">${echapper((EN && x.titre_en) || x.titre)}</a> · ${echapper((EN && x.pays_en) || x.pays)}</li>`).join("")}</ul>`,
           ["produit", "humain"]];
       }
       const intention = INTENTIONS.find(([, re]) => re.test(n));

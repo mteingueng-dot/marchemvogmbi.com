@@ -37,3 +37,26 @@
     vus.observe(el);
   });
 })();
+
+/* Recettes : bouton retour (revient à la liste là où on l'avait laissée) et anciens liens « recettes.html#id » */
+(function () {
+  "use strict";
+  document.querySelectorAll("[data-retour]").forEach((a) => a.addEventListener("click", (e) => {
+    try {
+      if (sessionStorage.getItem("depuis-recettes") === location.pathname && history.length > 1) {
+        sessionStorage.removeItem("depuis-recettes");
+        e.preventDefault();
+        history.back();
+      }
+    } catch (_) { /* lien normal */ }
+  }));
+  if (/\/recettes\.html$/.test(location.pathname)) {      // clic sur une recette : le retour revient ici
+    document.querySelectorAll("a.tuile[href^='recette-']").forEach((a) => a.addEventListener("click", () => {
+      try { sessionStorage.setItem("depuis-recettes", new URL(a.href).pathname); } catch (_) { /* rien */ }
+    }));
+  }
+  if (/\/recettes\.html$/.test(location.pathname) && /^#[a-z0-9-]+$/.test(location.hash)
+      && document.querySelector(`a.tuile[href="recette-${location.hash.slice(1)}.html"]`)) {
+    location.replace(`recette-${location.hash.slice(1)}.html`);
+  }
+})();
