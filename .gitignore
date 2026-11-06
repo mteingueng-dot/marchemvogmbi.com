@@ -2,3 +2,6 @@
 data/clover_articles.json
 __pycache__/
 *.pyc
+
+# Fichiers .zip prêts à déposer dans cPanel (outils/preparer_deploiement.py)
+deploiement/
