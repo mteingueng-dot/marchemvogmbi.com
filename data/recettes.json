@@ -651,6 +651,125 @@
   "photo_lien": "https://www.emaketa.com/koki-authentic-cameroonian-steamed-bean-pudding-in-banana-leaves-recipe-from-scratch/"
  },
  {
+  "id": "okok",
+  "titre": "Okok sucré",
+  "pays": "Cameroun",
+  "temps": "1 h",
+  "portions": "6 personnes",
+  "titre_en": "Sweet okok",
+  "pays_en": "Cameroon",
+  "temps_en": "1 h",
+  "portions_en": "6 people",
+  "resume": "Le plat béti du Centre et du Sud : des feuilles d’okok finement coupées, cuites dans le jus de noix de palme et la pâte d’arachide, servies avec des bâtons de manioc.",
+  "resume_en": "The Beti dish of central and southern Cameroon: finely cut okok leaves cooked in palm nut juice and peanut paste, served with cassava sticks.",
+  "ingredients": [
+   {
+    "texte": "500 g de feuilles d’okok (eru) finement coupées",
+    "cherche": "okok",
+    "texte_en": "500 g finely cut okok (eru) leaves"
+   },
+   {
+    "texte": "300 g de pâte d’arachide",
+    "cherche": "arachide",
+    "texte_en": "300 g peanut paste"
+   },
+   {
+    "texte": "1 litre de jus de noix de palme (ou 800 g de crème de noix de palme)",
+    "cherche": "noix de palme",
+    "texte_en": "1 litre palm nut juice (or 800 g palm nut cream)"
+   },
+   {
+    "texte": "2 cuillères à soupe de sucre",
+    "cherche": "sucre",
+    "texte_en": "2 tablespoons sugar"
+   },
+   {
+    "texte": "Bâtons de manioc (bobolo) pour servir",
+    "cherche": "bobolo",
+    "texte_en": "Cassava sticks (bobolo) to serve"
+   }
+  ],
+  "etapes": [
+   "Laver les feuilles d’okok et les laisser tremper 10 minutes dans l’eau tiède ; égoutter.",
+   "Porter le jus de noix de palme à ébullition dans une grande marmite.",
+   "Délayer la pâte d’arachide dans un peu de jus chaud, l’ajouter et cuire 15 minutes en remuant.",
+   "Ajouter l’okok, le sucre et une pincée de sel ; cuire 30 minutes à feu doux en remuant, jusqu’à ce que la sauce épaississe et que l’huile remonte.",
+   "Servir chaud avec des bâtons de manioc."
+  ],
+  "etapes_en": [
+   "Wash the okok leaves and soak them for 10 minutes in warm water; drain.",
+   "Bring the palm nut juice to a boil in a large pot.",
+   "Thin the peanut paste with a little hot juice, add it and cook for 15 minutes, stirring.",
+   "Add the okok, sugar and a pinch of salt; cook for 30 minutes over low heat, stirring, until the sauce thickens and the oil rises.",
+   "Serve hot with cassava sticks."
+  ],
+  "photo": "images/recettes/okok.jpg",
+  "photo_source": "blog.restaurant-reunionnais.ch",
+  "photo_lien": "https://blog.restaurant-reunionnais.ch/okok-cameroun-recette/"
+ },
+ {
+  "id": "nkui",
+  "titre": "Sauce nkui et couscous de maïs",
+  "pays": "Cameroun",
+  "temps": "45 min",
+  "portions": "6 personnes",
+  "titre_en": "Nkui sauce with corn couscous",
+  "pays_en": "Cameroon",
+  "temps_en": "45 min",
+  "portions_en": "6 people",
+  "resume": "La sauce gluante des Bamiléké de l’Ouest, faite d’écorce de nkui et d’épices grillées, servie avec un couscous de maïs.",
+  "resume_en": "The slippery sauce of the Bamileke of western Cameroon, made with nkui bark and toasted spices, served with corn couscous.",
+  "ingredients": [
+   {
+    "texte": "50 g d’écorce de nkui",
+    "cherche": "nkui",
+    "texte_en": "50 g nkui bark"
+   },
+   {
+    "texte": "Épices du nkui : djansang, poivre blanc, rondelles",
+    "cherche": "epice",
+    "texte_en": "Nkui spices: djansang, white pepper, rondelle"
+   },
+   {
+    "texte": "1 cuillère à café de sel gemme (kanwa)",
+    "cherche": "kanwa",
+    "texte_en": "1 teaspoon rock salt (kanwa)"
+   },
+   {
+    "texte": "2 piments",
+    "cherche": "piment",
+    "texte_en": "2 chilies"
+   },
+   {
+    "texte": "1 litre d’eau, sel, 1 cube",
+    "cherche": "cube",
+    "texte_en": "1 litre water, salt, 1 stock cube"
+   },
+   {
+    "texte": "Couscous de maïs (farine de maïs) pour servir",
+    "cherche": "farine de mais",
+    "texte_en": "Corn couscous (corn flour) to serve"
+   }
+  ],
+  "etapes": [
+   "Griller légèrement les épices à sec, puis les moudre avec les piments.",
+   "Faire tremper l’écorce de nkui 15 minutes dans 1 litre d’eau tiède, puis la frotter entre les mains pour en tirer la sève gluante ; retirer les écorces.",
+   "Ajouter le kanwa dissous dans un peu d’eau et filtré, les épices moulues, le sel et le cube.",
+   "Porter à ébullition en battant au fouet jusqu’à ce que la sauce devienne filante.",
+   "Cuire encore 5 minutes et servir chaud avec le couscous de maïs."
+  ],
+  "etapes_en": [
+   "Lightly toast the spices in a dry pan, then grind them with the chilies.",
+   "Soak the nkui bark for 15 minutes in 1 litre of warm water, then rub it between your hands to release the slippery sap; remove the bark.",
+   "Add the kanwa dissolved in a little water and strained, the ground spices, salt and stock cube.",
+   "Bring to a boil, whisking, until the sauce becomes stringy.",
+   "Cook for 5 more minutes and serve hot with corn couscous."
+  ],
+  "photo": "images/recettes/nkui.jpg",
+  "photo_source": "storage.googleapis.com",
+  "photo_lien": "https://storage.googleapis.com/dmpqsxsiwrxate/couscous-punjabi-dictionary.html"
+ },
+ {
   "id": "attieke-poisson",
   "titre": "Attiéké poisson braisé",
   "pays": "Côte d’Ivoire",
@@ -1241,6 +1360,747 @@
   ],
   "photo_source": "hfce.eu",
   "photo_lien": "https://hfce.eu/resources/eba-with-okra-soup/"
+ },
+ {
+  "id": "isombe",
+  "titre": "Isombe (feuilles de manioc)",
+  "pays": "Rwanda et Burundi",
+  "temps": "1 h 15",
+  "portions": "4 personnes",
+  "titre_en": "Isombe (cassava leaves)",
+  "pays_en": "Rwanda and Burundi",
+  "temps_en": "1 h 15",
+  "portions_en": "4 people",
+  "resume": "Le plat de tous les jours au Rwanda et au Burundi : des feuilles de manioc pilées, mijotées avec aubergine, poireau, pâte d’arachide et huile de palme.",
+  "resume_en": "The everyday dish of Rwanda and Burundi: pounded cassava leaves simmered with eggplant, leek, peanut paste and palm oil.",
+  "ingredients": [
+   {
+    "texte": "200 g de feuilles de manioc séchées moulues (isombe)",
+    "cherche": "feuilles de manioc",
+    "texte_en": "200 g ground dried cassava leaves (isombe)"
+   },
+   {
+    "texte": "1 aubergine, 1 oignon, 1 poireau",
+    "cherche": "oignon",
+    "texte_en": "1 eggplant, 1 onion, 1 leek"
+   },
+   {
+    "texte": "2 cuillères à soupe de pâte d’arachide",
+    "cherche": "arachide",
+    "texte_en": "2 tablespoons peanut paste"
+   },
+   {
+    "texte": "100 ml d’huile de palme",
+    "cherche": "huile de palme",
+    "texte_en": "100 ml palm oil"
+   },
+   {
+    "texte": "1 poisson fumé ou séché (facultatif)",
+    "cherche": "poisson fume",
+    "texte_en": "1 smoked or dried fish (optional)"
+   },
+   {
+    "texte": "Sel, 1 cube",
+    "cherche": "cube",
+    "texte_en": "Salt, 1 stock cube"
+   }
+  ],
+  "etapes": [
+   "Faire bouillir les feuilles dans 1,5 litre d’eau 30 minutes (la version instantanée cuit plus vite : suivre le sachet).",
+   "Ajouter l’oignon, le poireau et l’aubergine coupés en dés ; cuire 20 minutes.",
+   "Délayer la pâte d’arachide dans un peu de bouillon et l’incorporer.",
+   "Ajouter le poisson émietté, l’huile de palme, le sel et le cube.",
+   "Laisser mijoter 15 minutes jusqu’à ce que ce soit épais. Servir avec de l’ugali, du riz ou des bananes."
+  ],
+  "etapes_en": [
+   "Boil the leaves in 1.5 litres of water for 30 minutes (the instant version cooks faster: follow the packet).",
+   "Add the diced onion, leek and eggplant; cook for 20 minutes.",
+   "Thin the peanut paste with a little broth and stir it in.",
+   "Add the flaked fish, palm oil, salt and stock cube.",
+   "Simmer for 15 minutes until thick. Serve with ugali, rice or bananas."
+  ],
+  "photo": "images/recettes/isombe.jpg",
+  "photo_source": "spotcovery.com",
+  "photo_lien": "https://spotcovery.com/recipe-isombe-rwandas-cassava-leaf-stew/"
+ },
+ {
+  "id": "ugali-sukuma",
+  "titre": "Ugali et sukuma wiki",
+  "pays": "Kenya",
+  "temps": "40 min",
+  "portions": "4 personnes",
+  "titre_en": "Ugali and sukuma wiki",
+  "pays_en": "Kenya",
+  "temps_en": "40 min",
+  "portions_en": "4 people",
+  "resume": "Le repas de base du Kenya : une pâte ferme de farine de maïs blanc, avec du chou vert sauté aux tomates et aux oignons.",
+  "resume_en": "Kenya’s staple meal: a firm white cornmeal paste with collard greens sautéed with tomatoes and onions.",
+  "ingredients": [
+   {
+    "texte": "500 g de farine de maïs blanc",
+    "cherche": "farine de mais blanc",
+    "texte_en": "500 g white corn flour"
+   },
+   {
+    "texte": "1 litre d’eau, sel",
+    "cherche": "sel",
+    "texte_en": "1 litre water, salt"
+   },
+   {
+    "texte": "1 botte de chou vert frisé ou de chou cavalier (sukuma)",
+    "cherche": "chou",
+    "texte_en": "1 bunch kale or collard greens (sukuma)"
+   },
+   {
+    "texte": "2 tomates, 1 oignon",
+    "cherche": "tomate",
+    "texte_en": "2 tomatoes, 1 onion"
+   },
+   {
+    "texte": "2 cuillères à soupe d’huile",
+    "cherche": "huile",
+    "texte_en": "2 tablespoons oil"
+   }
+  ],
+  "etapes": [
+   "Porter l’eau salée à ébullition et verser la farine en pluie en remuant.",
+   "Travailler fermement avec une spatule 8 à 10 minutes, jusqu’à une pâte ferme qui se détache de la casserole.",
+   "Former un dôme sur une assiette et couvrir.",
+   "Sukuma : faire revenir l’oignon émincé dans l’huile, ajouter les tomates et cuire 5 minutes.",
+   "Ajouter le chou émincé très finement, saler et cuire 5 à 7 minutes : il doit rester vert.",
+   "Servir l’ugali avec le sukuma, et de la viande grillée (nyama choma) si on le souhaite."
+  ],
+  "etapes_en": [
+   "Bring the salted water to a boil and pour in the flour, stirring.",
+   "Work it firmly with a spatula for 8 to 10 minutes, until a firm paste pulls away from the pot.",
+   "Shape it into a dome on a plate and cover.",
+   "Sukuma: fry the sliced onion in the oil, add the tomatoes and cook for 5 minutes.",
+   "Add the very finely sliced greens, salt and cook for 5 to 7 minutes: they should stay green.",
+   "Serve the ugali with the sukuma, and grilled meat (nyama choma) if you like."
+  ],
+  "photo": "images/recettes/ugali-sukuma.jpg",
+  "photo_source": "tujulishane.com",
+  "photo_lien": "https://tujulishane.com/ugali-sukuma-wiki-recipe/"
+ },
+ {
+  "id": "pilau",
+  "titre": "Pilau de bœuf",
+  "pays": "Tanzanie",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "titre_en": "Beef pilau",
+  "pays_en": "Tanzania",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume": "Le riz de fête de la côte swahilie et de Zanzibar, cuit dans le bouillon de viande avec cumin, cannelle, cardamome et clou de girofle.",
+  "resume_en": "The festive rice of the Swahili coast and Zanzibar, cooked in meat broth with cumin, cinnamon, cardamom and cloves.",
+  "ingredients": [
+   {
+    "texte": "500 g de riz basmati",
+    "cherche": "riz basmati",
+    "texte_en": "500 g basmati rice"
+   },
+   {
+    "texte": "700 g de bœuf ou de chèvre en cubes",
+    "cherche": "boeuf",
+    "texte_en": "700 g beef or goat, cubed"
+   },
+   {
+    "texte": "2 oignons, 4 gousses d’ail, 1 morceau de gingembre",
+    "cherche": "oignon",
+    "texte_en": "2 onions, 4 garlic cloves, 1 piece of ginger"
+   },
+   {
+    "texte": "Épices pilau : cumin, cannelle, cardamome, clou de girofle, poivre noir",
+    "cherche": "pilaf",
+    "texte_en": "Pilau spices: cumin, cinnamon, cardamom, cloves, black pepper"
+   },
+   {
+    "texte": "1 litre de bouillon (ou 1 cube)",
+    "cherche": "cube",
+    "texte_en": "1 litre broth (or 1 stock cube)"
+   },
+   {
+    "texte": "3 cuillères à soupe d’huile",
+    "cherche": "huile",
+    "texte_en": "3 tablespoons oil"
+   }
+  ],
+  "etapes": [
+   "Cuire la viande avec un oignon, l’ail, le gingembre et du sel 45 minutes ; garder le bouillon.",
+   "Faire dorer le deuxième oignon émincé dans l’huile.",
+   "Ajouter les épices 1 minute, puis la viande égouttée.",
+   "Ajouter le riz rincé et remuer 2 minutes pour bien l’enrober.",
+   "Verser 750 ml de bouillon chaud, couvrir et cuire à feu très doux 20 minutes.",
+   "Servir avec un kachumbari : tomates, oignon et piment en petits dés."
+  ],
+  "etapes_en": [
+   "Cook the meat with one onion, the garlic, ginger and salt for 45 minutes; keep the broth.",
+   "Brown the second onion, sliced, in the oil.",
+   "Add the spices for 1 minute, then the drained meat.",
+   "Add the rinsed rice and stir for 2 minutes to coat it well.",
+   "Pour in 750 ml of hot broth, cover and cook over very low heat for 20 minutes.",
+   "Serve with kachumbari: finely diced tomatoes, onion and chili."
+  ],
+  "photo": "images/recettes/pilau.jpg",
+  "photo_source": "ivebeen.cooking",
+  "photo_lien": "https://ivebeen.cooking/recipes/zanzibar-pilau"
+ },
+ {
+  "id": "matoke",
+  "titre": "Matoke",
+  "pays": "Ouganda",
+  "temps": "1 h",
+  "portions": "4 personnes",
+  "titre_en": "Matoke",
+  "pays_en": "Uganda",
+  "temps_en": "1 h",
+  "portions_en": "4 people",
+  "resume": "Le plat national de l’Ouganda : des bananes vertes à cuire mijotées dans une sauce tomate épicée, avec ou sans viande.",
+  "resume_en": "Uganda’s national dish: green cooking bananas simmered in a spiced tomato sauce, with or without meat.",
+  "ingredients": [
+   {
+    "texte": "8 bananes plantain vertes (ou bananes vertes à cuire)",
+    "cherche": "plantain vert",
+    "texte_en": "8 green plantains (or green cooking bananas)"
+   },
+   {
+    "texte": "500 g de bœuf en cubes (facultatif)",
+    "cherche": "boeuf",
+    "texte_en": "500 g beef, cubed (optional)"
+   },
+   {
+    "texte": "2 oignons, 3 tomates",
+    "cherche": "tomate",
+    "texte_en": "2 onions, 3 tomatoes"
+   },
+   {
+    "texte": "2 gousses d’ail, curcuma, curry",
+    "cherche": "curry",
+    "texte_en": "2 garlic cloves, turmeric, curry powder"
+   },
+   {
+    "texte": "2 cuillères à soupe d’huile, sel",
+    "cherche": "huile",
+    "texte_en": "2 tablespoons oil, salt"
+   }
+  ],
+  "etapes": [
+   "Éplucher les bananes (les mains huilées) et les couper en tronçons ; les garder dans l’eau.",
+   "Faire revenir l’oignon et l’ail dans l’huile, ajouter la viande et la dorer.",
+   "Ajouter les tomates et les épices ; cuire 10 minutes.",
+   "Ajouter les bananes et de l’eau à hauteur, couvrir et cuire 30 minutes.",
+   "Écraser une partie des bananes pour épaissir la sauce et servir chaud."
+  ],
+  "etapes_en": [
+   "Peel the bananas (with oiled hands) and cut them into chunks; keep them in water.",
+   "Fry the onion and garlic in the oil, add the meat and brown it.",
+   "Add the tomatoes and spices; cook for 10 minutes.",
+   "Add the bananas and enough water to cover, put on the lid and cook for 30 minutes.",
+   "Mash some of the bananas to thicken the sauce and serve hot."
+  ],
+  "photo": "images/recettes/matoke.jpg",
+  "photo_source": "healthiersteps.com",
+  "photo_lien": "https://healthiersteps.com/recipe/matoke-recipe/"
+ },
+ {
+  "id": "doro-wat",
+  "titre": "Doro wat et injera",
+  "pays": "Éthiopie",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Doro wat and injera",
+  "pays_en": "Ethiopia",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "Le ragoût de poulet des fêtes éthiopiennes : beaucoup d’oignons fondus, du berbéré et du beurre épicé, avec des œufs durs, servi sur l’injera.",
+  "resume_en": "Ethiopia’s festive chicken stew: plenty of melted onions, berbere and spiced butter, with hard-boiled eggs, served on injera.",
+  "ingredients": [
+   {
+    "texte": "1 poulet en morceaux, sans la peau",
+    "cherche": "poulet",
+    "texte_en": "1 chicken in pieces, skinless"
+   },
+   {
+    "texte": "1 kg d’oignons rouges",
+    "cherche": "oignon",
+    "texte_en": "1 kg red onions"
+   },
+   {
+    "texte": "4 cuillères à soupe de berbéré",
+    "cherche": "berbere",
+    "texte_en": "4 tablespoons berbere"
+   },
+   {
+    "texte": "100 g de beurre épicé (niter kibbeh) ou de beurre clarifié",
+    "cherche": "beurre",
+    "texte_en": "100 g spiced butter (niter kibbeh) or ghee"
+   },
+   {
+    "texte": "6 œufs durs",
+    "cherche": "oeuf",
+    "texte_en": "6 hard-boiled eggs"
+   },
+   {
+    "texte": "4 gousses d’ail, 1 morceau de gingembre, le jus d’un citron",
+    "cherche": "gingembre",
+    "texte_en": "4 garlic cloves, 1 piece of ginger, juice of 1 lemon"
+   },
+   {
+    "texte": "Injera (galette de teff) ou pain pour servir",
+    "cherche": "teff",
+    "texte_en": "Injera (teff flatbread) or bread to serve"
+   }
+  ],
+  "etapes": [
+   "Faire mariner le poulet 20 minutes avec le jus de citron et du sel.",
+   "Cuire les oignons hachés à sec dans une cocotte 15 minutes en remuant, jusqu’à ce qu’ils brunissent.",
+   "Ajouter le beurre, l’ail, le gingembre et le berbéré ; cuire 10 minutes.",
+   "Ajouter le poulet et un verre d’eau ; mijoter 40 minutes à couvert.",
+   "Ajouter les œufs durs entaillés et cuire encore 10 minutes.",
+   "Servir sur l’injera."
+  ],
+  "etapes_en": [
+   "Marinate the chicken for 20 minutes with the lemon juice and salt.",
+   "Cook the chopped onions in a dry pot for 15 minutes, stirring, until they brown.",
+   "Add the butter, garlic, ginger and berbere; cook for 10 minutes.",
+   "Add the chicken and a glass of water; simmer covered for 40 minutes.",
+   "Add the scored hard-boiled eggs and cook for 10 more minutes.",
+   "Serve on injera."
+  ],
+  "photo": "images/recettes/doro-wat.jpg",
+  "photo_source": "diversivore.com",
+  "photo_lien": "https://www.diversivore.com/doro-wat/"
+ },
+ {
+  "id": "bobotie",
+  "titre": "Bobotie",
+  "pays": "Afrique du Sud",
+  "temps": "1 h 10",
+  "portions": "6 personnes",
+  "titre_en": "Bobotie",
+  "pays_en": "South Africa",
+  "temps_en": "1 h 10",
+  "portions_en": "6 people",
+  "resume": "Le plat familial sud-africain : du bœuf haché au curry doux, au chutney et aux raisins secs, gratiné sous une crème aux œufs.",
+  "resume_en": "South Africa’s family dish: minced beef with mild curry, chutney and raisins, baked under an egg custard.",
+  "ingredients": [
+   {
+    "texte": "1 kg de bœuf haché",
+    "cherche": "boeuf",
+    "texte_en": "1 kg minced beef"
+   },
+   {
+    "texte": "2 oignons, 2 gousses d’ail",
+    "cherche": "oignon",
+    "texte_en": "2 onions, 2 garlic cloves"
+   },
+   {
+    "texte": "2 cuillères à soupe de curry, 1 cuillère à café de curcuma",
+    "cherche": "curry",
+    "texte_en": "2 tablespoons curry powder, 1 teaspoon turmeric"
+   },
+   {
+    "texte": "2 tranches de pain trempées dans 250 ml de lait",
+    "cherche": "lait",
+    "texte_en": "2 slices of bread soaked in 250 ml milk"
+   },
+   {
+    "texte": "3 cuillères à soupe de chutney de mangue et 50 g de raisins secs",
+    "cherche": "mangue",
+    "texte_en": "3 tablespoons mango chutney and 50 g raisins"
+   },
+   {
+    "texte": "2 œufs, quelques feuilles de laurier",
+    "cherche": "laurier",
+    "texte_en": "2 eggs, a few bay leaves"
+   }
+  ],
+  "etapes": [
+   "Chauffer le four à 180 °C. Faire revenir les oignons et l’ail dans un peu d’huile, ajouter le curry et le curcuma.",
+   "Ajouter la viande et la faire dorer en l’émiettant.",
+   "Hors du feu, ajouter le pain essoré (garder le lait), le chutney, les raisins et du sel.",
+   "Tasser le mélange dans un plat allant au four.",
+   "Battre les œufs avec le lait gardé, verser sur la viande et piquer de feuilles de laurier.",
+   "Cuire 35 à 40 minutes, jusqu’à ce que la crème soit prise. Servir avec du riz jaune."
+  ],
+  "etapes_en": [
+   "Heat the oven to 180 °C. Fry the onions and garlic in a little oil, add the curry powder and turmeric.",
+   "Add the meat and brown it, breaking it up.",
+   "Off the heat, add the squeezed bread (keep the milk), chutney, raisins and salt.",
+   "Press the mixture into an ovenproof dish.",
+   "Beat the eggs with the kept milk, pour over the meat and push in the bay leaves.",
+   "Bake for 35 to 40 minutes, until the custard has set. Serve with yellow rice."
+  ],
+  "photo": "images/recettes/bobotie.jpg",
+  "photo_source": "somethingfromhome.co.nz",
+  "photo_lien": "https://www.somethingfromhome.co.nz/blogs/living-in-new-zealand/beef-bobotie"
+ },
+ {
+  "id": "poulet-nyembwe",
+  "titre": "Poulet nyembwe",
+  "pays": "Gabon",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "titre_en": "Chicken nyembwe",
+  "pays_en": "Gabon",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume": "Le plat national du Gabon : du poulet mijoté dans la crème de noix de palme (nyembwe), servi avec du riz ou des bâtons de manioc.",
+  "resume_en": "Gabon’s national dish: chicken simmered in palm nut cream (nyembwe), served with rice or cassava sticks.",
+  "ingredients": [
+   {
+    "texte": "1 poulet en morceaux",
+    "cherche": "poulet",
+    "texte_en": "1 chicken in pieces"
+   },
+   {
+    "texte": "800 g de crème de noix de palme (nyembwe)",
+    "cherche": "noix de palme",
+    "texte_en": "800 g palm nut cream (nyembwe)"
+   },
+   {
+    "texte": "2 oignons, 3 gousses d’ail",
+    "cherche": "oignon",
+    "texte_en": "2 onions, 3 garlic cloves"
+   },
+   {
+    "texte": "2 tomates",
+    "cherche": "tomate",
+    "texte_en": "2 tomatoes"
+   },
+   {
+    "texte": "Piment, sel, 1 cube",
+    "cherche": "piment",
+    "texte_en": "Chili, salt, 1 stock cube"
+   },
+   {
+    "texte": "Riz ou bâtons de manioc pour servir",
+    "cherche": "riz",
+    "texte_en": "Rice or cassava sticks to serve"
+   }
+  ],
+  "etapes": [
+   "Assaisonner le poulet avec l’ail et le sel et le faire dorer dans une marmite.",
+   "Ajouter les oignons et les tomates coupés ; cuire 10 minutes.",
+   "Ajouter la crème de noix de palme et 250 ml d’eau.",
+   "Cuire 40 minutes à feu doux en remuant de temps en temps, jusqu’à ce que l’huile remonte.",
+   "Rectifier le sel et le piment. Servir avec du riz ou des bâtons de manioc."
+  ],
+  "etapes_en": [
+   "Season the chicken with garlic and salt and brown it in a pot.",
+   "Add the chopped onions and tomatoes; cook for 10 minutes.",
+   "Add the palm nut cream and 250 ml of water.",
+   "Cook for 40 minutes over low heat, stirring now and then, until the oil rises.",
+   "Adjust the salt and chili. Serve with rice or cassava sticks."
+  ],
+  "photo": "images/recettes/poulet-nyembwe.jpg",
+  "photo_source": "green.csusmaccountingsociety.com",
+  "photo_lien": "https://green.csusmaccountingsociety.com/nyembwe-au-poulet-poulet-au-nyembwe-recette/"
+ },
+ {
+  "id": "waakye",
+  "titre": "Waakye",
+  "pays": "Ghana",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "titre_en": "Waakye",
+  "pays_en": "Ghana",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume": "Le riz et haricots du matin au Ghana, teinté de brun par les feuilles de sorgho, servi avec du shito, du gari, un œuf et du plantain frit.",
+  "resume_en": "Ghana’s breakfast rice and beans, tinted brown by sorghum leaves, served with shito, gari, an egg and fried plantain.",
+  "ingredients": [
+   {
+    "texte": "500 g de riz",
+    "cherche": "riz",
+    "texte_en": "500 g rice"
+   },
+   {
+    "texte": "250 g de haricots niébé ou rouges",
+    "cherche": "haricot",
+    "texte_en": "250 g black-eyed peas or red beans"
+   },
+   {
+    "texte": "6 feuilles de sorgho séchées (ou 1 cuillère à café de bicarbonate)",
+    "cherche": "sorgho",
+    "texte_en": "6 dried sorghum leaves (or 1 teaspoon baking soda)"
+   },
+   {
+    "texte": "Sel",
+    "cherche": "sel",
+    "texte_en": "Salt"
+   },
+   {
+    "texte": "Pour servir : sauce shito, gari, spaghetti, œuf dur, plantain frit",
+    "cherche": "shito",
+    "texte_en": "To serve: shito sauce, gari, spaghetti, boiled egg, fried plantain"
+   }
+  ],
+  "etapes": [
+   "Faire tremper les haricots une nuit dans l’eau froide.",
+   "Les cuire 40 minutes avec les feuilles de sorgho, qui donnent la couleur brune.",
+   "Ajouter le riz rincé, saler et compléter d’eau jusqu’à 2 cm au-dessus.",
+   "Cuire à couvert à feu doux 20 à 25 minutes.",
+   "Retirer les feuilles et servir avec le shito, le gari, l’œuf et le plantain frit."
+  ],
+  "etapes_en": [
+   "Soak the beans overnight in cold water.",
+   "Cook them for 40 minutes with the sorghum leaves, which give the brown colour.",
+   "Add the rinsed rice, salt and top up with water to 2 cm above.",
+   "Cook covered over low heat for 20 to 25 minutes.",
+   "Remove the leaves and serve with shito, gari, egg and fried plantain."
+  ],
+  "photo": "images/recettes/waakye.jpg",
+  "photo_source": "travelfoodatlas.com",
+  "photo_lien": "https://travelfoodatlas.com/ghanian-waakye-recipe"
+ },
+ {
+  "id": "moi-moi",
+  "titre": "Moi moi",
+  "pays": "Nigeria",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Moi moi",
+  "pays_en": "Nigeria",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "Un flan de haricots niébé mixés avec poivron et piment, cuit à la vapeur dans des feuilles ou des ramequins, souvent avec un morceau d’œuf.",
+  "resume_en": "A pudding of black-eyed peas blended with bell pepper and chili, steamed in leaves or ramekins, often with a piece of egg.",
+  "ingredients": [
+   {
+    "texte": "500 g de haricots niébé (cornille)",
+    "cherche": "oeil noir",
+    "texte_en": "500 g black-eyed peas"
+   },
+   {
+    "texte": "1 poivron rouge, 2 piments, 1 oignon",
+    "cherche": "poivron",
+    "texte_en": "1 red bell pepper, 2 chilies, 1 onion"
+   },
+   {
+    "texte": "100 ml d’huile végétale ou de palme",
+    "cherche": "huile",
+    "texte_en": "100 ml vegetable or palm oil"
+   },
+   {
+    "texte": "2 cubes, sel",
+    "cherche": "cube",
+    "texte_en": "2 stock cubes, salt"
+   },
+   {
+    "texte": "3 œufs durs (facultatif)",
+    "cherche": "oeuf",
+    "texte_en": "3 hard-boiled eggs (optional)"
+   },
+   {
+    "texte": "Feuilles de bananier ou ramequins",
+    "cherche": "feuilles de bananier",
+    "texte_en": "Banana leaves or ramekins"
+   }
+  ],
+  "etapes": [
+   "Faire tremper les haricots 1 heure, les frotter pour retirer la peau et les rincer.",
+   "Les mixer avec le poivron, les piments, l’oignon et un peu d’eau en une pâte lisse.",
+   "Ajouter l’huile, les cubes, le sel et un peu d’eau tiède pour obtenir une pâte coulante.",
+   "Verser dans des ramequins huilés ou des feuilles de bananier et ajouter un morceau d’œuf.",
+   "Cuire à la vapeur 45 à 50 minutes, jusqu’à ce que ce soit ferme."
+  ],
+  "etapes_en": [
+   "Soak the peas for 1 hour, rub them to remove the skins and rinse.",
+   "Blend them with the bell pepper, chilies, onion and a little water into a smooth paste.",
+   "Add the oil, stock cubes, salt and a little warm water to get a pourable batter.",
+   "Pour into oiled ramekins or banana leaves and add a piece of egg.",
+   "Steam for 45 to 50 minutes, until firm."
+  ],
+  "photo": "images/recettes/moi-moi.jpg",
+  "photo_source": "xr-aachen.de",
+  "photo_lien": "https://xr-aachen.de/nigerian-moi-moi-how-to-cook-nigerian-moi-moi-with-leaves/"
+ },
+ {
+  "id": "ayamase",
+  "titre": "Ayamase (sauce verte et riz ofada)",
+  "pays": "Nigeria",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Ayamase (green sauce with ofada rice)",
+  "pays_en": "Nigeria",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "La sauce yoruba aux poivrons et piments verts, frite dans l’huile de palme blanchie avec de l’iru, des viandes et des œufs, servie avec du riz ofada.",
+  "resume_en": "The Yoruba sauce of green peppers and chilies, fried in bleached palm oil with iru, meats and eggs, served with ofada rice.",
+  "ingredients": [
+   {
+    "texte": "6 poivrons verts et 4 piments verts",
+    "cherche": "poivron",
+    "texte_en": "6 green bell peppers and 4 green chilies"
+   },
+   {
+    "texte": "2 oignons",
+    "cherche": "oignon",
+    "texte_en": "2 onions"
+   },
+   {
+    "texte": "250 ml d’huile de palme",
+    "cherche": "huile de palme",
+    "texte_en": "250 ml palm oil"
+   },
+   {
+    "texte": "2 cuillères à soupe d’iru (caroube fermentée) et 1 de crevettes séchées moulues",
+    "cherche": "crevette",
+    "texte_en": "2 tablespoons iru (fermented locust beans) and 1 of ground dried shrimp"
+   },
+   {
+    "texte": "500 g de bœuf et de tripes, 4 œufs durs",
+    "cherche": "tripe",
+    "texte_en": "500 g beef and tripe, 4 hard-boiled eggs"
+   },
+   {
+    "texte": "2 cubes, sel ; riz ofada pour servir",
+    "cherche": "riz",
+    "texte_en": "2 stock cubes, salt; ofada rice to serve"
+   }
+  ],
+  "etapes": [
+   "Cuire le bœuf et les tripes avec un oignon, du sel et un cube 45 minutes.",
+   "Mixer grossièrement les poivrons et les piments, puis les faire réduire 10 minutes dans une casserole pour retirer l’eau.",
+   "Chauffer l’huile de palme à couvert 10 minutes jusqu’à ce qu’elle blanchisse (fenêtre ouverte), laisser tiédir, puis y frire l’oignon émincé et l’iru.",
+   "Ajouter les poivrons réduits et frire 20 minutes en remuant.",
+   "Ajouter les viandes, les crevettes et le cube ; mijoter 10 minutes, puis ajouter les œufs.",
+   "Servir avec du riz ofada."
+  ],
+  "etapes_en": [
+   "Cook the beef and tripe with one onion, salt and a stock cube for 45 minutes.",
+   "Coarsely blend the peppers and chilies, then reduce them for 10 minutes in a pan to remove the water.",
+   "Heat the palm oil covered for 10 minutes until it turns pale (window open), let it cool a little, then fry the sliced onion and iru in it.",
+   "Add the reduced peppers and fry for 20 minutes, stirring.",
+   "Add the meats, shrimp and stock cube; simmer for 10 minutes, then add the eggs.",
+   "Serve with ofada rice."
+  ],
+  "photo": "images/recettes/ayamase.jpg",
+  "photo_source": "imperialpdx.com",
+  "photo_lien": "https://imperialpdx.com/nigerian-ofada-rice-with-ayamase-stew/"
+ },
+ {
+  "id": "amiwo",
+  "titre": "Amiwo (pâte rouge) au poulet",
+  "pays": "Bénin et Togo",
+  "temps": "1 h",
+  "portions": "6 personnes",
+  "titre_en": "Amiwo (red cornmeal) with chicken",
+  "pays_en": "Benin and Togo",
+  "temps_en": "1 h",
+  "portions_en": "6 people",
+  "resume": "La pâte de maïs rouge des fêtes au Bénin et au Togo, cuite dans une sauce tomate au poulet frit.",
+  "resume_en": "The festive red cornmeal of Benin and Togo, cooked in a tomato sauce with fried chicken.",
+  "ingredients": [
+   {
+    "texte": "400 g de farine de maïs (ou de farine de maïs torréfié)",
+    "cherche": "farine de mais",
+    "texte_en": "400 g corn flour (or roasted corn flour)"
+   },
+   {
+    "texte": "1 poulet en morceaux",
+    "cherche": "poulet",
+    "texte_en": "1 chicken in pieces"
+   },
+   {
+    "texte": "200 g de concentré de tomate et 2 tomates",
+    "cherche": "tomate",
+    "texte_en": "200 g tomato paste and 2 tomatoes"
+   },
+   {
+    "texte": "2 oignons, 3 gousses d’ail, piment",
+    "cherche": "oignon",
+    "texte_en": "2 onions, 3 garlic cloves, chili"
+   },
+   {
+    "texte": "4 cuillères à soupe d’huile",
+    "cherche": "huile",
+    "texte_en": "4 tablespoons oil"
+   },
+   {
+    "texte": "2 cubes, sel",
+    "cherche": "cube",
+    "texte_en": "2 stock cubes, salt"
+   }
+  ],
+  "etapes": [
+   "Assaisonner et frire le poulet dans l’huile ; le réserver.",
+   "Dans la même huile, faire revenir les oignons, l’ail, les tomates mixées et le concentré 10 minutes.",
+   "Ajouter 1 litre d’eau, les cubes, le sel et le piment ; garder un bol de sauce pour servir.",
+   "Verser la farine de maïs en pluie en remuant vigoureusement avec une spatule.",
+   "Cuire 15 minutes à feu doux en travaillant, jusqu’à une pâte rouge et lisse.",
+   "Servir avec le poulet et la sauce gardée."
+  ],
+  "etapes_en": [
+   "Season and fry the chicken in the oil; set it aside.",
+   "In the same oil, fry the onions, garlic, blended tomatoes and tomato paste for 10 minutes.",
+   "Add 1 litre of water, the stock cubes, salt and chili; keep a bowl of sauce for serving.",
+   "Pour in the corn flour, stirring vigorously with a spatula.",
+   "Cook for 15 minutes over low heat, working it, until you have a smooth red paste.",
+   "Serve with the chicken and the kept sauce."
+  ],
+  "photo": "images/recettes/amiwo.jpg",
+  "photo_source": "lesgourmandisesdekarelle.com",
+  "photo_lien": "https://lesgourmandisesdekarelle.com/recettes-lgdk/recettes-africaines/faire-amiwo-pate-rouge-beninoise/"
+ },
+ {
+  "id": "thiakry",
+  "titre": "Thiakry",
+  "pays": "Sénégal",
+  "temps": "30 min",
+  "portions": "6 personnes",
+  "titre_en": "Thiakry",
+  "pays_en": "Senegal",
+  "temps_en": "30 min",
+  "portions_en": "6 people",
+  "resume": "Le dessert frais du Sénégal : des grains de mil cuits à la vapeur, mêlés à du yaourt sucré, de la vanille et de la muscade.",
+  "resume_en": "Senegal’s cool dessert: steamed millet grains mixed with sweetened yogurt, vanilla and nutmeg.",
+  "ingredients": [
+   {
+    "texte": "250 g de thiakry (couscous de mil)",
+    "cherche": "mil",
+    "texte_en": "250 g thiakry (millet couscous)"
+   },
+   {
+    "texte": "500 g de yaourt nature ou de lait caillé",
+    "cherche": "yaourt",
+    "texte_en": "500 g plain yogurt or curdled milk"
+   },
+   {
+    "texte": "200 ml de lait concentré sucré",
+    "cherche": "lait concentre",
+    "texte_en": "200 ml sweetened condensed milk"
+   },
+   {
+    "texte": "80 g de sucre, vanille, muscade",
+    "cherche": "muscade",
+    "texte_en": "80 g sugar, vanilla, nutmeg"
+   },
+   {
+    "texte": "Raisins secs (facultatif)",
+    "cherche": "raisin",
+    "texte_en": "Raisins (optional)"
+   }
+  ],
+  "etapes": [
+   "Cuire le mil à la vapeur 15 minutes (ou suivre le sachet) et l’égrener.",
+   "Le laisser refroidir complètement.",
+   "Battre le yaourt avec le lait concentré, le sucre, la vanille et une pincée de muscade.",
+   "Mélanger avec le mil et les raisins secs.",
+   "Mettre au réfrigérateur au moins 2 heures et servir bien frais."
+  ],
+  "etapes_en": [
+   "Steam the millet for 15 minutes (or follow the packet) and fluff it.",
+   "Let it cool completely.",
+   "Beat the yogurt with the condensed milk, sugar, vanilla and a pinch of nutmeg.",
+   "Mix with the millet and raisins.",
+   "Refrigerate for at least 2 hours and serve well chilled."
+  ],
+  "photo": "images/recettes/thiakry.jpg",
+  "photo_source": "mysweetprecision.com",
+  "photo_lien": "https://mysweetprecision.com/fall-recipes/"
  },
  {
   "id": "griot-bananes-pesees",

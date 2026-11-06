@@ -232,6 +232,49 @@
    "Abrir à mesa e servir com bobolo, miondo ou banana-da-terra."
   ]
  },
+ "okok": {
+  "titre": "Okok doce",
+  "pays": "Camarões",
+  "temps": "1 h",
+  "portions": "6 pessoas",
+  "resume": "O prato beti do centro e do sul dos Camarões: folhas de okok finamente cortadas, cozidas no suco de noz de palma e na pasta de amendoim, servidas com bastões de mandioca.",
+  "ingredients": [
+   "500 g de folhas de okok (eru) finamente cortadas",
+   "300 g de pasta de amendoim",
+   "1 litro de suco de noz de palma (ou 800 g de creme de noz de palma)",
+   "2 colheres de sopa de açúcar",
+   "Bastões de mandioca (bobolo) para servir"
+  ],
+  "etapes": [
+   "Lavar as folhas de okok e deixá-las de molho 10 minutos em água morna; escorrer.",
+   "Levar o suco de noz de palma à fervura numa panela grande.",
+   "Diluir a pasta de amendoim num pouco de suco quente, juntá-la e cozinhar 15 minutos mexendo.",
+   "Juntar o okok, o açúcar e uma pitada de sal; cozinhar 30 minutos em fogo baixo mexendo, até o molho engrossar e o óleo subir.",
+   "Servir quente com bastões de mandioca."
+  ]
+ },
+ "nkui": {
+  "titre": "Molho nkui com cuscuz de milho",
+  "pays": "Camarões",
+  "temps": "45 min",
+  "portions": "6 pessoas",
+  "resume": "O molho viscoso dos bamileké do oeste dos Camarões, feito com casca de nkui e especiarias tostadas, servido com cuscuz de milho.",
+  "ingredients": [
+   "50 g de casca de nkui",
+   "Especiarias do nkui: djansang, pimenta-branca, rondelle",
+   "1 colher de chá de sal-gema (kanwa)",
+   "2 pimentas",
+   "1 litro de água, sal, 1 cubo de caldo",
+   "Cuscuz de milho (farinha de milho) para servir"
+  ],
+  "etapes": [
+   "Tostar levemente as especiarias a seco e moê-las com as pimentas.",
+   "Deixar a casca de nkui de molho 15 minutos em 1 litro de água morna e esfregá-la entre as mãos para soltar a seiva viscosa; retirar a casca.",
+   "Juntar o kanwa dissolvido num pouco de água e coado, as especiarias moídas, o sal e o cubo.",
+   "Levar à fervura batendo com um batedor até o molho ficar elástico.",
+   "Cozinhar mais 5 minutos e servir quente com o cuscuz de milho."
+  ]
+ },
  "attieke-poisson": {
   "titre": "Attiéké com peixe grelhado",
   "pays": "Costa do Marfim",
@@ -445,6 +488,273 @@
    "Juntar ao caldo o dendê, o peixe defumado desfiado, os camarões e a pimenta. Cozinhar 10 minutos.",
    "Juntar o quiabo e cozinhar 5 a 8 minutos em fogo baixo, sem tampa, para que fique verde e sedoso.",
    "Para o eba: despejar o gari em água fervente fora do fogo, deixar inchar um minuto e trabalhá-lo com uma espátula até obter uma massa firme."
+  ]
+ },
+ "isombe": {
+  "titre": "Isombe (folhas de mandioca)",
+  "pays": "Ruanda e Burundi",
+  "temps": "1 h 15",
+  "portions": "4 pessoas",
+  "resume": "O prato do dia a dia em Ruanda e no Burundi: folhas de mandioca piladas, cozidas lentamente com berinjela, alho-poró, pasta de amendoim e azeite de dendê.",
+  "ingredients": [
+   "200 g de folhas de mandioca secas moídas (isombe)",
+   "1 berinjela, 1 cebola, 1 alho-poró",
+   "2 colheres de sopa de pasta de amendoim",
+   "100 ml de azeite de dendê",
+   "1 peixe defumado ou seco (opcional)",
+   "Sal, 1 cubo de caldo"
+  ],
+  "etapes": [
+   "Ferver as folhas em 1,5 litro de água por 30 minutos (a versão instantânea cozinha mais depressa: seguir a embalagem).",
+   "Juntar a cebola, o alho-poró e a berinjela em cubos; cozinhar 20 minutos.",
+   "Diluir a pasta de amendoim num pouco de caldo e incorporá-la.",
+   "Juntar o peixe desfiado, o dendê, o sal e o cubo.",
+   "Deixar apurar 15 minutos até engrossar. Servir com ugali, arroz ou bananas."
+  ]
+ },
+ "ugali-sukuma": {
+  "titre": "Ugali e sukuma wiki",
+  "pays": "Quênia",
+  "temps": "40 min",
+  "portions": "4 pessoas",
+  "resume": "A refeição básica do Quênia: uma massa firme de farinha de milho branco com couve refogada com tomate e cebola.",
+  "ingredients": [
+   "500 g de farinha de milho branco",
+   "1 litro de água, sal",
+   "1 maço de couve-galega ou kale (sukuma)",
+   "2 tomates, 1 cebola",
+   "2 colheres de sopa de óleo"
+  ],
+  "etapes": [
+   "Levar a água com sal à fervura e despejar a farinha aos poucos mexendo.",
+   "Trabalhar com força com uma espátula de 8 a 10 minutos, até obter uma massa firme que se solte da panela.",
+   "Moldar uma cúpula num prato e cobrir.",
+   "Sukuma: refogar a cebola no óleo, juntar os tomates e cozinhar 5 minutos.",
+   "Juntar a couve cortada bem fina, salgar e cozinhar de 5 a 7 minutos: deve continuar verde.",
+   "Servir o ugali com o sukuma e, se quiser, carne grelhada (nyama choma)."
+  ]
+ },
+ "pilau": {
+  "titre": "Pilau de carne",
+  "pays": "Tanzânia",
+  "temps": "1 h 15",
+  "portions": "6 pessoas",
+  "resume": "O arroz de festa da costa suaíli e de Zanzibar, cozido no caldo de carne com cominho, canela, cardamomo e cravo.",
+  "ingredients": [
+   "500 g de arroz basmati",
+   "700 g de carne de vaca ou de cabra em cubos",
+   "2 cebolas, 4 dentes de alho, 1 pedaço de gengibre",
+   "Especiarias pilau: cominho, canela, cardamomo, cravo, pimenta-preta",
+   "1 litro de caldo (ou 1 cubo)",
+   "3 colheres de sopa de óleo"
+  ],
+  "etapes": [
+   "Cozinhar a carne com uma cebola, o alho, o gengibre e sal por 45 minutos; guardar o caldo.",
+   "Dourar a segunda cebola fatiada no óleo.",
+   "Juntar as especiarias por 1 minuto e depois a carne escorrida.",
+   "Juntar o arroz lavado e mexer 2 minutos para envolver bem.",
+   "Despejar 750 ml de caldo quente, tampar e cozinhar em fogo bem baixo por 20 minutos.",
+   "Servir com kachumbari: tomate, cebola e pimenta em cubinhos."
+  ]
+ },
+ "matoke": {
+  "titre": "Matoke",
+  "pays": "Uganda",
+  "temps": "1 h",
+  "portions": "4 pessoas",
+  "resume": "O prato nacional de Uganda: bananas verdes de cozinhar cozidas num molho de tomate temperado, com ou sem carne.",
+  "ingredients": [
+   "8 bananas-da-terra verdes (ou bananas verdes de cozinhar)",
+   "500 g de carne de vaca em cubos (opcional)",
+   "2 cebolas, 3 tomates",
+   "2 dentes de alho, cúrcuma, caril",
+   "2 colheres de sopa de óleo, sal"
+  ],
+  "etapes": [
+   "Descascar as bananas (com as mãos untadas de óleo) e cortá-las em pedaços; deixá-las em água.",
+   "Refogar a cebola e o alho no óleo, juntar a carne e dourá-la.",
+   "Juntar os tomates e as especiarias; cozinhar 10 minutos.",
+   "Juntar as bananas e água até cobrir, tampar e cozinhar 30 minutos.",
+   "Amassar parte das bananas para engrossar o molho e servir quente."
+  ]
+ },
+ "doro-wat": {
+  "titre": "Doro wat com injera",
+  "pays": "Etiópia",
+  "temps": "1 h 30",
+  "portions": "6 pessoas",
+  "resume": "O ensopado de frango das festas etíopes: muita cebola apurada, berberé e manteiga temperada, com ovos cozidos, servido sobre a injera.",
+  "ingredients": [
+   "1 frango em pedaços, sem pele",
+   "1 kg de cebolas roxas",
+   "4 colheres de sopa de berberé",
+   "100 g de manteiga temperada (niter kibbeh) ou clarificada",
+   "6 ovos cozidos",
+   "4 dentes de alho, 1 pedaço de gengibre, o suco de um limão",
+   "Injera (pão de teff) ou pão para servir"
+  ],
+  "etapes": [
+   "Marinar o frango 20 minutos com o suco de limão e sal.",
+   "Cozinhar a cebola picada a seco numa panela por 15 minutos mexendo, até dourar.",
+   "Juntar a manteiga, o alho, o gengibre e o berberé; cozinhar 10 minutos.",
+   "Juntar o frango e um copo de água; cozinhar tampado por 40 minutos.",
+   "Juntar os ovos cozidos com uns cortes e cozinhar mais 10 minutos.",
+   "Servir sobre a injera."
+  ]
+ },
+ "bobotie": {
+  "titre": "Bobotie",
+  "pays": "África do Sul",
+  "temps": "1 h 10",
+  "portions": "6 pessoas",
+  "resume": "O prato de família sul-africano: carne moída com caril suave, chutney e passas, gratinada sob um creme de ovos.",
+  "ingredients": [
+   "1 kg de carne de vaca moída",
+   "2 cebolas, 2 dentes de alho",
+   "2 colheres de sopa de caril, 1 colher de chá de cúrcuma",
+   "2 fatias de pão demolhadas em 250 ml de leite",
+   "3 colheres de sopa de chutney de manga e 50 g de passas",
+   "2 ovos, algumas folhas de louro"
+  ],
+  "etapes": [
+   "Aquecer o forno a 180 °C. Refogar a cebola e o alho num pouco de óleo e juntar o caril e a cúrcuma.",
+   "Juntar a carne e dourá-la, desfazendo-a.",
+   "Fora do fogo, juntar o pão espremido (guardar o leite), o chutney, as passas e sal.",
+   "Calcar a mistura num refratário.",
+   "Bater os ovos com o leite guardado, despejar sobre a carne e espetar as folhas de louro.",
+   "Assar de 35 a 40 minutos, até o creme firmar. Servir com arroz amarelo."
+  ]
+ },
+ "poulet-nyembwe": {
+  "titre": "Frango nyembwe",
+  "pays": "Gabão",
+  "temps": "1 h 15",
+  "portions": "6 pessoas",
+  "resume": "O prato nacional do Gabão: frango cozido no creme de noz de palma (nyembwe), servido com arroz ou bastões de mandioca.",
+  "ingredients": [
+   "1 frango em pedaços",
+   "800 g de creme de noz de palma (nyembwe)",
+   "2 cebolas, 3 dentes de alho",
+   "2 tomates",
+   "Pimenta, sal, 1 cubo de caldo",
+   "Arroz ou bastões de mandioca para servir"
+  ],
+  "etapes": [
+   "Temperar o frango com alho e sal e dourá-lo numa panela.",
+   "Juntar a cebola e o tomate picados; cozinhar 10 minutos.",
+   "Juntar o creme de noz de palma e 250 ml de água.",
+   "Cozinhar 40 minutos em fogo baixo mexendo de vez em quando, até o óleo subir.",
+   "Acertar o sal e a pimenta. Servir com arroz ou bastões de mandioca."
+  ]
+ },
+ "waakye": {
+  "titre": "Waakye",
+  "pays": "Gana",
+  "temps": "1 h 15",
+  "portions": "6 pessoas",
+  "resume": "O arroz com feijão do café da manhã em Gana, tingido de castanho pelas folhas de sorgo, servido com shito, gari, ovo e banana-da-terra frita.",
+  "ingredients": [
+   "500 g de arroz",
+   "250 g de feijão-fradinho ou vermelho",
+   "6 folhas secas de sorgo (ou 1 colher de chá de bicarbonato)",
+   "Sal",
+   "Para servir: molho shito, gari, espaguete, ovo cozido, banana-da-terra frita"
+  ],
+  "etapes": [
+   "Deixar o feijão de molho uma noite em água fria.",
+   "Cozinhá-lo 40 minutos com as folhas de sorgo, que dão a cor castanha.",
+   "Juntar o arroz lavado, salgar e completar com água até 2 cm acima.",
+   "Cozinhar tampado em fogo baixo de 20 a 25 minutos.",
+   "Retirar as folhas e servir com o shito, o gari, o ovo e a banana frita."
+  ]
+ },
+ "moi-moi": {
+  "titre": "Moi moi",
+  "pays": "Nigéria",
+  "temps": "1 h 30",
+  "portions": "6 pessoas",
+  "resume": "Um pudim de feijão-fradinho batido com pimentão e pimenta, cozido no vapor em folhas ou forminhas, muitas vezes com um pedaço de ovo.",
+  "ingredients": [
+   "500 g de feijão-fradinho",
+   "1 pimentão vermelho, 2 pimentas, 1 cebola",
+   "100 ml de óleo vegetal ou de dendê",
+   "2 cubos de caldo, sal",
+   "3 ovos cozidos (opcional)",
+   "Folhas de bananeira ou forminhas"
+  ],
+  "etapes": [
+   "Deixar o feijão de molho 1 hora, esfregá-lo para tirar a pele e enxaguar.",
+   "Batê-lo com o pimentão, as pimentas, a cebola e um pouco de água até virar uma pasta lisa.",
+   "Juntar o óleo, os cubos, o sal e um pouco de água morna para obter uma massa fluida.",
+   "Despejar em forminhas untadas ou folhas de bananeira e juntar um pedaço de ovo.",
+   "Cozinhar no vapor de 45 a 50 minutos, até ficar firme."
+  ]
+ },
+ "ayamase": {
+  "titre": "Ayamase (molho verde com arroz ofada)",
+  "pays": "Nigéria",
+  "temps": "1 h 30",
+  "portions": "6 pessoas",
+  "resume": "O molho iorubá de pimentões e pimentas verdes, frito no dendê clareado com iru, carnes e ovos, servido com arroz ofada.",
+  "ingredients": [
+   "6 pimentões verdes e 4 pimentas verdes",
+   "2 cebolas",
+   "250 ml de azeite de dendê",
+   "2 colheres de sopa de iru (alfarroba africana fermentada) e 1 de camarão seco moído",
+   "500 g de carne de vaca e dobrada, 4 ovos cozidos",
+   "2 cubos de caldo, sal; arroz ofada para servir"
+  ],
+  "etapes": [
+   "Cozinhar a carne e a dobrada com uma cebola, sal e um cubo por 45 minutos.",
+   "Bater grosseiramente os pimentões e as pimentas e reduzi-los 10 minutos numa panela para tirar a água.",
+   "Aquecer o dendê tampado por 10 minutos até clarear (janela aberta), deixar amornar e fritar nele a cebola fatiada e o iru.",
+   "Juntar os pimentões reduzidos e fritar 20 minutos mexendo.",
+   "Juntar as carnes, o camarão e o cubo; cozinhar 10 minutos e depois juntar os ovos.",
+   "Servir com arroz ofada."
+  ]
+ },
+ "amiwo": {
+  "titre": "Amiwo (massa vermelha) com frango",
+  "pays": "Benim e Togo",
+  "temps": "1 h",
+  "portions": "6 pessoas",
+  "resume": "A massa de milho vermelha das festas no Benim e no Togo, cozida num molho de tomate com frango frito.",
+  "ingredients": [
+   "400 g de farinha de milho (ou de milho torrado)",
+   "1 frango em pedaços",
+   "200 g de concentrado de tomate e 2 tomates",
+   "2 cebolas, 3 dentes de alho, pimenta",
+   "4 colheres de sopa de óleo",
+   "2 cubos de caldo, sal"
+  ],
+  "etapes": [
+   "Temperar e fritar o frango no óleo; reservar.",
+   "No mesmo óleo, refogar a cebola, o alho, os tomates batidos e o concentrado por 10 minutos.",
+   "Juntar 1 litro de água, os cubos, o sal e a pimenta; guardar uma tigela de molho para servir.",
+   "Despejar a farinha de milho aos poucos mexendo com força com uma espátula.",
+   "Cozinhar 15 minutos em fogo baixo, trabalhando a massa, até ficar vermelha e lisa.",
+   "Servir com o frango e o molho guardado."
+  ]
+ },
+ "thiakry": {
+  "titre": "Thiakry",
+  "pays": "Senegal",
+  "temps": "30 min",
+  "portions": "6 pessoas",
+  "resume": "A sobremesa fresca do Senegal: grãos de milhete cozidos no vapor, misturados com iogurte adoçado, baunilha e noz-moscada.",
+  "ingredients": [
+   "250 g de thiakry (cuscuz de milhete)",
+   "500 g de iogurte natural ou coalhada",
+   "200 ml de leite condensado",
+   "80 g de açúcar, baunilha, noz-moscada",
+   "Passas (opcional)"
+  ],
+  "etapes": [
+   "Cozinhar o milhete no vapor por 15 minutos (ou seguir a embalagem) e soltar os grãos.",
+   "Deixar esfriar completamente.",
+   "Bater o iogurte com o leite condensado, o açúcar, a baunilha e uma pitada de noz-moscada.",
+   "Misturar com o milhete e as passas.",
+   "Levar à geladeira pelo menos 2 horas e servir bem fresco."
   ]
  },
  "griot-bananes-pesees": {

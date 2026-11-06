@@ -232,6 +232,49 @@
    "Am Tisch öffnen und mit Bobolo, Miondo oder Kochbanane servieren."
   ]
  },
+ "okok": {
+  "titre": "Süßes Okok",
+  "pays": "Kamerun",
+  "temps": "1 Std.",
+  "portions": "6 Personen",
+  "resume": "Das Gericht der Beti aus Zentral- und Südkamerun: fein geschnittene Okok-Blätter, in Palmnusssaft und Erdnusspaste gegart, mit Maniokstangen serviert.",
+  "ingredients": [
+   "500 g fein geschnittene Okok-Blätter (Eru)",
+   "300 g Erdnusspaste",
+   "1 Liter Palmnusssaft (oder 800 g Palmnusscreme)",
+   "2 EL Zucker",
+   "Maniokstangen (Bobolo) zum Servieren"
+  ],
+  "etapes": [
+   "Die Okok-Blätter waschen und 10 Minuten in lauwarmem Wasser einweichen; abtropfen lassen.",
+   "Den Palmnusssaft in einem großen Topf aufkochen.",
+   "Die Erdnusspaste mit etwas heißem Saft verrühren, dazugeben und 15 Minuten unter Rühren kochen.",
+   "Okok, Zucker und eine Prise Salz dazugeben; 30 Minuten bei schwacher Hitze unter Rühren garen, bis die Soße eindickt und das Öl aufsteigt.",
+   "Heiß mit Maniokstangen servieren."
+  ]
+ },
+ "nkui": {
+  "titre": "Nkui-Soße mit Maiscouscous",
+  "pays": "Kamerun",
+  "temps": "45 Min.",
+  "portions": "6 Personen",
+  "resume": "Die schleimige Soße der Bamiléké aus Westkamerun, aus Nkui-Rinde und gerösteten Gewürzen, mit Maiscouscous serviert.",
+  "ingredients": [
+   "50 g Nkui-Rinde",
+   "Nkui-Gewürze: Djansang, weißer Pfeffer, Rondelle",
+   "1 TL Steinsalz (Kanwa)",
+   "2 Chilischoten",
+   "1 Liter Wasser, Salz, 1 Brühwürfel",
+   "Maiscouscous (Maismehl) zum Servieren"
+  ],
+  "etapes": [
+   "Die Gewürze in einer trockenen Pfanne leicht rösten und mit den Chilis mahlen.",
+   "Die Nkui-Rinde 15 Minuten in 1 Liter lauwarmem Wasser einweichen, dann zwischen den Händen reiben, um den schleimigen Saft zu lösen; die Rinde entfernen.",
+   "Das in etwas Wasser gelöste und abgeseihte Kanwa, die gemahlenen Gewürze, Salz und Brühwürfel dazugeben.",
+   "Unter Schlagen mit dem Schneebesen aufkochen, bis die Soße Fäden zieht.",
+   "Weitere 5 Minuten kochen und heiß mit dem Maiscouscous servieren."
+  ]
+ },
  "attieke-poisson": {
   "titre": "Attiéké mit gegrilltem Fisch",
   "pays": "Elfenbeinküste",
@@ -445,6 +488,273 @@
    "Palmöl, zerpflückten Räucherfisch, Garnelen und Chili in die Brühe geben. 10 Minuten kochen.",
    "Die Okra dazugeben und 5 bis 8 Minuten bei schwacher Hitze ohne Deckel garen, damit sie grün und samtig bleibt.",
    "Für das Eba das Gari vom Herd genommen in kochendes Wasser geben, eine Minute quellen lassen und mit einem Spatel zu einem festen Teig verarbeiten."
+  ]
+ },
+ "isombe": {
+  "titre": "Isombe (Maniokblätter)",
+  "pays": "Ruanda und Burundi",
+  "temps": "1 Std. 15",
+  "portions": "4 Personen",
+  "resume": "Das Alltagsgericht in Ruanda und Burundi: gestampfte Maniokblätter, geschmort mit Aubergine, Lauch, Erdnusspaste und Palmöl.",
+  "ingredients": [
+   "200 g getrocknete gemahlene Maniokblätter (Isombe)",
+   "1 Aubergine, 1 Zwiebel, 1 Stange Lauch",
+   "2 EL Erdnusspaste",
+   "100 ml Palmöl",
+   "1 Räucher- oder Trockenfisch (nach Belieben)",
+   "Salz, 1 Brühwürfel"
+  ],
+  "etapes": [
+   "Die Blätter in 1,5 Liter Wasser 30 Minuten kochen (die Instantversion gart schneller: Packungsangabe beachten).",
+   "Zwiebel, Lauch und Aubergine in Würfeln dazugeben; 20 Minuten garen.",
+   "Die Erdnusspaste mit etwas Brühe verrühren und unterrühren.",
+   "Den zerpflückten Fisch, Palmöl, Salz und Brühwürfel dazugeben.",
+   "15 Minuten köcheln lassen, bis es eindickt. Mit Ugali, Reis oder Bananen servieren."
+  ]
+ },
+ "ugali-sukuma": {
+  "titre": "Ugali und Sukuma Wiki",
+  "pays": "Kenia",
+  "temps": "40 Min.",
+  "portions": "4 Personen",
+  "resume": "Das Grundgericht Kenias: ein fester Brei aus weißem Maismehl mit Grünkohl, der mit Tomaten und Zwiebeln gebraten wird.",
+  "ingredients": [
+   "500 g weißes Maismehl",
+   "1 Liter Wasser, Salz",
+   "1 Bund Grünkohl oder Blattkohl (Sukuma)",
+   "2 Tomaten, 1 Zwiebel",
+   "2 EL Öl"
+  ],
+  "etapes": [
+   "Das Salzwasser aufkochen und das Mehl unter Rühren einrieseln lassen.",
+   "8 bis 10 Minuten kräftig mit einem Spatel bearbeiten, bis sich ein fester Teig vom Topf löst.",
+   "Auf einem Teller zu einer Kuppel formen und abdecken.",
+   "Sukuma: die Zwiebel im Öl anbraten, die Tomaten dazugeben und 5 Minuten garen.",
+   "Den sehr fein geschnittenen Kohl dazugeben, salzen und 5 bis 7 Minuten garen: Er soll grün bleiben.",
+   "Das Ugali mit dem Sukuma servieren, nach Belieben mit gegrilltem Fleisch (Nyama Choma)."
+  ]
+ },
+ "pilau": {
+  "titre": "Rindfleisch-Pilau",
+  "pays": "Tansania",
+  "temps": "1 Std. 15",
+  "portions": "6 Personen",
+  "resume": "Der Festreis der Swahiliküste und Sansibars, in Fleischbrühe mit Kreuzkümmel, Zimt, Kardamom und Nelken gegart.",
+  "ingredients": [
+   "500 g Basmatireis",
+   "700 g Rind- oder Ziegenfleisch in Würfeln",
+   "2 Zwiebeln, 4 Knoblauchzehen, 1 Stück Ingwer",
+   "Pilau-Gewürze: Kreuzkümmel, Zimt, Kardamom, Nelken, schwarzer Pfeffer",
+   "1 Liter Brühe (oder 1 Brühwürfel)",
+   "3 EL Öl"
+  ],
+  "etapes": [
+   "Das Fleisch mit einer Zwiebel, Knoblauch, Ingwer und Salz 45 Minuten kochen; die Brühe aufbewahren.",
+   "Die zweite Zwiebel in Ringen im Öl goldbraun braten.",
+   "Die Gewürze 1 Minute mitrösten, dann das abgetropfte Fleisch dazugeben.",
+   "Den gewaschenen Reis dazugeben und 2 Minuten rühren, damit er überzogen wird.",
+   "750 ml heiße Brühe angießen, zudecken und bei sehr schwacher Hitze 20 Minuten garen.",
+   "Mit Kachumbari servieren: fein gewürfelte Tomaten, Zwiebel und Chili."
+  ]
+ },
+ "matoke": {
+  "titre": "Matoke",
+  "pays": "Uganda",
+  "temps": "1 Std.",
+  "portions": "4 Personen",
+  "resume": "Das Nationalgericht Ugandas: grüne Kochbananen, in einer gewürzten Tomatensoße geschmort, mit oder ohne Fleisch.",
+  "ingredients": [
+   "8 grüne Kochbananen",
+   "500 g Rindfleisch in Würfeln (nach Belieben)",
+   "2 Zwiebeln, 3 Tomaten",
+   "2 Knoblauchzehen, Kurkuma, Currypulver",
+   "2 EL Öl, Salz"
+  ],
+  "etapes": [
+   "Die Bananen (mit eingeölten Händen) schälen und in Stücke schneiden; in Wasser legen.",
+   "Zwiebel und Knoblauch im Öl anbraten, das Fleisch dazugeben und bräunen.",
+   "Tomaten und Gewürze dazugeben; 10 Minuten garen.",
+   "Die Bananen und so viel Wasser dazugeben, dass sie bedeckt sind; zugedeckt 30 Minuten garen.",
+   "Einen Teil der Bananen zerdrücken, um die Soße zu binden, und heiß servieren."
+  ]
+ },
+ "doro-wat": {
+  "titre": "Doro Wat mit Injera",
+  "pays": "Äthiopien",
+  "temps": "1 Std. 30",
+  "portions": "6 Personen",
+  "resume": "Der Hühnereintopf der äthiopischen Feste: viele weich geschmorte Zwiebeln, Berbere und Gewürzbutter, mit harten Eiern, auf Injera serviert.",
+  "ingredients": [
+   "1 Huhn in Stücken, ohne Haut",
+   "1 kg rote Zwiebeln",
+   "4 EL Berbere",
+   "100 g Gewürzbutter (Niter Kibbeh) oder Butterschmalz",
+   "6 hart gekochte Eier",
+   "4 Knoblauchzehen, 1 Stück Ingwer, Saft einer Zitrone",
+   "Injera (Teff-Fladen) oder Brot zum Servieren"
+  ],
+  "etapes": [
+   "Das Huhn 20 Minuten mit Zitronensaft und Salz marinieren.",
+   "Die gehackten Zwiebeln ohne Fett in einem Schmortopf 15 Minuten unter Rühren garen, bis sie braun werden.",
+   "Butter, Knoblauch, Ingwer und Berbere dazugeben; 10 Minuten garen.",
+   "Das Huhn und ein Glas Wasser dazugeben; zugedeckt 40 Minuten schmoren.",
+   "Die eingeschnittenen Eier dazugeben und weitere 10 Minuten garen.",
+   "Auf Injera servieren."
+  ]
+ },
+ "bobotie": {
+  "titre": "Bobotie",
+  "pays": "Südafrika",
+  "temps": "1 Std. 10",
+  "portions": "6 Personen",
+  "resume": "Das südafrikanische Familiengericht: Hackfleisch mit mildem Curry, Chutney und Rosinen, unter einem Eierguss überbacken.",
+  "ingredients": [
+   "1 kg Rinderhackfleisch",
+   "2 Zwiebeln, 2 Knoblauchzehen",
+   "2 EL Currypulver, 1 TL Kurkuma",
+   "2 Scheiben Brot, in 250 ml Milch eingeweicht",
+   "3 EL Mangochutney und 50 g Rosinen",
+   "2 Eier, einige Lorbeerblätter"
+  ],
+  "etapes": [
+   "Den Ofen auf 180 °C vorheizen. Zwiebeln und Knoblauch in etwas Öl anbraten, Curry und Kurkuma dazugeben.",
+   "Das Fleisch dazugeben und krümelig anbraten.",
+   "Vom Herd nehmen und das ausgedrückte Brot (Milch aufbewahren), Chutney, Rosinen und Salz unterrühren.",
+   "Die Masse in eine Auflaufform drücken.",
+   "Die Eier mit der aufbewahrten Milch verquirlen, über das Fleisch gießen und die Lorbeerblätter hineinstecken.",
+   "35 bis 40 Minuten backen, bis der Guss gestockt ist. Mit gelbem Reis servieren."
+  ]
+ },
+ "poulet-nyembwe": {
+  "titre": "Huhn Nyembwe",
+  "pays": "Gabun",
+  "temps": "1 Std. 15",
+  "portions": "6 Personen",
+  "resume": "Das Nationalgericht Gabuns: Huhn, in Palmnusscreme (Nyembwe) geschmort, mit Reis oder Maniokstangen serviert.",
+  "ingredients": [
+   "1 Huhn in Stücken",
+   "800 g Palmnusscreme (Nyembwe)",
+   "2 Zwiebeln, 3 Knoblauchzehen",
+   "2 Tomaten",
+   "Chili, Salz, 1 Brühwürfel",
+   "Reis oder Maniokstangen zum Servieren"
+  ],
+  "etapes": [
+   "Das Huhn mit Knoblauch und Salz würzen und in einem Topf anbraten.",
+   "Gehackte Zwiebeln und Tomaten dazugeben; 10 Minuten garen.",
+   "Die Palmnusscreme und 250 ml Wasser dazugeben.",
+   "40 Minuten bei schwacher Hitze garen und ab und zu umrühren, bis das Öl aufsteigt.",
+   "Mit Salz und Chili abschmecken. Mit Reis oder Maniokstangen servieren."
+  ]
+ },
+ "waakye": {
+  "titre": "Waakye",
+  "pays": "Ghana",
+  "temps": "1 Std. 15",
+  "portions": "6 Personen",
+  "resume": "Ghanas Frühstücksreis mit Bohnen, von Sorghumblättern braun gefärbt, mit Shito, Gari, Ei und gebratener Kochbanane serviert.",
+  "ingredients": [
+   "500 g Reis",
+   "250 g Augenbohnen oder rote Bohnen",
+   "6 getrocknete Sorghumblätter (oder 1 TL Natron)",
+   "Salz",
+   "Zum Servieren: Shito-Soße, Gari, Spaghetti, hart gekochtes Ei, gebratene Kochbanane"
+  ],
+  "etapes": [
+   "Die Bohnen über Nacht in kaltem Wasser einweichen.",
+   "40 Minuten mit den Sorghumblättern kochen, die die braune Farbe geben.",
+   "Den gewaschenen Reis dazugeben, salzen und mit Wasser auffüllen, bis es 2 cm darübersteht.",
+   "Zugedeckt bei schwacher Hitze 20 bis 25 Minuten garen.",
+   "Die Blätter entfernen und mit Shito, Gari, Ei und gebratener Kochbanane servieren."
+  ]
+ },
+ "moi-moi": {
+  "titre": "Moi Moi",
+  "pays": "Nigeria",
+  "temps": "1 Std. 30",
+  "portions": "6 Personen",
+  "resume": "Ein Pudding aus Augenbohnen, mit Paprika und Chili püriert, in Blättern oder Förmchen gedämpft, oft mit einem Stück Ei.",
+  "ingredients": [
+   "500 g Augenbohnen",
+   "1 rote Paprikaschote, 2 Chilis, 1 Zwiebel",
+   "100 ml Pflanzen- oder Palmöl",
+   "2 Brühwürfel, Salz",
+   "3 hart gekochte Eier (nach Belieben)",
+   "Bananenblätter oder Förmchen"
+  ],
+  "etapes": [
+   "Die Bohnen 1 Stunde einweichen, reiben, um die Haut zu entfernen, und abspülen.",
+   "Mit Paprika, Chilis, Zwiebel und etwas Wasser zu einer glatten Paste pürieren.",
+   "Öl, Brühwürfel, Salz und etwas lauwarmes Wasser dazugeben, bis ein flüssiger Teig entsteht.",
+   "In gefettete Förmchen oder Bananenblätter füllen und ein Stück Ei hineinlegen.",
+   "45 bis 50 Minuten dämpfen, bis es fest ist."
+  ]
+ },
+ "ayamase": {
+  "titre": "Ayamase (grüne Soße mit Ofada-Reis)",
+  "pays": "Nigeria",
+  "temps": "1 Std. 30",
+  "portions": "6 Personen",
+  "resume": "Die Yoruba-Soße aus grüner Paprika und grünen Chilis, in gebleichtem Palmöl mit Iru, Fleisch und Eiern gebraten, mit Ofada-Reis serviert.",
+  "ingredients": [
+   "6 grüne Paprikaschoten und 4 grüne Chilis",
+   "2 Zwiebeln",
+   "250 ml Palmöl",
+   "2 EL Iru (fermentierte Johannisbrotbohnen) und 1 EL gemahlene getrocknete Garnelen",
+   "500 g Rindfleisch und Kutteln, 4 hart gekochte Eier",
+   "2 Brühwürfel, Salz; Ofada-Reis zum Servieren"
+  ],
+  "etapes": [
+   "Rindfleisch und Kutteln mit einer Zwiebel, Salz und einem Brühwürfel 45 Minuten kochen.",
+   "Paprika und Chilis grob pürieren und 10 Minuten in einem Topf einkochen, um das Wasser zu entfernen.",
+   "Das Palmöl zugedeckt 10 Minuten erhitzen, bis es hell wird (Fenster offen), etwas abkühlen lassen und darin die Zwiebelringe und das Iru braten.",
+   "Die eingekochte Paprika dazugeben und 20 Minuten unter Rühren braten.",
+   "Fleisch, Garnelen und Brühwürfel dazugeben; 10 Minuten köcheln lassen, dann die Eier dazugeben.",
+   "Mit Ofada-Reis servieren."
+  ]
+ },
+ "amiwo": {
+  "titre": "Amiwo (roter Maisbrei) mit Huhn",
+  "pays": "Benin und Togo",
+  "temps": "1 Std.",
+  "portions": "6 Personen",
+  "resume": "Der rote Festtagsmaisbrei aus Benin und Togo, in einer Tomatensoße mit gebratenem Huhn gegart.",
+  "ingredients": [
+   "400 g Maismehl (oder geröstetes Maismehl)",
+   "1 Huhn in Stücken",
+   "200 g Tomatenmark und 2 Tomaten",
+   "2 Zwiebeln, 3 Knoblauchzehen, Chili",
+   "4 EL Öl",
+   "2 Brühwürfel, Salz"
+  ],
+  "etapes": [
+   "Das Huhn würzen und im Öl braten; beiseitestellen.",
+   "Im selben Öl Zwiebeln, Knoblauch, pürierte Tomaten und Tomatenmark 10 Minuten anbraten.",
+   "1 Liter Wasser, Brühwürfel, Salz und Chili dazugeben; eine Schale Soße zum Servieren aufbewahren.",
+   "Das Maismehl einrieseln lassen und kräftig mit einem Spatel rühren.",
+   "15 Minuten bei schwacher Hitze bearbeiten, bis ein glatter roter Brei entsteht.",
+   "Mit dem Huhn und der aufbewahrten Soße servieren."
+  ]
+ },
+ "thiakry": {
+  "titre": "Thiakry",
+  "pays": "Senegal",
+  "temps": "30 Min.",
+  "portions": "6 Personen",
+  "resume": "Das kühle Dessert Senegals: gedämpfte Hirsekörner, mit gesüßtem Joghurt, Vanille und Muskat vermischt.",
+  "ingredients": [
+   "250 g Thiakry (Hirsecouscous)",
+   "500 g Naturjoghurt oder Dickmilch",
+   "200 ml gezuckerte Kondensmilch",
+   "80 g Zucker, Vanille, Muskatnuss",
+   "Rosinen (nach Belieben)"
+  ],
+  "etapes": [
+   "Die Hirse 15 Minuten dämpfen (oder Packungsangabe beachten) und auflockern.",
+   "Vollständig abkühlen lassen.",
+   "Den Joghurt mit Kondensmilch, Zucker, Vanille und einer Prise Muskat verrühren.",
+   "Mit der Hirse und den Rosinen vermischen.",
+   "Mindestens 2 Stunden kühlen und gut gekühlt servieren."
   ]
  },
  "griot-bananes-pesees": {
