@@ -275,6 +275,27 @@
    "Cocer 5 minutos más y servir caliente con el cuscús de maíz."
   ]
  },
+ "ekwang": {
+  "titre": "Ekwang",
+  "pays": "Camerún",
+  "temps": "2 h 30",
+  "portions": "6 personas",
+  "resume": "Una especialidad del Litoral y del Suroeste: malanga rallada enrollada en hojas y cocida lentamente en jugo de nuez de palma con pescado ahumado y gambas.",
+  "ingredients": [
+   "1,5 kg de malanga (macabo)",
+   "1 manojo grande de hojas de taro o malanga (o espinacas)",
+   "1 litro de jugo de nuez de palma",
+   "1 pescado ahumado y 100 g de gambas secas",
+   "Guindilla, 2 cubitos, sal"
+  ],
+  "etapes": [
+   "Pelar y rallar finamente la malanga; salar ligeramente la pasta.",
+   "Lavar las hojas, poner una cucharada de pasta en cada una y enrollar en pequeños cigarros.",
+   "Colocar los rollos apretados en una olla y cubrir con el jugo de nuez de palma y un vaso de agua.",
+   "Añadir el pescado desmenuzado, las gambas, la guindilla y los cubitos.",
+   "Cocer 1 h 30 a fuego lento sin remover, sacudiendo la olla de vez en cuando, hasta que suba el aceite."
+  ]
+ },
  "attieke-poisson": {
   "titre": "Attiéké con pescado a la brasa",
   "pays": "Costa de Marfil",
@@ -379,6 +400,27 @@
    "Servir el attiéké con el pescado, las cebollas, los tomates, el chile y un poco del aceite de freír."
   ]
  },
+ "foutou-sauce-claire": {
+  "titre": "Foutou de plátano con salsa clara",
+  "pays": "Costa de Marfil",
+  "temps": "1 h 30",
+  "portions": "6 personas",
+  "resume": "El foutou de plátano machacado con la salsa clara marfileña: un caldo ligero de pollo o pescado con berenjenas, tomates y quimbombó.",
+  "ingredients": [
+   "6 plátanos maduros a punto y 300 g de yuca (o foutou en polvo)",
+   "1 pollo en trozos (o 1 kg de pescado)",
+   "3 berenjenas africanas, 3 tomates, 1 cebolla",
+   "6 quimbombós",
+   "Guindilla, jengibre, 1 cubito, sal"
+  ],
+  "etapes": [
+   "Cocer el pollo con la cebolla, el jengibre, la sal y 1,5 litros de agua 20 minutos.",
+   "Añadir las berenjenas, los tomates y la guindilla enteros; cocer 15 minutos, sacarlos y aplastarlos.",
+   "Devolver el puré al caldo con el quimbombó y el cubito; cocer 20 minutos.",
+   "Foutou: cocer el plátano y la yuca 20 minutos y machacarlos juntos hasta una pasta lisa y elástica.",
+   "Formar bolas de foutou y servirlas en la salsa clara."
+  ]
+ },
  "pondu": {
   "titre": "Pondu (saka-saka)",
   "pays": "RD Congo",
@@ -422,6 +464,27 @@
    "Añadir la pasta de cacahuete diluida en 500 ml de agua, luego el fumbwa y el pescado.",
    "Cocer 30 minutos a fuego lento removiendo; añadir el chile.",
    "Servir con chikwangue o fufú."
+  ]
+ },
+ "saka-saka-poisson": {
+  "titre": "Saka-saka con pescado salado",
+  "pays": "Congo",
+  "temps": "1 h 30",
+  "portions": "6 personas",
+  "resume": "Hojas de yuca machacadas a la congoleña, cocidas largamente en aceite de palma con pescado salado y berenjenas.",
+  "ingredients": [
+   "1 kg de hojas de yuca machacadas (congeladas)",
+   "300 g de pescado salado (bacalao o makayabu)",
+   "150 ml de aceite de palma",
+   "2 berenjenas africanas, 1 pimiento",
+   "2 cebollas, 4 dientes de ajo, guindilla, sal"
+  ],
+  "etapes": [
+   "Desalar el pescado toda la noche en agua fría y desmenuzarlo.",
+   "Cocer las hojas de yuca en 1,5 litros de agua 45 minutos.",
+   "Añadir las berenjenas, el pimiento, las cebollas y el ajo picados; cocer 20 minutos.",
+   "Añadir el pescado salado, el aceite de palma y la guindilla.",
+   "Cocer 20 minutos hasta que se evapore el agua. Servir con foufou o chikwangue."
   ]
  },
  "egusi-foufou": {
@@ -532,6 +595,27 @@
    "Sukuma: sofreír la cebolla en el aceite, añadir los tomates y cocer 5 minutos.",
    "Añadir la col cortada muy fina, salar y cocer de 5 a 7 minutos: debe quedar verde.",
    "Servir el ugali con el sukuma, y carne a la parrilla (nyama choma) si se desea."
+  ]
+ },
+ "mandazi": {
+  "titre": "Mandazi",
+  "pays": "Kenia y Tanzania",
+  "temps": "1 h 30",
+  "portions": "8 personas",
+  "resume": "Los buñuelos de la costa suajili, con leche de coco y cardamomo, para mojar en el té chai.",
+  "ingredients": [
+   "500 g de harina",
+   "250 ml de leche de coco",
+   "80 g de azúcar y 1 sobre de levadura de panadería",
+   "1 cucharadita de cardamomo molido",
+   "1 pizca de sal; aceite para freír"
+  ],
+  "etapes": [
+   "Mezclar la harina, el azúcar, la levadura, el cardamomo y la sal.",
+   "Añadir la leche de coco tibia y amasar 5 minutos hasta obtener una masa blanda.",
+   "Tapar y dejar subir 1 hora.",
+   "Estirar la masa a 1 cm de grosor y cortarla en triángulos.",
+   "Freír en aceite caliente hasta que se inflen y se doren; escurrir."
   ]
  },
  "pilau": {
@@ -668,6 +752,27 @@
    "Retirar las hojas y servir con el shito, el gari, el huevo y el plátano frito."
   ]
  },
+ "fufu-light-soup": {
+  "titre": "Fufu con light soup",
+  "pays": "Ghana",
+  "temps": "1 h 30",
+  "portions": "6 personas",
+  "resume": "El fufu ghanés servido en la light soup, un caldo de tomate, berenjena y guindilla con pollo o cabra.",
+  "ingredients": [
+   "1 pollo o 1 kg de cabra en trozos",
+   "4 tomates, 2 berenjenas, 2 cebollas, 1 trozo de jengibre",
+   "2 guindillas scotch bonnet",
+   "2 cubitos, sal",
+   "Fufu (preparado en polvo de plátano y yuca) para servir"
+  ],
+  "etapes": [
+   "Cocer la carne con una cebolla, el jengibre, la sal y 500 ml de agua 15 minutos.",
+   "Añadir los tomates, las berenjenas, la otra cebolla, las guindillas enteras y 1,5 litros de agua; cocer 15 minutos.",
+   "Sacar las verduras, triturarlas y colarlas de nuevo en la sopa.",
+   "Añadir los cubitos y cocer 30 minutos.",
+   "Preparar el fufu según el paquete, formar bolas y servirlas en la sopa."
+  ]
+ },
  "moi-moi": {
   "titre": "Moi moi",
   "pays": "Nigeria",
@@ -713,6 +818,48 @@
    "Servir con arroz ofada."
   ]
  },
+ "suya": {
+  "titre": "Suya",
+  "pays": "Nigeria",
+  "temps": "45 min (+ 1 h de marinado)",
+  "portions": "6 personas",
+  "resume": "Las brochetas callejeras del norte de Nigeria: ternera en láminas finas rebozada en yaji, una mezcla de cacahuetes tostados y especias, asada al fuego.",
+  "ingredients": [
+   "1 kg de ternera (solomillo bajo o cadera) en láminas finas",
+   "100 g de cacahuetes tostados molidos (o polvo de kuli-kuli)",
+   "2 cucharaditas de guindilla en polvo, 1 de jengibre, 1 de pimentón",
+   "2 cubitos desmenuzados, 1 cucharadita de ajo en polvo, sal",
+   "Cebolla morada, tomate y col para servir"
+  ],
+  "etapes": [
+   "Yaji: mezclar los cacahuetes molidos, la guindilla, el jengibre, el pimentón, los cubitos, el ajo y la sal.",
+   "Untar las láminas de ternera con un poco de aceite y luego con el yaji.",
+   "Marinar 1 hora y ensartar en brochetas.",
+   "Asar de 10 a 15 minutos a la barbacoa o en el horno muy caliente, dándoles la vuelta.",
+   "Espolvorear con yaji y servir con cebolla morada, tomate y col crudos."
+  ]
+ },
+ "puff-puff": {
+  "titre": "Puff puff (buñuelos)",
+  "pays": "Nigeria y Camerún",
+  "temps": "1 h 30",
+  "portions": "8 personas",
+  "resume": "Los pequeños buñuelos redondos y esponjosos que se venden en toda África occidental y central, perfumados con nuez moscada.",
+  "ingredients": [
+   "500 g de harina",
+   "1 sobre de levadura de panadería",
+   "100 g de azúcar",
+   "½ cucharadita de nuez moscada, 1 pizca de sal",
+   "Aceite para freír"
+  ],
+  "etapes": [
+   "Mezclar la harina, el azúcar, la levadura, la nuez moscada y la sal.",
+   "Añadir unos 400 ml de agua tibia y batir hasta obtener una masa lisa y pegajosa.",
+   "Tapar y dejar subir 1 hora, hasta que doble su volumen.",
+   "Echar bolas de masa con la mano o con una cuchara en el aceite caliente.",
+   "Freír dándoles la vuelta hasta que estén dorados; escurrir y servir."
+  ]
+ },
  "amiwo": {
   "titre": "Amiwo (masa roja) con pollo",
   "pays": "Benín y Togo",
@@ -755,6 +902,69 @@
    "Batir el yogur con la leche condensada, el azúcar, la vainilla y una pizca de nuez moscada.",
    "Mezclar con el mijo y las pasas.",
    "Refrigerar al menos 2 horas y servir bien frío."
+  ]
+ },
+ "riz-gras": {
+  "titre": "Arroz graso (riz gras)",
+  "pays": "Burkina Faso y Malí",
+  "temps": "1 h 15",
+  "portions": "6 personas",
+  "resume": "El arroz de fiesta de Burkina Faso y Malí, cocido en una salsa de tomate rica con carne y verduras.",
+  "ingredients": [
+   "600 g de arroz",
+   "800 g de ternera o cordero en trozos",
+   "200 g de concentrado de tomate y 3 tomates",
+   "3 cebollas, 2 zanahorias, ½ col",
+   "150 ml de aceite, 2 cubitos, sal, guindilla"
+  ],
+  "etapes": [
+   "Dorar la carne en el aceite con la cebolla en rodajas.",
+   "Añadir los tomates triturados y el concentrado; cocer 10 minutos.",
+   "Verter 1,5 litros de agua, añadir los cubitos, la sal, la guindilla, las zanahorias y la col; cocer 30 minutos.",
+   "Retirar las verduras, añadir el arroz lavado y completar con agua hasta 1 cm por encima.",
+   "Tapar y cocer 25 minutos a fuego lento. Servir con la carne y las verduras."
+  ]
+ },
+ "efo-riro": {
+  "titre": "Efo riro",
+  "pays": "Nigeria",
+  "temps": "1 h",
+  "portions": "6 personas",
+  "resume": "El guiso yoruba de espinacas: verduras cocidas en una base de pimientos y guindilla con aceite de palma, carnes y pescado.",
+  "ingredients": [
+   "1 kg de espinacas (o amaranto)",
+   "4 pimientos rojos, 2 guindillas, 2 cebollas",
+   "150 ml de aceite de palma",
+   "2 cucharadas de iru y 2 de gambas secas molidas",
+   "500 g de ternera y callos cocidos, 1 pescado ahumado, 2 cubitos"
+  ],
+  "etapes": [
+   "Triturar groseramente los pimientos, las guindillas y una cebolla; reducir 10 minutos.",
+   "Calentar el aceite de palma y sofreír la otra cebolla en rodajas y el iru.",
+   "Añadir los pimientos reducidos y freír 15 minutos removiendo.",
+   "Añadir las carnes, el pescado, las gambas y los cubitos; cocer 5 minutos.",
+   "Añadir las espinacas picadas, mezclar y cocer solo 5 minutos. Servir con eba, ñame machacado o arroz."
+  ]
+ },
+ "ofe-onugbu": {
+  "titre": "Ofe onugbu (sopa de hojas amargas)",
+  "pays": "Nigeria",
+  "temps": "1 h 30",
+  "portions": "6 personas",
+  "resume": "La sopa igbo de hojas amargas (onugbu), espesada con cocoyam y aceite de palma, con carnes, stockfish y gambas.",
+  "ingredients": [
+   "2 puñados de hojas amargas lavadas (frescas, secas o congeladas)",
+   "300 g de cocoyam (o malanga)",
+   "150 ml de aceite de palma",
+   "1 kg de carnes variadas, 1 trozo de stockfish",
+   "2 cucharadas de gambas secas molidas, guindilla, 2 cubitos, sal"
+  ],
+  "etapes": [
+   "Cocer las carnes y el stockfish remojado con la sal y los cubitos 40 minutos.",
+   "Cocer el cocoyam 20 minutos, pelarlo y machacarlo hasta hacer una pasta.",
+   "Añadir al caldo el aceite de palma, las gambas, la guindilla y la pasta de cocoyam en trocitos.",
+   "Cocer 15 minutos hasta que la sopa espese.",
+   "Añadir las hojas amargas, cocer 5 minutos y servir con fufu o eba."
   ]
  },
  "griot-bananes-pesees": {
@@ -914,6 +1124,48 @@
    "Pochar las cebollas de la marinada en un poco de aceite 20 minutos y verter el resto de la marinada.",
    "Añadir el pollo, el chile entero y las aceitunas; cocer 20 minutos.",
    "Servir con arroz blanco."
+  ]
+ },
+ "thieb-yapp": {
+  "titre": "Thieb yapp (arroz con carne)",
+  "pays": "Senegal",
+  "temps": "1 h 30",
+  "portions": "6 personas",
+  "resume": "El primo del thieboudienne, con carne: cordero o ternera, cebolla pochada y arroz partido cocido en la salsa.",
+  "ingredients": [
+   "600 g de arroz partido",
+   "1 kg de cordero o ternera en trozos",
+   "4 cebollas, 4 dientes de ajo",
+   "2 cucharadas de mostaza y 2 de concentrado de tomate",
+   "150 ml de aceite, pimienta, 2 cubitos, sal, 1 guindilla"
+  ],
+  "etapes": [
+   "Marinar la carne con ajo, mostaza, pimienta y sal.",
+   "Dorarla en el aceite, añadir la cebolla en rodajas y cocer hasta que se deshaga.",
+   "Añadir el concentrado, 1,5 litros de agua, los cubitos y la guindilla; cocer 45 minutos.",
+   "Sacar la carne, lavar el arroz y cocerlo al vapor 15 minutos; luego echarlo en la salsa.",
+   "Cocer tapado 20 minutos a fuego lento y servir con la carne y la cebolla."
+  ]
+ },
+ "domoda": {
+  "titre": "Domoda",
+  "pays": "Gambia",
+  "temps": "1 h 30",
+  "portions": "6 personas",
+  "resume": "El plato nacional de Gambia: guiso de carne con pasta de cacahuete, calabaza o boniato, servido sobre arroz.",
+  "ingredients": [
+   "1 kg de ternera o pollo en trozos",
+   "250 g de pasta de cacahuete",
+   "500 g de calabaza o boniato",
+   "2 cebollas, 3 tomates, 2 cucharadas de concentrado",
+   "Guindilla, 2 cubitos, zumo de un limón, sal; arroz para servir"
+  ],
+  "etapes": [
+   "Dorar la carne con las cebollas en un poco de aceite.",
+   "Añadir los tomates triturados y el concentrado; cocer 10 minutos.",
+   "Diluir la pasta de cacahuete en 1 litro de agua caliente y añadirla con los cubitos y la guindilla.",
+   "Añadir la calabaza en dados y cocer 45 minutos a fuego lento removiendo.",
+   "Añadir el zumo de limón, rectificar de sal y servir sobre arroz."
   ]
  },
  "poulet-moambe": {
@@ -1222,6 +1474,363 @@
    "Colar presionando bien las flores.",
    "Endulzar en caliente y perfumar con menta o vainilla.",
    "Enfriar al menos 2 horas y servir bien frío."
+  ]
+ },
+ "cachupa": {
+  "titre": "Cachupa",
+  "pays": "Cabo Verde",
+  "temps": "2 h 30",
+  "portions": "8 personas",
+  "resume": "El plato nacional de Cabo Verde: maíz y alubias guisados largamente con carnes, chorizo, yuca, boniato y col.",
+  "ingredients": [
+   "500 g de maíz partido (samp)",
+   "300 g de alubias rojas o habas",
+   "800 g de cerdo y pollo, 1 chorizo",
+   "300 g de yuca y 1 boniato",
+   "½ col, 2 cebollas, 4 dientes de ajo, laurel, sal"
+  ],
+  "etapes": [
+   "Remojar el maíz y las alubias toda la noche.",
+   "Cocerlos 1 hora con el laurel.",
+   "Sofreír las cebollas, el ajo y las carnes con un poco de aceite y añadirlos a la olla con el chorizo.",
+   "Añadir la yuca, el boniato y la col en trozos; cocer otra hora a fuego lento.",
+   "Salar y servir caliente; al día siguiente la cachupa se come refrita con un huevo."
+  ]
+ },
+ "pikliz": {
+  "titre": "Pikliz",
+  "pays": "Haití",
+  "temps": "20 min",
+  "portions": "10 personas",
+  "resume": "El encurtido picante haitiano: col, zanahoria y guindillas scotch bonnet en vinagre, para acompañar el griot y los plátanos fritos.",
+  "ingredients": [
+   "½ col en tiras finas",
+   "2 zanahorias en juliana",
+   "6 guindillas scotch bonnet",
+   "500 ml de vinagre blanco y el zumo de una lima",
+   "1 cebolla, 1 pimiento, clavos, sal"
+  ],
+  "etapes": [
+   "Cortar en tiras finas la col, la cebolla y el pimiento; rallar las zanahorias.",
+   "Cortar las guindillas en aros finos (con guantes).",
+   "Mezclar las verduras con las guindillas, la sal y unos clavos.",
+   "Apretar en un tarro grande y cubrir con el vinagre y el zumo de lima.",
+   "Cerrar y dejar macerar al menos 24 horas en la nevera."
+  ]
+ },
+ "bouyon": {
+  "titre": "Bouyon",
+  "pays": "Haití",
+  "temps": "2 h",
+  "portions": "8 personas",
+  "resume": "La sopa espesa del sábado en Haití: carne, tubérculos, verduras y bolitas de harina (doumbrey).",
+  "ingredients": [
+   "1 kg de ternera o cabra (con hueso)",
+   "300 g de malanga, 300 g de ñame, 2 plátanos verdes",
+   "2 zanahorias, 1 chayote, 1 manojo de espinacas o berros",
+   "200 g de harina para las bolitas (doumbrey)",
+   "Epis, tomillo, 1 guindilla, 2 cubitos, sal, zumo de lima"
+  ],
+  "etapes": [
+   "Marinar la carne con epis, lima y sal; cocerla 1 hora en 3 litros de agua.",
+   "Añadir los tubérculos, los plátanos, las zanahorias y el chayote en trozos.",
+   "Doumbrey: mezclar la harina, una pizca de sal y un poco de agua, y formar pequeños rollitos.",
+   "Añadir las bolitas, las espinacas, el tomillo, la guindilla entera y los cubitos; cocer 30 minutos.",
+   "Aplastar algunas verduras para espesar y servir muy caliente."
+  ]
+ },
+ "accras-morue": {
+  "titre": "Buñuelos de bacalao (accras)",
+  "pays": "Antillas",
+  "temps": "1 h",
+  "portions": "6 personas",
+  "resume": "Los buñuelos antillanos de bacalao salado, crujientes y perfumados con guindilla, ajo y cebolleta: el aperitivo de las Antillas.",
+  "ingredients": [
+   "300 g de bacalao salado",
+   "250 g de harina y 1 sobre de levadura",
+   "1 guindilla, 3 dientes de ajo, perejil, cebolleta",
+   "1 cebolla",
+   "Aceite para freír"
+  ],
+  "etapes": [
+   "Desalar el bacalao toda la noche en agua fría (cambiar el agua), escalfarlo 10 minutos y desmigarlo.",
+   "Mezclar la harina, la levadura y unos 300 ml de agua en una masa espesa.",
+   "Añadir el bacalao, la cebolla, el ajo, la guindilla y las hierbas picados; reposar 30 minutos.",
+   "Echar cucharadas de masa en el aceite caliente.",
+   "Freír hasta que estén dorados, escurrir y servir calientes."
+  ]
+ },
+ "blaff-poisson": {
+  "titre": "Blaff de pescado",
+  "pays": "Martinica",
+  "temps": "40 min",
+  "portions": "4 personas",
+  "resume": "Pescado antillano marinado en lima y escalfado en un caldo corto perfumado con tomillo, guindilla y ajo.",
+  "ingredients": [
+   "1 kg de pescado (pargo, dorada o lubina) en rodajas",
+   "El zumo de 4 limas",
+   "1 guindilla, 4 dientes de ajo, 2 cebolletas",
+   "1 cebolla, tomillo, perejil, 2 clavos",
+   "Sal, pimienta; arroz blanco para servir"
+  ],
+  "etapes": [
+   "Marinar el pescado 1 hora con el zumo de 3 limas, el ajo machacado, la guindilla, sal y pimienta.",
+   "Llevar a ebullición 1 litro de agua con la cebolla, las cebolletas, el tomillo, el perejil y los clavos.",
+   "Añadir el pescado con su marinada al caldo que hierve suavemente.",
+   "Cocer de 8 a 10 minutos a fuego suave.",
+   "Añadir el zumo de la última lima y servir con el caldo y arroz blanco."
+  ]
+ },
+ "brown-stew-chicken": {
+  "titre": "Brown stew chicken",
+  "pays": "Jamaica",
+  "temps": "1 h 15",
+  "portions": "6 personas",
+  "resume": "Pollo jamaicano guisado en una salsa oscura y dulce con browning, tomillo, guindilla y pimientos.",
+  "ingredients": [
+   "1,5 kg de pollo en trozos",
+   "2 cucharadas de browning (caramelo de cocina) y 1 de azúcar moreno",
+   "1 pimiento, 2 tomates, 1 cebolla, 3 cebolletas",
+   "Tomillo, 4 dientes de ajo, 1 guindilla scotch bonnet, pimienta de Jamaica",
+   "Arroz con guisantes (rice and peas) para servir"
+  ],
+  "etapes": [
+   "Marinar el pollo toda la noche con ajo, tomillo, cebolleta, pimienta de Jamaica, sal y browning.",
+   "Escurrir el pollo y dorarlo bien en aceite.",
+   "Añadir la cebolla, el pimiento, los tomates y la marinada; cocer 5 minutos.",
+   "Añadir 250 ml de agua, el azúcar y la guindilla entera; cocer tapado 35 minutos.",
+   "Dejar espesar la salsa y servir con arroz con guisantes."
+  ]
+ },
+ "pelau": {
+  "titre": "Pelau",
+  "pays": "Trinidad",
+  "temps": "1 h 15",
+  "portions": "6 personas",
+  "resume": "El plato de fiesta de Trinidad: pollo caramelizado con azúcar moreno, cocido con arroz, guandules y leche de coco.",
+  "ingredients": [
+   "1 kg de pollo en trozos",
+   "500 g de arroz vaporizado",
+   "1 lata de guandules (pigeon peas)",
+   "400 ml de leche de coco",
+   "3 cucharadas de azúcar moreno, cebolla, ajo, tomillo, guindilla, zanahoria"
+  ],
+  "etapes": [
+   "Marinar el pollo con ajo, cebolla, tomillo y sal.",
+   "Fundir el azúcar en el aceite hasta un caramelo oscuro y dorar en él el pollo.",
+   "Añadir el arroz lavado y los guandules escurridos; mezclar bien.",
+   "Verter la leche de coco y 500 ml de agua, añadir la zanahoria y la guindilla entera.",
+   "Tapar y cocer 30 minutos a fuego lento, hasta que el arroz esté tierno."
+  ]
+ },
+ "doubles": {
+  "titre": "Doubles",
+  "pays": "Trinidad",
+  "temps": "2 h",
+  "portions": "8 personas",
+  "resume": "El tentempié callejero de Trinidad: dos panecillos fritos (bara) rellenos de garbanzos al curry y salsas picantes.",
+  "ingredients": [
+   "500 g de harina, 1 sobre de levadura, 1 cucharadita de cúrcuma",
+   "2 latas de garbanzos (channa)",
+   "2 cucharadas de curry y 1 de comino molido",
+   "1 cebolla, 4 dientes de ajo, guindilla",
+   "Aceite para freír; chutney de tamarindo y salsa picante para servir"
+  ],
+  "etapes": [
+   "Bara: mezclar la harina, la levadura, la cúrcuma, la sal y 300 ml de agua tibia; dejar subir 1 hora.",
+   "Channa: sofreír la cebolla y el ajo, añadir el curry y el comino, luego los garbanzos y un poco de agua; cocer 20 minutos aplastando un poco.",
+   "Formar pequeñas tortitas muy finas con la masa.",
+   "Freírlas unos segundos por cada lado en aceite caliente; se inflan.",
+   "Poner channa entre dos bara y añadir el chutney y la salsa picante."
+  ]
+ },
+ "callaloo": {
+  "titre": "Callaloo",
+  "pays": "Trinidad",
+  "temps": "45 min",
+  "portions": "6 personas",
+  "resume": "La sopa verde de Trinidad: hojas de taro (dasheen) y quimbombó cocidos en leche de coco y triturados muy finos.",
+  "ingredients": [
+   "500 g de hojas de taro (dasheen) o espinacas",
+   "8 quimbombós",
+   "400 ml de leche de coco",
+   "1 cebolla, 4 dientes de ajo, 3 cebolletas, tomillo, 1 guindilla scotch bonnet",
+   "1 cangrejo o 200 g de cerdo salado (opcional), sal"
+  ],
+  "etapes": [
+   "Lavar y picar las hojas; cortar el quimbombó en rodajas.",
+   "Sofreír la cebolla, el ajo y la cebolleta con un poco de aceite.",
+   "Añadir las hojas, el quimbombó, la leche de coco, 250 ml de agua, el tomillo, el cangrejo y la guindilla entera.",
+   "Cocer tapado 30 minutos.",
+   "Retirar la guindilla, triturar hasta que quede liso y salar. Servir con arroz o foufou."
+  ]
+ },
+ "bake-and-shark": {
+  "titre": "Bake and shark",
+  "pays": "Trinidad",
+  "temps": "1 h 15",
+  "portions": "6 personas",
+  "resume": "El bocadillo de playa de Trinidad: pescado marinado y frito en un pan frito (bake), con ensalada y salsas.",
+  "ingredients": [
+   "1 kg de filetes de tiburón o pescado blanco firme",
+   "El zumo de 2 limas, 4 dientes de ajo, tomillo, guindilla",
+   "Masa de bake: 400 g de harina, 1 sobre de levadura química, 1 cucharada de azúcar, sal",
+   "100 g de harina para rebozar el pescado",
+   "Aceite para freír; lechuga, tomate, salsas de ajo y de tamarindo"
+  ],
+  "etapes": [
+   "Marinar el pescado 1 hora con lima, ajo, tomillo, guindilla y sal.",
+   "Bake: mezclar la harina, la levadura, el azúcar, la sal y unos 250 ml de agua; reposar 30 minutos.",
+   "Formar tortitas y freírlas hasta que se inflen.",
+   "Rebozar el pescado en harina y freírlo 4 o 5 minutos.",
+   "Abrir los bakes y rellenarlos con pescado, ensalada y salsas."
+  ]
+ },
+ "sancocho": {
+  "titre": "Sancocho",
+  "pays": "República Dominicana",
+  "temps": "2 h",
+  "portions": "8 personas",
+  "resume": "El gran caldo dominicano de los días de fiesta: varias carnes guisadas con yuca, ñame, plátano, maíz y cilantro.",
+  "ingredients": [
+   "1,5 kg de carnes variadas (pollo, cerdo, ternera)",
+   "300 g de yuca y 300 g de ñame",
+   "2 plátanos verdes y 2 mazorcas de maíz",
+   "1 cebolla, 1 pimiento, 4 dientes de ajo, cilantro, orégano",
+   "El zumo de 2 limas, sal; arroz blanco y aguacate para servir"
+  ],
+  "etapes": [
+   "Marinar las carnes con lima, ajo, orégano y sal.",
+   "Dorarlas en una olla grande y añadir la cebolla y el pimiento.",
+   "Cubrir con 3 litros de agua y cocer 45 minutos.",
+   "Añadir el ñame, la yuca, el plátano y el maíz en trozos; cocer 40 minutos hasta que el caldo espese.",
+   "Añadir cilantro picado y servir con arroz blanco y aguacate."
+  ]
+ },
+ "ropa-vieja": {
+  "titre": "Ropa vieja",
+  "pays": "Cuba",
+  "temps": "2 h 30",
+  "portions": "6 personas",
+  "resume": "El plato nacional cubano: ternera cocida largamente y deshilachada, guisada en salsa de tomate con pimientos, comino y orégano.",
+  "ingredients": [
+   "1 kg de falda de ternera",
+   "1 lata de tomate triturado y 2 cucharadas de concentrado",
+   "2 pimientos, 1 cebolla, 4 dientes de ajo",
+   "1 cucharadita de comino, orégano, laurel",
+   "Aceitunas verdes (opcional), sal; arroz y frijoles negros para servir"
+  ],
+  "etapes": [
+   "Cocer la ternera con laurel y sal en agua 1 h 30, hasta que esté muy tierna.",
+   "Dejarla templar y deshilacharla con dos tenedores; guardar algo de caldo.",
+   "Sofreír la cebolla, el ajo y los pimientos en tiras con aceite.",
+   "Añadir el comino, el orégano, el tomate, el concentrado y un vaso de caldo; cocer 10 minutos.",
+   "Añadir la carne y las aceitunas y cocer 20 minutos. Servir con arroz y frijoles negros."
+  ]
+ },
+ "mofongo": {
+  "titre": "Mofongo",
+  "pays": "Puerto Rico",
+  "temps": "45 min",
+  "portions": "4 personas",
+  "resume": "El plato puertorriqueño: plátanos verdes fritos y majados con ajo y cerdo crujiente, servidos con caldo.",
+  "ingredients": [
+   "4 plátanos verdes",
+   "6 dientes de ajo",
+   "150 g de chicharrón de cerdo",
+   "3 cucharadas de aceite de oliva",
+   "250 ml de caldo de pollo, sal; aceite para freír"
+  ],
+  "etapes": [
+   "Pelar los plátanos, cortarlos en trozos de 2 cm y freírlos 8 minutos a fuego medio sin dorarlos demasiado.",
+   "Machacar el ajo con la sal y el aceite de oliva en un mortero.",
+   "Añadir los plátanos calientes poco a poco y majar con el chicharrón.",
+   "Rociar con un poco de caldo para que el mofongo quede jugoso.",
+   "Formar cúpulas y servir con el resto del caldo caliente."
+  ]
+ },
+ "moro-guandules": {
+  "titre": "Moro de guandules",
+  "pays": "República Dominicana",
+  "temps": "45 min",
+  "portions": "6 personas",
+  "resume": "El arroz dominicano con guandules, cocido con sofrito, leche de coco y cilantro.",
+  "ingredients": [
+   "500 g de arroz",
+   "1 lata de guandules",
+   "200 ml de leche de coco",
+   "1 cebolla, 1 pimiento, 3 dientes de ajo, cilantro",
+   "2 cucharadas de concentrado de tomate, orégano, 1 cubito, sal"
+  ],
+  "etapes": [
+   "Sofreír la cebolla, el pimiento, el ajo y el cilantro con un poco de aceite.",
+   "Añadir el concentrado, el orégano y los guandules escurridos; cocer 5 minutos.",
+   "Añadir la leche de coco, 600 ml de agua, el cubito y la sal; llevar a ebullición.",
+   "Añadir el arroz lavado y cocer sin tapar hasta que el líquido casi se absorba.",
+   "Tapar y terminar 15 minutos a fuego muy lento."
+  ]
+ },
+ "sanga": {
+  "titre": "Sanga",
+  "pays": "Camerún",
+  "temps": "1 h 15",
+  "portions": "6 personas",
+  "resume": "El plato beti de la temporada del maíz: maíz fresco con hojas de hierba mora (zom) y jugo de nuez de palma, un poco dulce.",
+  "ingredients": [
+   "8 mazorcas de maíz fresco (o 1 kg de granos)",
+   "1 kg de hojas de hierba mora (zom) o espinacas",
+   "1 litro de jugo de nuez de palma",
+   "2 cucharadas de azúcar",
+   "Sal"
+  ],
+  "etapes": [
+   "Desgranar el maíz y triturarlo groseramente con un poco de agua.",
+   "Lavar las hojas, hervirlas 10 minutos y escurrirlas bien para quitar el amargor.",
+   "Hervir el jugo de nuez de palma 15 minutos removiendo.",
+   "Añadir el maíz triturado y cocer 15 minutos a fuego lento removiendo.",
+   "Añadir las hojas, el azúcar y la sal; cocer 15 minutos más. Servir caliente o tibio."
+  ]
+ },
+ "kedjenou-pintade": {
+  "titre": "Kedjenou de pintada",
+  "pays": "Costa de Marfil",
+  "temps": "1 h 30",
+  "portions": "6 personas",
+  "resume": "Pintada estofada a la marfileña: cocida en su jugo con tomates, berenjenas y guindilla en una olla bien cerrada que se sacude.",
+  "ingredients": [
+   "1 pintada en trozos",
+   "4 tomates, 2 berenjenas, 2 cebollas",
+   "1 trozo de jengibre, 3 dientes de ajo",
+   "Guindilla, tomillo, laurel, sal",
+   "Attiéké o arroz para servir"
+  ],
+  "etapes": [
+   "Poner la pintada en una olla de fondo grueso con todas las verduras cortadas y el ajo y el jengibre machacados.",
+   "Añadir la guindilla, el tomillo, el laurel y la sal; no añadir agua.",
+   "Cerrar herméticamente y cocer a fuego lento 1 hora.",
+   "Sacudir la olla cada 10 minutos sin abrirla, para que nada se pegue.",
+   "Servir con attiéké o arroz."
+  ]
+ },
+ "mbongo-porc": {
+  "titre": "Mbongo de cerdo",
+  "pays": "Camerún",
+  "temps": "1 h 30",
+  "portions": "6 personas",
+  "resume": "La salsa negra de los bassa preparada con cerdo: las especias mbongo tostadas dan una salsa profunda y ahumada.",
+  "ingredients": [
+   "1,2 kg de cerdo (aguja o costillas) en trozos",
+   "100 g de especias mbongo",
+   "2 tomates, 1 cebolla, 4 dientes de ajo, 1 trozo de jengibre",
+   "100 ml de aceite de palma",
+   "Guindilla, 2 cubitos, sal; plátanos verdes hervidos para servir"
+  ],
+  "etapes": [
+   "Tostar el mbongo en seco hasta que esté bien negro y molerlo.",
+   "Triturar los tomates, la cebolla, el ajo, el jengibre y el mbongo con un poco de agua.",
+   "Sofreír el cerdo en el aceite de palma 10 minutos.",
+   "Añadir la mezcla triturada, 500 ml de agua, la guindilla y los cubitos; cocer 50 minutos a fuego lento.",
+   "Rectificar de sal y servir con plátanos verdes hervidos."
   ]
  }
 }

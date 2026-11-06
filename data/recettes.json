@@ -770,6 +770,65 @@
   "photo_lien": "https://storage.googleapis.com/dmpqsxsiwrxate/couscous-punjabi-dictionary.html"
  },
  {
+  "id": "ekwang",
+  "titre": "Ekwang",
+  "pays": "Cameroun",
+  "temps": "2 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Ekwang",
+  "pays_en": "Cameroon",
+  "temps_en": "2 h 30",
+  "portions_en": "6 people",
+  "resume": "Une spécialité du Littoral et du Sud-Ouest : du macabo râpé roulé dans des feuilles, cuit lentement dans le jus de noix de palme avec poisson fumé et crevettes.",
+  "resume_en": "A speciality of the Littoral and South-West: grated cocoyam rolled in leaves, slowly cooked in palm nut juice with smoked fish and shrimp.",
+  "ingredients": [
+   {
+    "texte": "1,5 kg de macabo",
+    "cherche": "macabo",
+    "texte_en": "1.5 kg cocoyam (macabo)"
+   },
+   {
+    "texte": "1 grosse botte de feuilles de taro ou de macabo (ou d’épinards)",
+    "cherche": "feuilles",
+    "texte_en": "1 large bunch taro or cocoyam leaves (or spinach)"
+   },
+   {
+    "texte": "1 litre de jus de noix de palme",
+    "cherche": "noix de palme",
+    "texte_en": "1 litre palm nut juice"
+   },
+   {
+    "texte": "1 poisson fumé et 100 g de crevettes séchées",
+    "cherche": "crevette",
+    "texte_en": "1 smoked fish and 100 g dried shrimp"
+   },
+   {
+    "texte": "Piment, 2 cubes, sel",
+    "cherche": "piment",
+    "texte_en": "Chili, 2 stock cubes, salt"
+   }
+  ],
+  "etapes": [
+   "Éplucher et râper finement le macabo ; saler légèrement la pâte.",
+   "Laver les feuilles, poser une cuillère de pâte sur chacune et rouler en petits cigares.",
+   "Ranger les rouleaux serrés dans une marmite, couvrir avec le jus de noix de palme et un verre d’eau.",
+   "Ajouter le poisson émietté, les crevettes, le piment et les cubes.",
+   "Cuire 1 h 30 à feu doux, sans remuer, en secouant la marmite de temps en temps, jusqu’à ce que l’huile remonte."
+  ],
+  "etapes_en": [
+   "Peel and finely grate the cocoyam; lightly salt the paste.",
+   "Wash the leaves, put a spoonful of paste on each and roll into small cigars.",
+   "Pack the rolls tightly in a pot and cover with the palm nut juice and a glass of water.",
+   "Add the flaked fish, shrimp, chili and stock cubes.",
+   "Cook for 1 h 30 over low heat without stirring, shaking the pot now and then, until the oil rises."
+  ],
+  "photo": "images/recettes/ekwang.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Ekpangnkukwo_02.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Artemisthe1st"
+ },
+ {
   "id": "attieke-poisson",
   "titre": "Attiéké poisson braisé",
   "pays": "Côte d’Ivoire",
@@ -1053,6 +1112,65 @@
   "photo_lien": "https://recettesdafrique.com/recette/lattieke-au-poisson-thon-garba/"
  },
  {
+  "id": "foutou-sauce-claire",
+  "titre": "Foutou banane, sauce claire",
+  "pays": "Côte d’Ivoire",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Foutou with light soup",
+  "pays_en": "Côte d’Ivoire",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "Le foutou de banane plantain pilée avec la sauce claire ivoirienne : un bouillon léger de poulet ou de poisson aux aubergines, tomates et gombos.",
+  "resume_en": "Pounded plantain foutou with Ivorian light soup: a delicate chicken or fish broth with eggplant, tomato and okra.",
+  "ingredients": [
+   {
+    "texte": "6 bananes plantain mûres à point et 300 g de manioc (ou foutou en poudre)",
+    "cherche": "foutou",
+    "texte_en": "6 just-ripe plantains and 300 g cassava (or foutou powder)"
+   },
+   {
+    "texte": "1 poulet en morceaux (ou 1 kg de poisson)",
+    "cherche": "poulet",
+    "texte_en": "1 chicken in pieces (or 1 kg fish)"
+   },
+   {
+    "texte": "3 aubergines africaines, 3 tomates, 1 oignon",
+    "cherche": "aubergine",
+    "texte_en": "3 African eggplants, 3 tomatoes, 1 onion"
+   },
+   {
+    "texte": "6 gombos",
+    "cherche": "gombo",
+    "texte_en": "6 okra"
+   },
+   {
+    "texte": "Piment, gingembre, 1 cube, sel",
+    "cherche": "piment",
+    "texte_en": "Chili, ginger, 1 stock cube, salt"
+   }
+  ],
+  "etapes": [
+   "Cuire le poulet avec l’oignon, le gingembre, le sel et 1,5 litre d’eau 20 minutes.",
+   "Ajouter les aubergines, les tomates et le piment entiers ; cuire 15 minutes, puis les retirer et les écraser.",
+   "Remettre la purée dans le bouillon avec les gombos et le cube ; mijoter 20 minutes.",
+   "Foutou : cuire la banane et le manioc à l’eau 20 minutes, puis les piler ensemble jusqu’à une pâte lisse et élastique.",
+   "Former des boules de foutou et les servir dans la sauce claire."
+  ],
+  "etapes_en": [
+   "Cook the chicken with the onion, ginger, salt and 1.5 litres of water for 20 minutes.",
+   "Add the whole eggplants, tomatoes and chili; cook for 15 minutes, then lift them out and mash them.",
+   "Return the purée to the broth with the okra and stock cube; simmer for 20 minutes.",
+   "Foutou: boil the plantain and cassava for 20 minutes, then pound them together into a smooth, elastic paste.",
+   "Shape balls of foutou and serve them in the light soup."
+  ],
+  "photo": "images/recettes/foutou-sauce-claire.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Fufu_1.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "HarunaSylvester"
+ },
+ {
   "id": "pondu",
   "titre": "Pondu (saka-saka)",
   "pays": "RD Congo",
@@ -1177,6 +1295,65 @@
   "photo": "images/recettes/fumbwa.jpg",
   "photo_source": "lacongolaise242.org",
   "photo_lien": "https://lacongolaise242.org/viande-a-pate-darachide-fumbwa/"
+ },
+ {
+  "id": "saka-saka-poisson",
+  "titre": "Saka-saka au poisson salé",
+  "pays": "Congo",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Saka-saka with salted fish",
+  "pays_en": "Congo",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "Les feuilles de manioc pilées à la congolaise, cuites longuement à l’huile de palme avec du poisson salé et des aubergines.",
+  "resume_en": "Congolese-style pounded cassava leaves slowly cooked in palm oil with salted fish and eggplant.",
+  "ingredients": [
+   {
+    "texte": "1 kg de feuilles de manioc pilées (surgelées)",
+    "cherche": "feuilles de manioc",
+    "texte_en": "1 kg pounded cassava leaves (frozen)"
+   },
+   {
+    "texte": "300 g de poisson salé (morue ou makayabu)",
+    "cherche": "poisson sale",
+    "texte_en": "300 g salted fish (cod or makayabu)"
+   },
+   {
+    "texte": "150 ml d’huile de palme",
+    "cherche": "huile de palme",
+    "texte_en": "150 ml palm oil"
+   },
+   {
+    "texte": "2 aubergines africaines, 1 poivron",
+    "cherche": "aubergine",
+    "texte_en": "2 African eggplants, 1 bell pepper"
+   },
+   {
+    "texte": "2 oignons, 4 gousses d’ail, piment, sel",
+    "cherche": "oignon",
+    "texte_en": "2 onions, 4 garlic cloves, chili, salt"
+   }
+  ],
+  "etapes": [
+   "Dessaler le poisson une nuit dans l’eau froide, puis l’émietter.",
+   "Cuire les feuilles de manioc dans 1,5 litre d’eau 45 minutes.",
+   "Ajouter les aubergines, le poivron, les oignons et l’ail hachés ; cuire 20 minutes.",
+   "Ajouter le poisson salé, l’huile de palme et le piment.",
+   "Laisser mijoter 20 minutes jusqu’à ce que l’eau s’évapore. Servir avec du foufou ou des chikwangues."
+  ],
+  "etapes_en": [
+   "Desalt the fish overnight in cold water, then flake it.",
+   "Cook the cassava leaves in 1.5 litres of water for 45 minutes.",
+   "Add the chopped eggplants, bell pepper, onions and garlic; cook for 20 minutes.",
+   "Add the salted fish, palm oil and chili.",
+   "Simmer for 20 minutes until the water evaporates. Serve with foufou or chikwangue."
+  ],
+  "photo": "images/recettes/saka-saka-poisson.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Le_saka-saka_plus_le_pain_et_le_foufou_pour_le_concours_de_photo_wiki_loves_Africa_2025_en_Angola.jpg",
+  "photo_licence": "CC0",
+  "photo_auteur": "Pangou Stephane"
  },
  {
   "id": "egusi-foufou",
@@ -1481,6 +1658,65 @@
   "photo": "images/recettes/ugali-sukuma.jpg",
   "photo_source": "tujulishane.com",
   "photo_lien": "https://tujulishane.com/ugali-sukuma-wiki-recipe/"
+ },
+ {
+  "id": "mandazi",
+  "titre": "Mandazi",
+  "pays": "Kenya et Tanzanie",
+  "temps": "1 h 30",
+  "portions": "8 personnes",
+  "titre_en": "Mandazi",
+  "pays_en": "Kenya and Tanzania",
+  "temps_en": "1 h 30",
+  "portions_en": "8 people",
+  "resume": "Les beignets de la côte swahilie, au lait de coco et à la cardamome, à tremper dans le thé chaï.",
+  "resume_en": "Swahili coast doughnuts with coconut milk and cardamom, perfect dipped in chai.",
+  "ingredients": [
+   {
+    "texte": "500 g de farine",
+    "cherche": "farine",
+    "texte_en": "500 g flour"
+   },
+   {
+    "texte": "250 ml de lait de coco",
+    "cherche": "lait de coco",
+    "texte_en": "250 ml coconut milk"
+   },
+   {
+    "texte": "80 g de sucre et 1 sachet de levure de boulanger",
+    "cherche": "cardamome",
+    "texte_en": "80 g sugar and 1 packet dried yeast"
+   },
+   {
+    "texte": "1 cuillère à café de cardamome moulue",
+    "cherche": "sucre",
+    "texte_en": "1 teaspoon ground cardamom"
+   },
+   {
+    "texte": "1 pincée de sel ; huile pour la friture",
+    "cherche": "levure",
+    "texte_en": "1 pinch salt; oil for frying"
+   }
+  ],
+  "etapes": [
+   "Mélanger la farine, le sucre, la levure, la cardamome et le sel.",
+   "Ajouter le lait de coco tiède et pétrir 5 minutes en une pâte souple.",
+   "Couvrir et laisser lever 1 heure.",
+   "Étaler la pâte à 1 cm d’épaisseur et la couper en triangles.",
+   "Frire dans l’huile chaude jusqu’à ce qu’ils gonflent et dorent ; égoutter."
+  ],
+  "etapes_en": [
+   "Mix the flour, sugar, yeast, cardamom and salt.",
+   "Add the warm coconut milk and knead for 5 minutes into a soft dough.",
+   "Cover and leave to rise for 1 hour.",
+   "Roll the dough to 1 cm thick and cut into triangles.",
+   "Fry in hot oil until puffed and golden; drain."
+  ],
+  "photo": "images/recettes/mandazi.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Bowl_of_mandazi.jpg",
+  "photo_licence": "CC BY 2.0",
+  "photo_auteur": "The original uploader was ChildofMidnight at English Wikipedia."
  },
  {
   "id": "pilau",
@@ -1856,6 +2092,65 @@
   "photo_lien": "https://travelfoodatlas.com/ghanian-waakye-recipe"
  },
  {
+  "id": "fufu-light-soup",
+  "titre": "Fufu et light soup",
+  "pays": "Ghana",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Fufu and light soup",
+  "pays_en": "Ghana",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "Le fufu ghanéen servi dans la light soup, un bouillon de tomates, d’aubergines et de piment avec poulet ou chèvre.",
+  "resume_en": "Ghanaian fufu served in light soup, a broth of tomato, eggplant and chili with chicken or goat.",
+  "ingredients": [
+   {
+    "texte": "1 poulet ou 1 kg de chèvre en morceaux",
+    "cherche": "fufu",
+    "texte_en": "1 chicken or 1 kg goat in pieces"
+   },
+   {
+    "texte": "4 tomates, 2 aubergines, 2 oignons, 1 morceau de gingembre",
+    "cherche": "poulet",
+    "texte_en": "4 tomatoes, 2 eggplants, 2 onions, 1 piece of ginger"
+   },
+   {
+    "texte": "2 piments scotch bonnet",
+    "cherche": "tomate",
+    "texte_en": "2 scotch bonnet peppers"
+   },
+   {
+    "texte": "2 cubes, sel",
+    "cherche": "aubergine",
+    "texte_en": "2 stock cubes, salt"
+   },
+   {
+    "texte": "Fufu (préparation en poudre de plantain et manioc) pour servir",
+    "cherche": "piment",
+    "texte_en": "Fufu (plantain and cassava powder mix) to serve"
+   }
+  ],
+  "etapes": [
+   "Cuire la viande avec un oignon, le gingembre, le sel et 500 ml d’eau 15 minutes.",
+   "Ajouter les tomates, les aubergines, l’autre oignon et les piments entiers et 1,5 litre d’eau ; cuire 15 minutes.",
+   "Retirer les légumes, les mixer et les passer au tamis dans la soupe.",
+   "Ajouter les cubes et mijoter 30 minutes.",
+   "Préparer le fufu selon le sachet, en former des boules et les servir dans la soupe."
+  ],
+  "etapes_en": [
+   "Cook the meat with one onion, the ginger, salt and 500 ml water for 15 minutes.",
+   "Add the tomatoes, eggplants, the other onion, whole peppers and 1.5 litres of water; cook for 15 minutes.",
+   "Lift out the vegetables, blend them and sieve them back into the soup.",
+   "Add the stock cubes and simmer for 30 minutes.",
+   "Make the fufu following the packet, shape into balls and serve in the soup."
+  ],
+  "photo": "images/recettes/fufu-light-soup.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Fufu_and_light_soup_in_asanka.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "daSupremo"
+ },
+ {
   "id": "moi-moi",
   "titre": "Moi moi",
   "pays": "Nigeria",
@@ -1982,6 +2277,124 @@
   "photo_lien": "https://imperialpdx.com/nigerian-ofada-rice-with-ayamase-stew/"
  },
  {
+  "id": "suya",
+  "titre": "Suya",
+  "pays": "Nigeria",
+  "temps": "45 min (+ 1 h de marinade)",
+  "portions": "6 personnes",
+  "titre_en": "Suya",
+  "pays_en": "Nigeria",
+  "temps_en": "45 min (+ 1 h marinating)",
+  "portions_en": "6 people",
+  "resume": "Les brochettes de rue du nord du Nigeria : du bœuf en fines lamelles enrobé de yaji, un mélange d’arachides grillées et d’épices, grillé au feu.",
+  "resume_en": "Northern Nigeria’s street skewers: thinly sliced beef coated in yaji, a blend of roasted peanuts and spices, grilled over fire.",
+  "ingredients": [
+   {
+    "texte": "1 kg de bœuf (faux-filet ou rumsteck) en fines lamelles",
+    "cherche": "boeuf",
+    "texte_en": "1 kg beef (sirloin or rump) in thin slices"
+   },
+   {
+    "texte": "100 g d’arachides grillées moulues (ou de poudre de kuli-kuli)",
+    "cherche": "arachide",
+    "texte_en": "100 g ground roasted peanuts (or kuli-kuli powder)"
+   },
+   {
+    "texte": "2 cuillères à café de piment en poudre, 1 de gingembre, 1 de paprika",
+    "cherche": "piment",
+    "texte_en": "2 teaspoons chili powder, 1 of ginger, 1 of paprika"
+   },
+   {
+    "texte": "2 cubes écrasés, 1 cuillère à café d’ail en poudre, sel",
+    "cherche": "gingembre",
+    "texte_en": "2 crushed stock cubes, 1 teaspoon garlic powder, salt"
+   },
+   {
+    "texte": "Oignon rouge, tomate et chou pour servir",
+    "cherche": "oignon",
+    "texte_en": "Red onion, tomato and cabbage to serve"
+   }
+  ],
+  "etapes": [
+   "Yaji : mélanger les arachides moulues, le piment, le gingembre, le paprika, les cubes, l’ail et le sel.",
+   "Enrober les lamelles de bœuf d’un peu d’huile, puis du yaji.",
+   "Laisser mariner 1 heure, puis enfiler sur des brochettes.",
+   "Griller 10 à 15 minutes au barbecue ou au four très chaud, en retournant.",
+   "Saupoudrer de yaji et servir avec oignon rouge, tomate et chou crus."
+  ],
+  "etapes_en": [
+   "Yaji: mix the ground peanuts, chili, ginger, paprika, stock cubes, garlic and salt.",
+   "Coat the beef slices with a little oil, then with the yaji.",
+   "Marinate for 1 hour, then thread onto skewers.",
+   "Grill for 10 to 15 minutes on a barbecue or in a very hot oven, turning.",
+   "Sprinkle with yaji and serve with raw red onion, tomato and cabbage."
+  ],
+  "photo": "images/recettes/suya.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:SuyavarietiesTX.JPG",
+  "photo_licence": "CC0",
+  "photo_auteur": "WhisperToMe"
+ },
+ {
+  "id": "puff-puff",
+  "titre": "Puff puff (beignets)",
+  "pays": "Nigeria et Cameroun",
+  "temps": "1 h 30",
+  "portions": "8 personnes",
+  "titre_en": "Puff puff",
+  "pays_en": "Nigeria and Cameroon",
+  "temps_en": "1 h 30",
+  "portions_en": "8 people",
+  "resume": "Les petits beignets ronds et moelleux vendus dans toute l’Afrique de l’Ouest et centrale, parfumés à la muscade.",
+  "resume_en": "Small, round, fluffy doughnuts sold all over West and Central Africa, flavoured with nutmeg.",
+  "ingredients": [
+   {
+    "texte": "500 g de farine",
+    "cherche": "farine",
+    "texte_en": "500 g flour"
+   },
+   {
+    "texte": "1 sachet de levure de boulanger",
+    "cherche": "levure",
+    "texte_en": "1 packet dried yeast"
+   },
+   {
+    "texte": "100 g de sucre",
+    "cherche": "sucre",
+    "texte_en": "100 g sugar"
+   },
+   {
+    "texte": "½ cuillère à café de muscade, 1 pincée de sel",
+    "cherche": "muscade",
+    "texte_en": "½ teaspoon nutmeg, 1 pinch salt"
+   },
+   {
+    "texte": "Huile pour la friture",
+    "cherche": "huile",
+    "texte_en": "Oil for frying"
+   }
+  ],
+  "etapes": [
+   "Mélanger la farine, le sucre, la levure, la muscade et le sel.",
+   "Ajouter environ 400 ml d’eau tiède et battre en une pâte lisse et collante.",
+   "Couvrir et laisser lever 1 heure, jusqu’à ce que la pâte double.",
+   "Faire tomber des boules de pâte avec la main ou une cuillère dans l’huile chaude.",
+   "Frire en retournant jusqu’à ce qu’elles soient dorées ; égoutter et servir."
+  ],
+  "etapes_en": [
+   "Mix the flour, sugar, yeast, nutmeg and salt.",
+   "Add about 400 ml warm water and beat into a smooth, sticky batter.",
+   "Cover and leave to rise for 1 hour, until doubled.",
+   "Drop balls of batter by hand or with a spoon into hot oil.",
+   "Fry, turning, until golden; drain and serve."
+  ],
+  "photo": "images/recettes/puff-puff.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Puff_Puff.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Halima Waziri"
+ },
+ {
   "id": "amiwo",
   "titre": "Amiwo (pâte rouge) au poulet",
   "pays": "Bénin et Togo",
@@ -2101,6 +2514,181 @@
   "photo": "images/recettes/thiakry.jpg",
   "photo_source": "mysweetprecision.com",
   "photo_lien": "https://mysweetprecision.com/fall-recipes/"
+ },
+ {
+  "id": "riz-gras",
+  "titre": "Riz gras",
+  "pays": "Burkina Faso et Mali",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "titre_en": "Riz gras (rich tomato rice)",
+  "pays_en": "Burkina Faso and Mali",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume": "Le riz des fêtes au Burkina Faso et au Mali, cuit dans une sauce tomate riche à la viande et aux légumes.",
+  "resume_en": "The festive rice of Burkina Faso and Mali, cooked in a rich tomato sauce with meat and vegetables.",
+  "ingredients": [
+   {
+    "texte": "600 g de riz",
+    "cherche": "riz",
+    "texte_en": "600 g rice"
+   },
+   {
+    "texte": "800 g de bœuf ou de mouton en morceaux",
+    "cherche": "boeuf",
+    "texte_en": "800 g beef or lamb in pieces"
+   },
+   {
+    "texte": "200 g de concentré de tomate et 3 tomates",
+    "cherche": "tomate",
+    "texte_en": "200 g tomato paste and 3 tomatoes"
+   },
+   {
+    "texte": "3 oignons, 2 carottes, ½ chou",
+    "cherche": "oignon",
+    "texte_en": "3 onions, 2 carrots, ½ cabbage"
+   },
+   {
+    "texte": "150 ml d’huile, 2 cubes, sel, piment",
+    "cherche": "cube",
+    "texte_en": "150 ml oil, 2 stock cubes, salt, chili"
+   }
+  ],
+  "etapes": [
+   "Faire dorer la viande dans l’huile avec les oignons émincés.",
+   "Ajouter les tomates mixées et le concentré ; cuire 10 minutes.",
+   "Verser 1,5 litre d’eau, ajouter les cubes, le sel, le piment, les carottes et le chou ; cuire 30 minutes.",
+   "Retirer les légumes, ajouter le riz lavé et compléter d’eau jusqu’à 1 cm au-dessus.",
+   "Couvrir et cuire 25 minutes à feu doux. Servir avec la viande et les légumes."
+  ],
+  "etapes_en": [
+   "Brown the meat in the oil with the sliced onions.",
+   "Add the blended tomatoes and paste; cook for 10 minutes.",
+   "Pour in 1.5 litres of water, add the stock cubes, salt, chili, carrots and cabbage; cook for 30 minutes.",
+   "Lift out the vegetables, add the washed rice and top up with water to 1 cm above.",
+   "Cover and cook for 25 minutes over low heat. Serve with the meat and vegetables."
+  ],
+  "photo": "images/recettes/riz-gras.jpg",
+  "photo_source": "epicier.ca",
+  "photo_lien": "https://epicier.ca/blogue/techniques-astuces-cuisson-riz/"
+ },
+ {
+  "id": "efo-riro",
+  "titre": "Efo riro",
+  "pays": "Nigeria",
+  "temps": "1 h",
+  "portions": "6 personnes",
+  "titre_en": "Efo riro",
+  "pays_en": "Nigeria",
+  "temps_en": "1 h",
+  "portions_en": "6 people",
+  "resume": "La sauce yoruba aux épinards : des légumes verts cuits dans un mélange de poivrons et de piment à l’huile de palme, avec viandes et poisson.",
+  "resume_en": "The Yoruba spinach stew: greens cooked in a pepper and chili base with palm oil, meats and fish.",
+  "ingredients": [
+   {
+    "texte": "1 kg d’épinards (ou de feuilles d’amarante)",
+    "cherche": "epinard",
+    "texte_en": "1 kg spinach (or amaranth leaves)"
+   },
+   {
+    "texte": "4 poivrons rouges, 2 piments, 2 oignons",
+    "cherche": "poivron",
+    "texte_en": "4 red bell peppers, 2 chilies, 2 onions"
+   },
+   {
+    "texte": "150 ml d’huile de palme",
+    "cherche": "huile de palme",
+    "texte_en": "150 ml palm oil"
+   },
+   {
+    "texte": "2 cuillères à soupe d’iru et 2 de crevettes séchées moulues",
+    "cherche": "crevette",
+    "texte_en": "2 tablespoons iru and 2 of ground dried shrimp"
+   },
+   {
+    "texte": "500 g de bœuf et de tripes cuits, 1 poisson fumé, 2 cubes",
+    "cherche": "boeuf",
+    "texte_en": "500 g cooked beef and tripe, 1 smoked fish, 2 stock cubes"
+   }
+  ],
+  "etapes": [
+   "Mixer grossièrement les poivrons, les piments et un oignon ; faire réduire 10 minutes.",
+   "Chauffer l’huile de palme, y faire revenir l’autre oignon émincé et l’iru.",
+   "Ajouter les poivrons réduits et frire 15 minutes en remuant.",
+   "Ajouter les viandes, le poisson, les crevettes et les cubes ; cuire 5 minutes.",
+   "Ajouter les épinards hachés, mélanger et cuire 5 minutes seulement. Servir avec de l’eba, du pounded yam ou du riz."
+  ],
+  "etapes_en": [
+   "Coarsely blend the peppers, chilies and one onion; reduce for 10 minutes.",
+   "Heat the palm oil and fry the other onion, sliced, and the iru.",
+   "Add the reduced peppers and fry for 15 minutes, stirring.",
+   "Add the meats, fish, shrimp and stock cubes; cook for 5 minutes.",
+   "Add the chopped spinach, stir and cook for just 5 minutes. Serve with eba, pounded yam or rice."
+  ],
+  "photo": "images/recettes/efo-riro.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Efo_riro.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Bukky658"
+ },
+ {
+  "id": "ofe-onugbu",
+  "titre": "Ofe onugbu (soupe aux feuilles amères)",
+  "pays": "Nigeria",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Ofe onugbu (bitter leaf soup)",
+  "pays_en": "Nigeria",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "La soupe igbo aux feuilles amères (onugbu), épaissie au cocoyam, à l’huile de palme, avec viandes, stockfish et crevettes.",
+  "resume_en": "The Igbo bitter leaf (onugbu) soup, thickened with cocoyam and palm oil, with meats, stockfish and shrimp.",
+  "ingredients": [
+   {
+    "texte": "2 poignées de feuilles amères lavées (fraîches, séchées ou surgelées)",
+    "cherche": "feuilles ameres",
+    "texte_en": "2 handfuls washed bitter leaves (fresh, dried or frozen)"
+   },
+   {
+    "texte": "300 g de cocoyam (ou de macabo)",
+    "cherche": "cocoyam",
+    "texte_en": "300 g cocoyam (or macabo)"
+   },
+   {
+    "texte": "150 ml d’huile de palme",
+    "cherche": "huile de palme",
+    "texte_en": "150 ml palm oil"
+   },
+   {
+    "texte": "1 kg de viandes variées, 1 morceau de stockfish",
+    "cherche": "stockfish",
+    "texte_en": "1 kg assorted meats, 1 piece of stockfish"
+   },
+   {
+    "texte": "2 cuillères à soupe de crevettes séchées moulues, piment, 2 cubes, sel",
+    "cherche": "crevette",
+    "texte_en": "2 tablespoons ground dried shrimp, chili, 2 stock cubes, salt"
+   }
+  ],
+  "etapes": [
+   "Cuire les viandes et le stockfish trempé avec le sel et les cubes 40 minutes.",
+   "Cuire le cocoyam 20 minutes, l’éplucher et le piler en pâte.",
+   "Ajouter dans le bouillon l’huile de palme, les crevettes, le piment et la pâte de cocoyam en petits morceaux.",
+   "Cuire 15 minutes jusqu’à ce que la soupe épaississe.",
+   "Ajouter les feuilles amères, cuire 5 minutes et servir avec du fufu ou de l’eba."
+  ],
+  "etapes_en": [
+   "Cook the meats and soaked stockfish with salt and stock cubes for 40 minutes.",
+   "Boil the cocoyam for 20 minutes, peel it and pound it into a paste.",
+   "Add the palm oil, shrimp, chili and small lumps of cocoyam paste to the broth.",
+   "Cook for 15 minutes until the soup thickens.",
+   "Add the bitter leaves, cook for 5 minutes and serve with fufu or eba."
+  ],
+  "photo": "images/recettes/ofe-onugbu.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Onugbu_Soup_in_Pot.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Asuzu Obinna Justin"
  },
  {
   "id": "griot-bananes-pesees",
@@ -2545,6 +3133,124 @@
   "photo": "images/recettes/poulet-yassa.jpg",
   "photo_source": "epiceriedumonde.net",
   "photo_lien": "https://epiceriedumonde.net/"
+ },
+ {
+  "id": "thieb-yapp",
+  "titre": "Thieb yapp (riz à la viande)",
+  "pays": "Sénégal",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Thieb yapp (rice with meat)",
+  "pays_en": "Senegal",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "Le cousin du thiéboudienne, à la viande : de l’agneau ou du bœuf, des oignons fondus et du riz brisé cuit dans la sauce.",
+  "resume_en": "The meat cousin of thieboudienne: lamb or beef, melted onions and broken rice cooked in the sauce.",
+  "ingredients": [
+   {
+    "texte": "600 g de riz brisé",
+    "cherche": "riz brise",
+    "texte_en": "600 g broken rice"
+   },
+   {
+    "texte": "1 kg d’agneau ou de bœuf en morceaux",
+    "cherche": "agneau",
+    "texte_en": "1 kg lamb or beef in pieces"
+   },
+   {
+    "texte": "4 oignons, 4 gousses d’ail",
+    "cherche": "oignon",
+    "texte_en": "4 onions, 4 garlic cloves"
+   },
+   {
+    "texte": "2 cuillères à soupe de moutarde et 2 de concentré de tomate",
+    "cherche": "moutarde",
+    "texte_en": "2 tablespoons mustard and 2 of tomato paste"
+   },
+   {
+    "texte": "150 ml d’huile, poivre, 2 cubes, sel, 1 piment",
+    "cherche": "tomate",
+    "texte_en": "150 ml oil, pepper, 2 stock cubes, salt, 1 chili"
+   }
+  ],
+  "etapes": [
+   "Mariner la viande avec l’ail, la moutarde, le poivre et le sel.",
+   "La faire dorer dans l’huile, puis ajouter les oignons émincés et cuire jusqu’à ce qu’ils fondent.",
+   "Ajouter le concentré, 1,5 litre d’eau, les cubes et le piment ; cuire 45 minutes.",
+   "Retirer la viande, laver le riz et le cuire à la vapeur 15 minutes, puis le verser dans la sauce.",
+   "Cuire à couvert 20 minutes à feu doux et servir avec la viande et les oignons."
+  ],
+  "etapes_en": [
+   "Marinate the meat with garlic, mustard, pepper and salt.",
+   "Brown it in the oil, then add the sliced onions and cook until they melt.",
+   "Add the tomato paste, 1.5 litres of water, the stock cubes and chili; cook for 45 minutes.",
+   "Lift out the meat, wash the rice and steam it for 15 minutes, then pour it into the sauce.",
+   "Cook covered for 20 minutes over low heat and serve with the meat and onions."
+  ],
+  "photo": "images/recettes/thieb-yapp.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Thieboudienne_Mauritanienne.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Dormeroom1"
+ },
+ {
+  "id": "domoda",
+  "titre": "Domoda",
+  "pays": "Gambie",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Domoda",
+  "pays_en": "Gambia",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "Le plat national gambien : un ragoût de viande à la pâte d’arachide, avec potiron ou patate douce, servi sur du riz.",
+  "resume_en": "Gambia’s national dish: a peanut butter meat stew with pumpkin or sweet potato, served over rice.",
+  "ingredients": [
+   {
+    "texte": "1 kg de bœuf ou de poulet en morceaux",
+    "cherche": "arachide",
+    "texte_en": "1 kg beef or chicken in pieces"
+   },
+   {
+    "texte": "250 g de pâte d’arachide",
+    "cherche": "boeuf",
+    "texte_en": "250 g peanut paste"
+   },
+   {
+    "texte": "500 g de potiron ou de patate douce",
+    "cherche": "patate douce",
+    "texte_en": "500 g pumpkin or sweet potato"
+   },
+   {
+    "texte": "2 oignons, 3 tomates, 2 cuillères à soupe de concentré",
+    "cherche": "tomate",
+    "texte_en": "2 onions, 3 tomatoes, 2 tablespoons tomato paste"
+   },
+   {
+    "texte": "Piment, 2 cubes, jus d’un citron, sel ; riz pour servir",
+    "cherche": "riz",
+    "texte_en": "Chili, 2 stock cubes, juice of 1 lemon, salt; rice to serve"
+   }
+  ],
+  "etapes": [
+   "Faire dorer la viande avec les oignons dans un peu d’huile.",
+   "Ajouter les tomates mixées et le concentré ; cuire 10 minutes.",
+   "Délayer la pâte d’arachide dans 1 litre d’eau chaude et l’ajouter avec les cubes et le piment.",
+   "Ajouter le potiron en cubes et cuire 45 minutes à feu doux en remuant.",
+   "Ajouter le jus de citron, rectifier le sel et servir sur du riz."
+  ],
+  "etapes_en": [
+   "Brown the meat with the onions in a little oil.",
+   "Add the blended tomatoes and paste; cook for 10 minutes.",
+   "Mix the peanut paste into 1 litre of hot water and add it with the stock cubes and chili.",
+   "Add the cubed pumpkin and cook for 45 minutes over low heat, stirring.",
+   "Add the lemon juice, adjust the salt and serve over rice."
+  ],
+  "photo": "images/recettes/domoda.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Domoda.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "T.K. Naliaka"
  },
  {
   "id": "poulet-moambe",
@@ -3401,5 +4107,1008 @@
   "photo": "images/recettes/jus-bissap.jpg",
   "photo_source": "africa-cuisine.com",
   "photo_lien": "https://africa-cuisine.com/fr/recipe/bissap-jus-dhibiscus/"
+ },
+ {
+  "id": "cachupa",
+  "titre": "Cachupa",
+  "pays": "Cap-Vert",
+  "temps": "2 h 30",
+  "portions": "8 personnes",
+  "titre_en": "Cachupa",
+  "pays_en": "Cape Verde",
+  "temps_en": "2 h 30",
+  "portions_en": "8 people",
+  "resume": "Le plat national du Cap-Vert : du maïs et des haricots mijotés longuement avec viandes, chorizo, manioc, patate douce et chou.",
+  "resume_en": "Cape Verde’s national dish: corn and beans slowly simmered with meats, chorizo, cassava, sweet potato and cabbage.",
+  "ingredients": [
+   {
+    "texte": "500 g de maïs concassé (samp)",
+    "cherche": "mais",
+    "texte_en": "500 g cracked hominy corn (samp)"
+   },
+   {
+    "texte": "300 g de haricots rouges ou de fèves",
+    "cherche": "haricot",
+    "texte_en": "300 g red beans or broad beans"
+   },
+   {
+    "texte": "800 g de porc et de poulet, 1 chorizo",
+    "cherche": "porc",
+    "texte_en": "800 g pork and chicken, 1 chorizo"
+   },
+   {
+    "texte": "300 g de manioc et 1 patate douce",
+    "cherche": "manioc",
+    "texte_en": "300 g cassava and 1 sweet potato"
+   },
+   {
+    "texte": "½ chou, 2 oignons, 4 gousses d’ail, laurier, sel",
+    "cherche": "chou",
+    "texte_en": "½ cabbage, 2 onions, 4 garlic cloves, bay leaf, salt"
+   }
+  ],
+  "etapes": [
+   "Faire tremper le maïs et les haricots une nuit.",
+   "Les cuire 1 heure à l’eau avec le laurier.",
+   "Faire revenir les oignons, l’ail et les viandes dans un peu d’huile, puis les ajouter dans la marmite avec le chorizo.",
+   "Ajouter le manioc, la patate douce et le chou en morceaux ; cuire encore 1 heure à feu doux.",
+   "Saler et servir chaud ; le lendemain, la cachupa se mange refrite avec un œuf."
+  ],
+  "etapes_en": [
+   "Soak the corn and beans overnight.",
+   "Boil them for 1 hour with the bay leaf.",
+   "Fry the onions, garlic and meats in a little oil, then add them to the pot with the chorizo.",
+   "Add the cassava, sweet potato and cabbage in chunks; cook for another hour over low heat.",
+   "Salt and serve hot; the next day, cachupa is eaten fried again with an egg."
+  ],
+  "photo": "images/recettes/cachupa.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Cachupa_2.jpg",
+  "photo_licence": "Public domain",
+  "photo_auteur": "Xandu"
+ },
+ {
+  "id": "pikliz",
+  "titre": "Pikliz",
+  "pays": "Haïti",
+  "temps": "20 min",
+  "portions": "10 personnes",
+  "titre_en": "Pikliz",
+  "pays_en": "Haiti",
+  "temps_en": "20 min",
+  "portions_en": "10 people",
+  "resume": "Le condiment pimenté haïtien : du chou, des carottes et des piments scotch bonnet marinés au vinaigre, pour accompagner griot et bananes pesées.",
+  "resume_en": "Haiti’s spicy relish: cabbage, carrots and scotch bonnet peppers pickled in vinegar, served with griot and fried plantains.",
+  "ingredients": [
+   {
+    "texte": "½ chou finement émincé",
+    "cherche": "chou",
+    "texte_en": "½ cabbage, finely shredded"
+   },
+   {
+    "texte": "2 carottes en julienne",
+    "cherche": "carotte",
+    "texte_en": "2 carrots, julienned"
+   },
+   {
+    "texte": "6 piments scotch bonnet",
+    "cherche": "piment",
+    "texte_en": "6 scotch bonnet peppers"
+   },
+   {
+    "texte": "500 ml de vinaigre blanc et le jus d’un citron vert",
+    "cherche": "vinaigre",
+    "texte_en": "500 ml white vinegar and juice of 1 lime"
+   },
+   {
+    "texte": "1 oignon, 1 poivron, clous de girofle, sel",
+    "cherche": "oignon",
+    "texte_en": "1 onion, 1 bell pepper, cloves, salt"
+   }
+  ],
+  "etapes": [
+   "Émincer finement le chou, l’oignon et le poivron ; râper les carottes.",
+   "Couper les piments en fines rondelles (avec des gants).",
+   "Mélanger les légumes avec les piments, le sel et quelques clous de girofle.",
+   "Tasser dans un grand bocal et couvrir de vinaigre et de jus de citron vert.",
+   "Fermer et laisser macérer au moins 24 heures au réfrigérateur."
+  ],
+  "etapes_en": [
+   "Finely slice the cabbage, onion and bell pepper; grate the carrots.",
+   "Slice the peppers into thin rings (wear gloves).",
+   "Mix the vegetables with the peppers, salt and a few cloves.",
+   "Pack into a large jar and cover with vinegar and lime juice.",
+   "Close and leave to pickle for at least 24 hours in the fridge."
+  ],
+  "photo": "images/recettes/pikliz.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Haitian_Pikliz.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Aliceba"
+ },
+ {
+  "id": "bouyon",
+  "titre": "Bouyon",
+  "pays": "Haïti",
+  "temps": "2 h",
+  "portions": "8 personnes",
+  "titre_en": "Bouyon",
+  "pays_en": "Haiti",
+  "temps_en": "2 h",
+  "portions_en": "8 people",
+  "resume": "La soupe épaisse du samedi en Haïti : de la viande, des tubercules, des légumes verts et des boulettes de farine (doumbrey).",
+  "resume_en": "Haiti’s thick Saturday soup: meat, root vegetables, greens and flour dumplings (doumbrey).",
+  "ingredients": [
+   {
+    "texte": "1 kg de bœuf ou de chèvre (avec os)",
+    "cherche": "boeuf",
+    "texte_en": "1 kg beef or goat (on the bone)"
+   },
+   {
+    "texte": "300 g de malanga, 300 g d’igname, 2 bananes vertes",
+    "cherche": "malanga",
+    "texte_en": "300 g malanga, 300 g yam, 2 green bananas"
+   },
+   {
+    "texte": "2 carottes, 1 chayote, 1 botte d’épinards ou de cresson",
+    "cherche": "igname",
+    "texte_en": "2 carrots, 1 chayote, 1 bunch spinach or watercress"
+   },
+   {
+    "texte": "200 g de farine pour les boulettes (doumbrey)",
+    "cherche": "banane",
+    "texte_en": "200 g flour for the dumplings (doumbrey)"
+   },
+   {
+    "texte": "Epis, thym, 1 piment, 2 cubes, sel, jus de citron vert",
+    "cherche": "farine",
+    "texte_en": "Epis, thyme, 1 chili, 2 stock cubes, salt, lime juice"
+   }
+  ],
+  "etapes": [
+   "Mariner la viande avec epis, citron vert et sel ; la cuire 1 heure dans 3 litres d’eau.",
+   "Ajouter les tubercules, les bananes, les carottes et la chayote en morceaux.",
+   "Doumbrey : mélanger la farine, une pincée de sel et un peu d’eau, rouler en petits boudins.",
+   "Ajouter les boulettes, les épinards, le thym, le piment entier et les cubes ; cuire 30 minutes.",
+   "Écraser un peu de légumes pour épaissir et servir bien chaud."
+  ],
+  "etapes_en": [
+   "Marinate the meat with epis, lime and salt; cook it for 1 hour in 3 litres of water.",
+   "Add the root vegetables, bananas, carrots and chayote in chunks.",
+   "Doumbrey: mix the flour, a pinch of salt and a little water, and roll into small logs.",
+   "Add the dumplings, spinach, thyme, whole chili and stock cubes; cook for 30 minutes.",
+   "Mash some vegetables to thicken and serve piping hot."
+  ],
+  "photo": "images/recettes/bouyon.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Bouyon_bef.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "LittleT889"
+ },
+ {
+  "id": "accras-morue",
+  "titre": "Accras de morue",
+  "pays": "Antilles",
+  "temps": "1 h",
+  "portions": "6 personnes",
+  "titre_en": "Salt cod fritters (accras)",
+  "pays_en": "French West Indies",
+  "temps_en": "1 h",
+  "portions_en": "6 people",
+  "resume": "Les beignets antillais de morue salée, croustillants et parfumés au piment, à l’ail et à la cive : l’apéritif des Antilles.",
+  "resume_en": "Crispy Caribbean salt cod fritters flavoured with chili, garlic and green onion: the classic West Indian starter.",
+  "ingredients": [
+   {
+    "texte": "300 g de morue salée",
+    "cherche": "morue",
+    "texte_en": "300 g salt cod"
+   },
+   {
+    "texte": "250 g de farine et 1 sachet de levure",
+    "cherche": "farine",
+    "texte_en": "250 g flour and 1 packet baking powder"
+   },
+   {
+    "texte": "1 piment, 3 gousses d’ail, persil, cive (oignon vert)",
+    "cherche": "piment",
+    "texte_en": "1 chili, 3 garlic cloves, parsley, green onion"
+   },
+   {
+    "texte": "1 oignon",
+    "cherche": "oignon",
+    "texte_en": "1 onion"
+   },
+   {
+    "texte": "Huile pour la friture",
+    "cherche": "huile",
+    "texte_en": "Oil for frying"
+   }
+  ],
+  "etapes": [
+   "Dessaler la morue une nuit dans l’eau froide (changer l’eau), puis la pocher 10 minutes et l’émietter.",
+   "Mélanger la farine, la levure et environ 300 ml d’eau en une pâte épaisse.",
+   "Ajouter la morue, l’oignon, l’ail, le piment et les herbes hachés ; laisser reposer 30 minutes.",
+   "Faire tomber des cuillerées de pâte dans l’huile chaude.",
+   "Frire jusqu’à ce qu’ils soient dorés, égoutter et servir chaud."
+  ],
+  "etapes_en": [
+   "Desalt the cod overnight in cold water (change the water), then poach it for 10 minutes and flake it.",
+   "Mix the flour, baking powder and about 300 ml of water into a thick batter.",
+   "Add the cod and the chopped onion, garlic, chili and herbs; rest for 30 minutes.",
+   "Drop spoonfuls of batter into hot oil.",
+   "Fry until golden, drain and serve hot."
+  ],
+  "photo": "images/recettes/accras-morue.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Accras_et_sauce_chili.jpg",
+  "photo_licence": "CC BY 2.0",
+  "photo_auteur": "purdman1"
+ },
+ {
+  "id": "blaff-poisson",
+  "titre": "Blaff de poisson",
+  "pays": "Martinique",
+  "temps": "40 min",
+  "portions": "4 personnes",
+  "titre_en": "Fish blaff",
+  "pays_en": "Martinique",
+  "temps_en": "40 min",
+  "portions_en": "4 people",
+  "resume": "Le poisson antillais mariné au citron vert et poché dans un court-bouillon parfumé au thym, au piment et à l’ail.",
+  "resume_en": "West Indian fish marinated in lime and poached in a court-bouillon flavoured with thyme, chili and garlic.",
+  "ingredients": [
+   {
+    "texte": "1 kg de poisson (vivaneau, daurade ou bar) en tranches",
+    "cherche": "poisson",
+    "texte_en": "1 kg fish (snapper, sea bream or sea bass) in steaks"
+   },
+   {
+    "texte": "Le jus de 4 citrons verts",
+    "cherche": "citron vert",
+    "texte_en": "Juice of 4 limes"
+   },
+   {
+    "texte": "1 piment, 4 gousses d’ail, 2 oignons verts",
+    "cherche": "piment",
+    "texte_en": "1 chili, 4 garlic cloves, 2 green onions"
+   },
+   {
+    "texte": "1 oignon, thym, persil, 2 clous de girofle",
+    "cherche": "oignon",
+    "texte_en": "1 onion, thyme, parsley, 2 cloves"
+   },
+   {
+    "texte": "Sel, poivre ; riz blanc pour servir",
+    "cherche": "thym",
+    "texte_en": "Salt, pepper; white rice to serve"
+   }
+  ],
+  "etapes": [
+   "Mariner le poisson 1 heure avec le jus de 3 citrons verts, l’ail écrasé, le piment, le sel et le poivre.",
+   "Porter à ébullition 1 litre d’eau avec l’oignon, les oignons verts, le thym, le persil et le girofle.",
+   "Ajouter le poisson et sa marinade dans le bouillon frémissant.",
+   "Cuire 8 à 10 minutes à petits frémissements.",
+   "Ajouter le jus du dernier citron et servir avec le bouillon et du riz blanc."
+  ],
+  "etapes_en": [
+   "Marinate the fish for 1 hour with the juice of 3 limes, crushed garlic, chili, salt and pepper.",
+   "Bring 1 litre of water to a boil with the onion, green onions, thyme, parsley and cloves.",
+   "Add the fish and its marinade to the simmering broth.",
+   "Cook for 8 to 10 minutes at a gentle simmer.",
+   "Add the juice of the last lime and serve with the broth and white rice."
+  ],
+  "photo": "images/recettes/blaff-poisson.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Blaff_de_poissons_2.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Arnaud 25"
+ },
+ {
+  "id": "brown-stew-chicken",
+  "titre": "Brown stew chicken",
+  "pays": "Jamaïque",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "titre_en": "Brown stew chicken",
+  "pays_en": "Jamaica",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume": "Le poulet jamaïcain mijoté dans une sauce brune et sucrée au browning, au thym, au piment et aux poivrons.",
+  "resume_en": "Jamaican chicken simmered in a sweet, dark sauce with browning, thyme, scotch bonnet and peppers.",
+  "ingredients": [
+   {
+    "texte": "1,5 kg de poulet en morceaux",
+    "cherche": "poulet",
+    "texte_en": "1.5 kg chicken in pieces"
+   },
+   {
+    "texte": "2 cuillères à soupe de browning (caramel de cuisine) et 1 de cassonade",
+    "cherche": "browning",
+    "texte_en": "2 tablespoons browning and 1 of brown sugar"
+   },
+   {
+    "texte": "1 poivron, 2 tomates, 1 oignon, 3 oignons verts",
+    "cherche": "poivron",
+    "texte_en": "1 bell pepper, 2 tomatoes, 1 onion, 3 green onions"
+   },
+   {
+    "texte": "Thym, 4 gousses d’ail, 1 piment scotch bonnet, piment de la Jamaïque",
+    "cherche": "thym",
+    "texte_en": "Thyme, 4 garlic cloves, 1 scotch bonnet, allspice"
+   },
+   {
+    "texte": "Riz et pois (rice and peas) pour servir",
+    "cherche": "riz et pois",
+    "texte_en": "Rice and peas to serve"
+   }
+  ],
+  "etapes": [
+   "Mariner le poulet une nuit avec l’ail, le thym, les oignons verts, le piment de la Jamaïque, le sel et le browning.",
+   "Égoutter le poulet et le faire bien dorer dans l’huile.",
+   "Ajouter l’oignon, le poivron, les tomates et la marinade ; cuire 5 minutes.",
+   "Ajouter 250 ml d’eau, la cassonade et le piment entier ; mijoter 35 minutes à couvert.",
+   "Laisser la sauce épaissir et servir avec du riz et pois."
+  ],
+  "etapes_en": [
+   "Marinate the chicken overnight with garlic, thyme, green onions, allspice, salt and browning.",
+   "Drain the chicken and brown it well in oil.",
+   "Add the onion, bell pepper, tomatoes and marinade; cook for 5 minutes.",
+   "Add 250 ml water, the brown sugar and the whole scotch bonnet; simmer covered for 35 minutes.",
+   "Let the sauce thicken and serve with rice and peas."
+  ],
+  "photo": "images/recettes/brown-stew-chicken.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Jamaican_fricassee_chicken.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Xaymacan"
+ },
+ {
+  "id": "pelau",
+  "titre": "Pelau",
+  "pays": "Trinidad",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "titre_en": "Pelau",
+  "pays_en": "Trinidad",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume": "Le plat de fête de Trinidad : du poulet caramélisé au sucre brun, cuit avec le riz, les pois d’Angole et le lait de coco.",
+  "resume_en": "Trinidad’s party dish: chicken caramelised in brown sugar, cooked with rice, pigeon peas and coconut milk.",
+  "ingredients": [
+   {
+    "texte": "1 kg de poulet en morceaux",
+    "cherche": "poulet",
+    "texte_en": "1 kg chicken in pieces"
+   },
+   {
+    "texte": "500 g de riz étuvé",
+    "cherche": "riz",
+    "texte_en": "500 g parboiled rice"
+   },
+   {
+    "texte": "1 boîte de pois d’Angole (pigeon peas)",
+    "cherche": "pois d'angole",
+    "texte_en": "1 can pigeon peas"
+   },
+   {
+    "texte": "400 ml de lait de coco",
+    "cherche": "lait de coco",
+    "texte_en": "400 ml coconut milk"
+   },
+   {
+    "texte": "3 cuillères à soupe de sucre brun, oignon, ail, thym, piment, carotte",
+    "cherche": "sucre",
+    "texte_en": "3 tablespoons brown sugar, onion, garlic, thyme, chili, carrot"
+   }
+  ],
+  "etapes": [
+   "Mariner le poulet avec l’ail, l’oignon, le thym et le sel.",
+   "Faire fondre le sucre dans l’huile jusqu’à un caramel foncé, puis y faire dorer le poulet.",
+   "Ajouter le riz lavé et les pois égouttés ; bien mélanger.",
+   "Verser le lait de coco et 500 ml d’eau, ajouter la carotte et le piment entier.",
+   "Couvrir et cuire 30 minutes à feu doux, jusqu’à ce que le riz soit tendre."
+  ],
+  "etapes_en": [
+   "Marinate the chicken with garlic, onion, thyme and salt.",
+   "Melt the sugar in the oil to a dark caramel, then brown the chicken in it.",
+   "Add the washed rice and drained peas; stir well.",
+   "Pour in the coconut milk and 500 ml water, add the carrot and the whole chili.",
+   "Cover and cook for 30 minutes over low heat, until the rice is tender."
+  ],
+  "photo": "images/recettes/pelau.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Dish_of_pelau,_coleslaw,_cassava_pone,_and_a_mac_and_cheese_pie.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "K6ka"
+ },
+ {
+  "id": "doubles",
+  "titre": "Doubles",
+  "pays": "Trinidad",
+  "temps": "2 h",
+  "portions": "8 personnes",
+  "titre_en": "Doubles",
+  "pays_en": "Trinidad",
+  "temps_en": "2 h",
+  "portions_en": "8 people",
+  "resume": "Le casse-croûte de rue de Trinidad : deux petits pains frits (bara) garnis de pois chiches au curry et de sauces pimentées.",
+  "resume_en": "Trinidad’s street snack: two small fried breads (bara) filled with curried chickpeas and hot sauces.",
+  "ingredients": [
+   {
+    "texte": "500 g de farine, 1 sachet de levure, 1 cuillère à café de curcuma",
+    "cherche": "farine",
+    "texte_en": "500 g flour, 1 packet yeast, 1 teaspoon turmeric"
+   },
+   {
+    "texte": "2 boîtes de pois chiches (channa)",
+    "cherche": "pois chiche",
+    "texte_en": "2 cans chickpeas (channa)"
+   },
+   {
+    "texte": "2 cuillères à soupe de curry et 1 de cumin moulu",
+    "cherche": "curry",
+    "texte_en": "2 tablespoons curry powder and 1 of ground cumin"
+   },
+   {
+    "texte": "1 oignon, 4 gousses d’ail, piment",
+    "cherche": "cumin",
+    "texte_en": "1 onion, 4 garlic cloves, chili"
+   },
+   {
+    "texte": "Huile pour la friture ; chutney de tamarin et sauce pimentée pour servir",
+    "cherche": "levure",
+    "texte_en": "Oil for frying; tamarind chutney and pepper sauce to serve"
+   }
+  ],
+  "etapes": [
+   "Bara : mélanger la farine, la levure, le curcuma, le sel et 300 ml d’eau tiède ; laisser lever 1 heure.",
+   "Channa : faire revenir l’oignon et l’ail, ajouter le curry et le cumin, puis les pois chiches et un peu d’eau ; cuire 20 minutes en écrasant un peu.",
+   "Former de petites galettes très fines avec la pâte.",
+   "Les frire quelques secondes de chaque côté dans l’huile chaude ; elles gonflent.",
+   "Poser du channa entre deux bara et ajouter le chutney et la sauce pimentée."
+  ],
+  "etapes_en": [
+   "Bara: mix the flour, yeast, turmeric, salt and 300 ml warm water; leave to rise for 1 hour.",
+   "Channa: fry the onion and garlic, add the curry and cumin, then the chickpeas and a little water; cook for 20 minutes, mashing a little.",
+   "Shape the dough into small, very thin rounds.",
+   "Fry them a few seconds on each side in hot oil; they puff up.",
+   "Put channa between two bara and add chutney and pepper sauce."
+  ],
+  "photo": "images/recettes/doubles.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:FOOD_Doubles_2.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Grueslayer"
+ },
+ {
+  "id": "callaloo",
+  "titre": "Callaloo",
+  "pays": "Trinidad",
+  "temps": "45 min",
+  "portions": "6 personnes",
+  "titre_en": "Callaloo",
+  "pays_en": "Trinidad",
+  "temps_en": "45 min",
+  "portions_en": "6 people",
+  "resume": "La soupe verte de Trinidad : des feuilles de taro (dasheen) et des gombos cuits dans le lait de coco, mixés bien lisses.",
+  "resume_en": "Trinidad’s green soup: taro leaves (dasheen) and okra cooked in coconut milk, blended smooth.",
+  "ingredients": [
+   {
+    "texte": "500 g de feuilles de taro (dasheen) ou d’épinards",
+    "cherche": "feuilles de taro",
+    "texte_en": "500 g taro (dasheen) leaves or spinach"
+   },
+   {
+    "texte": "8 gombos",
+    "cherche": "gombo",
+    "texte_en": "8 okra"
+   },
+   {
+    "texte": "400 ml de lait de coco",
+    "cherche": "lait de coco",
+    "texte_en": "400 ml coconut milk"
+   },
+   {
+    "texte": "1 oignon, 4 gousses d’ail, 3 oignons verts, thym, 1 piment scotch bonnet",
+    "cherche": "piment",
+    "texte_en": "1 onion, 4 garlic cloves, 3 green onions, thyme, 1 scotch bonnet"
+   },
+   {
+    "texte": "1 crabe ou 200 g de porc salé (facultatif), sel",
+    "cherche": "crabe",
+    "texte_en": "1 crab or 200 g salt pork (optional), salt"
+   }
+  ],
+  "etapes": [
+   "Laver et hacher les feuilles ; couper les gombos en rondelles.",
+   "Faire revenir l’oignon, l’ail et les oignons verts dans un peu d’huile.",
+   "Ajouter les feuilles, les gombos, le lait de coco, 250 ml d’eau, le thym, le crabe et le piment entier.",
+   "Cuire 30 minutes à couvert.",
+   "Retirer le piment, mixer jusqu’à une texture lisse et saler. Servir avec du riz ou du foufou."
+  ],
+  "etapes_en": [
+   "Wash and chop the leaves; slice the okra.",
+   "Fry the onion, garlic and green onions in a little oil.",
+   "Add the leaves, okra, coconut milk, 250 ml water, thyme, crab and the whole chili.",
+   "Cook covered for 30 minutes.",
+   "Remove the chili, blend until smooth and salt. Serve with rice or foufou."
+  ],
+  "photo": "images/recettes/callaloo.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Callaloo.jpg",
+  "photo_licence": "CC BY 2.0",
+  "photo_auteur": "https://www.flickr.com/photos/67276179@N08/"
+ },
+ {
+  "id": "bake-and-shark",
+  "titre": "Bake and shark",
+  "pays": "Trinidad",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "titre_en": "Bake and shark",
+  "pays_en": "Trinidad",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume": "Le sandwich de plage de Trinidad : du poisson mariné et frit dans un pain frit (bake), garni de salade et de sauces.",
+  "resume_en": "Trinidad’s beach sandwich: marinated fried fish in a fried bread (bake), with salad and sauces.",
+  "ingredients": [
+   {
+    "texte": "1 kg de filets de requin ou de poisson blanc ferme",
+    "cherche": "poisson",
+    "texte_en": "1 kg shark fillets or firm white fish"
+   },
+   {
+    "texte": "Le jus de 2 citrons verts, 4 gousses d’ail, thym, piment",
+    "cherche": "farine",
+    "texte_en": "Juice of 2 limes, 4 garlic cloves, thyme, chili"
+   },
+   {
+    "texte": "Pâte à bake : 400 g de farine, 1 sachet de levure chimique, 1 cuillère à soupe de sucre, sel",
+    "cherche": "citron vert",
+    "texte_en": "Bake dough: 400 g flour, 1 packet baking powder, 1 tablespoon sugar, salt"
+   },
+   {
+    "texte": "100 g de farine pour enrober le poisson",
+    "cherche": "ail",
+    "texte_en": "100 g flour to coat the fish"
+   },
+   {
+    "texte": "Huile pour la friture ; laitue, tomate, sauces à l’ail et au tamarin",
+    "cherche": "levure",
+    "texte_en": "Oil for frying; lettuce, tomato, garlic and tamarind sauces"
+   }
+  ],
+  "etapes": [
+   "Mariner le poisson 1 heure avec le citron vert, l’ail, le thym, le piment et le sel.",
+   "Bake : mélanger la farine, la levure, le sucre, le sel et environ 250 ml d’eau ; laisser reposer 30 minutes.",
+   "Former des galettes et les frire jusqu’à ce qu’elles gonflent.",
+   "Enrober le poisson de farine et le frire 4 à 5 minutes.",
+   "Ouvrir les bakes, garnir de poisson, de salade et de sauces."
+  ],
+  "etapes_en": [
+   "Marinate the fish for 1 hour with lime, garlic, thyme, chili and salt.",
+   "Bake: mix the flour, baking powder, sugar, salt and about 250 ml water; rest for 30 minutes.",
+   "Shape into rounds and fry until they puff up.",
+   "Coat the fish in flour and fry for 4 to 5 minutes.",
+   "Split the bakes and fill with fish, salad and sauces."
+  ],
+  "photo": "images/recettes/bake-and-shark.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Bake_and_Shark_with_hot_sauce_and_cabbage_Natalie%27s_famous_Bake_and_Shark_Maracas_Bay_Trinidad.jpg",
+  "photo_licence": "CC BY 2.0",
+  "photo_auteur": "amanderson2"
+ },
+ {
+  "id": "sancocho",
+  "titre": "Sancocho",
+  "pays": "République dominicaine",
+  "temps": "2 h",
+  "portions": "8 personnes",
+  "titre_en": "Sancocho",
+  "pays_en": "Dominican Republic",
+  "temps_en": "2 h",
+  "portions_en": "8 people",
+  "resume": "Le grand bouillon dominicain des jours de fête : plusieurs viandes mijotées avec manioc, igname, plantain, maïs et coriandre.",
+  "resume_en": "The great Dominican feast-day stew: several meats simmered with cassava, yam, plantain, corn and cilantro.",
+  "ingredients": [
+   {
+    "texte": "1,5 kg de viandes variées (poulet, porc, bœuf)",
+    "cherche": "poulet",
+    "texte_en": "1.5 kg mixed meats (chicken, pork, beef)"
+   },
+   {
+    "texte": "300 g de manioc et 300 g d’igname",
+    "cherche": "manioc",
+    "texte_en": "300 g cassava and 300 g yam"
+   },
+   {
+    "texte": "2 bananes plantain vertes et 2 épis de maïs",
+    "cherche": "plantain",
+    "texte_en": "2 green plantains and 2 corn cobs"
+   },
+   {
+    "texte": "1 oignon, 1 poivron, 4 gousses d’ail, coriandre, origan",
+    "cherche": "mais",
+    "texte_en": "1 onion, 1 bell pepper, 4 garlic cloves, cilantro, oregano"
+   },
+   {
+    "texte": "Le jus de 2 citrons verts, sel ; riz blanc et avocat pour servir",
+    "cherche": "igname",
+    "texte_en": "Juice of 2 limes, salt; white rice and avocado to serve"
+   }
+  ],
+  "etapes": [
+   "Mariner les viandes avec le citron vert, l’ail, l’origan et le sel.",
+   "Les faire dorer dans une grande marmite, puis ajouter l’oignon et le poivron.",
+   "Couvrir de 3 litres d’eau et cuire 45 minutes.",
+   "Ajouter l’igname, le manioc, le plantain et le maïs en morceaux ; cuire 40 minutes, jusqu’à ce que le bouillon épaississe.",
+   "Ajouter la coriandre hachée et servir avec du riz blanc et de l’avocat."
+  ],
+  "etapes_en": [
+   "Marinate the meats with lime, garlic, oregano and salt.",
+   "Brown them in a large pot, then add the onion and bell pepper.",
+   "Cover with 3 litres of water and cook for 45 minutes.",
+   "Add the yam, cassava, plantain and corn in chunks; cook for 40 minutes until the broth thickens.",
+   "Add chopped cilantro and serve with white rice and avocado."
+  ],
+  "photo": "images/recettes/sancocho.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Sancocho-hueso.JPG",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Jdvillalobos"
+ },
+ {
+  "id": "ropa-vieja",
+  "titre": "Ropa vieja",
+  "pays": "Cuba",
+  "temps": "2 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Ropa vieja",
+  "pays_en": "Cuba",
+  "temps_en": "2 h 30",
+  "portions_en": "6 people",
+  "resume": "Le plat national cubain : du bœuf cuit longuement puis effiloché, mijoté dans une sauce tomate aux poivrons, au cumin et à l’origan.",
+  "resume_en": "Cuba’s national dish: slow-cooked shredded beef simmered in a tomato sauce with peppers, cumin and oregano.",
+  "ingredients": [
+   {
+    "texte": "1 kg de flanc de bœuf",
+    "cherche": "boeuf",
+    "texte_en": "1 kg beef flank"
+   },
+   {
+    "texte": "1 boîte de tomates concassées et 2 cuillères à soupe de concentré",
+    "cherche": "tomate",
+    "texte_en": "1 can crushed tomatoes and 2 tablespoons tomato paste"
+   },
+   {
+    "texte": "2 poivrons, 1 oignon, 4 gousses d’ail",
+    "cherche": "poivron",
+    "texte_en": "2 bell peppers, 1 onion, 4 garlic cloves"
+   },
+   {
+    "texte": "1 cuillère à café de cumin, origan, laurier",
+    "cherche": "cumin",
+    "texte_en": "1 teaspoon cumin, oregano, bay leaf"
+   },
+   {
+    "texte": "Olives vertes (facultatif), sel ; riz et haricots noirs pour servir",
+    "cherche": "riz",
+    "texte_en": "Green olives (optional), salt; rice and black beans to serve"
+   }
+  ],
+  "etapes": [
+   "Cuire le bœuf avec le laurier et le sel dans l’eau 1 h 30, jusqu’à ce qu’il soit très tendre.",
+   "Le laisser tiédir et l’effilocher avec deux fourchettes ; garder un peu de bouillon.",
+   "Faire revenir l’oignon, l’ail et les poivrons en lanières dans l’huile.",
+   "Ajouter le cumin, l’origan, les tomates, le concentré et un verre de bouillon ; cuire 10 minutes.",
+   "Ajouter la viande et les olives, mijoter 20 minutes. Servir avec du riz et des haricots noirs."
+  ],
+  "etapes_en": [
+   "Cook the beef with bay leaf and salt in water for 1 h 30, until very tender.",
+   "Let it cool slightly and shred it with two forks; keep some broth.",
+   "Fry the onion, garlic and sliced peppers in oil.",
+   "Add the cumin, oregano, tomatoes, paste and a glass of broth; cook for 10 minutes.",
+   "Add the meat and olives and simmer for 20 minutes. Serve with rice and black beans."
+  ],
+  "photo": "images/recettes/ropa-vieja.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Ropa_vieja_plato_cubano_por_excelencia_2.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "El Mono Español"
+ },
+ {
+  "id": "mofongo",
+  "titre": "Mofongo",
+  "pays": "Porto Rico",
+  "temps": "45 min",
+  "portions": "4 personnes",
+  "titre_en": "Mofongo",
+  "pays_en": "Puerto Rico",
+  "temps_en": "45 min",
+  "portions_en": "4 people",
+  "resume": "Le plat portoricain : des bananes plantain vertes frites puis pilées avec l’ail et le porc croustillant, servies avec un bouillon.",
+  "resume_en": "The Puerto Rican dish: fried green plantains pounded with garlic and crispy pork, served with broth.",
+  "ingredients": [
+   {
+    "texte": "4 bananes plantain vertes",
+    "cherche": "plantain vert",
+    "texte_en": "4 green plantains"
+   },
+   {
+    "texte": "6 gousses d’ail",
+    "cherche": "ail",
+    "texte_en": "6 garlic cloves"
+   },
+   {
+    "texte": "150 g de couenne ou de lardons de porc frits (chicharrón)",
+    "cherche": "porc",
+    "texte_en": "150 g fried pork rinds or bacon (chicharrón)"
+   },
+   {
+    "texte": "3 cuillères à soupe d’huile d’olive",
+    "cherche": "huile d'olive",
+    "texte_en": "3 tablespoons olive oil"
+   },
+   {
+    "texte": "250 ml de bouillon de poulet, sel ; huile pour la friture",
+    "cherche": "bouillon",
+    "texte_en": "250 ml chicken broth, salt; oil for frying"
+   }
+  ],
+  "etapes": [
+   "Éplucher les plantains, les couper en tronçons de 2 cm et les frire 8 minutes à feu moyen, sans les dorer trop.",
+   "Piler l’ail avec le sel et l’huile d’olive dans un mortier.",
+   "Ajouter les plantains chauds par petites quantités et piler avec le porc croustillant.",
+   "Arroser d’un peu de bouillon pour que le mofongo reste moelleux.",
+   "Former des dômes et servir avec le reste du bouillon chaud."
+  ],
+  "etapes_en": [
+   "Peel the plantains, cut them into 2 cm chunks and fry for 8 minutes over medium heat without browning too much.",
+   "Pound the garlic with salt and olive oil in a mortar.",
+   "Add the hot plantains a little at a time and pound with the crispy pork.",
+   "Drizzle with a little broth so the mofongo stays moist.",
+   "Shape into domes and serve with the rest of the hot broth."
+  ],
+  "photo": "images/recettes/mofongo.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Mofongo.jpg",
+  "photo_licence": "CC BY 2.0",
+  "photo_auteur": "Diane"
+ },
+ {
+  "id": "moro-guandules",
+  "titre": "Moro de guandules",
+  "pays": "République dominicaine",
+  "temps": "45 min",
+  "portions": "6 personnes",
+  "titre_en": "Moro de guandules",
+  "pays_en": "Dominican Republic",
+  "temps_en": "45 min",
+  "portions_en": "6 people",
+  "resume": "Le riz dominicain aux pois d’Angole, cuit avec du sofrito, du lait de coco et de la coriandre.",
+  "resume_en": "Dominican rice with pigeon peas, cooked with sofrito, coconut milk and cilantro.",
+  "ingredients": [
+   {
+    "texte": "500 g de riz",
+    "cherche": "riz",
+    "texte_en": "500 g rice"
+   },
+   {
+    "texte": "1 boîte de pois d’Angole (guandules)",
+    "cherche": "pois d'angole",
+    "texte_en": "1 can pigeon peas (guandules)"
+   },
+   {
+    "texte": "200 ml de lait de coco",
+    "cherche": "lait de coco",
+    "texte_en": "200 ml coconut milk"
+   },
+   {
+    "texte": "1 oignon, 1 poivron, 3 gousses d’ail, coriandre",
+    "cherche": "poivron",
+    "texte_en": "1 onion, 1 bell pepper, 3 garlic cloves, cilantro"
+   },
+   {
+    "texte": "2 cuillères à soupe de concentré de tomate, origan, 1 cube, sel",
+    "cherche": "coriandre",
+    "texte_en": "2 tablespoons tomato paste, oregano, 1 stock cube, salt"
+   }
+  ],
+  "etapes": [
+   "Faire revenir l’oignon, le poivron, l’ail et la coriandre dans un peu d’huile.",
+   "Ajouter le concentré, l’origan et les pois égouttés ; cuire 5 minutes.",
+   "Ajouter le lait de coco, 600 ml d’eau, le cube et le sel ; porter à ébullition.",
+   "Ajouter le riz lavé et cuire à découvert jusqu’à ce que le liquide soit presque absorbé.",
+   "Couvrir et finir 15 minutes à feu très doux."
+  ],
+  "etapes_en": [
+   "Fry the onion, bell pepper, garlic and cilantro in a little oil.",
+   "Add the tomato paste, oregano and drained peas; cook for 5 minutes.",
+   "Add the coconut milk, 600 ml water, stock cube and salt; bring to a boil.",
+   "Add the washed rice and cook uncovered until the liquid is nearly absorbed.",
+   "Cover and finish for 15 minutes over very low heat."
+  ],
+  "photo": "images/recettes/moro-guandules.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Moro_de_guandules.jpg",
+  "photo_licence": "CC BY-SA 2.0",
+  "photo_auteur": "Instituto Cervantes de Tokio"
+ },
+ {
+  "id": "sanga",
+  "titre": "Sanga",
+  "pays": "Cameroun",
+  "temps": "1 h 15",
+  "portions": "6 personnes",
+  "titre_en": "Sanga",
+  "pays_en": "Cameroon",
+  "temps_en": "1 h 15",
+  "portions_en": "6 people",
+  "resume": "Le plat béti de la saison du maïs : du maïs frais mêlé aux feuilles de morelle noire (zom) et au jus de noix de palme, un peu sucré.",
+  "resume_en": "The Beti dish of corn season: fresh corn mixed with black nightshade leaves (zom) and palm nut juice, slightly sweet.",
+  "ingredients": [
+   {
+    "texte": "8 épis de maïs frais (ou 1 kg de maïs en grains)",
+    "cherche": "mais",
+    "texte_en": "8 fresh corn cobs (or 1 kg corn kernels)"
+   },
+   {
+    "texte": "1 kg de feuilles de morelle noire (zom) ou d’épinards",
+    "cherche": "morelle",
+    "texte_en": "1 kg black nightshade leaves (zom) or spinach"
+   },
+   {
+    "texte": "1 litre de jus de noix de palme",
+    "cherche": "noix de palme",
+    "texte_en": "1 litre palm nut juice"
+   },
+   {
+    "texte": "2 cuillères à soupe de sucre",
+    "cherche": "sucre",
+    "texte_en": "2 tablespoons sugar"
+   },
+   {
+    "texte": "Sel",
+    "cherche": "sel",
+    "texte_en": "Salt"
+   }
+  ],
+  "etapes": [
+   "Égrener le maïs et le mixer grossièrement avec un peu d’eau.",
+   "Laver les feuilles, les faire bouillir 10 minutes et bien les presser pour retirer l’amertume.",
+   "Faire bouillir le jus de noix de palme 15 minutes en remuant.",
+   "Ajouter le maïs mixé et cuire 15 minutes à feu doux en remuant.",
+   "Ajouter les feuilles, le sucre et le sel ; cuire encore 15 minutes. Servir chaud ou tiède."
+  ],
+  "etapes_en": [
+   "Strip the corn and coarsely blend it with a little water.",
+   "Wash the leaves, boil them for 10 minutes and squeeze well to remove the bitterness.",
+   "Boil the palm nut juice for 15 minutes, stirring.",
+   "Add the blended corn and cook for 15 minutes over low heat, stirring.",
+   "Add the leaves, sugar and salt; cook for another 15 minutes. Serve hot or warm."
+  ],
+  "photo": "images/recettes/sanga.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Le_Sanga..!!.jpg",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "Ishtar19"
+ },
+ {
+  "id": "kedjenou-pintade",
+  "titre": "Kedjenou de pintade",
+  "pays": "Côte d’Ivoire",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Guinea fowl kedjenou",
+  "pays_en": "Côte d’Ivoire",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "La pintade étouffée à l’ivoirienne : cuite dans son jus avec tomates, aubergines et piment, dans une canari bien fermée qu’on secoue.",
+  "resume_en": "Ivorian slow-cooked guinea fowl: cooked in its own juices with tomatoes, eggplant and chili in a tightly closed pot that is shaken.",
+  "ingredients": [
+   {
+    "texte": "1 pintade en morceaux",
+    "cherche": "pintade",
+    "texte_en": "1 guinea fowl in pieces"
+   },
+   {
+    "texte": "4 tomates, 2 aubergines, 2 oignons",
+    "cherche": "tomate",
+    "texte_en": "4 tomatoes, 2 eggplants, 2 onions"
+   },
+   {
+    "texte": "1 morceau de gingembre, 3 gousses d’ail",
+    "cherche": "aubergine",
+    "texte_en": "1 piece of ginger, 3 garlic cloves"
+   },
+   {
+    "texte": "Piment, thym, laurier, sel",
+    "cherche": "gingembre",
+    "texte_en": "Chili, thyme, bay leaf, salt"
+   },
+   {
+    "texte": "Attiéké ou riz pour servir",
+    "cherche": "attieke",
+    "texte_en": "Attiéké or rice to serve"
+   }
+  ],
+  "etapes": [
+   "Mettre la pintade dans une cocotte à fond épais avec tous les légumes coupés, l’ail et le gingembre écrasés.",
+   "Ajouter le piment, le thym, le laurier et le sel ; ne pas ajouter d’eau.",
+   "Fermer hermétiquement et cuire à feu doux 1 heure.",
+   "Secouer la cocotte toutes les 10 minutes sans l’ouvrir, pour que rien n’attache.",
+   "Servir avec de l’attiéké ou du riz."
+  ],
+  "etapes_en": [
+   "Put the guinea fowl in a heavy pot with all the chopped vegetables and crushed garlic and ginger.",
+   "Add the chili, thyme, bay leaf and salt; do not add water.",
+   "Seal tightly and cook over low heat for 1 hour.",
+   "Shake the pot every 10 minutes without opening it, so nothing sticks.",
+   "Serve with attiéké or rice."
+  ],
+  "photo": "images/recettes/kedjenou-pintade.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Kedjenou_poulet_sauce_claire.JPG",
+  "photo_licence": "CC BY-SA 4.0",
+  "photo_auteur": "African Hope"
+ },
+ {
+  "id": "mbongo-porc",
+  "titre": "Mbongo de porc",
+  "pays": "Cameroun",
+  "temps": "1 h 30",
+  "portions": "6 personnes",
+  "titre_en": "Pork mbongo",
+  "pays_en": "Cameroon",
+  "temps_en": "1 h 30",
+  "portions_en": "6 people",
+  "resume": "La sauce noire des Bassa préparée avec du porc : les épices mbongo grillées donnent une sauce profonde et fumée.",
+  "resume_en": "The Bassa black sauce made with pork: roasted mbongo spices give a deep, smoky sauce.",
+  "ingredients": [
+   {
+    "texte": "1,2 kg de porc (échine ou côtes) en morceaux",
+    "cherche": "mbongo",
+    "texte_en": "1.2 kg pork (shoulder or ribs) in pieces"
+   },
+   {
+    "texte": "100 g d’épices mbongo",
+    "cherche": "porc",
+    "texte_en": "100 g mbongo spices"
+   },
+   {
+    "texte": "2 tomates, 1 oignon, 4 gousses d’ail, 1 morceau de gingembre",
+    "cherche": "tomate",
+    "texte_en": "2 tomatoes, 1 onion, 4 garlic cloves, 1 piece of ginger"
+   },
+   {
+    "texte": "100 ml d’huile de palme",
+    "cherche": "plantain",
+    "texte_en": "100 ml palm oil"
+   },
+   {
+    "texte": "Piment, 2 cubes, sel ; plantains verts bouillis pour servir",
+    "cherche": "huile de palme",
+    "texte_en": "Chili, 2 stock cubes, salt; boiled green plantains to serve"
+   }
+  ],
+  "etapes": [
+   "Griller le mbongo à sec jusqu’à ce qu’il soit bien noir, puis le moudre.",
+   "Mixer les tomates, l’oignon, l’ail, le gingembre et le mbongo avec un peu d’eau.",
+   "Faire revenir le porc dans l’huile de palme 10 minutes.",
+   "Ajouter le mélange mixé, 500 ml d’eau, le piment et les cubes ; cuire 50 minutes à feu doux.",
+   "Rectifier le sel et servir avec des plantains verts bouillis."
+  ],
+  "etapes_en": [
+   "Toast the mbongo in a dry pan until really black, then grind it.",
+   "Blend the tomatoes, onion, garlic, ginger and mbongo with a little water.",
+   "Fry the pork in the palm oil for 10 minutes.",
+   "Add the blended mixture, 500 ml water, chili and stock cubes; cook for 50 minutes over low heat.",
+   "Adjust the salt and serve with boiled green plantains."
+  ],
+  "photo": "images/recettes/mbongo-porc.jpg",
+  "photo_source": "Wikimedia Commons",
+  "photo_lien": "https://commons.wikimedia.org/wiki/File:Mbongo_Tchobi_(sauce_noir).jpg",
+  "photo_licence": "CC0",
+  "photo_auteur": "FOTSA KELLY"
  }
 ]
