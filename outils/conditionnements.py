@@ -134,7 +134,7 @@ def regrouper(produits: list[dict]) -> list[dict]:
         variantes = [(conditionnement(p["nom"], communs), p) for p in articles]
         variantes.sort(key=lambda v: poids(v[0]))
         formats = list(dict.fromkeys(f for f, _ in variantes))
-        tete = next((p for _, p in variantes if p["photo"].startswith("images/produits/")),   # photo du marché d'abord
+        tete = next((p for _, p in reversed(variantes) if p["photo"].startswith("images/produits/")),   # photo du marché d'abord, du plus grand format
                     None) or next((p for _, p in variantes if p["photo"] and not p.get("illustration")),
                     next((p for _, p in variantes if p["photo"]), variantes[0][1]))
         noms = [designation(p["nom"], communs) for _, p in variantes]
