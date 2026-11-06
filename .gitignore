@@ -1,0 +1,4 @@
+# Articles Clover bruts (lus pour l'export, jamais publiés)
+data/clover_articles.json
+__pycache__/
+*.pyc

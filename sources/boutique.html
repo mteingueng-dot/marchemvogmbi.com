@@ -1,0 +1,38 @@
+  <main class="conteneur boutique">
+    <div class="boutique-tete">
+      <h1>Nos produits</h1>
+      <p class="intro">Prix en magasin, sujets à changement. Taxes en sus si applicables. Disponibilité selon les arrivages&nbsp;: appelez-nous pour un produit précis.</p>
+      <div class="mini-promesses">
+        <span><strong>Prix imbattables</strong> : vu moins cher ailleurs&nbsp;? 1&nbsp;¢ de moins chez nous.</span>
+        <span><strong>Livraison gratuite</strong> dès 100&nbsp;$ dans un rayon de 5&nbsp;km : <a href="tel:+18192399864">819 239-9864</a></span>
+      </div>
+      <div class="outils">
+        <label class="recherche">
+          <span class="visuellement-cache">Rechercher un produit</span>
+          <input type="search" id="recherche" placeholder="Rechercher : plantain, gari, huile de palme…" autocomplete="off">
+        </label>
+        <label class="tri">
+          <span>Trier</span>
+          <select id="tri">
+            <option value="rayon">Par rayon</option>
+            <option value="nom">Nom (A à Z)</option>
+            <option value="prix">Prix croissant</option>
+            <option value="prix-">Prix décroissant</option>
+          </select>
+        </label>
+        <label class="case-photo"><input type="checkbox" id="avec-photo"> Avec photo seulement</label>
+      </div>
+    </div>
+
+    <div class="boutique-grille">
+      <aside class="rayons-liste" aria-label="Rayons">
+        <h2>Rayons</h2>
+        <ul id="rayons"></ul>
+      </aside>
+      <section aria-live="polite">
+        <p id="compte" class="compte">Chargement du catalogue…</p>
+        <div id="produits" class="produits"></div>
+        <div class="plus-ligne"><button id="plus" class="bouton bouton-clair" hidden>Voir plus de produits</button></div>
+      </section>
+    </div>
+  </main>
