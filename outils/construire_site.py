@@ -82,7 +82,7 @@ MENU_FICHIERS = ["index.html", "nouveautes.html", "boutique.html", "rayons.html"
 
 # Photo de la tuile de chaque rayon (photos prises au magasin)
 PHOTO_RAYON = {
-    "Fruits & légumes": "piments-melanges", "Féculents": "igname", "Farines": "foufou", "Riz, graines & pâtes": "riz",
+    "Fruits & légumes": "piment-jaune", "Féculents": "igname", "Farines": "foufou", "Riz, graines & pâtes": "riz",
     "Épices & sauces": "egusi", "Huiles": "huile-palme", "Conserves": "sardines", "Produits de la mer": "maquereau",
     "Viandes & volailles": "viande", "Légumes congelés": "congeles", "Boissons": "boissons", "Thés & cafés": "milo",
     "Collations": "chips-plantain", "Tartinades": "chocopain", "Produits latinos": "latinos", "Beauté": "beaute",
