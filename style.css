@@ -770,3 +770,23 @@ html, body { overflow-x: clip; }
 @media (max-width: 1180px) {
   .langues-liste { position: static; margin-top: 8px; box-shadow: none; grid-template-columns: repeat(2, 1fr); }
 }
+
+/* Recettes : filtre par pays */
+.filtre-pays { display: flex; flex-direction: column; gap: 10px; margin-bottom: 26px; }
+.filtre-pays > .pays-bouton { align-self: flex-start; }
+.pays-region { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.pays-region > span { flex: 0 0 210px; font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--vert-fonce); }
+.pays-bouton { font: inherit; font-size: .88rem; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--bord); background: #fff; color: var(--encre); cursor: pointer; transition: background .15s, border-color .15s; }
+.pays-bouton em { font-style: normal; font-size: .75rem; opacity: .65; margin-left: 2px; }
+.pays-bouton:hover { border-color: var(--vert); }
+.pays-bouton.actif { background: var(--vert); border-color: var(--vert); color: #fff; }
+.pays-bouton.actif em { opacity: .9; }
+.pays-bouton:focus-visible { outline: 2px solid var(--vert); outline-offset: 2px; }
+.tuile[hidden] { display: none; }
+@media (max-width: 820px) {
+  .filtre-pays { gap: 8px; }
+  .pays-region { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .pays-region::-webkit-scrollbar { display: none; }
+  .pays-region > span { flex: 0 0 auto; font-size: .7rem; }
+  .pays-bouton { flex: 0 0 auto; white-space: nowrap; }
+}

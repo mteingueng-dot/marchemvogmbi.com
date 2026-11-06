@@ -320,9 +320,11 @@ def page_recettes(source: str, langue: str) -> str:
     else:
         texte_ing = lambda i: i.get("texte_en") if en and i.get("texte_en") else i["texte"]
         etapes_de = lambda r: r.get("etapes_en") if en and r.get("etapes_en") else r["etapes"]
+    import filtre_pays
+    filtre, pays_tuile = filtre_pays.barre(recettes, langue, lambda r: v(r, "pays"))
     sommaire, fiches = [], []
     for r in recettes:
-        sommaire.append(f'          <a class="tuile" href="recette-{r["id"]}.html"><img src="{racine}{r["photo"]}" alt="" loading="lazy">'
+        sommaire.append(f'          <a class="tuile" href="recette-{r["id"]}.html" data-pays="{pays_tuile[r["id"]]}"><img src="{racine}{r["photo"]}" alt="" loading="lazy">'
                         f'<em class="tuile-nombre">{html.escape(v(r, "pays"))}</em><strong>{html.escape(v(r, "titre"))}</strong>'
                         f'<span>{html.escape(v(r, "temps"))}</span></a>')
         ingredients = "\n".join(
@@ -372,6 +374,8 @@ def page_recettes(source: str, langue: str) -> str:
       </div>
     </section>
 ''', v(r, "titre"), v(r, "resume"), r["photo"])
+    source = source.replace('<div class="tuiles">\n<!--SOMMAIRE-->',
+                            filtre + '\n        <div class="tuiles tuiles-recettes">\n<!--SOMMAIRE-->')
     return source.replace("<!--SOMMAIRE-->", "\n".join(sommaire)).replace("<!--RECETTES-->", ""), pages
 
 

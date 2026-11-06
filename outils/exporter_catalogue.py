@@ -121,7 +121,7 @@ def produits(articles: list[dict]) -> list[dict]:
         source = "" if a_nous or not photo else (o.get("base") or "Open Food Facts") + " (CC BY-SA)"
         lien = "" if a_nous or not photo else f"https://world.openfoodfacts.org/product/{code}"
         illustration = False
-        sorte = sorte_de(nom) if rayon_de(a) in RAYONS_FRAIS else None
+        sorte = sorte_de(nom) if (f.get("rayon") or rayon_de(a)) in RAYONS_FRAIS else None
         if not photo and sorte and magasin.get(sorte) and (SITE / magasin[sorte]).exists():
             photo, illustration, lien = magasin[sorte], True, ""
             source = "Photo prise au Marché Mvog-Mbi"
@@ -151,7 +151,7 @@ def produits(articles: list[dict]) -> list[dict]:
             "nom": f.get("nom") or nom,
             "prix": a["price"] / 100,
             "unite": "lb" if a.get("priceType") == "PER_UNIT" else "",
-            "rayon": rayon_de(a),
+            "rayon": f.get("rayon") or rayon_de(a),       # rayon corrigé dans data/fiches.json
             "photo": photo,
             "photo_source": source,
             "photo_lien": lien,

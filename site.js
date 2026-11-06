@@ -69,3 +69,25 @@
   document.addEventListener("click", (e) => { if (d.open && !d.contains(e.target)) d.open = false; });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") d.open = false; });
 })();
+
+/* Recettes : filtre par pays (boutons de outils/filtre_pays.py) ; le choix reste dans l'adresse : #pays=haiti */
+(function () {
+  "use strict";
+  const barre = document.querySelector(".filtre-pays");
+  if (!barre) return;
+  const boutons = barre.querySelectorAll(".pays-bouton");
+  const tuiles = document.querySelectorAll(".tuiles-recettes .tuile");
+  const choisir = (pays, garder) => {
+    if (pays && !barre.querySelector(`[data-pays="${pays}"]`)) pays = "";
+    boutons.forEach((b) => {
+      const actif = b.dataset.pays === pays;
+      b.classList.toggle("actif", actif);
+      b.setAttribute("aria-pressed", actif ? "true" : "false");
+    });
+    tuiles.forEach((t) => { t.hidden = !!pays && !t.dataset.pays.split(" ").includes(pays); });
+    if (garder) history.replaceState(null, "", pays ? `#pays=${pays}` : location.pathname + location.search);
+  };
+  boutons.forEach((b) => b.addEventListener("click", () => choisir(b.dataset.pays, true)));
+  const lu = /^#pays=([a-z0-9-]+)$/.exec(location.hash);
+  choisir(lu ? lu[1] : "", false);
+})();
