@@ -1,0 +1,37 @@
+  <main class="conteneur boutique">
+    <div class="boutique-tete">
+      <h1>Nuestros productos</h1>
+      <p class="intro">Más de 2000 productos de África, el Caribe y América Latina, con sus formatos, colores e ideas de recetas. La disponibilidad depende de las llegadas: llámanos para un producto concreto.</p>
+      <div class="mini-promesses">
+        <span><strong>Precios imbatibles</strong>: ¿lo has visto más barato en otro sitio? 1 ¢ menos aquí.</span>
+        <span><strong>Entrega gratuita</strong> desde 100 $ en un radio de 5 km: <a href="tel:+18192399864">819 239-9864</a></span>
+      </div>
+      <div class="outils">
+        <label class="recherche">
+          <span class="visuellement-cache">Buscar un producto</span>
+          <input type="search" id="recherche" placeholder="Buscar: plátano, gari, aceite de palma…" autocomplete="off">
+        </label>
+        <label class="tri">
+          <span>Ordenar</span>
+          <select id="tri">
+            <option value="photo">Destacados</option>
+            <option value="rayon">Por sección</option>
+            <option value="nom">Nombre (A a Z)</option>
+          </select>
+        </label>
+        <label class="case-photo"><input type="checkbox" id="avec-photo"> Solo con foto</label>
+      </div>
+    </div>
+
+    <div class="boutique-grille">
+      <aside class="rayons-liste" aria-label="Secciones">
+        <h2>Secciones</h2>
+        <ul id="rayons"></ul>
+      </aside>
+      <section aria-live="polite">
+        <p id="compte" class="compte">Cargando el catálogo…</p>
+        <div id="produits" class="produits"></div>
+        <div class="plus-ligne"><button id="plus" class="bouton bouton-clair" hidden>Ver más productos</button></div>
+      </section>
+    </div>
+  </main>

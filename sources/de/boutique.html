@@ -1,0 +1,37 @@
+  <main class="conteneur boutique">
+    <div class="boutique-tete">
+      <h1>Unsere Produkte</h1>
+      <p class="intro">Über 2000 Produkte aus Afrika, der Karibik und Lateinamerika, mit Größen, Farben und Rezeptideen. Die Verfügbarkeit hängt von den Lieferungen ab: Rufen Sie uns für ein bestimmtes Produkt an.</p>
+      <div class="mini-promesses">
+        <span><strong>Unschlagbare Preise</strong>: Anderswo billiger gesehen? Bei uns 1 ¢ weniger.</span>
+        <span><strong>Kostenlose Lieferung</strong> ab 100 $ im Umkreis von 5 km: <a href="tel:+18192399864">819 239-9864</a></span>
+      </div>
+      <div class="outils">
+        <label class="recherche">
+          <span class="visuellement-cache">Produkt suchen</span>
+          <input type="search" id="recherche" placeholder="Suche: Kochbanane, Gari, Palmöl…" autocomplete="off">
+        </label>
+        <label class="tri">
+          <span>Sortieren</span>
+          <select id="tri">
+            <option value="photo">Empfohlen</option>
+            <option value="rayon">Nach Abteilung</option>
+            <option value="nom">Name (A bis Z)</option>
+          </select>
+        </label>
+        <label class="case-photo"><input type="checkbox" id="avec-photo"> Nur mit Foto</label>
+      </div>
+    </div>
+
+    <div class="boutique-grille">
+      <aside class="rayons-liste" aria-label="Abteilungen">
+        <h2>Abteilungen</h2>
+        <ul id="rayons"></ul>
+      </aside>
+      <section aria-live="polite">
+        <p id="compte" class="compte">Katalog wird geladen…</p>
+        <div id="produits" class="produits"></div>
+        <div class="plus-ligne"><button id="plus" class="bouton bouton-clair" hidden>Weitere Produkte anzeigen</button></div>
+      </section>
+    </div>
+  </main>

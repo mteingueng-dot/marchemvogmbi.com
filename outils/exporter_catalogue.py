@@ -239,6 +239,13 @@ def main() -> None:
         json.dumps({"rayons": rayons, "rayons_en": [RAYONS_EN_NOMS.get(r, r) for r in rayons], "produits": liste},
                    ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8")
+    # espagnol, portugais, italien, allemand : rayons, caractéristiques et descriptions dans data/produits_<code>.json
+    import descriptions_autres
+    fiches = lire_json(DONNEES / "fiches.json", {})
+    for code in descriptions_autres.CODES:
+        (DONNEES / f"produits_{code}.json").write_text(
+            json.dumps(descriptions_autres.fichier_langue(liste, code, fiches), ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8")
     avec_photo = sum(1 for x in liste if x["photo"] and not x["illustration"])
     illustres = sum(1 for x in liste if x["illustration"])
     print(f"{len(liste)} produits publiés : {avec_photo} avec photo du produit, {illustres} avec photo d'illustration,"

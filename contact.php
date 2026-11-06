@@ -1,6 +1,6 @@
 <?php
 /*
- * Formulaire « Envoyez-nous un message » (pages Contact et Carrière, français et anglais).
+ * Formulaire « Envoyez-nous un message » (pages Contact et Carrière, toutes les langues du site).
  * Envoie le message à contact@marchemvogmbi.com, avec la pièce jointe (PDF ou Word, 10 Mo au plus),
  * puis renvoie la personne sur la page d'où elle vient avec ?envoye=1 (ou ?erreur=…).
  * Hébergement : PHP avec la fonction mail() (WHC, cPanel). Rien n'est gardé sur le serveur.
@@ -19,7 +19,8 @@ const SUJETS = [
 ];
 
 function retour(string $page, array $params): void {
-    $pages = ['contact.html', 'carriere.html', 'en/contact.html', 'en/carriere.html'];
+    $pages = ['contact.html', 'carriere.html'];
+    foreach (['en', 'es', 'pt', 'it', 'de'] as $l) { $pages[] = "$l/contact.html"; $pages[] = "$l/carriere.html"; }
     if (!in_array($page, $pages, true)) { $page = 'contact.html'; }
     header('Location: /' . $page . '?' . http_build_query($params) . '#formulaire', true, 303);
     exit;

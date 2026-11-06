@@ -1,11 +1,60 @@
 /* Boutique du Marché Mvog-Mbi : catalogue lu dans data/produits.json (exporté de Clover).
-   Règle du propriétaire : aucun prix sur le site. Langue de la page : <html lang="fr-CA"> ou "en-CA". */
+   Règle du propriétaire : aucun prix sur le site. Langue de la page : <html lang="fr-CA">, "en-CA", "es", "pt", "it" ou "de" ;
+   pour es, pt, it et de, les rayons, caractéristiques et descriptions viennent de data/produits_<langue>.json. */
 (function () {
   "use strict";
   const PAR_PAGE = 48;
-  const EN = (document.documentElement.lang || "fr").startsWith("en");
-  const RACINE = EN ? "../" : "";                      // les pages anglaises sont dans /en/
-  const T = EN ? {
+  const LANG = (document.documentElement.lang || "fr").slice(0, 2);
+  const EN = LANG === "en";
+  const AUTRE = !["fr", "en"].includes(LANG);           // espagnol, portugais, italien, allemand
+  const RACINE = LANG === "fr" ? "" : "../";            // les autres langues sont dans /en/, /es/, /pt/, /it/, /de/
+  const TEXTES_AUTRES = {
+    es: {
+      tous: "Todos los productos", aucun: "ningún producto coincide con la búsqueda.", produit: "producto", produits: "productos",
+      format: "formato", formats: "formatos", couleurs: "colores", couleur: "color", aVenir: "Foto próximamente",
+      introuvable: "Este producto ya no está en el catálogo.", voirTout: "Ver todos los productos",
+      erreur: "No se pudo cargar el catálogo. Llámanos al 819 239-9864.",
+      carac: "Características", conditionnements: "Formatos disponibles", couleursDispo: "Colores disponibles", recettes: "Ideas de recetas",
+      aussi: (r) => `También en «${r}»`, boutique: "Tienda", photo: "Foto", illustration: "Foto ilustrativa",
+      poids: "Se vende al peso: pesado en la tienda según la cantidad que quieras.",
+      enVente: "A la venta en la tienda", magasin: "3071 boulevard Portland, Sherbrooke. Disponibilidad según las llegadas.",
+      appeler: "Consultar disponibilidad: 819 239-9864", voirRecette: "Ver la receta", deuxPoints: ": ",
+    },
+    pt: {
+      tous: "Todos os produtos", aucun: "nenhum produto corresponde à pesquisa.", produit: "produto", produits: "produtos",
+      format: "formato", formats: "formatos", couleurs: "cores", couleur: "cor", aVenir: "Foto em breve",
+      introuvable: "Este produto já não está no catálogo.", voirTout: "Ver todos os produtos",
+      erreur: "Não foi possível carregar o catálogo. Ligue para 819 239-9864.",
+      carac: "Características", conditionnements: "Formatos disponíveis", couleursDispo: "Cores disponíveis", recettes: "Ideias de receitas",
+      aussi: (r) => `Também em «${r}»`, boutique: "Loja", photo: "Foto", illustration: "Foto ilustrativa",
+      poids: "Vendido a peso: pesado na loja conforme a quantidade desejada.",
+      enVente: "À venda na loja", magasin: "3071 boulevard Portland, Sherbrooke. Disponibilidade conforme as chegadas.",
+      appeler: "Verificar disponibilidade: 819 239-9864", voirRecette: "Ver a receita", deuxPoints: ": ",
+    },
+    it: {
+      tous: "Tutti i prodotti", aucun: "nessun prodotto corrisponde alla ricerca.", produit: "prodotto", produits: "prodotti",
+      format: "formato", formats: "formati", couleurs: "colori", couleur: "colore", aVenir: "Foto in arrivo",
+      introuvable: "Questo prodotto non è più in catalogo.", voirTout: "Vedi tutti i prodotti",
+      erreur: "Non è stato possibile caricare il catalogo. Chiamaci allo 819 239-9864.",
+      carac: "Caratteristiche", conditionnements: "Formati disponibili", couleursDispo: "Colori disponibili", recettes: "Idee ricetta",
+      aussi: (r) => `Anche in «${r}»`, boutique: "Negozio", photo: "Foto", illustration: "Foto illustrativa",
+      poids: "Venduto a peso: pesato in negozio secondo la quantità desiderata.",
+      enVente: "In vendita in negozio", magasin: "3071 boulevard Portland, Sherbrooke. Disponibilità secondo gli arrivi.",
+      appeler: "Verifica la disponibilità: 819 239-9864", voirRecette: "Vedi la ricetta", deuxPoints: ": ",
+    },
+    de: {
+      tous: "Alle Produkte", aucun: "kein Produkt entspricht der Suche.", produit: "Produkt", produits: "Produkte",
+      format: "Größe", formats: "Größen", couleurs: "Farben", couleur: "Farbe", aVenir: "Foto folgt",
+      introuvable: "Dieses Produkt ist nicht mehr im Sortiment.", voirTout: "Alle Produkte ansehen",
+      erreur: "Der Katalog konnte nicht geladen werden. Rufen Sie uns an: 819 239-9864.",
+      carac: "Merkmale", conditionnements: "Erhältliche Größen", couleursDispo: "Erhältliche Farben", recettes: "Rezeptideen",
+      aussi: (r) => `Auch in „${r}“`, boutique: "Shop", photo: "Foto", illustration: "Beispielfoto",
+      poids: "Wird nach Gewicht verkauft: im Laden nach Wunsch abgewogen.",
+      enVente: "Im Laden erhältlich", magasin: "3071 boulevard Portland, Sherbrooke. Verfügbarkeit je nach Lieferung.",
+      appeler: "Verfügbarkeit prüfen: 819 239-9864", voirRecette: "Zum Rezept", deuxPoints: ": ",
+    },
+  };
+  const T = AUTRE ? TEXTES_AUTRES[LANG] : EN ? {
     tous: "All products", aucun: "no product matches your search.", produit: "product", produits: "products",
     format: "size", formats: "sizes", couleurs: "colours", couleur: "colour", aVenir: "Photo coming soon",
     introuvable: "This product is no longer listed.", voirTout: "See all products",
@@ -31,7 +80,7 @@
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const mots_de = (t) => normal(t).replace(/[^a-z0-9]+/g, " ").trim();   // début de mot : « gari » ne trouve pas « bulgarie »
   const normal = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-  const champ = (p, nom) => (EN && p[nom + "_en"]) || p[nom];          // texte anglais s'il existe
+  const champ = (p, nom) => (AUTRE && p["_" + nom]) || (EN && p[nom + "_en"]) || p[nom];   // texte de la langue s'il existe
   const rayonDe = (p) => champ(p, "rayon");
   const chemin = (f) => (f && !/^https?:/.test(f) ? RACINE + f : f);
   const sansPhoto = (grand) => `<span class="sans-photo${grand ? " grand" : ""}" aria-hidden="true"><img src="${RACINE}images/icone.png" alt="" width="140" height="140"><em>${T.aVenir}</em></span>`;
@@ -50,6 +99,23 @@
         if (!r.ok) throw new Error(r.status);
         return r.json();
       });
+      if (AUTRE) {                                       // textes de la langue : rayons, caractéristiques, descriptions
+        const textes = fetch(RACINE + `data/produits_${LANG}.json`, { cache: "no-cache" })
+          .then((r) => (r.ok ? r.json() : null)).catch(() => null);
+        catalogue = Promise.all([catalogue, textes]).then(([d, x]) => {
+          if (!x) return d;
+          d.rayons_x = d.rayons.map((r) => x.rayons[r] || r);
+          d.produits.forEach((p) => {
+            p._rayon = x.rayons[p.rayon] || p.rayon_en;
+            p._description = x.d[p.id] || "";
+            p._caracteristiques = {};
+            Object.entries(p.caracteristiques || {}).forEach(([k, v]) => {
+              if (!/^(Conditionnements|Couleurs)/.test(k)) p._caracteristiques[x.carac[k] || k] = x.valeurs[v] || v;
+            });
+          });
+          return d;
+        });
+      }
     }
     return catalogue;
   }
@@ -131,12 +197,13 @@
     let filtres = [];
 
     charger().then((d) => {
-      const rayons = d.rayons.map((r, i) => ({ fr: r, nom: EN && d.rayons_en ? d.rayons_en[i] : r }));
+      const rayons = d.rayons.map((r, i) => ({ fr: r, nom: AUTRE && d.rayons_x ? d.rayons_x[i] : EN && d.rayons_en ? d.rayons_en[i] : r }));
       d.produits.forEach((p) => {
         const couleurs = (p.couleurs || []).map((c) => [c.code, c.description, c.description_en].join(" ")).join(" ");
-        p._cle = " " + mots_de([p.nom, p.rayon, p.rayon_en, p.description, p.description_en, couleurs,
+        p._cle = " " + mots_de([p.nom, p.rayon, p.rayon_en, p._rayon, p.description, p.description_en, p._description, couleurs,
           (p.conditionnements || []).join(" "), Object.values(p.caracteristiques || {}).join(" ")].join(" "));
         p._nom = " " + mots_de(p.nom);
+        p._debut = " " + mots_de(champ(p, "description")).slice(0, 60);   // début de la description, dans la langue
       });
       const nb = {};
       d.produits.forEach((p) => { nb[p.rayon] = (nb[p.rayon] || 0) + 1; });
@@ -158,11 +225,13 @@
           && (!avecPhoto.checked || p.photo)
           && mots.every((m) => p._cle.includes(" " + m)));
         if (mots.length) {                    // le nom qui correspond passe avant la description
-          const dansNom = (x) => (mots.every((m) => x._nom.includes(" " + m)) ? 0 : 1);
-          filtres.sort((a, b) => dansNom(a) - dansNom(b));
+          // le nom qui correspond passe d'abord, puis le début de la description (« Palmöl » : les huiles avant le pondu)
+          const place = (x) => (mots.every((m) => x._nom.includes(" " + m)) ? 0 : mots.every((m) => x._debut.includes(" " + m)) ? 1 : 2);
+          const photo = (x) => (x.photo && !x.illustration ? 2 : x.photo ? 1 : 0);
+          filtres.sort((a, b) => place(a) - place(b) || (tri.value === "photo" ? photo(b) - photo(a) : 0));
         }
-        if (tri.value === "nom") filtres.sort((a, b) => a.nom.localeCompare(b.nom, EN ? "en" : "fr"));
-        else if (tri.value === "photo") {
+        if (tri.value === "nom") filtres.sort((a, b) => a.nom.localeCompare(b.nom, LANG));
+        else if (tri.value === "photo" && !mots.length) {
           const note = (x) => (x.photo && !x.illustration ? 2 : x.photo ? 1 : 0);
           filtres.sort((a, b) => note(b) - note(a));
         }
@@ -200,7 +269,9 @@
     const id = new URLSearchParams(location.search).get("id");
     const fiche = document.getElementById("fiche");
     const lesRecettes = fetch(RACINE + "data/recettes.json").then((r) => r.json()).catch(() => []);
-    Promise.all([charger(), lesRecettes]).then(([d, recettes]) => {
+    const recettesLangue = AUTRE ? fetch(RACINE + `data/recettes_${LANG}.json`).then((r) => r.json()).catch(() => ({}))
+      : Promise.resolve({});
+    Promise.all([charger(), lesRecettes, recettesLangue]).then(([d, recettes, rx]) => {
       const p = d.produits.find((x) => x.id === id || (x.ids || []).includes(id));
       if (!p) {
         fiche.innerHTML = `<p>${T.introuvable} <a href="boutique.html">${T.voirTout}</a></p>`;
@@ -213,7 +284,7 @@
       const image = p.photo
         ? `<img src="${echapper(chemin(p.photo))}" alt="${echapper(p.nom)}" width="480" height="480"${p.illustration ? ' class="illustration"' : ""}>`
         : sansPhoto(true);
-      const carac = (EN && p.caracteristiques_en) || p.caracteristiques || {};
+      const carac = (AUTRE && p._caracteristiques) || (EN && p.caracteristiques_en) || p.caracteristiques || {};
       const lignes = Object.entries(carac)
         .filter(([k]) => !/^(Conditionnements|Couleurs|Available)/.test(k))
         .map(([k, v]) => `<tr><th scope="row">${echapper(k)}</th><td>${echapper(v)}</td></tr>`).join("");
@@ -221,13 +292,13 @@
         ? `<h2>${T.conditionnements}</h2><ul class="pastilles">${p.conditionnements.map((f) => `<li>${echapper(f)}</li>`).join("")}</ul>` : "";
       const couleurs = p.couleurs
         ? `<h2>${T.couleursDispo}</h2><ul class="couleurs">${p.couleurs.map((c) => {
-            const desc = (EN && c.description_en) || c.description;
+            const desc = ((EN || AUTRE) && c.description_en) || c.description;
             return `<li><strong>${echapper(c.code)}</strong>${desc ? `<span>${echapper(desc)}</span>` : ""}</li>`;
           }).join("")}</ul>` : "";
       const liees = recettes.filter((r) => (p.recettes || []).includes(r.id));
       const blocRecettes = liees.length
         ? `<h2>${T.recettes}</h2><div class="recettes-liees">${liees.map((r) =>
-            `<a href="recette-${r.id}.html"><strong>${echapper((EN && r.titre_en) || r.titre)}</strong><span>${echapper((EN && r.pays_en) || r.pays)} · ${T.voirRecette} →</span></a>`).join("")}</div>` : "";
+            `<a href="recette-${r.id}.html"><strong>${echapper((rx[r.id] || {}).titre || (!EN && !AUTRE ? r.titre : r.titre_en || r.titre))}</strong><span>${echapper((rx[r.id] || {}).pays || (!EN && !AUTRE ? r.pays : r.pays_en || r.pays))} · ${T.voirRecette} →</span></a>`).join("")}</div>` : "";
       // mention de la photo seulement quand sa licence l'exige (Creative Commons : Wikimedia, Open Food Facts)
       const source = p.photo_source && /\bCC\b/.test(p.photo_source)
         ? `<p class="source">${p.illustration ? T.illustration : T.photo}${T.deuxPoints}${p.photo_lien ? `<a href="${echapper(p.photo_lien)}" rel="noopener" target="_blank">${echapper(p.photo_source)}</a>` : echapper(p.photo_source)}</p>` : "";

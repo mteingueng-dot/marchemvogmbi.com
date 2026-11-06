@@ -1,8 +1,9 @@
-"""Assemble les pages du site en français (racine) et en anglais (dossier en/) :
-même bandeau, même en-tête (avec le choix FR / EN) et même pied de page partout.
+"""Assemble les pages du site en français (racine) et dans les autres langues (dossiers en/, es/, pt/, it/, de/) :
+même bandeau, même en-tête (avec le choix de la langue) et même pied de page partout.
 
-Le contenu de chaque page est dans sources/<page>.html (français) et sources/en/<page>.html (anglais), seulement
-le <main>. La page Rayons est fabriquée d'après data/produits.json, la page Recettes d'après data/recettes.json.
+Le contenu de chaque page est dans sources/<page>.html (français) et sources/<langue>/<page>.html, seulement
+le <main>. Les textes communs des langues autres que le français et l'anglais sont dans outils/langue_<code>.py,
+les recettes traduites dans data/recettes_<code>.json. La page Rayons est fabriquée d'après data/produits.json, la page Recettes d'après data/recettes.json.
 Après une modification :
 
     python outils/construire_site.py
@@ -20,6 +21,15 @@ SOURCES = SITE / "sources"
 URL = "https://www.marchemvogmbi.com"
 sys.path.insert(0, str(SITE / "outils"))
 from langues import RAYONS_EN, TEXTE_RAYON  # noqa: E402
+import importlib  # noqa: E402
+
+LANGUES = ["fr", "en", "es", "pt", "it", "de"]
+NOMS_LANGUES = {"fr": "Français", "en": "English", "es": "Español", "pt": "Português", "it": "Italiano", "de": "Deutsch"}
+AUTRES = {c: importlib.import_module(f"langue_{c}") for c in LANGUES[2:]}   # textes des langues ajoutées
+
+
+def racine_de(langue: str) -> str:
+    return "" if langue == "fr" else "../"
 
 FICHIERS = ["index.html", "nouveautes.html", "boutique.html", "rayons.html", "recettes.html", "a-propos.html", "carriere.html",
             "contact.html", "produit.html"]
@@ -48,7 +58,7 @@ L = {
         "pied_titres": ["Le site", "Magasin", "Heures", "Livraison"],
         "heures": "Tous les jours<br>9 h à 21 h", "livraison": "Gratuite dès 100 $<br>dans un rayon de 5 km",
         "droits": "© 2026 Concept Informatique Inc. Tous droits réservés.", "menu_ouvrir": "Ouvrir le menu",
-        "autre": "EN", "autre_titre": "English", "produits": "produits", "produit": "produit",
+        "autre": "EN", "autre_titre": "Langue", "produits": "produits", "produit": "produit",
         "barre": ["Appeler", "Itinéraire", "Boutique", "Discuter"], "haut": "Haut de page", "chercher": "Rechercher un produit",
         "pied_chat": "Une question&nbsp;? <button type=\"button\" class=\"lien-chat\" data-assistant>Discutez avec notre assistant</button>",
     },
@@ -73,11 +83,13 @@ L = {
         "pied_titres": ["Site", "Store", "Hours", "Delivery"],
         "heures": "Every day<br>9 a.m. – 9 p.m.", "livraison": "Free from $100<br>within 5 km",
         "droits": "© 2026 Concept Informatique Inc. All rights reserved.", "menu_ouvrir": "Open the menu",
-        "autre": "FR", "autre_titre": "Français", "produits": "products", "produit": "product",
+        "autre": "FR", "autre_titre": "Language", "produits": "products", "produit": "product",
         "barre": ["Call", "Directions", "Shop", "Chat"], "haut": "Back to top", "chercher": "Search for a product",
         "pied_chat": "A question? <button type=\"button\" class=\"lien-chat\" data-assistant>Chat with our assistant</button>",
     },
 }
+for _c, _m in AUTRES.items():
+    L[_c] = _m.SITE
 MENU_FICHIERS = ["index.html", "nouveautes.html", "boutique.html", "rayons.html", "recettes.html", "a-propos.html", "carriere.html", "contact.html"]
 
 # Photo de la tuile de chaque rayon (photos prises au magasin)
@@ -127,7 +139,8 @@ FORMULAIRE = {
                       ("prix", "Best price guarantee"), ("candidature", "Job application (résumé)"),
                       ("fournisseur", "Supplier or partnership"), ("autre", "Other request")]},
 }
-
+for _c, _m in AUTRES.items():
+    FORMULAIRE[_c] = _m.FORMULAIRE
 
 
 def credit_photo(r: dict, en: bool) -> str:
@@ -144,7 +157,7 @@ def formulaire(langue: str, page: str, sujet: str) -> str:
     options = "".join(f'<option value="{v}"{" selected" if v == sujet else ""}>{html.escape(n)}</option>' for v, n in f["sujets"])
     erreurs = "".join(f'\n          <p class="form-message erreur" data-erreur="{k}" hidden>{html.escape(v)}</p>'
                       for k, v in f["erreurs"].items())
-    action = "../contact.php" if langue == "en" else "contact.php"
+    action = racine_de(langue) + "contact.php"
     accepte = ".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
     return f"""<form id="formulaire" class="formulaire" action="{action}" method="post" enctype="multipart/form-data">
           <h2>{f["titre"]}</h2>
@@ -177,12 +190,18 @@ def bandeau(t: dict) -> str:
 def entete(t: dict, actif: str, fichier: str, langue: str) -> str:
     liens = "\n".join(f'        <a href="{f}"{" aria-current=\"page\"" if f == actif else ""}>{n}</a>'
                       for f, n in zip(MENU_FICHIERS, t["menu"]))
-    autre = f"en/{fichier}" if langue == "fr" else f"../{fichier}"
-    autre_lang = "en" if langue == "fr" else "fr"
+    choix = []
+    for c in LANGUES:
+        lien = racine_de(langue) + ("" if c == "fr" else f"{c}/") + fichier
+        actuel = ' aria-current="true"' if c == langue else ""
+        choix.append(f'<a href="{lien}" hreflang="{c}" lang="{c}"{actuel} data-garder-recherche>'
+                     f'<b>{c.upper()}</b> {NOMS_LANGUES[c]}</a>')
+    langues = (f'<details class="langues"><summary title="{t["autre_titre"]}" aria-label="{t["autre_titre"]}">'
+               f'{langue.upper()}</summary><div class="langues-liste">{"".join(choix)}</div></details>')
     return f'''  <header class="entete">
     <div class="conteneur entete-ligne">
       <a href="index.html" class="marque">
-        <img src="{"../" if langue == "en" else ""}images/icone.png" alt="" width="42" height="42">
+        <img src="{racine_de(langue)}images/icone.png" alt="" width="42" height="42">
         <span>Marché Mvog-Mbi<small>{t["slogan"]}</small></span>
       </a>
       <input type="checkbox" id="menu-ouvert" class="menu-case" aria-label="{t["menu_ouvrir"]}">
@@ -191,7 +210,7 @@ def entete(t: dict, actif: str, fichier: str, langue: str) -> str:
 {liens}
         <span class="menu-actions">
           <a href="boutique.html#recherche" class="icone-rond" title="{t["chercher"]}" aria-label="{t["chercher"]}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
-          <a href="{autre}" class="langue" hreflang="{autre_lang}" lang="{autre_lang}" title="{t["autre_titre"]}" data-garder-recherche>{t["autre"]}</a>
+          {langues}
           <a href="tel:+18192399864" class="bouton bouton-petit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>819 239-9864</a>
         </span>
       </nav>
@@ -202,7 +221,7 @@ def entete(t: dict, actif: str, fichier: str, langue: str) -> str:
 
 def pied(t: dict, langue: str) -> str:
     liens = "<br>".join(f'<a href="{f}">{n}</a>' for f, n in zip(MENU_FICHIERS, t["menu"]))
-    racine = "../" if langue == "en" else ""
+    racine = racine_de(langue)
     ti = t["pied_titres"]
     return f'''  <footer class="pied">
     <div class="conteneur">
@@ -256,40 +275,61 @@ def barre_mobile(t: dict) -> str:
 def page_rayons(source: str, langue: str) -> str:
     d = json.loads((SITE / "data" / "produits.json").read_text(encoding="utf-8"))
     t = L[langue]
-    racine = "../" if langue == "en" else ""
+    racine = racine_de(langue)
     tuiles = []
     for r in d["rayons"]:
         n = sum(1 for p in d["produits"] if p["rayon"] == r)
         cle = PHOTO_RAYON.get(r)
         photo = f"images/magasin/{cle}.jpg" if cle and (SITE / "images" / "magasin" / f"{cle}.jpg").exists() else ""
-        nom = RAYONS_EN.get(r, r) if langue == "en" else r
-        texte = html.escape(TEXTE_RAYON.get(r, ("", ""))[1 if langue == "en" else 0])
+        if langue in AUTRES:
+            nom, texte = AUTRES[langue].RAYONS.get(r, r), html.escape(AUTRES[langue].TEXTE_RAYON.get(r, ""))
+        else:
+            nom = RAYONS_EN.get(r, r) if langue == "en" else r
+            texte = html.escape(TEXTE_RAYON.get(r, ("", ""))[1 if langue == "en" else 0])
         nb = f"{n} {t['produits'] if n > 1 else t['produit']}"
         img = f'<img src="{racine}{photo}" alt="" loading="lazy">' if photo else ""
         tuiles.append(f'          <a class="tuile{"" if photo else " sans-image"}" href="boutique.html?rayon={quote_plus(r)}">{img}'
                       f'<em class="tuile-nombre">{nb}</em><strong>{html.escape(nom)}</strong><span>{texte}</span></a>')
-    total = f"{len(d['produits']):,}".replace(",", " " if langue == "fr" else ",")
+    total = f"{len(d['produits']):,}".replace(",", t.get("milliers", " " if langue == "fr" else ","))
     return source.replace("<!--TUILES-->", "\n".join(tuiles)).replace("<!--NOMBRE-->", total)
 
 
 def page_recettes(source: str, langue: str) -> str:
     recettes = json.loads((SITE / "data" / "recettes.json").read_text(encoding="utf-8"))
     en = langue == "en"
-    racine = "../" if en else ""
-    v = (lambda r, k: r.get(k + "_en") or r[k]) if en else (lambda r, k: r[k])
-    lib = {"ing": "Ingredients" if en else "Ingrédients", "prep": "Method" if en else "Préparation",
-           "temps": "Time" if en else "Temps", "pour": "Serves" if en else "Pour", "trouver": "Find in the shop" if en else "Trouver à la boutique",
-           "retour": "Back to recipes" if en else "Retour aux recettes", "autres": "Other recipes" if en else "Autres recettes"}
+    racine = racine_de(langue)
+    if langue in AUTRES:                                 # data/recettes_<code>.json : {id: {titre, pays, …, ingredients, etapes}}
+        chemin = SITE / "data" / f"recettes_{langue}.json"
+        trad = json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else {}
+        for r in recettes:
+            x = trad.get(r["id"], {})
+            for k in ("titre", "pays", "temps", "portions", "resume"):
+                r[k + "_x"] = x.get(k) or r.get(k + "_en") or r[k]
+            r["etapes_x"] = x.get("etapes") or r.get("etapes_en") or r["etapes"]
+            for i, ing in zip(r["ingredients"], x.get("ingredients") or [i.get("texte_en") for i in r["ingredients"]]):
+                i["texte_x"] = ing or i.get("texte_en") or i["texte"]
+        v = lambda r, k: r[k + "_x"]
+        lib = AUTRES[langue].RECETTES
+    else:
+        v = (lambda r, k: r.get(k + "_en") or r[k]) if en else (lambda r, k: r[k])
+        lib = {"ing": "Ingredients" if en else "Ingrédients", "prep": "Method" if en else "Préparation",
+               "temps": "Time" if en else "Temps", "pour": "Serves" if en else "Pour", "trouver": "Find in the shop" if en else "Trouver à la boutique",
+               "retour": "Back to recipes" if en else "Retour aux recettes", "autres": "Other recipes" if en else "Autres recettes"}
+    if langue in AUTRES:
+        texte_ing, etapes_de = (lambda i: i["texte_x"]), (lambda r: r["etapes_x"])
+    else:
+        texte_ing = lambda i: i.get("texte_en") if en and i.get("texte_en") else i["texte"]
+        etapes_de = lambda r: r.get("etapes_en") if en and r.get("etapes_en") else r["etapes"]
     sommaire, fiches = [], []
     for r in recettes:
         sommaire.append(f'          <a class="tuile" href="recette-{r["id"]}.html"><img src="{racine}{r["photo"]}" alt="" loading="lazy">'
                         f'<em class="tuile-nombre">{html.escape(v(r, "pays"))}</em><strong>{html.escape(v(r, "titre"))}</strong>'
                         f'<span>{html.escape(v(r, "temps"))}</span></a>')
         ingredients = "\n".join(
-            f'              <li><span>{html.escape(i.get("texte_en") if en and i.get("texte_en") else i["texte"])}</span>'
+            f'              <li><span>{html.escape(texte_ing(i))}</span>'
             f'<a href="boutique.html?q={quote_plus(i["cherche"])}" title="{lib["trouver"]}">{lib["trouver"]} →</a></li>'
             for i in r["ingredients"])
-        etapes = "\n".join(f"              <li>{html.escape(e)}</li>" for e in (r.get("etapes_en") if en and r.get("etapes_en") else r["etapes"]))
+        etapes = "\n".join(f"              <li>{html.escape(e)}</li>" for e in etapes_de(r))
         fiches.append(f'''    <section id="{r["id"]}" class="section recette recette-seule">
       <div class="conteneur recette-grille">
         <a class="retour" href="recettes.html" data-retour>← {lib["retour"]}</a>
@@ -299,7 +339,7 @@ def page_recettes(source: str, langue: str) -> str:
             <p class="surtitre">{html.escape(v(r, "pays"))}</p>
             <h1>{html.escape(v(r, "titre"))}</h1>
             <p class="intro">{html.escape(v(r, "resume"))}</p>
-            <ul class="pastilles"><li>{lib["temps"]} : {html.escape(v(r, "temps"))}</li><li>{lib["pour"]} : {html.escape(v(r, "portions"))}</li></ul>
+            <ul class="pastilles"><li>{lib["temps"]}{lib.get("deux_points", " : ")}{html.escape(v(r, "temps"))}</li><li>{lib["pour"]}{lib.get("deux_points", " : ")}{html.escape(v(r, "portions"))}</li></ul>
           </div>
         </div>
         <div class="recette-corps">
@@ -345,7 +385,7 @@ def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
     else:
         titre, description = t["pages"][fichier]
         photo = "images/logo.png"
-        dossier = SOURCES if langue == "fr" else SOURCES / "en"
+        dossier = SOURCES if langue == "fr" else SOURCES / langue
         contenu = (dossier / f"{SOURCE.get(fichier, fichier[:-5])}.html").read_text(encoding="utf-8")
     if fichier == "rayons.html":
         contenu = page_rayons(contenu, langue)
@@ -356,8 +396,8 @@ def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
     if "<!--FORMULAIRE-->" in contenu:
         sujet = "candidature" if fichier == "carriere.html" else "produit"
         contenu = contenu.replace("<!--FORMULAIRE-->", formulaire(langue, t["dossier"] + fichier, sujet))
-    racine = "../" if langue == "en" else ""
-    if langue == "en":                                  # images et fichiers communs à la racine du site
+    racine = racine_de(langue)
+    if langue != "fr":                                  # images et fichiers communs à la racine du site
         contenu = contenu.replace('src="images/', 'src="../images/')
     css = f'  <link rel="stylesheet" href="{racine}boutique.css">\n' if fichier in AVEC_BOUTIQUE else ""
     script = f'  <script src="{racine}boutique.js"></script>\n' if fichier in AVEC_BOUTIQUE else ""
@@ -369,8 +409,8 @@ def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
     if fichier in ("index.html", "contact.html"):
         fiche = '  <script type="application/ld+json">\n  ' + json.dumps(FICHE_COMMERCE, ensure_ascii=False) + "\n  </script>\n"
     actif = {"produit.html": "boutique.html"}.get(fichier, "recettes.html" if fichier.startswith("recette-") else fichier)
-    alternatives = (f'  <link rel="alternate" hreflang="fr-CA" href="{URL}/{fichier}">\n'
-                    f'  <link rel="alternate" hreflang="en-CA" href="{URL}/en/{fichier}">\n')
+    alternatives = "".join(f'  <link rel="alternate" hreflang="{L[c]["lang"]}" href="{URL}/{L[c]["dossier"]}{fichier}">\n'
+                           for c in LANGUES)
     page = f'''<!doctype html>
 <html lang="{t["lang"]}">
 <head>
@@ -405,9 +445,9 @@ def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
 
 def main() -> None:
     n = 0
-    for langue in ("fr", "en"):
+    for langue in LANGUES:
         for fichier in FICHIERS:
-            if (SOURCES if langue == "fr" else SOURCES / "en").joinpath(f"{SOURCE.get(fichier, fichier[:-5])}.html").exists():
+            if (SOURCES if langue == "fr" else SOURCES / langue).joinpath(f"{SOURCE.get(fichier, fichier[:-5])}.html").exists():
                 n += construire(fichier, langue)
             else:
                 print(f"{langue} : sources manquantes pour {fichier}")

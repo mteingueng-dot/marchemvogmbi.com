@@ -1,0 +1,37 @@
+  <main class="conteneur boutique">
+    <div class="boutique-tete">
+      <h1>Os nossos produtos</h1>
+      <p class="intro">Mais de 2000 produtos da África, do Caribe e da América Latina, com os seus formatos, cores e ideias de receitas. A disponibilidade depende das chegadas: ligue-nos para um produto específico.</p>
+      <div class="mini-promesses">
+        <span><strong>Preços imbatíveis</strong>: viu mais barato noutro lugar? 1 ¢ a menos connosco.</span>
+        <span><strong>Entrega grátis</strong> a partir de 100 $ num raio de 5 km: <a href="tel:+18192399864">819 239-9864</a></span>
+      </div>
+      <div class="outils">
+        <label class="recherche">
+          <span class="visuellement-cache">Procurar um produto</span>
+          <input type="search" id="recherche" placeholder="Procurar: banana-da-terra, gari, dendê…" autocomplete="off">
+        </label>
+        <label class="tri">
+          <span>Ordenar</span>
+          <select id="tri">
+            <option value="photo">Em destaque</option>
+            <option value="rayon">Por seção</option>
+            <option value="nom">Nome (A a Z)</option>
+          </select>
+        </label>
+        <label class="case-photo"><input type="checkbox" id="avec-photo"> Só com foto</label>
+      </div>
+    </div>
+
+    <div class="boutique-grille">
+      <aside class="rayons-liste" aria-label="Seções">
+        <h2>Seções</h2>
+        <ul id="rayons"></ul>
+      </aside>
+      <section aria-live="polite">
+        <p id="compte" class="compte">Carregando o catálogo…</p>
+        <div id="produits" class="produits"></div>
+        <div class="plus-ligne"><button id="plus" class="bouton bouton-clair" hidden>Ver mais produtos</button></div>
+      </section>
+    </div>
+  </main>

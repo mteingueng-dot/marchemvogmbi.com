@@ -60,3 +60,12 @@
     location.replace(`recette-${location.hash.slice(1)}.html`);
   }
 })();
+
+/* Choix de la langue : la liste se referme d'un clic ailleurs ou avec Échap */
+(function () {
+  "use strict";
+  const d = document.querySelector("details.langues");
+  if (!d) return;
+  document.addEventListener("click", (e) => { if (d.open && !d.contains(e.target)) d.open = false; });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") d.open = false; });
+})();

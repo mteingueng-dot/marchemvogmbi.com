@@ -85,3 +85,16 @@ puis `python outils/photos_web.py --refaire <ID>` et relancer l'export. Les phot
 `data/recettes.json` : une recette par entrée (titre, pays, temps, portions, ingrédients avec le mot cherché dans la
 boutique, étapes, en français et en anglais, photo et sa source). La page Recettes montre les vignettes ; chaque recette
 a sa page `recette-<id>.html` (et `en/recette-<id>.html`) avec un bouton « Retour aux recettes ».
+
+## Langues
+
+Le site existe en 6 langues : français (racine), anglais (`en/`), espagnol (`es/`), portugais (`pt/`), italien (`it/`)
+et allemand (`de/`), avec un menu « FR ▾ » dans l'en-tête.
+
+- Pages : `sources/<langue>/*.html` (le contenu de la page seulement).
+- Textes communs (menu, bandeau, pied de page, formulaire, rayons, descriptions des sortes de produits) :
+  `outils/langue_<code>.py` pour es, pt, it, de ; `outils/construire_site.py` pour fr et en.
+- Descriptions des produits : écrites par l'export dans `data/produits_<code>.json` (outils/descriptions_autres.py).
+- Recettes : `outils/recettes_<code>.py`, puis `python outils/recettes_langues.py` écrit `data/recettes_<code>.json`
+  (il signale une recette ajoutée en français qui n'est pas encore traduite).
+- Interface de la boutique (`boutique.js`) et assistant (`assistant.js`) : textes des 6 langues dans le fichier.

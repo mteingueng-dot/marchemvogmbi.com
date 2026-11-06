@@ -1,0 +1,917 @@
+{
+ "ndole": {
+  "titre": "Ndolé con gamberi",
+  "pays": "Camerun",
+  "temps": "1 h 30",
+  "portions": "6 persone",
+  "resume": "Il piatto nazionale del Camerun: foglie di ndolé tenere in una crema di arachidi, con gamberi e carne.",
+  "ingredients": [
+   "500 g di foglie di ndolé (surgelate o secche)",
+   "500 g di arachidi crude sgusciate",
+   "500 g di manzo a pezzi",
+   "200 g di gamberi secchi o affumicati",
+   "2 cipolle e 4 spicchi d'aglio",
+   "1 pezzo di zenzero",
+   "15 cl di olio di arachidi",
+   "Sale, pepe, 1 dado"
+  ],
+  "etapes": [
+   "Lessare le arachidi 15 minuti, scolarle e frullarle con un po' d'acqua fino a ottenere una pasta liscia.",
+   "Cuocere la carne con una cipolla, l'aglio, lo zenzero, il sale e il dado per circa 45 minuti, finché è tenera.",
+   "Sciacquare più volte le foglie di ndolé (lessarle 10 minuti se secche) per togliere l'amaro.",
+   "Aggiungere la pasta di arachidi al brodo della carne e cuocere 20 minuti a fuoco basso, mescolando.",
+   "Unire le foglie di ndolé e i gamberi e cuocere 15 minuti.",
+   "Friggere la seconda cipolla a fette nell'olio caldo e versarla sul ndolé appena prima di servire.",
+   "Servire con platano maturo fritto, bastoncini di manioca (bobolo, miondo) o riso."
+  ]
+ },
+ "taro-sauce-jaune": {
+  "titre": "Taro con salsa gialla (achu)",
+  "pays": "Camerun",
+  "temps": "2 h 30",
+  "portions": "6 persone",
+  "resume": "Il piatto delle feste del Camerun occidentale e nordoccidentale: un nido di taro pestato riempito di salsa gialla all'olio di palma e kanwa, circondato da cotenna, trippa e manzo.",
+  "ingredients": [
+   "2 kg di taro",
+   "250 ml di olio di palma",
+   "1 cucchiaio di kanwa (salgemma)",
+   "500 g di pelle di manzo, 500 g di zampa di manzo",
+   "500 g di trippa e 500 g di manzo",
+   "1 pesce affumicato",
+   "Spezie della salsa gialla (nkui, djansang, pepe bianco), peperoncino, dadi",
+   "Verdure a foglia (facoltative)"
+  ],
+  "etapes": [
+   "Cuocere lentamente la pelle, la zampa, la trippa e il manzo a pezzi con sale, dadi e spezie finché sono teneri; tenere da parte il brodo.",
+   "Lavare il taro senza sbucciarlo e lessarlo da 45 minuti a 1 ora, finché è tenero.",
+   "Sbucciarlo caldo e pestarlo (o usare il mortaio) con un po' d'acqua di cottura fino a ottenere una pasta liscia ed elastica.",
+   "Sciogliere il kanwa in un po' d'acqua tiepida e filtrarlo.",
+   "In una ciotola grande versare l'olio di palma, poi aggiungere a poco a poco l'acqua di kanwa mescolando: l'olio diventa giallo e denso.",
+   "Aggiungere il brodo caldo della carne, le spezie macinate, il peperoncino e il pesce affumicato sbriciolato, mescolando fino a una salsa liscia.",
+   "Servire il taro a forma di nido, versare la salsa gialla al centro e disporre intorno la carne, la pelle e la trippa."
+  ]
+ },
+ "poulet-dg": {
+  "titre": "Pollo DG",
+  "pays": "Camerun",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "Il pollo «direttore generale»: pollo fritto stufato con platani maturi, carote, fagiolini e peperoni.",
+  "ingredients": [
+   "1 pollo a pezzi",
+   "4 platani maturi",
+   "3 carote, 200 g di fagiolini, 2 peperoni",
+   "2 pomodori, 2 cipolle, aglio, zenzero",
+   "Olio, sale, pepe, dado"
+  ],
+  "etapes": [
+   "Insaporire il pollo con aglio, zenzero, sale e dado, e rosolarlo nell'olio.",
+   "Tagliare i platani a rondelle e friggerli; tenerli da parte.",
+   "Nello stesso olio, soffriggere le cipolle, i pomodori, le carote e i fagiolini per 10 minuti.",
+   "Aggiungere il pollo e un bicchiere d'acqua e cuocere 25 minuti.",
+   "Aggiungere i peperoni e i platani fritti, mescolare delicatamente e cuocere altri 10 minuti."
+  ]
+ },
+ "eru": {
+  "titre": "Eru",
+  "pays": "Camerun",
+  "temps": "1 h 30",
+  "portions": "6 persone",
+  "resume": "Specialità del Camerun sudoccidentale: foglie di eru e di waterleaf cotte a lungo nell'olio di palma con carne, pelle di manzo e pesce affumicato.",
+  "ingredients": [
+   "500 g di foglie di eru (okok) tagliate",
+   "500 g di waterleaf (o spinaci)",
+   "500 g di manzo e 300 g di pelle di manzo (kanda)",
+   "1 pesce affumicato e gamberetti secchi",
+   "300 ml di olio di palma",
+   "Peperoncino, dadi, sale; servire con water fufu o gari"
+  ],
+  "etapes": [
+   "Cuocere il manzo e la pelle a pezzi con sale e un dado finché sono teneri.",
+   "Aggiungere il waterleaf tritato: rilascia molta acqua; cuocere 10 minuti.",
+   "Aggiungere il pesce affumicato sbriciolato e i gamberetti macinati.",
+   "Aggiungere l'eru poco alla volta mescolando, poi l'olio di palma e il peperoncino.",
+   "Cuocere 20 minuti a fuoco basso mescolando, finché l'acqua è quasi tutta evaporata.",
+   "Servire caldo con water fufu o gari."
+  ]
+ },
+ "koki": {
+  "titre": "Koki",
+  "pays": "Camerun",
+  "temps": "2 h 30",
+  "portions": "6 persone",
+  "resume": "Un tortino di fagioli dall'occhio pestati con olio di palma e foglie, cotto al vapore in foglie di banano.",
+  "ingredients": [
+   "1 kg di fagioli dall'occhio",
+   "250 ml di olio di palma",
+   "Foglie di banano",
+   "Foglie di taro o spinaci tritati",
+   "Peperoncino, sale, 1 dado",
+   "Platani maturi o malanga per servire"
+  ],
+  "etapes": [
+   "Mettere in ammollo i fagioli per una notte, strofinarli per togliere la buccia e sciacquarli.",
+   "Frullarli con un po' d'acqua tiepida fino a ottenere una pasta liscia e densa.",
+   "Scaldare dolcemente l'olio di palma (senza bruciarlo) e incorporarlo alla pasta con il sale, il peperoncino e il dado.",
+   "Aggiungere le foglie tritate e sbattere bene la pasta.",
+   "Versare porzioni in foglie di banano passate sulla fiamma e chiuderle bene.",
+   "Cuocere al vapore 2 ore. Servire con platani lessi o malanga."
+  ]
+ },
+ "mbongo-tchobi": {
+  "titre": "Mbongo tchobi (stufato di spezie nere)",
+  "pays": "Camerun",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "La salsa nera dei Bassa: pesce cotto in una salsa di spezie mbongo tostate, profonda e profumata, servita con platano o miondo.",
+  "ingredients": [
+   "1,5 kg di pesce (spigola, carpa o tilapia) a tranci",
+   "100 g di spezie mbongo",
+   "2 pomodori, 1 cipolla, 3 spicchi d'aglio, zenzero",
+   "100 ml di olio di palma",
+   "Peperoncino, 1 dado, sale",
+   "Platani verdi lessi o miondo"
+  ],
+  "etapes": [
+   "Tostare il mbongo a secco in una padella finché è ben nero (senza bruciarlo), poi macinarlo.",
+   "Frullare il pomodoro, la cipolla, l'aglio, lo zenzero e il mbongo macinato con un po' d'acqua.",
+   "Scaldare l'olio di palma, versare il purè e cuocere 10 minuti mescolando.",
+   "Aggiungere 500 ml d'acqua, il dado, il sale e il peperoncino; portare a ebollizione.",
+   "Adagiare i tranci di pesce puliti e cuocere 20 minuti a fuoco basso, senza mescolare, scuotendo la pentola.",
+   "Servire con platani lessi o miondo."
+  ]
+ },
+ "beignets-haricots-bouillie": {
+  "titre": "Frittelle, fagioli e pappa",
+  "pays": "Camerun",
+  "temps": "2 h (+ 1 h di lievitazione)",
+  "portions": "6 persone",
+  "resume": "La colazione di strada del Camerun: frittelle soffici, fagioli rossi stufati nell'olio e una pappa di mais dolce.",
+  "ingredients": [
+   "500 g di farina di frumento, 1 bustina di lievito, 100 g di zucchero",
+   "Oppure un preparato pronto per frittelle",
+   "500 g di fagioli rossi",
+   "1 cipolla, peperoncino, olio di palma o vegetale",
+   "200 g di farina di mais per la pappa",
+   "Zucchero, latte, limone o zenzero per aromatizzare"
+  ],
+  "etapes": [
+   "Frittelle: mescolare farina, lievito, zucchero, un pizzico di sale e circa 400 ml d'acqua tiepida fino a un impasto appiccicoso; far lievitare 1 ora.",
+   "Far cadere con la mano palline di impasto nell'olio caldo e dorarle girandole; scolarle.",
+   "Fagioli: metterli in ammollo per una notte, cuocerli 1 h 30, poi saltarli con la cipolla, l'olio, il sale e il peperoncino.",
+   "Pappa: stemperare la farina di mais in 500 ml d'acqua fredda, versarla in 1 litro d'acqua bollente e cuocere 15 minuti mescolando.",
+   "Zuccherare la pappa e aggiungere un po' di latte e limone o zenzero.",
+   "Servire le frittelle con i fagioli e una ciotola di pappa."
+  ]
+ },
+ "folong-arachide": {
+  "titre": "Folong alla pasta di arachidi",
+  "pays": "Camerun",
+  "temps": "1 h",
+  "portions": "6 persone",
+  "resume": "Foglie di folong (amaranto) cotte in una salsa di arachidi con carne o pesce affumicato, un classico del Camerun centrale e meridionale.",
+  "ingredients": [
+   "1 kg di folong (o spinaci)",
+   "300 g di pasta di arachidi o arachidi crude macinate",
+   "500 g di manzo o 1 pesce affumicato",
+   "Gamberetti secchi macinati",
+   "1 cipolla, peperoncino, dado, sale",
+   "Bastoncini di manioca, bobolo o platano"
+  ],
+  "etapes": [
+   "Cuocere la carne con la cipolla, il sale e il dado; tenere il brodo.",
+   "Lavare e tritare il folong, sbollentarlo 5 minuti in acqua bollente e strizzarlo bene.",
+   "Stemperare la pasta di arachidi nel brodo e cuocere 20 minuti a fuoco basso mescolando.",
+   "Aggiungere il pesce affumicato sbriciolato, i gamberetti e il peperoncino.",
+   "Unire il folong e cuocere 15 minuti, finché l'olio delle arachidi affiora.",
+   "Servire con bastoncini di manioca, bobolo o platano."
+  ]
+ },
+ "kondre": {
+  "titre": "Kondré di capra",
+  "pays": "Camerun",
+  "temps": "1 h 45",
+  "portions": "6 persone",
+  "resume": "Il piatto delle feste del Camerun occidentale: capra e platani stufati insieme in una salsa densa e speziata.",
+  "ingredients": [
+   "1,5 kg di capra con l'osso",
+   "6 platani ben verdi",
+   "2 pomodori, 2 cipolle, aglio, zenzero",
+   "Spezie nkui, pepe bianco, djansang",
+   "100 ml di olio di palma",
+   "Peperoncino, 2 dadi, sale"
+  ],
+  "etapes": [
+   "Cuocere la carne a pezzi con sale, cipolla e dado per 45 minuti.",
+   "Frullare i pomodori, la cipolla, l'aglio, lo zenzero e le spezie; aggiungerli alla carne con l'olio di palma.",
+   "Sbucciare i platani, tagliarli a tocchetti e aggiungerli nella pentola.",
+   "Aggiungere acqua fino a coprire, il peperoncino e il secondo dado.",
+   "Cuocere a fuoco basso 40 minuti: i platani addensano la salsa. Regolare di sale e servire caldo."
+  ]
+ },
+ "ndomba-poisson": {
+  "titre": "Ndomba di pesce",
+  "pays": "Camerun",
+  "temps": "1 h 15",
+  "portions": "4 persone",
+  "resume": "Pesce marinato con spezie e pomodoro, avvolto in foglie di banano e cotto al vapore, tenero e profumato.",
+  "ingredients": [
+   "1 kg di pesce (tilapia, spigola, sgombro)",
+   "Foglie di banano",
+   "2 pomodori, 1 cipolla, aglio, zenzero, prezzemolo",
+   "Spezie (djansang, pepe bianco, mbongo a piacere)",
+   "Peperoncino, dado, sale, un po' d'olio",
+   "Bobolo, miondo o platano"
+  ],
+  "etapes": [
+   "Tagliare il pesce pulito a pezzi e salarlo.",
+   "Frullare pomodori, cipolla, aglio, zenzero, prezzemolo, spezie e peperoncino; coprire il pesce e lasciare 30 minuti.",
+   "Passare le foglie di banano sulla fiamma per ammorbidirle.",
+   "Disporre il pesce e la marinata al centro, aggiungere un filo d'olio e il dado, e chiudere in un pacchetto ben stretto.",
+   "Cuocere al vapore, o in una pentola coperta con un po' d'acqua, per 40 minuti.",
+   "Aprire a tavola e servire con bobolo, miondo o platano."
+  ]
+ },
+ "attieke-poisson": {
+  "titre": "Attiéké con pesce alla brace",
+  "pays": "Costa d’Avorio",
+  "temps": "45 min",
+  "portions": "4 persone",
+  "resume": "Un classico dello street food di Abidjan: pesce marinato alla brace servito con attiéké e una salsa fresca al peperoncino.",
+  "ingredients": [
+   "1 kg di attiéké",
+   "2 pesci interi (tilapia, sgombro o spigola)",
+   "3 pomodori e 2 cipolle",
+   "1 o 2 peperoncini freschi",
+   "1 pezzo di zenzero e 3 spicchi d'aglio",
+   "Olio, sale, dado, succo di limone"
+  ],
+  "etapes": [
+   "Squamare e pulire i pesci, poi inciderli su entrambi i lati.",
+   "Frullare l'aglio, lo zenzero, mezza cipolla, un po' di peperoncino, il dado, il sale e l'olio, e spennellare i pesci. Marinare 30 minuti.",
+   "Grigliare i pesci sulla brace o in forno (220 °C) per circa 12 minuti per lato.",
+   "Tritare finemente i pomodori, le cipolle e il peperoncino, e condire con sale, limone e un filo d'olio.",
+   "Scaldare l'attiéké al vapore o al microonde, sgranandolo con una forchetta.",
+   "Servire il pesce sull'attiéké con la salsa fresca e, se ti piace, alloco."
+  ]
+ },
+ "alloco": {
+  "titre": "Alloco (platani fritti)",
+  "pays": "Costa d’Avorio",
+  "temps": "20 min",
+  "portions": "4 persone",
+  "resume": "Platani molto maturi fritti fino a diventare dorati e caramellati, serviti con pesce, uova o una salsa piccante.",
+  "ingredients": [
+   "4 platani molto maturi (buccia gialla con macchie nere)",
+   "Olio di arachidi per friggere",
+   "Sale, peperoncino e cipolla per la salsa"
+  ],
+  "etapes": [
+   "Sbucciare i platani e tagliarli a rondelle o a tocchetti in diagonale.",
+   "Salare leggermente.",
+   "Friggere nell'olio caldo (170 °C) per 3-4 minuti, finché sono ben dorati.",
+   "Scolare su carta assorbente e servire caldi con una salsa di peperoncino, cipolla e pomodoro."
+  ]
+ },
+ "kedjenou": {
+  "titre": "Kedjenou di pollo",
+  "pays": "Costa d’Avorio",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "Il pollo ivoriano cotto lentamente nel suo sugo con pomodori, cipolle, melanzane e peperoncino, senza una goccia d'acqua.",
+  "ingredients": [
+   "1,5 kg di pollo (ruspante se possibile)",
+   "4 pomodori, 2 cipolle, 2 melanzane",
+   "Aglio, zenzero, peperoncino",
+   "Timo, alloro, 1 dado, sale",
+   "Attiéké o riso per servire"
+  ],
+  "etapes": [
+   "Tagliare il pollo a pezzi e metterlo in una casseruola (o pentola di terracotta) con tutte le verdure tagliate.",
+   "Aggiungere l'aglio e lo zenzero schiacciati, il peperoncino, il timo, l'alloro, il dado e il sale.",
+   "Chiudere bene la casseruola, senza aggiungere acqua.",
+   "Cuocere a fuoco basso 1 ora, scuotendo la casseruola ogni 10 minuti senza aprirla.",
+   "La salsa deve restare ristretta e profumata. Servire con attiéké o riso."
+  ]
+ },
+ "sauce-graine": {
+  "titre": "Salsa di noci di palma (sauce graine)",
+  "pays": "Costa d’Avorio",
+  "temps": "1 h 30",
+  "portions": "6 persone",
+  "resume": "Una salsa rossa e cremosa di noci di palma, con carne, pesce affumicato e granchi, servita con foutou di platano o riso.",
+  "ingredients": [
+   "800 g di crema di noci di palma",
+   "800 g di carne (manzo, pollo o montone)",
+   "1 pesce affumicato e qualche granchio",
+   "2 cipolle, 2 pomodori, 1 melanzana",
+   "Peperoncino, dado, sale",
+   "Foutou di platano o riso"
+  ],
+  "etapes": [
+   "Cuocere la carne con una cipolla, il sale e il dado in 1,5 litri d'acqua per 30 minuti.",
+   "Stemperare la crema di noci di palma nell'acqua di cottura e aggiungere i pomodori e la melanzana interi.",
+   "Dopo 15 minuti togliere pomodori e melanzana, schiacciarli e rimetterli nella salsa.",
+   "Aggiungere il pesce affumicato, i granchi e il peperoncino; cuocere 40 minuti a fuoco basso.",
+   "La salsa è pronta quando l'olio rosso affiora in superficie. Servire con foutou o riso."
+  ]
+ },
+ "garba": {
+  "titre": "Garba",
+  "pays": "Costa d’Avorio",
+  "temps": "30 min",
+  "portions": "4 persone",
+  "resume": "Lo street food preferito di Abidjan: attiéké con tonno (o pesce) fritto, cipolla, pomodoro e tanto peperoncino.",
+  "ingredients": [
+   "1 kg di attiéké",
+   "800 g di tonno o pesce sodo (tilapia)",
+   "2 cipolle, 2 pomodori, peperoncini freschi",
+   "Olio per friggere",
+   "1 dado, sale, pepe"
+  ],
+  "etapes": [
+   "Tagliare il pesce a pezzi grandi, salarlo e friggerlo in olio molto caldo finché è croccante.",
+   "Affettare le cipolle e i pomodori, tritare i peperoncini.",
+   "Scaldare l'attiéké al vapore o al microonde con un po' d'acqua, sgranarlo e aggiungere un pizzico di dado.",
+   "Servire l'attiéké con il pesce, le cipolle, i pomodori, il peperoncino e un po' dell'olio di frittura."
+  ]
+ },
+ "pondu": {
+  "titre": "Pondu (saka-saka)",
+  "pays": "RD Congo",
+  "temps": "2 h",
+  "portions": "6 persone",
+  "resume": "Foglie di manioca pestate cotte lentamente con olio di palma, cipolla e pesce salato.",
+  "ingredients": [
+   "1 kg di pondu (foglie di manioca pestate surgelate)",
+   "300 g di pesce salato o affumicato",
+   "15 cl di olio di palma rosso",
+   "2 cipolle, 3 spicchi d'aglio",
+   "1 melanzana o qualche gombo (facoltativo)",
+   "Sale, peperoncino, dado"
+  ],
+  "etapes": [
+   "Mettere in ammollo il pesce salato qualche ora per dissalarlo, poi sbriciolarlo.",
+   "Mettere il pondu in una pentola grande, coprire d'acqua e cuocere a fuoco medio almeno 1 ora, aggiungendo acqua se serve.",
+   "Aggiungere le cipolle e l'aglio tritati, il pesce e la melanzana, e cuocere 30 minuti.",
+   "Versare l'olio di palma e aggiungere sale, peperoncino e il dado. Cuocere altri 20 minuti, finché l'acqua è quasi assorbita.",
+   "Servire con fufu, chikwangue o riso."
+  ]
+ },
+ "fumbwa": {
+  "titre": "Fumbwa",
+  "pays": "RD Congo",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "Foglie di fumbwa tagliate finissime, cotte in una salsa di arachidi e olio di palma con pesce salato.",
+  "ingredients": [
+   "500 g di fumbwa (foglie di gnetum)",
+   "250 g di pasta di arachidi",
+   "300 g di pesce salato o affumicato",
+   "100 ml di olio di palma",
+   "2 cipolle, 2 pomodori, peperoncino",
+   "Chikwangue o fufu"
+  ],
+  "etapes": [
+   "Mettere in ammollo e dissalare il pesce, poi sbriciolarlo.",
+   "Lavare il fumbwa e lessarlo 20 minuti; scolarlo.",
+   "Soffriggere le cipolle e i pomodori nell'olio di palma.",
+   "Aggiungere la pasta di arachidi stemperata in 500 ml d'acqua, poi il fumbwa e il pesce.",
+   "Cuocere 30 minuti a fuoco basso mescolando; aggiungere il peperoncino.",
+   "Servire con chikwangue o fufu."
+  ]
+ },
+ "egusi-foufou": {
+  "titre": "Zuppa egusi con fufu",
+  "pays": "Nigeria",
+  "temps": "1 h",
+  "portions": "6 persone",
+  "resume": "Una salsa densa di semi di melone macinati, verdure a foglia e carne, servita con fufu o igname pestato.",
+  "ingredients": [
+   "300 g di semi di egusi macinati",
+   "500 g di carne (manzo, capra) e un po' di pesce affumicato",
+   "200 g di spinaci o foglie amare",
+   "15 cl di olio di palma rosso",
+   "2 cipolle, peperoncino, gamberetti secchi macinati",
+   "Farina di fufu o di igname pestato per servire"
+  ],
+  "etapes": [
+   "Cuocere la carne con una cipolla, il sale e il dado finché è tenera; tenere il brodo.",
+   "Mescolare l'egusi macinato con una cipolla frullata e un po' d'acqua fino a formare una pasta.",
+   "Scaldare l'olio di palma e friggere la pasta di egusi 10 minuti mescolando, finché forma piccoli grumi.",
+   "Aggiungere il brodo, la carne, il pesce affumicato, i gamberetti e il peperoncino. Cuocere 20 minuti.",
+   "Aggiungere le verdure tagliate e cuocere altri 5 minuti.",
+   "Preparare il fufu: versare la farina nell'acqua bollente e mescolare energicamente fino a un impasto liscio e sodo. Servire con la zuppa."
+  ]
+ },
+ "pepper-soup": {
+  "titre": "Pepper soup di capra",
+  "pays": "Nigeria",
+  "temps": "1 h 30",
+  "portions": "6 persone",
+  "resume": "Una zuppa limpida, piccantissima e confortante, di carne di capra e spezie da pepper soup, servita da sola o con igname.",
+  "ingredients": [
+   "1,5 kg di capra con l'osso",
+   "Spezie per pepper soup (noce di calabash, grani del paradiso…)",
+   "Peperoncini scotch bonnet, 1 cipolla",
+   "Foglie di utazi o basilico africano",
+   "2 dadi, sale",
+   "Igname lesso (facoltativo)"
+  ],
+  "etapes": [
+   "Lavare la carne e metterla in una pentola con la cipolla, il sale e i dadi; lasciarle rilasciare il sugo 10 minuti.",
+   "Coprire con 2 litri d'acqua e cuocere 1 ora, finché è tenera.",
+   "Aggiungere le spezie macinate e i peperoncini schiacciati; cuocere 15 minuti.",
+   "Aggiungere le foglie tritate alla fine.",
+   "Servire bollente, con igname per un pasto completo."
+  ]
+ },
+ "eba-sauce-gombo": {
+  "titre": "Salsa di gombo con eba",
+  "pays": "Africa occidentale",
+  "temps": "50 min",
+  "portions": "4 persone",
+  "resume": "Una salsa vellutata di gombo con pesce affumicato e olio di palma, servita con eba (impasto di gari).",
+  "ingredients": [
+   "500 g di gombo fresco o surgelato",
+   "300 g di pesce affumicato e 300 g di carne",
+   "10 cl di olio di palma rosso",
+   "1 cipolla, peperoncino, gamberetti secchi",
+   "500 g di gari per l'eba"
+  ],
+  "etapes": [
+   "Cuocere la carne con la cipolla, il sale e il dado; tenere il brodo.",
+   "Tagliare il gombo a rondelle sottili (o grattugiarlo).",
+   "Aggiungere al brodo l'olio di palma, il pesce affumicato sbriciolato, i gamberetti e il peperoncino. Cuocere 10 minuti.",
+   "Aggiungere il gombo e cuocere 5-8 minuti a fuoco basso, senza coperchio, perché resti verde e vellutato.",
+   "Per l'eba: versare il gari nell'acqua bollente fuori dal fuoco, lasciarlo gonfiare un minuto e lavorarlo con una spatola fino a un impasto sodo."
+  ]
+ },
+ "griot-bananes-pesees": {
+  "titre": "Griot con bananes pesées",
+  "pays": "Haiti",
+  "temps": "2 h (più la marinatura)",
+  "portions": "6 persone",
+  "resume": "Il piatto delle feste di Haiti: maiale marinato negli agrumi e nell'epis, stufato e poi fritto, servito con platani verdi schiacciati e fritti.",
+  "ingredients": [
+   "1,5 kg di spalla di maiale a cubetti",
+   "Succo di 2 arance amare (o arance e lime)",
+   "Epis: prezzemolo, timo, aglio, cipollotto, peperoncino scotch bonnet",
+   "3 platani verdi",
+   "Olio per friggere"
+  ],
+  "etapes": [
+   "Lavare il maiale con il succo degli agrumi, poi marinarlo con l'epis frullato per almeno 4 ore (meglio una notte).",
+   "Cuocere il maiale con la marinata e un po' d'acqua, coperto, 1 ora, poi scoperto finché il liquido evapora.",
+   "Friggere i pezzi di maiale in olio caldo finché sono ben dorati.",
+   "Sbucciare i platani verdi, tagliarli a tocchetti e friggerli 4 minuti.",
+   "Schiacciarli tra due taglieri e friggerli di nuovo finché sono croccanti.",
+   "Servire il griot con le bananes pesées e il pikliz (cavolo e carote sott'aceto piccanti)."
+  ]
+ },
+ "diri-djon-djon": {
+  "titre": "Diri djon djon (riso ai funghi neri)",
+  "pays": "Haiti",
+  "temps": "50 min",
+  "portions": "6 persone",
+  "resume": "Il riso nero delle grandi occasioni ad Haiti, cotto nell'acqua profumata dei funghi djon djon, con piselli.",
+  "ingredients": [
+   "30 g di funghi djon djon secchi",
+   "500 g di riso a chicco lungo",
+   "1 tazza di piselli (o fagioli di Lima)",
+   "Epis (aglio, prezzemolo, cipollotto, peperone, timo), 1 peperoncino",
+   "1 dado, chiodi di garofano, sale",
+   "3 cucchiai di olio o burro"
+  ],
+  "etapes": [
+   "Mettere i djon djon in 1 litro d'acqua bollente per 20 minuti, poi filtrare: tenere l'acqua nera.",
+   "Soffriggere l'epis nell'olio, aggiungere i piselli e il riso sciacquato e mescolare 2 minuti.",
+   "Versare l'acqua dei djon djon (circa 750 ml), il dado, i chiodi di garofano, il sale e il peperoncino intero.",
+   "Cuocere a fuoco medio senza coperchio finché l'acqua è assorbita.",
+   "Coprire e terminare a fuoco bassissimo per 20 minuti. Servire con griot o pollo."
+  ]
+ },
+ "soup-joumou": {
+  "titre": "Soup joumou",
+  "pays": "Haiti",
+  "temps": "2 h 30",
+  "portions": "8 persone",
+  "resume": "La zuppa della libertà servita ad Haiti ogni 1º gennaio: una zuppa di zucca con manzo, verdure e pasta.",
+  "ingredients": [
+   "1 kg di manzo con ossa per brodo",
+   "1 zucca di circa 1,5 kg",
+   "Cavolo, carote, patate, rapa, porro",
+   "Epis, timo, chiodi di garofano, 1 peperoncino",
+   "200 g di pasta (maccheroni o spaghetti)",
+   "Succo di lime per lavare la carne"
+  ],
+  "etapes": [
+   "Lavare la carne con succo di lime, marinarla con l'epis, poi cuocerla in 3 litri d'acqua per 1 ora.",
+   "Cuocere a parte la zucca sbucciata, frullarla con un po' di brodo e aggiungerla nella pentola.",
+   "Aggiungere le verdure tagliate, il timo, i chiodi di garofano e il peperoncino intero; cuocere 30 minuti.",
+   "Aggiungere la pasta e cuocere altri 10 minuti.",
+   "Regolare di sale e servire caldo con una fetta di pane."
+  ]
+ },
+ "mafe": {
+  "titre": "Mafé (salsa di arachidi)",
+  "pays": "Senegal e Mali",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "Uno stufato confortante di carne e verdure in una salsa di pasta di arachidi e pomodoro, servito con riso.",
+  "ingredients": [
+   "1 kg di manzo, agnello o pollo",
+   "250 g di pasta di arachidi",
+   "2 cucchiai di concentrato di pomodoro",
+   "2 cipolle, 3 spicchi d'aglio, 1 peperoncino",
+   "Carote, patata dolce, cavolo o manioca",
+   "Riso per servire"
+  ],
+  "etapes": [
+   "Rosolare la carne in un po' d'olio con le cipolle e l'aglio.",
+   "Aggiungere il concentrato di pomodoro e soffriggere 5 minuti.",
+   "Stemperare la pasta di arachidi in un litro d'acqua calda e versarla sulla carne.",
+   "Aggiungere le verdure a pezzi grandi, il peperoncino intero, il sale e il dado.",
+   "Cuocere a fuoco basso 45 minuti, mescolando ogni tanto, finché l'olio affiora in superficie.",
+   "Servire con riso bianco."
+  ]
+ },
+ "riz-jollof": {
+  "titre": "Riso jollof",
+  "pays": "Nigeria e Ghana",
+  "temps": "1 h",
+  "portions": "6 persone",
+  "resume": "Il riso delle feste dell'Africa occidentale: cotto in una salsa di pomodoro e peperoni affumicata e piccante, servito con pollo o pesce fritto.",
+  "ingredients": [
+   "600 g di riso parboiled a chicco lungo",
+   "4 pomodori, 2 peperoni rossi, 1 peperoncino scotch bonnet",
+   "3 cucchiai di concentrato di pomodoro",
+   "2 cipolle",
+   "Curry, timo, alloro, 2 dadi",
+   "125 ml di olio vegetale"
+  ],
+  "etapes": [
+   "Frullare i pomodori, i peperoni, il peperoncino e una cipolla fino a un purè liscio.",
+   "Soffriggere l'altra cipolla affettata nell'olio, aggiungere il concentrato di pomodoro e friggerlo 5 minuti.",
+   "Versare il purè e far ridurre 15 minuti a fuoco medio, finché la salsa si addensa.",
+   "Aggiungere il curry, il timo, l'alloro, i dadi, il sale e 500 ml d'acqua o brodo.",
+   "Aggiungere il riso sciacquato, coprire con carta stagnola e coperchio, e cuocere 30 minuti a fuoco basso senza mescolare.",
+   "Mescolare delicatamente alla fine; una leggera crosticina sul fondo dà il tanto ricercato gusto affumicato."
+  ]
+ },
+ "thieboudienne": {
+  "titre": "Thieboudienne",
+  "pays": "Senegal",
+  "temps": "2 h",
+  "portions": "6 persone",
+  "resume": "Il piatto nazionale del Senegal: pesce farcito al prezzemolo, verdure tenere e riso spezzato cotto nel brodo rosso.",
+  "ingredients": [
+   "1,5 kg di pesce sodo (cernia o orata)",
+   "600 g di riso spezzato",
+   "100 g di concentrato di pomodoro",
+   "Manioca, cavolo, carote, melanzana, gombo",
+   "Prezzemolo, aglio, peperoncino (ripieno: rof)",
+   "Pesce affumicato o essiccato (guedj)",
+   "150 ml di olio"
+  ],
+  "etapes": [
+   "Pestare il prezzemolo, l'aglio, il peperoncino e un po' di cipolla; farcire il pesce attraverso delle incisioni.",
+   "Friggere il pesce nell'olio e toglierlo; soffriggere le cipolle e il concentrato di pomodoro 10 minuti.",
+   "Aggiungere 2 litri d'acqua, il pesce essiccato, le verdure e i condimenti; cuocere 30 minuti.",
+   "Rimettere il pesce per 15 minuti, poi togliere pesce e verdure e tenerli in caldo.",
+   "Cuocere il riso lavato al vapore 15 minuti, poi versarlo nel brodo filtrato e cuocere a fuoco basso 25 minuti.",
+   "Servire il riso su un grande piatto, con il pesce e le verdure sopra."
+  ]
+ },
+ "poulet-yassa": {
+  "titre": "Pollo yassa",
+  "pays": "Senegal",
+  "temps": "1 h (+ 2 h di marinatura)",
+  "portions": "6 persone",
+  "resume": "Pollo marinato al limone e senape, grigliato e poi stufato in una montagna di cipolle fondenti.",
+  "ingredients": [
+   "1,5 kg di pollo a pezzi",
+   "1 kg di cipolle",
+   "Succo di 4 limoni",
+   "3 cucchiai di senape",
+   "Aglio, peperoncino, 2 dadi, pepe",
+   "Olive verdi (facoltative) e riso bianco"
+  ],
+  "etapes": [
+   "Mescolare il succo di limone, la senape, l'aglio, il pepe, i dadi sbriciolati e le cipolle affettate.",
+   "Marinare il pollo in questa miscela almeno 2 ore (meglio una notte).",
+   "Scolare il pollo e grigliarlo in forno o sul barbecue finché è ben dorato.",
+   "Far appassire le cipolle della marinata in un po' d'olio per 20 minuti, poi versare il resto della marinata.",
+   "Aggiungere il pollo, il peperoncino intero e le olive; cuocere 20 minuti.",
+   "Servire con riso bianco."
+  ]
+ },
+ "poulet-moambe": {
+  "titre": "Pollo moambe",
+  "pays": "RD Congo e Congo",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "Il pollo della domenica congolese, stufato in salsa di noci di palma (moambe), servito con riso o fufu.",
+  "ingredients": [
+   "1,5 kg di pollo a pezzi",
+   "800 g di salsa moambe (crema di noci di palma)",
+   "2 cipolle, 3 spicchi d'aglio",
+   "2 pomodori o 2 cucchiai di concentrato",
+   "1 peperoncino, 1 dado, sale",
+   "Riso, fufu o chikwangue"
+  ],
+  "etapes": [
+   "Salare e pepare il pollo e rosolarlo in una pentola.",
+   "Aggiungere le cipolle e l'aglio, poi i pomodori; soffriggere 5 minuti.",
+   "Stemperare la crema di noci di palma in 500 ml d'acqua calda e versarla sul pollo.",
+   "Aggiungere il dado e il peperoncino intero e cuocere 45 minuti a fuoco basso, finché la salsa è densa e l'olio affiora.",
+   "Servire con riso, fufu o chikwangue."
+  ]
+ },
+ "liboke-poisson": {
+  "titre": "Liboké di pesce",
+  "pays": "RD Congo e Congo",
+  "temps": "1 h",
+  "portions": "4 persone",
+  "resume": "Pesce alla congolese condito con pomodoro, cipolla e peperoncino, cotto in pacchetti di foglie di banano sulla brace.",
+  "ingredients": [
+   "1 kg di pesce (tilapia, persico del Nilo, pesce gatto)",
+   "Foglie di banano",
+   "2 pomodori, 2 cipolle, aglio, peperoncino",
+   "2 cucchiai di olio di palma",
+   "1 dado, sale",
+   "Chikwangue o riso per servire"
+  ],
+  "etapes": [
+   "Pulire il pesce, tagliarlo a tranci e salarlo.",
+   "Tagliare a dadini pomodori e cipolle, schiacciare l'aglio e il peperoncino; mescolare con l'olio di palma e il dado.",
+   "Ammorbidire le foglie di banano sulla fiamma.",
+   "Disporre il pesce coperto dalla miscela sulle foglie e legare a pacchetto.",
+   "Cuocere sulla brace, sul barbecue o in forno a 200 °C per 35-40 minuti.",
+   "Servire nelle foglie con chikwangue o riso."
+  ]
+ },
+ "poulet-jerk": {
+  "titre": "Pollo jerk",
+  "pays": "Giamaica",
+  "temps": "1 h (+ 4 h di marinatura)",
+  "portions": "6 persone",
+  "resume": "Il pollo alla griglia della Giamaica, marinato in una pasta di peperoncino scotch bonnet, pimento e timo, dal gusto affumicato.",
+  "ingredients": [
+   "1,5 kg di cosce di pollo",
+   "Marinata jerk (o 2 peperoncini scotch bonnet)",
+   "1 cucchiaio di pimento in grani",
+   "Timo, aglio, zenzero, cipolle",
+   "Succo di 2 lime, salsa di soia, zucchero di canna",
+   "Riso con fagioli o platani fritti per servire"
+  ],
+  "etapes": [
+   "Frullare il peperoncino, il pimento macinato, il timo, l'aglio, lo zenzero, le cipolle, il succo di lime, la salsa di soia e lo zucchero di canna.",
+   "Incidere il pollo, ricoprirlo di marinata e lasciar riposare almeno 4 ore (meglio una notte).",
+   "Grigliare a fuoco medio, coperchio chiuso, 35-40 minuti, girando spesso (oppure in forno a 200 °C).",
+   "Spennellare con la marinata durante la cottura; la pelle deve essere ben segnata.",
+   "Servire con riso con fagioli o platani fritti."
+  ]
+ },
+ "ackee-morue": {
+  "titre": "Ackee e baccalà",
+  "pays": "Giamaica",
+  "temps": "45 min (+ 1 notte di ammollo)",
+  "portions": "4 persone",
+  "resume": "Il piatto nazionale della Giamaica: il frutto dell'ackee, tenero come uova strapazzate, saltato con baccalà, peperoni e cipolle.",
+  "ingredients": [
+   "1 lattina di ackee (540 g)",
+   "300 g di baccalà o pesce salato",
+   "1 cipolla, 1 peperone, 2 pomodori",
+   "1 peperoncino scotch bonnet, timo",
+   "Olio, pepe nero",
+   "Platani fritti o banane verdi lesse"
+  ],
+  "etapes": [
+   "Dissalare il pesce una notte in acqua fredda, poi lessarlo 15 minuti, scolarlo e sfaldarlo.",
+   "Soffriggere la cipolla, il peperone, il peperoncino e il timo nell'olio per 5 minuti.",
+   "Aggiungere i pomodori e il pesce sfaldato e cuocere 5 minuti.",
+   "Scolare l'ackee e incorporarlo con molta delicatezza perché non si rompa. Scaldare 3 minuti.",
+   "Pepare e servire con platani fritti o banane verdi."
+  ]
+ },
+ "riz-et-pois": {
+  "titre": "Riso e fagioli (rice and peas)",
+  "pays": "Giamaica",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "Il contorno della domenica in Giamaica: riso cotto con fagioli rossi nel latte di cocco, timo e un peperoncino scotch bonnet intero.",
+  "ingredients": [
+   "1 lattina di fagioli rossi (o 250 g secchi)",
+   "1 lattina di latte di cocco",
+   "400 g di riso a chicco lungo",
+   "Timo, pimento, 2 cipollotti, aglio",
+   "1 peperoncino scotch bonnet intero"
+  ],
+  "etapes": [
+   "Se i fagioli sono secchi, metterli in ammollo per una notte e cuocerli 1 ora; tenere l'acqua di cottura.",
+   "In una pentola unire i fagioli, il latte di cocco, 500 ml d'acqua (o di acqua di cottura), l'aglio, il timo, il pimento e i cipollotti.",
+   "Portare a ebollizione, salare, poi aggiungere il riso sciacquato e il peperoncino intero (senza romperlo).",
+   "Coprire e cuocere 25 minuti a fuoco basso, finché il liquido è assorbito.",
+   "Togliere il peperoncino e il timo, sgranare con una forchetta e servire con pollo jerk o curry di capra."
+  ]
+ },
+ "curry-chevre": {
+  "titre": "Curry di capra",
+  "pays": "Giamaica",
+  "temps": "2 h (+ 2 h di marinatura)",
+  "portions": "6 persone",
+  "resume": "Il curry delle feste caraibiche: capra stufata a lungo nel curry giamaicano con patate e peperoncino scotch bonnet.",
+  "ingredients": [
+   "1,5 kg di capra con l'osso",
+   "3 cucchiai di curry in polvere",
+   "Cipolle, aglio, zenzero, timo, cipollotti",
+   "1 peperoncino scotch bonnet, pimento",
+   "3 patate",
+   "Riso e fagioli per servire"
+  ],
+  "etapes": [
+   "Marinare la carne con 2 cucchiai di curry, l'aglio, lo zenzero, la cipolla, il timo, il sale e il pepe per almeno 2 ore.",
+   "Tostare l'ultimo cucchiaio di curry nell'olio caldo per 1 minuto.",
+   "Aggiungere la carne e rosolarla bene.",
+   "Coprire d'acqua, aggiungere il peperoncino intero e il pimento; cuocere 1 h 15 a fuoco basso.",
+   "Aggiungere le patate a cubetti e cuocere 30 minuti: addensano la salsa.",
+   "Servire con riso e fagioli."
+  ]
+ },
+ "pozole": {
+  "titre": "Pozole rojo",
+  "pays": "Messico",
+  "temps": "2 h",
+  "portions": "8 persone",
+  "resume": "La zuppa delle feste messicana: maiale e mais hominy in un brodo rosso di peperoncini, con cavolo, ravanelli e lime.",
+  "ingredients": [
+   "1,5 kg di spalla di maiale",
+   "1 barattolo di mais hominy bianco",
+   "Peperoncini secchi guajillo o ancho (o peperoncino in polvere)",
+   "1 cipolla, 1 testa d'aglio, origano, cumino",
+   "Cavolo a striscioline, ravanelli, cipolla, lime",
+   "Tostadas o tortillas per servire"
+  ],
+  "etapes": [
+   "Cuocere il maiale a pezzi con la cipolla, l'aglio e il sale in 4 litri d'acqua per 1 h 30 a fuoco basso.",
+   "Mettere in ammollo i peperoncini privati dei semi in acqua calda 20 minuti, poi frullarli con un po' d'aglio e origano; filtrare.",
+   "Aggiungere la salsa di peperoncini e il mais sciacquato al brodo; cuocere 30 minuti.",
+   "Regolare di sale e aggiungere il cumino.",
+   "Servire in grandi ciotole con cavolo, ravanelli, cipolla, origano e lime a parte, e tostadas."
+  ]
+ },
+ "arepas": {
+  "titre": "Arepas al formaggio",
+  "pays": "Colombia e Venezuela",
+  "temps": "30 min",
+  "portions": "8 arepas",
+  "resume": "Le focaccine di mais dorate della Colombia e del Venezuela, croccanti fuori e morbide dentro, farcite di formaggio.",
+  "ingredients": [
+   "2 tazze di farina di mais precotta (masarepa)",
+   "2½ tazze d'acqua tiepida, 1 cucchiaino di sale",
+   "200 g di formaggio bianco (queso blanco o costeño)",
+   "Burro o olio",
+   "Oppure arepas pronte da scaldare"
+  ],
+  "etapes": [
+   "Mescolare l'acqua tiepida e il sale, aggiungere la farina poco alla volta e impastare fino a un impasto liscio; far riposare 5 minuti.",
+   "Aggiungere metà del formaggio grattugiato all'impasto (facoltativo).",
+   "Formare 8 palline e appiattirle in dischi spessi 1,5 cm.",
+   "Cuocerle in una padella imburrata a fuoco medio 6-8 minuti per lato, finché suonano vuote.",
+   "Aprirle di lato, farcirle di formaggio e servirle calde."
+  ]
+ },
+ "pupusas": {
+  "titre": "Pupusas al formaggio e loroco",
+  "pays": "El Salvador",
+  "temps": "40 min",
+  "portions": "10 pupusas",
+  "resume": "Le focaccine ripiene di El Salvador, di pasta di mais con formaggio e fiore di loroco, servite con il curtido.",
+  "ingredients": [
+   "3 tazze di farina di mais masa (Maseca)",
+   "250 g di formaggio filante (quesillo, mozzarella)",
+   "100 g di loroco",
+   "Curtido: cavolo, carota, cipolla, origano, aceto",
+   "Salsa di pomodoro per servire"
+  ],
+  "etapes": [
+   "Il giorno prima, preparare il curtido: cavolo e carota grattugiati, cipolla, origano, sale e aceto.",
+   "Mescolare la masa con circa 2 tazze d'acqua tiepida e sale fino a un impasto morbido che non si attacca.",
+   "Mescolare il formaggio grattugiato e il loroco tritato.",
+   "Formare una pallina di impasto, scavarla, farcirla, richiuderla e appiattirla delicatamente tra le mani.",
+   "Cuocere su una piastra calda senza grassi 3-4 minuti per lato. Servire con il curtido e la salsa di pomodoro."
+  ]
+ },
+ "feijoada": {
+  "titre": "Feijoada",
+  "pays": "Brasile",
+  "temps": "3 h (+ 1 notte di ammollo)",
+  "portions": "8 persone",
+  "resume": "Il grande stufato brasiliano di fagioli neri cotti con diversi tagli di maiale e salsiccia, servito con riso e arance.",
+  "ingredients": [
+   "1 kg di fagioli neri",
+   "1,5 kg di maiale: costine, spalla, piedino o coda",
+   "400 g di chorizo o salsiccia affumicata",
+   "2 cipolle, 1 testa d'aglio, alloro",
+   "Riso bianco, arance, cavolo saltato",
+   "Farina di manioca tostata (farofa)"
+  ],
+  "etapes": [
+   "Mettere in ammollo i fagioli per una notte; dissalare le carni salate, se presenti.",
+   "Cuocere i fagioli con l'alloro in abbondante acqua per 1 ora.",
+   "Rosolare le carni a pezzi e il chorizo, poi aggiungerli ai fagioli.",
+   "Soffriggere le cipolle e l'aglio, aggiungere un mestolo di fagioli, schiacciarli e rimetterli nella pentola.",
+   "Cuocere 1 h 30 a fuoco basso, finché il sugo è denso e le carni tenere.",
+   "Servire con il riso, il cavolo saltato, la farofa e spicchi d'arancia."
+  ]
+ },
+ "couscous-legumes": {
+  "titre": "Cuscus alle verdure e agnello",
+  "pays": "Marocco",
+  "temps": "1 h 30",
+  "portions": "6 persone",
+  "resume": "Il cuscus del venerdì: semola fine e leggera, un brodo profumato di spezie, agnello e sette verdure.",
+  "ingredients": [
+   "500 g di cuscus fine o medio",
+   "1 kg di agnello, montone o pollo",
+   "Carote, rape, zucchine, cavolo, zucca",
+   "1 lattina di ceci",
+   "Zenzero, curcuma, cannella, pepe, coriandolo",
+   "2 cipolle, 2 pomodori, olio d'oliva, burro"
+  ],
+  "etapes": [
+   "Rosolare la carne con le cipolle, i pomodori, l'olio d'oliva e le spezie nella parte bassa della couscoussiera.",
+   "Coprire con 2,5 litri d'acqua e cuocere 45 minuti.",
+   "Aggiungere le verdure cominciando dalle più sode (carote, rape), poi zucchine, cavolo e zucca; aggiungere i ceci.",
+   "Inumidire la semola con acqua salata, sgranarla e cuocerla al vapore sopra il brodo due volte per 15 minuti.",
+   "Sgranare la semola con il burro, disporla a cupola con la carne e le verdure e servire il brodo a parte."
+  ]
+ },
+ "harira": {
+  "titre": "Harira",
+  "pays": "Marocco",
+  "temps": "1 h 30",
+  "portions": "8 persone",
+  "resume": "La zuppa marocchina del ramadan: pomodori, lenticchie, ceci, carne ed erbe fresche, addensata e completata con limone.",
+  "ingredients": [
+   "300 g di agnello, montone o manzo a dadini",
+   "150 g di lenticchie marroni",
+   "1 lattina di ceci",
+   "1 kg di pomodori o 2 cucchiai di concentrato",
+   "Sedano, coriandolo, prezzemolo, cipolla",
+   "Zenzero, cannella, curcuma, pepe",
+   "2 cucchiai di farina, 1 limone, vermicelli (facoltativi)"
+  ],
+  "etapes": [
+   "Soffriggere la carne con la cipolla e le spezie in un po' d'olio.",
+   "Aggiungere il sedano e le erbe tritati, i pomodori frullati e 2,5 litri d'acqua.",
+   "Aggiungere le lenticchie sciacquate e cuocere 45 minuti.",
+   "Aggiungere i ceci e i vermicelli e cuocere 10 minuti.",
+   "Stemperare la farina in un po' d'acqua fredda e versarla a filo mescolando; cuocere 10 minuti finché la zuppa vela il cucchiaio.",
+   "Servire con limone, datteri e uova sode."
+  ]
+ },
+ "kelewele": {
+  "titre": "Kelewele",
+  "pays": "Ghana",
+  "temps": "25 min",
+  "portions": "4 persone",
+  "resume": "Dadini di platano maturo marinati con zenzero e peperoncino, fritti fino a caramellarsi: lo snack di strada del Ghana.",
+  "ingredients": [
+   "4 platani molto maturi",
+   "Zenzero fresco, aglio",
+   "Pepe di Caienna o peperoncino fresco",
+   "Olio per friggere",
+   "Arachidi tostate per servire"
+  ],
+  "etapes": [
+   "Sbucciare i platani e tagliarli a dadini o in diagonale.",
+   "Pestare lo zenzero, l'aglio e il peperoncino con un po' di sale e acqua.",
+   "Ricoprire il platano con questa miscela e lasciare 15 minuti.",
+   "Friggere nell'olio caldo poco per volta finché il platano è ben dorato e caramellato.",
+   "Scolare e servire caldo con arachidi tostate."
+  ]
+ },
+ "jus-bissap": {
+  "titre": "Succo di bissap",
+  "pays": "Senegal e Africa occidentale",
+  "temps": "20 min (+ 2 h in frigo)",
+  "portions": "2 litri",
+  "resume": "La bevanda rossa e rinfrescante dell'Africa occidentale, ai fiori di ibisco, profumata con menta, zenzero o vaniglia.",
+  "ingredients": [
+   "100 g di fiori di ibisco essiccati (karkadè)",
+   "150-200 g di zucchero",
+   "Zenzero fresco o foglie di menta",
+   "Estratto di vaniglia o acqua di fiori d'arancio (facoltativi)",
+   "Oppure uno sciroppo di bissap pronto"
+  ],
+  "etapes": [
+   "Sciacquare rapidamente i fiori in acqua fredda.",
+   "Portarli a ebollizione in 2 litri d'acqua con lo zenzero grattugiato, poi lasciare in infusione 15 minuti fuori dal fuoco.",
+   "Filtrare premendo bene i fiori.",
+   "Zuccherare a caldo e aromatizzare con menta o vaniglia.",
+   "Mettere in frigo almeno 2 ore e servire ben freddo."
+  ]
+ }
+}
