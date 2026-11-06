@@ -39,6 +39,7 @@ def main() -> None:
     with zipfile.ZipFile(sortie, "w", zipfile.ZIP_DEFLATED) as z:
         for p in liste:
             z.write(p, p.relative_to(SITE).as_posix())
+        z.write(SITE / "deploiement_htaccess.txt", ".htaccess")      # remplace le .htaccess de WordPress
     taille = sortie.stat().st_size / 1e6
     images = sum(1 for p in liste if p.parts[len(SITE.parts)] == "images")
     print(f"{sortie} : {len(liste)} fichiers dont {images} images, {taille:.1f} Mo")

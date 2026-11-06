@@ -1,0 +1,23 @@
+# Site statique du Marché Mvog-Mbi (remplace les règles de WordPress)
+DirectoryIndex index.html
+
+# Toujours en https
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Anciennes adresses WordPress : vers l'accueil
+RewriteRule ^(wp-admin|wp-login\.php|xmlrpc\.php)(/.*)?$ / [R=301,L]
+
+# Les données internes ne sont pas listées
+Options -Indexes
+
+# Images, styles et scripts gardés en cache par le navigateur
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType text/css "access plus 1 day"
+  ExpiresByType application/javascript "access plus 1 day"
+  ExpiresByType application/json "access plus 1 hour"
+</IfModule>
