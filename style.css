@@ -567,7 +567,7 @@ h1 { line-height: 1.04; }
               radial-gradient(70% 140% at 0% 100%, rgba(22,138,53,.16) 0%, rgba(22,138,53,0) 60%), var(--creme);
   border-bottom: 1px solid var(--bord);
 }
-.entete-page::after { content: ""; position: absolute; left: 0; bottom: 0; width: 180px; height: 5px; background: linear-gradient(90deg, var(--vert) 33.3%, var(--rouge) 33.3% 66.6%, var(--jaune) 66.6%); }
+.entete-page::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 5px; background: linear-gradient(90deg, var(--vert) 33.3%, var(--rouge) 33.3% 66.6%, var(--jaune) 66.6%); }
 
 /* Tuiles, plats, étapes : profondeur et réaction au survol */
 .tuile { border-radius: 22px; }
