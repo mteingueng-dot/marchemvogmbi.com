@@ -19,6 +19,17 @@ from urllib.parse import quote_plus
 SITE = Path(__file__).resolve().parent.parent
 SOURCES = SITE / "sources"
 URL = "https://www.marchemvogmbi.com"
+
+# Google Tag Manager (conteneur du propriétaire, 2026-11-07) : code officiel, en tête de <head> et juste après <body>
+GTM_ID = "GTM-N564B2HP"
+GTM_TETE = ("  <!-- Google Tag Manager -->\n"
+            "  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});"
+            "var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;"
+            "j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);"
+            f"}})(window,document,'script','dataLayer','{GTM_ID}');</script>\n"
+            "  <!-- End Google Tag Manager -->\n")
+GTM_CORPS = (f'<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={GTM_ID}" height="0" width="0" '
+             'style="display:none;visibility:hidden"></iframe></noscript>\n')
 sys.path.insert(0, str(SITE / "outils"))
 from langues import RAYONS_EN, TEXTE_RAYON  # noqa: E402
 import importlib  # noqa: E402
@@ -436,7 +447,7 @@ def construire(fichier: str, langue: str, impose: tuple | dict | None = None) ->
 <html lang="{t["lang"]}">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+{GTM_TETE}  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(titre)}</title>
   <meta name="description" content="{html.escape(description)}">
   <meta name="theme-color" content="#0f5f25">
@@ -451,7 +462,7 @@ def construire(fichier: str, langue: str, impose: tuple | dict | None = None) ->
   <link rel="stylesheet" href="{racine}style.css">
 {css}{fiche}</head>
 <body>
-{bandeau(t)}
+{GTM_CORPS}{bandeau(t)}
 {entete(t, actif, fichier, langue)}
 {contenu.rstrip()}
 
