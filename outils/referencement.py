@@ -197,6 +197,7 @@ FICHE_COMMERCE = {
     "address": {"@type": "PostalAddress", "streetAddress": "3071 boulevard Portland", "addressLocality": "Sherbrooke",
                 "addressRegion": "QC", "postalCode": "J1L 2Y7", "addressCountry": "CA"},
     "hasMap": "https://www.google.com/maps/dir/?api=1&destination=3071+boulevard+Portland+Sherbrooke+QC+J1L+2Y7",
+    "geo": {"@type": "GeoCoordinates", "latitude": 45.40392, "longitude": -71.95231},   # OpenStreetMap, nœud du magasin
     "areaServed": {"@type": "City", "name": "Sherbrooke"}, "currenciesAccepted": "CAD",
     "openingHoursSpecification": [{"@type": "OpeningHoursSpecification",
                                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],

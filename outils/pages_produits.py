@@ -167,15 +167,18 @@ def titre_page(nom: str, t: dict) -> str:
 
 
 def description_page(texte: str, t: dict, nom: str = "") -> str:
-    """Description du produit + où l'acheter, 120 à 160 caractères : un texte court reçoit aussi les heures, puis
-    le nom du produit en tête."""
-    texte = texte.strip()
+    """Nom du produit en tête (chaque fiche a sa description), puis ce qu'il est et où l'acheter, 120 à 160 caractères.
+    Les phrases du texte qui parlent déjà du magasin sont retirées : la mention de Sherbrooke est ajoutée ici."""
+    import referencement
+    phrases = re.split(r"(?<=[.!?…])\s+", texte.strip())
+    texte = " ".join(x for x in phrases if "Mvog-Mbi" not in x).strip()
     if texte and not texte.endswith((".", "!", "?", "…")):
         texte += "."
-    essais = [texte + t["vente"], texte + t["vente_court"], texte + t["vente"] + t["heures"],
-              texte + t["vente_court"] + t["heures"]]
-    if nom:
-        essais += [f"{nom}. {texte}{t['vente']}{t['heures']}", f"{nom}. {texte}{t['vente_court']}{t['heures']}"]
+    tete = f"{nom} : " if nom else ""
+    essais = [tete + texte + t["vente"], tete + texte + t["vente_court"], tete + texte + t["vente"] + t["heures"],
+              tete + texte + t["vente_court"] + t["heures"]]
+    if not texte:
+        essais = [f"{nom}.{t['vente']}{t['heures']}", f"{nom}.{t['vente_court']}{t['heures']}"]
     essais = [x.strip() for x in essais]
     bon = next((x for x in essais if 120 <= len(x) <= 160), None)          # le premier qui a la bonne longueur
     if bon:
@@ -183,11 +186,10 @@ def description_page(texte: str, t: dict, nom: str = "") -> str:
     tiennent = [x for x in essais if len(x) <= 160]
     if tiennent:
         return max(tiennent, key=len)
-    import referencement                               # texte coupé pour garder la mention de Sherbrooke
-    debut = referencement.couper(texte, 160 - len(t["vente_court"]))
-    if len(debut) >= 60:
-        return debut + t["vente_court"]
-    return referencement.couper(texte, 160)
+    place = 160 - len(tete) - len(t["vente_court"])                        # texte coupé, Sherbrooke gardé
+    if place >= 50:
+        return tete + referencement.couper(texte, place) + t["vente_court"]
+    return referencement.couper(tete + texte, 160)
 
 
 def fil_json_ld(langue: str, dossier: str, t: dict, rayon_fr: str, rayon: str, nom: str, fichier: str) -> str:
@@ -207,6 +209,7 @@ def pages(langue: str, dossier: str) -> list[dict]:
     for p in cat.produits:
         par_rayon.setdefault(p["rayon"], []).append(p)
     sortie = []
+    vus: dict[str, int] = {}
     for p in cat.produits:
         fichier = nom_de_page(p)
         rayon = cat.rayon(p)
@@ -274,7 +277,9 @@ def pages(langue: str, dossier: str) -> list[dict]:
     </article>
 {bloc_voisins}  </main>
 '''
-        sortie.append({"fichier": fichier, "contenu": contenu, "titre": titre_page(nom, t),
-                       "description": description_page(texte, t, nom), "photo": p.get("photo") or "images/logo.png",
+        vus[nom] = vus.get(nom, 0) + 1                  # deux articles du même nom : (2) pour des titres distincts
+        nom_tete = nom if vus[nom] == 1 else f"{nom} ({vus[nom]})"
+        sortie.append({"fichier": fichier, "contenu": contenu, "titre": titre_page(nom_tete, t),
+                       "description": description_page(texte, t, nom_tete), "photo": p.get("photo") or "images/logo.png",
                        "ld": fil_json_ld(langue, dossier, t, p["rayon"], rayon, nom, fichier)})
     return sortie

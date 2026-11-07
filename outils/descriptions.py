@@ -76,7 +76,7 @@ SORTES = [
     (r"avocat|avocado", "Avocats à la chair fondante, en salade, en tartine ou en guacamole.", []),
     (r"aubergine|garden egg", "Aubergines pour les sauces, les ragoûts et les grillades.", []),
     (r"crevette|shrimp|prawn|crayfish", "Crevettes séchées ou fumées qui donnent un goût marin profond au ndolé, aux sauces et aux soupes.", ["ndole"]),
-    (r"poisson.*fume|fume.*poisson|smoked fish|machoiron|kobapot|konkoe|bounga|catfish fume|brochet fume|capitaine fume", "Poisson fumé au goût intense, qui parfume les sauces gombo, les soupes et les légumes-feuilles.", ["eba-sauce-gombo"]),
+    (r"poisson.*fume|fume.*poisson|smoked fish|machoiron|kobapot|konkoe|m?bounga|catfish fume|brochet fume|capitaine fume", "Poisson fumé au goût intense, qui parfume les sauces gombo, les soupes et les légumes-feuilles.", ["eba-sauce-gombo"]),
     (r"stockfish|morue|bacalao|salted fish|poisson sale", "Poisson séché ou salé à faire tremper avant la cuisson, pour les sauces, les légumes-feuilles et les ragoûts.", ["pondu"]),
     (r"tilapia|capitaine|bar |sole|dorade|bream|snapper|vivaneau|redfish|bonito|thon|maquereau|chinchard|mackerel|croaker|merlu|basa|pangasius|poisson", "Poisson à braiser, frire ou cuisiner en sauce. Bien assaisonné, il accompagne l’attiéké, les plantains ou le riz.", ["attieke-poisson"]),
     (r"escargot", "Escargots africains à cuisiner en sauce pimentée ou en ragoût, une spécialité appréciée d’Afrique centrale et de l’Ouest.", []),
@@ -91,7 +91,7 @@ SORTES = [
     (r"bissap|hibiscus|oseille|sorrel", "Fleurs d’hibiscus (bissap, oseille) pour préparer une boisson rafraîchissante et acidulée, servie froide avec de la menthe ou du gingembre.", []),
     (r"jus|juice|nectar|soda|boisson|drink", "Boisson à servir bien fraîche.", []),
     (r"milo|ovaltine|cacao|chocolat chaud", "Boisson chocolatée en poudre, à préparer au lait chaud ou froid au petit-déjeuner.", []),
-    (r"the |the$|\bthe\b|tea|infusion|cafe|coffee|kinkeliba", "Thé, café ou infusion à préparer chaud ou glacé.", []),
+    (r"the |the$|\bthe\b|tea|infusion|cafe|nescafe|coffee|kinkeliba", "Thé, café ou infusion à préparer chaud ou glacé.", []),
     (r"chocopain|tartina|nutella|chocolat|pate a tartiner", "Pâte à tartiner chocolatée, sur le pain, les crêpes ou les beignets.", []),
     (r"sardine|thon en conserve|conserve|canned", "Conserve pratique à garder au garde-manger, pour un repas vite préparé.", []),
     (r"pate de tomate|tomato paste|concentre de tomate", "Concentré de tomate pour donner couleur et goût aux sauces, au riz jollof et aux ragoûts.", ["poulet-dg"]),
@@ -161,10 +161,21 @@ def normal(t: str) -> str:
     return re.sub(r"\s+", " ", t)
 
 
+# Mots qui commencent comme une sorte sans en être une (« poisson » n'est pas un pois, « butterfly » n'est pas du beurre)
+FAUX_DEBUTS = re.compile(r"^(poisson|masala|butterfl|peppermint|lavand|lavend|soleil|sole[il])")
+
+
 def sorte(nom: str) -> tuple[str, list[str]] | None:
+    """Sorte reconnue dans le nom : le motif doit commencer un mot (« Délice » n'est pas « ice », « Congelé » pas « gel »)."""
     n = normal(nom)
     for motif, texte, recettes in SORTES:
-        if re.search(motif, n):
+        for m in re.finditer(motif, n):
+            a = m.start()
+            if a > 0 and n[a - 1].isalnum() and not m.group(0)[0] in " -":
+                continue
+            faux = FAUX_DEBUTS.match(n[a:])
+            if faux and len(m.group(0)) < len(faux.group(0)):
+                continue
             return texte, recettes
     return None
 
