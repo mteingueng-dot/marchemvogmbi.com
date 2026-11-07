@@ -323,7 +323,7 @@
     const img = p.photo ? `<img src="${echapper(RACINE + p.photo)}" alt="" loading="lazy" width="44" height="44">`
       : `<img src="${RACINE}images/icone.png" alt="" class="vide" width="44" height="44">`;
     const rayon = (AUTRE && p._rayon) || (EN && p.rayon_en) || p.rayon;
-    return `<a class="assistant-produit" href="produit.html?id=${encodeURIComponent(p.id)}">${img}<span><strong>${echapper(p.nom)}</strong><small>${echapper(rayon)}</small></span></a>`;
+    return `<a class="assistant-produit" href="${p.slug ? `produit-${p.slug}.html` : `produit.html?id=${encodeURIComponent(p.id)}`}">${img}<span><strong>${echapper(p.nom)}</strong><small>${echapper(rayon)}</small></span></a>`;
   }
   function chercherProduits(texte) {
     const mots = mots_de(texte).split(" ").filter((m) => m.length > 1 && !VIDES.has(m));

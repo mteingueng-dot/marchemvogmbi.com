@@ -84,6 +84,8 @@
   const rayonDe = (p) => champ(p, "rayon");
   const chemin = (f) => (f && !/^https?:/.test(f) ? RACINE + f : f);
   const sansPhoto = (grand) => `<span class="sans-photo${grand ? " grand" : ""}" aria-hidden="true"><img src="${RACINE}images/icone.png" alt="" width="140" height="140"><em>${T.aVenir}</em></span>`;
+  // page fixe du produit (outils/pages_produits.py), dans le dossier de la langue ; sinon l'ancienne fiche ?id=
+  const lienProduit = (p) => (p.slug ? `produit-${p.slug}.html` : `produit.html?id=${encodeURIComponent(p.id)}`);
   const pluriel = (n, un, plusieurs) => `${n} ${n > 1 ? plusieurs : un}`;
 
   // Photo qui ne se charge pas : la vignette « Photo à venir » prend sa place
@@ -131,7 +133,7 @@
       ? `<img src="${echapper(chemin(p.photo))}" alt="" loading="lazy" width="240" height="240"${p.illustration ? ' class="illustration"' : ""}>`
       : sansPhoto(false);
     const d = details(p);
-    return `<a class="carte-produit" href="produit.html?id=${encodeURIComponent(p.id)}">
+    return `<a class="carte-produit" href="${lienProduit(p)}">
       <span class="carte-image">${image}</span>
       <span class="carte-corps">
         <span class="carte-rayon">${echapper(rayonDe(p))}</span>
@@ -268,11 +270,13 @@
   function produit() {
     const id = new URLSearchParams(location.search).get("id");
     const fiche = document.getElementById("fiche");
+    if (fiche.hasAttribute("data-fixe")) return;           // page fixe : déjà remplie à la construction du site
     const lesRecettes = fetch(RACINE + "data/recettes.json").then((r) => r.json()).catch(() => []);
     const recettesLangue = AUTRE ? fetch(RACINE + `data/recettes_${LANG}.json`).then((r) => r.json()).catch(() => ({}))
       : Promise.resolve({});
     Promise.all([charger(), lesRecettes, recettesLangue]).then(([d, recettes, rx]) => {
       const p = d.produits.find((x) => x.id === id || (x.ids || []).includes(id));
+      if (p && p.slug) { location.replace(lienProduit(p)); return; }   // ancienne adresse ?id= -> page fixe
       if (!p) {
         fiche.innerHTML = `<p>${T.introuvable} <a href="boutique.html">${T.voirTout}</a></p>`;
         return;

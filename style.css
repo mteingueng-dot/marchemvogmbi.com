@@ -811,3 +811,9 @@ html, body { overflow-x: clip; }
 .texte-local h2 { margin-bottom: .6em; }
 .texte-local p { color: var(--gris); line-height: 1.7; margin: 0 0 1em; }
 .texte-local a { color: var(--vert-fonce); font-weight: 600; }
+
+/* Pages thématiques : recherches de la boutique */
+.theme-chercher { font-size: 1.15rem; margin: 1.6em 0 .2em; }
+.pastilles-liens li { padding: 0; }
+.pastilles-liens a { display: block; padding: 6px 14px; color: var(--vert-fonce); text-decoration: none; }
+.pastilles-liens a:hover { text-decoration: underline; }

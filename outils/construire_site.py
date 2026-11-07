@@ -24,6 +24,8 @@ from langues import RAYONS_EN, TEXTE_RAYON  # noqa: E402
 import importlib  # noqa: E402
 import re  # noqa: E402
 import referencement  # noqa: E402
+import pages_produits  # noqa: E402
+import pages_themes  # noqa: E402
 
 LANGUES = ["fr", "en", "es", "pt", "it", "de"]
 NOMS_LANGUES = {"fr": "Français", "en": "English", "es": "Español", "pt": "Português", "it": "Italiano", "de": "Deutsch"}
@@ -273,7 +275,8 @@ def page_rayons(source: str, langue: str) -> str:
         tuiles.append(f'          <a class="tuile{"" if photo else " sans-image"}" href="boutique.html?rayon={quote_plus(r)}">{img}'
                       f'<em class="tuile-nombre">{nb}</em><strong>{html.escape(nom)}</strong><span>{texte}</span></a>')
     total = f"{len(d['produits']):,}".replace(",", t.get("milliers", " " if langue == "fr" else ","))
-    return source.replace("<!--TUILES-->", "\n".join(tuiles)).replace("<!--NOMBRE-->", total)
+    source = source.replace("<!--TUILES-->", "\n".join(tuiles)).replace("<!--NOMBRE-->", total)
+    return source.replace("  </main>", pages_themes.section_rayons(langue) + "  </main>", 1)   # pages par origine
 
 
 def page_recettes(source: str, langue: str) -> str:
@@ -373,12 +376,18 @@ def alt_des_tuiles(contenu: str) -> str:
                   remplir, contenu, flags=re.S)
 
 
-def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
-    """Écrit une page ; rend le nombre de pages écrites (la page Recettes écrit aussi une page par recette)."""
+def construire(fichier: str, langue: str, impose: tuple | dict | None = None) -> int:
+    """Écrit une page ; rend le nombre de pages écrites (la page Recettes écrit aussi une page par recette).
+    impose : (contenu, recette) pour une page recette ; {contenu, titre, description, photo, ld} pour une page
+    fabriquée ailleurs (fiches produit, pages thématiques)."""
     t = L[langue]
     n = 1
     recette = None
-    if impose:                                          # page d'une recette : (contenu, données de la recette)
+    ld = ""
+    if isinstance(impose, dict):
+        contenu, titre, description, photo = impose["contenu"], impose["titre"], impose["description"], impose["photo"]
+        ld = impose.get("ld", "")
+    elif impose:                                        # page d'une recette : (contenu, données de la recette)
         contenu, recette = impose
         titre = referencement.titre_recette(recette["titre"], recette["pays"], langue)
         description = referencement.description_recette(recette["resume"], langue)
@@ -400,8 +409,9 @@ def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
     racine = racine_de(langue)
     if langue != "fr":                                  # images et fichiers communs à la racine du site
         contenu = contenu.replace('src="images/', 'src="../images/')
-    css = f'  <link rel="stylesheet" href="{racine}boutique.css">\n' if fichier in AVEC_BOUTIQUE else ""
-    script = f'  <script src="{racine}boutique.js"></script>\n' if fichier in AVEC_BOUTIQUE else ""
+    boutique = fichier in AVEC_BOUTIQUE or fichier.startswith("produit-") or fichier in pages_themes.FICHIERS
+    css = f'  <link rel="stylesheet" href="{racine}boutique.css">\n' if boutique else ""
+    script = f'  <script src="{racine}boutique.js"></script>\n' if boutique else ""
     script += (f'  <script src="{racine}langue.js"></script>\n  <script src="{racine}site.js"></script>\n'
                f'  <script src="{racine}assistant.js"></script>\n')
     if fichier in ("contact.html", "carriere.html"):
@@ -409,12 +419,13 @@ def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
     fiche = ""
     if fichier in ("index.html", "contact.html"):
         fiche = '  <script type="application/ld+json">\n  ' + json.dumps(FICHE_COMMERCE, ensure_ascii=False) + "\n  </script>\n"
+    fiche += ld
     if recette:
         fiche += referencement.recette_json_ld(recette, langue, adresse(langue, fichier))
     if fichier == "index.html":                         # texte « épicerie à Sherbrooke », avant le dernier appel
         contenu = contenu.replace('    <section class="appel">', referencement.section_sherbrooke(langue) + '    <section class="appel">', 1)
     contenu = alt_des_tuiles(contenu)
-    actif = {"produit.html": "boutique.html"}.get(fichier, "recettes.html" if fichier.startswith("recette-") else fichier)
+    actif = "boutique.html" if fichier.startswith("produit") else "recettes.html" if fichier.startswith("recette-") else fichier
     alternatives = ""
     if fichier != "produit.html":                       # fiches remplies par ?id= : pas d'adresse commune
         alternatives = f'  <link rel="canonical" href="{adresse(langue, fichier)}">\n'
@@ -461,6 +472,10 @@ def main() -> None:
                 n += construire(fichier, langue)
             else:
                 print(f"{langue} : sources manquantes pour {fichier}")
+        for page in pages_produits.pages(langue, L[langue]["dossier"]):   # une page fixe par produit
+            n += construire(page["fichier"], langue, page)
+        for page in pages_themes.pages(langue):                          # pages thématiques (origine, beauté)
+            n += construire(page["fichier"], langue, page)
     print(f"{n} pages construites.")
 
 

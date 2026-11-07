@@ -198,6 +198,16 @@ def produits(articles: list[dict]) -> list[dict]:
         for c in p.get("couleurs", []):
             c.pop("prix", None)
     sortie.sort(key=lambda p: (ORDRE.index(p["rayon"]) if p["rayon"] in ORDRE else 99, p["nom"].lower()))
+    # Adresse de la page fixe du produit (produit-<slug>.html) : d'après le nom de la fiche (après regroupement
+    # des formats), unique ; deux fiches de même nom -> « -2 ». Ordre stable : celui des identifiants Clover.
+    pris = set()
+    for p in sorted(sortie, key=lambda x: x["id"]):
+        base = slug(p["nom"]) or p["id"].lower()
+        s, n = base, 2
+        while s in pris:
+            s, n = f"{base}-{n}", n + 1
+        pris.add(s)
+        p["slug"] = s
     return sortie
 
 

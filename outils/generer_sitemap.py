@@ -1,9 +1,8 @@
 """Écrit sitemap.xml et robots.txt à la racine du site (Google, Bing).
 
-Chaque page dans les 6 langues, avec ses autres langues (hreflang) ; les fiches produit.html?id=… en français.
+Chaque page dans les 6 langues (fiches produit-<slug>.html comprises), avec ses autres langues (hreflang).
     python outils/generer_sitemap.py      (après construire_site.py, avant preparer_deploiement.py)
 """
-import json
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -31,9 +30,6 @@ def main() -> None:
         for c in presentes:
             lignes.append(f"  <url>\n    <loc>{escape(adresse(c, fichier))}</loc>{alt}\n  </url>")
             nb += 1
-    for p in json.loads((SITE / "data" / "produits.json").read_text(encoding="utf-8"))["produits"]:
-        lignes.append(f"  <url><loc>{escape(URL + '/produit.html?id=' + str(p['id']))}</loc></url>")
-        nb += 1
     lignes.append("</urlset>\n")
     (SITE / "sitemap.xml").write_text("\n".join(lignes), encoding="utf-8")
     (SITE / "robots.txt").write_text("User-agent: *\nDisallow: /contact.php\n\nSitemap: " + URL + "/sitemap.xml\n",
