@@ -53,9 +53,10 @@ if (!empty($_FILES['piece']) && $_FILES['piece']['error'] !== UPLOAD_ERR_NO_FILE
     if (!isset(EXTENSIONS[$ext])) { retour($page, ['erreur' => 'format']); }
     $contenu = file_get_contents($f['tmp_name']);
     $debut = substr((string)$contenu, 0, 8);                 // vrai PDF / Word, pas seulement le nom
-    $valide = ($ext === 'pdf' && str_starts_with($debut, '%PDF'))
-        || ($ext === 'docx' && str_starts_with($debut, "PK\x03\x04"))
-        || ($ext === 'doc' && str_starts_with($debut, "\xD0\xCF\x11\xE0"));
+    // strncmp et non str_starts_with (PHP 8) : l'hébergement WHC est en PHP 7.4
+    $valide = ($ext === 'pdf' && strncmp($debut, '%PDF', 4) === 0)
+        || ($ext === 'docx' && strncmp($debut, "PK\x03\x04", 4) === 0)
+        || ($ext === 'doc' && strncmp($debut, "\xD0\xCF\x11\xE0", 4) === 0);
     if (!$valide) { retour($page, ['erreur' => 'format']); }
     $nomFichier = preg_replace('/[^A-Za-z0-9._-]+/', '_', basename((string)$f['name'])) ?: "piece.$ext";
     $piece = ['nom' => $nomFichier, 'type' => EXTENSIONS[$ext], 'contenu' => $contenu];

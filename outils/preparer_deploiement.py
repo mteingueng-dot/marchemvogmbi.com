@@ -6,6 +6,7 @@ ni les fichiers de travail des outils (caches, photos refusées…).
     python outils/preparer_deploiement.py
     python outils/preparer_deploiement.py --dossier publication   (mise en ligne automatique : .github/workflows)
 """
+import json
 import re
 import shutil
 import sys
@@ -37,6 +38,18 @@ def fichiers() -> list[Path]:
     return liste
 
 
+def htaccess() -> str:
+    """.htaccess du site + redirections permanentes des anciennes adresses des fiches (d'après le nom) vers produit-<ID>.html."""
+    texte = (SITE / "deploiement_htaccess.txt").read_text(encoding="utf-8")
+    fichier = SITE / "data" / "anciennes_adresses.json"
+    if fichier.exists():
+        regles = [rf"RewriteRule ^((?:[a-z]{{2}}/)?)produit-{re.escape(ancien)}\.html$ /$1produit-{nouveau}.html [R=301,L]"
+                  for ancien, nouveau in sorted(json.loads(fichier.read_text(encoding="utf-8")).items())]
+        texte += ("\n# Anciennes adresses des fiches produits (d'après le nom) -> produit-<ID Clover>.html\n"
+                  + "\n".join(regles) + "\n")
+    return texte
+
+
 def copier(dossier: Path) -> None:
     """Mêmes fichiers que le .zip, copiés dans un dossier (envoyé ensuite par FTP par GitHub Actions)."""
     liste = fichiers()
@@ -46,7 +59,7 @@ def copier(dossier: Path) -> None:
         cible = dossier / p.relative_to(SITE)
         cible.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(p, cible)
-    shutil.copy2(SITE / "deploiement_htaccess.txt", dossier / ".htaccess")
+    (dossier / ".htaccess").write_text(htaccess(), encoding="utf-8")
     print(f"{dossier} : {len(liste) + 1} fichiers")
 
 
@@ -59,7 +72,7 @@ def main() -> None:
     with zipfile.ZipFile(sortie, "w", zipfile.ZIP_DEFLATED) as z:
         for p in liste:
             z.write(p, p.relative_to(SITE).as_posix())
-        z.write(SITE / "deploiement_htaccess.txt", ".htaccess")      # remplace le .htaccess de WordPress
+        z.writestr(".htaccess", htaccess())      # remplace le .htaccess de WordPress
     taille = sortie.stat().st_size / 1e6
     images = sum(1 for p in liste if p.parts[len(SITE.parts)] == "images")
     print(f"{sortie} : {len(liste)} fichiers dont {images} images, {taille:.1f} Mo")

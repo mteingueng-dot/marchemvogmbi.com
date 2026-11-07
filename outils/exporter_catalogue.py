@@ -198,16 +198,11 @@ def produits(articles: list[dict]) -> list[dict]:
         for c in p.get("couleurs", []):
             c.pop("prix", None)
     sortie.sort(key=lambda p: (ORDRE.index(p["rayon"]) if p["rayon"] in ORDRE else 99, p["nom"].lower()))
-    # Adresse de la page fixe du produit (produit-<slug>.html) : d'après le nom de la fiche (après regroupement
-    # des formats), unique ; deux fiches de même nom -> « -2 ». Ordre stable : celui des identifiants Clover.
-    pris = set()
-    for p in sorted(sortie, key=lambda x: x["id"]):
-        base = slug(p["nom"]) or p["id"].lower()
-        s, n = base, 2
-        while s in pris:
-            s, n = f"{base}-{n}", n + 1
-        pris.add(s)
-        p["slug"] = s
+    # Adresse de la page fixe du produit : produit-<ID Clover>.html (règle du propriétaire du 2026-11-07) ; elle ne
+    # change jamais, même si le nom change dans Clover. Les anciennes adresses d'après le nom (data/anciennes_adresses.json)
+    # sont redirigées par le .htaccess (outils/preparer_deploiement.py).
+    for p in sortie:
+        p["slug"] = p["id"].lower()
     return sortie
 
 
