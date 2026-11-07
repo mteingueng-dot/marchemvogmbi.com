@@ -23,6 +23,11 @@ RewriteRule ^(wp-admin|wp-login\.php|xmlrpc\.php)(/.*)?$ / [R=301,L]
 # Les données internes ne sont pas listées
 Options -Indexes
 
+# Fichier de suivi de la mise en ligne automatique (GitHub Actions) : jamais servi
+<Files ".ftp-deploy-sync-state.json">
+  Require all denied
+</Files>
+
 # Images, styles et scripts gardés en cache par le navigateur
 <IfModule mod_expires.c>
   ExpiresActive On

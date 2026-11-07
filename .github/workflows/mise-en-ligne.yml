@@ -1,0 +1,38 @@
+# Mise en ligne automatique du site sur l'hébergement cPanel (WHC) à chaque envoi sur main.
+# Seuls les fichiers changés depuis la dernière mise en ligne sont envoyés (FTPS).
+# Secrets du dépôt (Settings > Secrets and variables > Actions) :
+#   FTP_SERVEUR, FTP_UTILISATEUR, FTP_MOT_DE_PASSE  (compte FTP cPanel dont le dossier est public_html)
+name: Mise en ligne
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: mise-en-ligne
+  cancel-in-progress: false
+
+jobs:
+  envoyer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Préparer les fichiers du site
+        run: python outils/preparer_deploiement.py --dossier publication
+
+      - name: Envoyer par FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVEUR }}
+          username: ${{ secrets.FTP_UTILISATEUR }}
+          password: ${{ secrets.FTP_MOT_DE_PASSE }}
+          protocol: ftps
+          local-dir: ./publication/
+          server-dir: ./

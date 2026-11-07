@@ -5,3 +5,6 @@ __pycache__/
 
 # Fichiers .zip prêts à déposer dans cPanel (outils/preparer_deploiement.py)
 deploiement/
+
+# Dossier préparé pour la mise en ligne automatique
+publication/

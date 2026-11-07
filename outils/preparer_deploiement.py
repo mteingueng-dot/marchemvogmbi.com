@@ -4,8 +4,10 @@ Contenu : les pages, les styles et scripts, contact.php, les données lues par l
 et seulement les images utilisées. Jamais : outils/, sources/, .git, README, data/clover_articles.json
 ni les fichiers de travail des outils (caches, photos refusées…).
     python outils/preparer_deploiement.py
+    python outils/preparer_deploiement.py --dossier publication   (mise en ligne automatique : .github/workflows)
 """
 import re
+import shutil
 import sys
 import zipfile
 from datetime import datetime
@@ -35,7 +37,22 @@ def fichiers() -> list[Path]:
     return liste
 
 
+def copier(dossier: Path) -> None:
+    """Mêmes fichiers que le .zip, copiés dans un dossier (envoyé ensuite par FTP par GitHub Actions)."""
+    liste = fichiers()
+    if dossier.exists():
+        shutil.rmtree(dossier)
+    for p in liste:
+        cible = dossier / p.relative_to(SITE)
+        cible.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(p, cible)
+    shutil.copy2(SITE / "deploiement_htaccess.txt", dossier / ".htaccess")
+    print(f"{dossier} : {len(liste) + 1} fichiers")
+
+
 def main() -> None:
+    if len(sys.argv) == 3 and sys.argv[1] == "--dossier":
+        return copier(Path(sys.argv[2]).resolve())
     liste = fichiers()
     sortie = SITE / "deploiement" / f"marchemvogmbi_{datetime.now():%Y-%m-%d_%H%M}.zip"
     sortie.parent.mkdir(exist_ok=True)
