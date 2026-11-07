@@ -3,18 +3,6 @@
 SITE = {
     "lang": "de", "dossier": "de/",
     "menu": ["Start", "Neuheiten", "Shop", "Abteilungen", "Rezepte", "Über uns", "Karriere", "Kontakt"],
-    "pages": {
-        "index.html": ("Marché Mvog-Mbi Sherbrooke – Wo sich alle Kulturen begegnen",
-                       "Afrikanischer, karibischer und lateinamerikanischer Lebensmittelladen in Sherbrooke: über 2000 Produkte, unschlagbare Preise, kostenlose Lieferung ab 100 $. Täglich geöffnet von 9 bis 21 Uhr."),
-        "nouveautes.html": ("Neuheiten – Marché Mvog-Mbi Sherbrooke", "Die neuesten Lieferungen und aktuellen Angebote im Marché Mvog-Mbi in Sherbrooke."),
-        "boutique.html": ("Shop – Marché Mvog-Mbi Sherbrooke", "Alle Produkte des Marché Mvog-Mbi mit Fotos, Beschreibungen, Größen und Farben."),
-        "produit.html": ("Produkt – Marché Mvog-Mbi Sherbrooke", "Produktseite des Marché Mvog-Mbi, afrikanischer, karibischer und lateinamerikanischer Laden in Sherbrooke."),
-        "rayons.html": ("Unsere Abteilungen – Marché Mvog-Mbi Sherbrooke", "Alle Abteilungen des Marché Mvog-Mbi: Obst und Gemüse, Knollen, Mehle, Gewürze, Fisch, Fleisch, Getränke, Schönheit…"),
-        "recettes.html": ("Rezepte – Marché Mvog-Mbi Sherbrooke", "Rezepte aus Afrika, der Karibik und Lateinamerika Schritt für Schritt: Ndolé, Jollof, Thieboudienne, Yassa, Moambe, Eru, Koki, Attiéké mit Fisch, Mafé…"),
-        "a-propos.html": ("Über uns – Marché Mvog-Mbi Sherbrooke", "Der Marché Mvog-Mbi, wo sich alle Kulturen begegnen, in Sherbrooke."),
-        "carriere.html": ("Karriere – Marché Mvog-Mbi Sherbrooke", "Arbeiten im Marché Mvog-Mbi in Sherbrooke: Schicken Sie uns Ihre Bewerbung."),
-        "contact.html": ("Kontakt – Marché Mvog-Mbi Sherbrooke", "Adresse, Öffnungszeiten, Telefon und E-Mail des Marché Mvog-Mbi, 3071 boulevard Portland, Sherbrooke."),
-    },
     "slogan": "Treffpunkt der Kulturen", "ville": "Sherbrooke",
     "bandeau": ["<strong>Täglich geöffnet</strong> von 9 bis 21 Uhr", "<strong>Kostenlose Lieferung</strong> ab 100 $ (5 km)",
                 "<strong>Unschlagbare Preise</strong>: 1 ¢ günstiger als anderswo"],

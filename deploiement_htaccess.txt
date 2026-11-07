@@ -1,10 +1,21 @@
 # Site statique du Marché Mvog-Mbi (remplace les règles de WordPress)
 DirectoryIndex index.html
 
-# Toujours en https
 RewriteEngine On
+
+# Une seule adresse : https://www.marchemvogmbi.com (sans www ou en http -> redirigé)
+# .well-known reste libre (renouvellement du certificat). Les sous-domaines ne sont pas touchés.
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{HTTP_HOST} ^marchemvogmbi\.com$ [NC]
+RewriteRule ^ https://www.marchemvogmbi.com%{REQUEST_URI} [L,R=301]
+RewriteCond %{REQUEST_URI} !^/\.well-known/
 RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.marchemvogmbi\.com$ [NC]
+RewriteRule ^ https://www.marchemvogmbi.com%{REQUEST_URI} [L,R=301]
+
+# /index.html -> /  et  /en/index.html -> /en/
+RewriteCond %{THE_REQUEST} \s/+((?:[a-z]{2}/)?)index\.html[\s?]
+RewriteRule ^ /%1 [L,R=301]
 
 # Anciennes adresses WordPress : vers l'accueil
 RewriteRule ^(wp-admin|wp-login\.php|xmlrpc\.php)(/.*)?$ / [R=301,L]

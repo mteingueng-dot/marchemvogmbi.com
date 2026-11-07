@@ -3,18 +3,6 @@
 SITE = {
     "lang": "pt", "dossier": "pt/",
     "menu": ["Início", "Novidades", "Loja", "Seções", "Receitas", "Quem somos", "Carreira", "Contato"],
-    "pages": {
-        "index.html": ("Marché Mvog-Mbi Sherbrooke – O ponto de encontro de todas as culturas",
-                       "Mercearia africana, caribenha e latina em Sherbrooke: mais de 2000 produtos, preços imbatíveis, entrega grátis a partir de 100 $. Aberto todos os dias das 9h às 21h."),
-        "nouveautes.html": ("Novidades – Marché Mvog-Mbi Sherbrooke", "As últimas chegadas e as ofertas do momento no Marché Mvog-Mbi, em Sherbrooke."),
-        "boutique.html": ("Loja – Marché Mvog-Mbi Sherbrooke", "Todos os produtos do Marché Mvog-Mbi com fotos, descrições, formatos e cores."),
-        "produit.html": ("Produto – Marché Mvog-Mbi Sherbrooke", "Ficha de produto do Marché Mvog-Mbi, mercearia africana, caribenha e latina em Sherbrooke."),
-        "rayons.html": ("Nossas seções – Marché Mvog-Mbi Sherbrooke", "Todas as seções do Marché Mvog-Mbi: frutas e legumes, tubérculos, farinhas, especiarias, peixes, carnes, bebidas, beleza…"),
-        "recettes.html": ("Receitas – Marché Mvog-Mbi Sherbrooke", "Receitas da África, do Caribe e da América Latina passo a passo: ndolé, jollof, thieboudienne, yassa, moambe, eru, koki, attiéké com peixe, mafé…"),
-        "a-propos.html": ("Quem somos – Marché Mvog-Mbi Sherbrooke", "O Marché Mvog-Mbi, o ponto de encontro de todas as culturas, em Sherbrooke."),
-        "carriere.html": ("Carreira – Marché Mvog-Mbi Sherbrooke", "Trabalhe no Marché Mvog-Mbi em Sherbrooke: envie a sua candidatura."),
-        "contact.html": ("Contato – Marché Mvog-Mbi Sherbrooke", "Endereço, horário, telefone e e-mail do Marché Mvog-Mbi, 3071 boulevard Portland, Sherbrooke."),
-    },
     "slogan": "O encontro das culturas", "ville": "Sherbrooke",
     "bandeau": ["<strong>Aberto todos os dias</strong> das 9h às 21h", "<strong>Entrega grátis</strong> a partir de 100 $ (5 km)",
                 "<strong>Preços imbatíveis</strong>: 1 ¢ a menos que noutros lugares"],

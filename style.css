@@ -805,3 +805,9 @@ html, body { overflow-x: clip; }
   .recettes-mise .pays-bouton.actif { background: var(--vert); color: #fff; }
   .recettes-mise .tuiles-recettes { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Texte « épicerie à Sherbrooke » de l'accueil (référencement) */
+.texte-local { max-width: 880px; }
+.texte-local h2 { margin-bottom: .6em; }
+.texte-local p { color: var(--gris); line-height: 1.7; margin: 0 0 1em; }
+.texte-local a { color: var(--vert-fonce); font-weight: 600; }

@@ -29,6 +29,9 @@ def fichiers() -> list[Path]:
         p = SITE / chemin
         if p.exists():
             liste.append(p)
+    for nom in ("robots.txt", "sitemap.xml"):             # écrits par outils/generer_sitemap.py
+        if (SITE / nom).exists():
+            liste.append(SITE / nom)
     return liste
 
 

@@ -3,18 +3,6 @@
 SITE = {
     "lang": "es", "dossier": "es/",
     "menu": ["Inicio", "Novedades", "Tienda", "Secciones", "Recetas", "Quiénes somos", "Empleo", "Contacto"],
-    "pages": {
-        "index.html": ("Marché Mvog-Mbi Sherbrooke – El cruce donde se encuentran todas las culturas",
-                       "Tienda de comestibles africanos, caribeños y latinos en Sherbrooke: más de 2000 productos, precios imbatibles, entrega gratuita desde 100 $. Abierto todos los días de 9 a 21 h."),
-        "nouveautes.html": ("Novedades – Marché Mvog-Mbi Sherbrooke", "Las últimas llegadas y las ofertas del momento en el Marché Mvog-Mbi de Sherbrooke."),
-        "boutique.html": ("Tienda – Marché Mvog-Mbi Sherbrooke", "Todos los productos del Marché Mvog-Mbi con fotos, descripciones, formatos y colores."),
-        "produit.html": ("Producto – Marché Mvog-Mbi Sherbrooke", "Ficha de producto del Marché Mvog-Mbi, tienda africana, caribeña y latina en Sherbrooke."),
-        "rayons.html": ("Nuestras secciones – Marché Mvog-Mbi Sherbrooke", "Todas las secciones del Marché Mvog-Mbi: frutas y verduras, tubérculos, harinas, especias, pescados, carnes, bebidas, belleza…"),
-        "recettes.html": ("Recetas – Marché Mvog-Mbi Sherbrooke", "Recetas de África, el Caribe y América Latina paso a paso: ndolé, jollof, thieboudienne, yassa, moambe, eru, koki, attiéké con pescado, mafé…"),
-        "a-propos.html": ("Quiénes somos – Marché Mvog-Mbi Sherbrooke", "El Marché Mvog-Mbi, el cruce donde se encuentran todas las culturas, en Sherbrooke."),
-        "carriere.html": ("Empleo – Marché Mvog-Mbi Sherbrooke", "Trabaja en el Marché Mvog-Mbi de Sherbrooke: envíanos tu candidatura."),
-        "contact.html": ("Contacto – Marché Mvog-Mbi Sherbrooke", "Dirección, horario, teléfono y correo del Marché Mvog-Mbi, 3071 boulevard Portland, Sherbrooke."),
-    },
     "slogan": "El cruce de las culturas", "ville": "Sherbrooke",
     "bandeau": ["<strong>Abierto todos los días</strong> de 9 a 21 h", "<strong>Entrega gratuita</strong> desde 100 $ (5 km)",
                 "<strong>Precios imbatibles</strong>: 1 ¢ menos que en otros sitios"],

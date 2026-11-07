@@ -22,6 +22,8 @@ URL = "https://www.marchemvogmbi.com"
 sys.path.insert(0, str(SITE / "outils"))
 from langues import RAYONS_EN, TEXTE_RAYON  # noqa: E402
 import importlib  # noqa: E402
+import re  # noqa: E402
+import referencement  # noqa: E402
 
 LANGUES = ["fr", "en", "es", "pt", "it", "de"]
 NOMS_LANGUES = {"fr": "Français", "en": "English", "es": "Español", "pt": "Português", "it": "Italiano", "de": "Deutsch"}
@@ -31,6 +33,17 @@ AUTRES = {c: importlib.import_module(f"langue_{c}") for c in LANGUES[2:]}   # te
 def racine_de(langue: str) -> str:
     return "" if langue == "fr" else "../"
 
+
+def lien(fichier: str) -> str:
+    """Lien vers une page de la même langue : l'accueil est « ./ » (jamais index.html, redirigé par le serveur)."""
+    return "./" if fichier == "index.html" else fichier
+
+
+def adresse(langue: str, fichier: str) -> str:
+    """Adresse publique d'une page : https://www.marchemvogmbi.com/en/ pour l'accueil anglais."""
+    return f"{URL}/{L[langue]['dossier']}{'' if fichier == 'index.html' else fichier}"
+
+
 FICHIERS = ["index.html", "nouveautes.html", "boutique.html", "rayons.html", "recettes.html", "a-propos.html", "carriere.html",
             "contact.html", "produit.html"]
 SOURCE = {"index.html": "accueil"}                      # nom du fichier de sources/ quand il diffère
@@ -39,18 +52,6 @@ AVEC_BOUTIQUE = {"index.html", "boutique.html", "produit.html", "rayons.html"}  
 L = {
     "fr": {
         "lang": "fr-CA", "dossier": "", "menu": ["Accueil", "Nouveautés", "Boutique", "Rayons", "Recettes", "À propos de nous", "Carrière", "Contact"],
-        "pages": {
-            "index.html": ("Marché Mvog-Mbi Sherbrooke – Le carrefour où toutes les cultures se rencontrent",
-                           "Épicerie africaine, caribéenne et latine à Sherbrooke : plus de 2 000 produits, prix imbattables, livraison gratuite dès 100 $. Ouvert tous les jours de 9 h à 21 h."),
-            "nouveautes.html": ("Nouveautés – Marché Mvog-Mbi Sherbrooke", "Les derniers arrivages et les offres du moment au Marché Mvog-Mbi, à Sherbrooke."),
-            "boutique.html": ("Boutique – Marché Mvog-Mbi Sherbrooke", "Tous les produits du Marché Mvog-Mbi avec leurs photos, descriptions, formats et couleurs."),
-            "produit.html": ("Produit – Marché Mvog-Mbi Sherbrooke", "Fiche produit du Marché Mvog-Mbi, épicerie africaine, caribéenne et latine à Sherbrooke."),
-            "rayons.html": ("Nos rayons – Marché Mvog-Mbi Sherbrooke", "Tous les rayons du Marché Mvog-Mbi : fruits et légumes, féculents, farines, épices, poissons, viandes, boissons, beauté…"),
-            "recettes.html": ("Recettes – Marché Mvog-Mbi Sherbrooke", "Recettes d’Afrique, des Caraïbes et d’Amérique latine pas à pas : ndolé, jollof, thiéboudienne, yassa, moambé, eru, koki, attiéké poisson, mafé…"),
-            "a-propos.html": ("À propos de nous – Marché Mvog-Mbi Sherbrooke", "Le Marché Mvog-Mbi, le carrefour où toutes les cultures se rencontrent, à Sherbrooke."),
-            "carriere.html": ("Carrière – Marché Mvog-Mbi Sherbrooke", "Travailler au Marché Mvog-Mbi à Sherbrooke : envoyez votre candidature."),
-            "contact.html": ("Contact – Marché Mvog-Mbi Sherbrooke", "Adresse, heures, téléphone et courriel du Marché Mvog-Mbi, 3071 boulevard Portland, Sherbrooke."),
-        },
         "slogan": "Le carrefour des cultures", "ville": "Sherbrooke",
         "bandeau": ["<strong>Ouvert tous les jours</strong> de 9 h à 21 h", "<strong>Livraison gratuite</strong> dès 100 $ (5 km)",
                     "<strong>Prix imbattables</strong> : 1 ¢ de moins qu’ailleurs"],
@@ -64,18 +65,6 @@ L = {
     },
     "en": {
         "lang": "en-CA", "dossier": "en/", "menu": ["Home", "New", "Shop", "Aisles", "Recipes", "About us", "Careers", "Contact"],
-        "pages": {
-            "index.html": ("Marché Mvog-Mbi Sherbrooke – Where all cultures meet",
-                           "African, Caribbean and Latin American grocery in Sherbrooke: over 2,000 products, unbeatable prices, free delivery from $100. Open every day from 9 a.m. to 9 p.m."),
-            "nouveautes.html": ("New arrivals – Marché Mvog-Mbi Sherbrooke", "The latest arrivals and current offers at Marché Mvog-Mbi in Sherbrooke."),
-            "boutique.html": ("Shop – Marché Mvog-Mbi Sherbrooke", "All Marché Mvog-Mbi products with photos, descriptions, sizes and colours."),
-            "produit.html": ("Product – Marché Mvog-Mbi Sherbrooke", "Product page of Marché Mvog-Mbi, African, Caribbean and Latin American grocery in Sherbrooke."),
-            "rayons.html": ("Our aisles – Marché Mvog-Mbi Sherbrooke", "Every aisle at Marché Mvog-Mbi: produce, roots and tubers, flours, spices, fish, meat, drinks, beauty…"),
-            "recettes.html": ("Recipes – Marché Mvog-Mbi Sherbrooke", "Step-by-step African, Caribbean and Latin American recipes: ndolé, jollof, thieboudienne, yassa, moambe, eru, koki, attiéké with fish, mafé…"),
-            "a-propos.html": ("About us – Marché Mvog-Mbi Sherbrooke", "Marché Mvog-Mbi, where all cultures meet, in Sherbrooke."),
-            "carriere.html": ("Careers – Marché Mvog-Mbi Sherbrooke", "Work at Marché Mvog-Mbi in Sherbrooke: send us your application."),
-            "contact.html": ("Contact – Marché Mvog-Mbi Sherbrooke", "Address, hours, phone and email of Marché Mvog-Mbi, 3071 boulevard Portland, Sherbrooke."),
-        },
         "slogan": "Where cultures meet", "ville": "Sherbrooke",
         "bandeau": ["<strong>Open every day</strong> 9 a.m. – 9 p.m.", "<strong>Free delivery</strong> from $100 (5 km)",
                     "<strong>Unbeatable prices</strong>: 1¢ less than elsewhere"],
@@ -90,6 +79,8 @@ L = {
 }
 for _c, _m in AUTRES.items():
     L[_c] = _m.SITE
+for _c in L:                                          # titres et descriptions : outils/referencement.py
+    L[_c]["pages"] = referencement.PAGES[_c]
 MENU_FICHIERS = ["index.html", "nouveautes.html", "boutique.html", "rayons.html", "recettes.html", "a-propos.html", "carriere.html", "contact.html"]
 
 # Photo de la tuile de chaque rayon (photos prises au magasin)
@@ -101,16 +92,7 @@ PHOTO_RAYON = {
     "Mèches & accessoires": "meches", "Entretien": "entretien", "Autres produits": "marmites",
 }
 
-FICHE_COMMERCE = {
-    "@context": "https://schema.org", "@type": "GroceryStore", "name": "Marché Mvog-Mbi Sherbrooke",
-    "description": "Épicerie africaine, caribéenne et latine", "url": URL, "telephone": "+1-819-239-9864",
-    "email": "contact@marchemvogmbi.com", "image": f"{URL}/images/logo.png",
-    "address": {"@type": "PostalAddress", "streetAddress": "3071 boulevard Portland", "addressLocality": "Sherbrooke",
-                "addressRegion": "QC", "postalCode": "J1L 2Y7", "addressCountry": "CA"},
-    "openingHoursSpecification": [{"@type": "OpeningHoursSpecification",
-                                   "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                                   "opens": "09:00", "closes": "21:00"}],
-}
+FICHE_COMMERCE = referencement.FICHE_COMMERCE
 
 
 FORMULAIRE = {
@@ -188,19 +170,19 @@ def bandeau(t: dict) -> str:
 
 
 def entete(t: dict, actif: str, fichier: str, langue: str) -> str:
-    liens = "\n".join(f'        <a href="{f}"{" aria-current=\"page\"" if f == actif else ""}>{n}</a>'
+    liens = "\n".join(f'        <a href="{lien(f)}"{" aria-current=\"page\"" if f == actif else ""}>{n}</a>'
                       for f, n in zip(MENU_FICHIERS, t["menu"]))
     choix = []
     for c in LANGUES:
-        lien = racine_de(langue) + ("" if c == "fr" else f"{c}/") + fichier
+        vers = (racine_de(langue) + ("" if c == "fr" else f"{c}/") + ("" if fichier == "index.html" else fichier)) or "./"
         actuel = ' aria-current="true"' if c == langue else ""
-        choix.append(f'<a href="{lien}" hreflang="{c}" lang="{c}"{actuel} data-garder-recherche>'
+        choix.append(f'<a href="{vers}" hreflang="{c}" lang="{c}"{actuel} data-garder-recherche>'
                      f'<b>{c.upper()}</b> {NOMS_LANGUES[c]}</a>')
     langues = (f'<details class="langues"><summary title="{t["autre_titre"]}" aria-label="{t["autre_titre"]}">'
                f'{langue.upper()}</summary><div class="langues-liste">{"".join(choix)}</div></details>')
     return f'''  <header class="entete">
     <div class="conteneur entete-ligne">
-      <a href="index.html" class="marque">
+      <a href="./" class="marque">
         <img src="{racine_de(langue)}images/icone.png" alt="" width="42" height="42">
         <span>Marché Mvog-Mbi<small>{t["slogan"]}</small></span>
       </a>
@@ -220,14 +202,14 @@ def entete(t: dict, actif: str, fichier: str, langue: str) -> str:
 
 
 def pied(t: dict, langue: str) -> str:
-    liens = "<br>".join(f'<a href="{f}">{n}</a>' for f, n in zip(MENU_FICHIERS, t["menu"]))
+    liens = "<br>".join(f'<a href="{lien(f)}">{n}</a>' for f, n in zip(MENU_FICHIERS, t["menu"]))
     racine = racine_de(langue)
     ti = t["pied_titres"]
     return f'''  <footer class="pied">
     <div class="conteneur">
       <div class="pied-grille">
         <div>
-          <a href="index.html" class="marque"><img src="{racine}images/icone.png" alt="" width="42" height="42"><span>Marché Mvog-Mbi<small>Sherbrooke</small></span></a>
+          <a href="./" class="marque"><img src="{racine}images/icone.png" alt="" width="42" height="42"><span>Marché Mvog-Mbi<small>Sherbrooke</small></span></a>
           <p>{t["pied_texte"]}</p>
           <p class="pied-chat">{t["pied_chat"]}</p>
         </div>
@@ -287,7 +269,7 @@ def page_rayons(source: str, langue: str) -> str:
             nom = RAYONS_EN.get(r, r) if langue == "en" else r
             texte = html.escape(TEXTE_RAYON.get(r, ("", ""))[1 if langue == "en" else 0])
         nb = f"{n} {t['produits'] if n > 1 else t['produit']}"
-        img = f'<img src="{racine}{photo}" alt="" loading="lazy">' if photo else ""
+        img = f'<img src="{racine}{photo}" alt="{html.escape(nom)}" loading="lazy">' if photo else ""
         tuiles.append(f'          <a class="tuile{"" if photo else " sans-image"}" href="boutique.html?rayon={quote_plus(r)}">{img}'
                       f'<em class="tuile-nombre">{nb}</em><strong>{html.escape(nom)}</strong><span>{texte}</span></a>')
     total = f"{len(d['produits']):,}".replace(",", t.get("milliers", " " if langue == "fr" else ","))
@@ -324,7 +306,7 @@ def page_recettes(source: str, langue: str) -> str:
     filtre, pays_tuile = filtre_pays.barre(recettes, langue, lambda r: v(r, "pays"))
     sommaire, fiches = [], []
     for r in recettes:
-        sommaire.append(f'          <a class="tuile" href="recette-{r["id"]}.html" data-pays="{pays_tuile[r["id"]]}"><img src="{racine}{r["photo"]}" alt="" loading="lazy">'
+        sommaire.append(f'          <a class="tuile" href="recette-{r["id"]}.html" data-pays="{pays_tuile[r["id"]]}"><img src="{racine}{r["photo"]}" alt="{html.escape(v(r, "titre"))}" loading="lazy">'
                         f'<em class="tuile-nombre">{html.escape(v(r, "pays"))}</em><strong>{html.escape(v(r, "titre"))}</strong>'
                         f'<span>{html.escape(v(r, "temps"))}</span></a>')
         ingredients = "\n".join(
@@ -336,7 +318,7 @@ def page_recettes(source: str, langue: str) -> str:
       <div class="conteneur recette-grille">
         <a class="retour" href="recettes.html" data-retour>← {lib["retour"]}</a>
         <div class="recette-tete">
-          <figure class="recette-photo"><img src="{racine}{r["photo"]}" alt="" loading="lazy"></figure>
+          <figure class="recette-photo"><img src="{racine}{r["photo"]}" alt="{html.escape(v(r, "titre"))}"></figure>
           <div>
             <p class="surtitre">{html.escape(v(r, "pays"))}</p>
             <h1>{html.escape(v(r, "titre"))}</h1>
@@ -373,20 +355,34 @@ def page_recettes(source: str, langue: str) -> str:
         <p class="centre"><a class="retour retour-bas" href="recettes.html" data-retour>← {lib["retour"]}</a></p>
       </div>
     </section>
-''', v(r, "titre"), v(r, "resume"), r["photo"])
+''', {"titre": v(r, "titre"), "resume": v(r, "resume"), "pays": v(r, "pays"), "portions": v(r, "portions"),
+          "temps": r["temps"], "photo": r["photo"], "ingredients": [texte_ing(i) for i in r["ingredients"]],
+          "etapes": etapes_de(r)})
     source = source.replace('<div class="tuiles">\n<!--SOMMAIRE-->',
                             '<div class="recettes-mise">\n' + filtre + '\n        <div class="tuiles tuiles-recettes">\n<!--SOMMAIRE-->')
     source = source.replace("<!--SOMMAIRE-->\n        </div>", "<!--SOMMAIRE-->\n        </div>\n        </div>", 1)   # ferme .recettes-mise
     return source.replace("<!--SOMMAIRE-->", "\n".join(sommaire)).replace("<!--RECETTES-->", ""), pages
 
 
+def alt_des_tuiles(contenu: str) -> str:
+    """Tuiles (rayons, recettes) dont la photo n'a pas de texte alternatif : le nom de la tuile (<strong>)."""
+    def remplir(m):
+        nom = re.sub(r"<[^>]+>", "", m.group(4)).strip()
+        return f'{m.group(1)}alt="{nom}"{m.group(2)}{m.group(3)}<strong>{m.group(4)}</strong>'
+    return re.sub(r'(<a class="tuile[^"]*"[^>]*>\s*<img [^>]*?)alt=""([^>]*>)((?:(?!</a>).)*?)<strong>(.*?)</strong>',
+                  remplir, contenu, flags=re.S)
+
+
 def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
     """Écrit une page ; rend le nombre de pages écrites (la page Recettes écrit aussi une page par recette)."""
     t = L[langue]
     n = 1
-    if impose:                                          # page d'une recette : (contenu, titre, description, photo)
-        contenu, titre_r, description, photo = impose
-        titre = f"{titre_r} – {t['pages']['recettes.html'][0]}"
+    recette = None
+    if impose:                                          # page d'une recette : (contenu, données de la recette)
+        contenu, recette = impose
+        titre = referencement.titre_recette(recette["titre"], recette["pays"], langue)
+        description = referencement.description_recette(recette["resume"], langue)
+        photo = recette["photo"]
     else:
         titre, description = t["pages"][fichier]
         photo = "images/logo.png"
@@ -396,8 +392,8 @@ def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
         contenu = page_rayons(contenu, langue)
     elif fichier == "recettes.html":
         contenu, pages = page_recettes(contenu, langue)
-        for rid, (corps, titre_r, resume, photo_r) in pages.items():
-            n += construire(f"recette-{rid}.html", langue, (corps, titre_r, resume, photo_r))
+        for rid, (corps, recette_r) in pages.items():
+            n += construire(f"recette-{rid}.html", langue, (corps, recette_r))
     if "<!--FORMULAIRE-->" in contenu:
         sujet = "candidature" if fichier == "carriere.html" else "produit"
         contenu = contenu.replace("<!--FORMULAIRE-->", formulaire(langue, t["dossier"] + fichier, sujet))
@@ -413,9 +409,18 @@ def construire(fichier: str, langue: str, impose: tuple | None = None) -> int:
     fiche = ""
     if fichier in ("index.html", "contact.html"):
         fiche = '  <script type="application/ld+json">\n  ' + json.dumps(FICHE_COMMERCE, ensure_ascii=False) + "\n  </script>\n"
+    if recette:
+        fiche += referencement.recette_json_ld(recette, langue, adresse(langue, fichier))
+    if fichier == "index.html":                         # texte « épicerie à Sherbrooke », avant le dernier appel
+        contenu = contenu.replace('    <section class="appel">', referencement.section_sherbrooke(langue) + '    <section class="appel">', 1)
+    contenu = alt_des_tuiles(contenu)
     actif = {"produit.html": "boutique.html"}.get(fichier, "recettes.html" if fichier.startswith("recette-") else fichier)
-    alternatives = "".join(f'  <link rel="alternate" hreflang="{L[c]["lang"]}" href="{URL}/{L[c]["dossier"]}{fichier}">\n'
-                           for c in LANGUES)
+    alternatives = ""
+    if fichier != "produit.html":                       # fiches remplies par ?id= : pas d'adresse commune
+        alternatives = f'  <link rel="canonical" href="{adresse(langue, fichier)}">\n'
+        alternatives += "".join(f'  <link rel="alternate" hreflang="{L[c]["lang"]}" href="{adresse(c, fichier)}">\n' for c in LANGUES)
+        alternatives += f'  <link rel="alternate" hreflang="x-default" href="{adresse("fr", fichier)}">\n'
+        alternatives += f'  <meta property="og:url" content="{adresse(langue, fichier)}">\n'
     page = f'''<!doctype html>
 <html lang="{t["lang"]}">
 <head>

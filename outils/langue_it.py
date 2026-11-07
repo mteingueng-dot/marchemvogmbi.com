@@ -3,18 +3,6 @@
 SITE = {
     "lang": "it", "dossier": "it/",
     "menu": ["Home", "Novità", "Negozio", "Reparti", "Ricette", "Chi siamo", "Lavora con noi", "Contatti"],
-    "pages": {
-        "index.html": ("Marché Mvog-Mbi Sherbrooke – Il crocevia dove tutte le culture si incontrano",
-                       "Alimentari africani, caraibici e latini a Sherbrooke: oltre 2000 prodotti, prezzi imbattibili, consegna gratuita da 100 $. Aperto tutti i giorni dalle 9 alle 21."),
-        "nouveautes.html": ("Novità – Marché Mvog-Mbi Sherbrooke", "Gli ultimi arrivi e le offerte del momento al Marché Mvog-Mbi di Sherbrooke."),
-        "boutique.html": ("Negozio – Marché Mvog-Mbi Sherbrooke", "Tutti i prodotti del Marché Mvog-Mbi con foto, descrizioni, formati e colori."),
-        "produit.html": ("Prodotto – Marché Mvog-Mbi Sherbrooke", "Scheda prodotto del Marché Mvog-Mbi, alimentari africani, caraibici e latini a Sherbrooke."),
-        "rayons.html": ("I nostri reparti – Marché Mvog-Mbi Sherbrooke", "Tutti i reparti del Marché Mvog-Mbi: frutta e verdura, tuberi, farine, spezie, pesce, carne, bevande, bellezza…"),
-        "recettes.html": ("Ricette – Marché Mvog-Mbi Sherbrooke", "Ricette dell'Africa, dei Caraibi e dell'America Latina passo dopo passo: ndolé, jollof, thieboudienne, yassa, moambe, eru, koki, attiéké con pesce, mafé…"),
-        "a-propos.html": ("Chi siamo – Marché Mvog-Mbi Sherbrooke", "Il Marché Mvog-Mbi, il crocevia dove tutte le culture si incontrano, a Sherbrooke."),
-        "carriere.html": ("Lavora con noi – Marché Mvog-Mbi Sherbrooke", "Lavora al Marché Mvog-Mbi di Sherbrooke: inviaci la tua candidatura."),
-        "contact.html": ("Contatti – Marché Mvog-Mbi Sherbrooke", "Indirizzo, orari, telefono ed e-mail del Marché Mvog-Mbi, 3071 boulevard Portland, Sherbrooke."),
-    },
     "slogan": "Il crocevia delle culture", "ville": "Sherbrooke",
     "bandeau": ["<strong>Aperto tutti i giorni</strong> dalle 9 alle 21", "<strong>Consegna gratuita</strong> da 100 $ (5 km)",
                 "<strong>Prezzi imbattibili</strong>: 1 ¢ in meno che altrove"],

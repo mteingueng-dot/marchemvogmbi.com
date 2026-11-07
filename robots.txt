@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /contact.php
+
+Sitemap: https://www.marchemvogmbi.com/sitemap.xml
