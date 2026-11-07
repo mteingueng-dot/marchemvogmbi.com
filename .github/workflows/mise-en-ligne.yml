@@ -1,7 +1,8 @@
 # Mise en ligne automatique du site sur l'hébergement cPanel (WHC) à chaque envoi sur main.
 # Seuls les fichiers changés depuis la dernière mise en ligne sont envoyés (FTPS).
 # Secrets du dépôt (Settings > Secrets and variables > Actions) :
-#   FTP_SERVEUR, FTP_UTILISATEUR, FTP_MOT_DE_PASSE  (compte FTP cPanel dont le dossier est public_html)
+#   FTP_UTILISATEUR, FTP_MOT_DE_PASSE  (compte FTP cPanel dont le dossier est public_html)
+# Serveur : nom de la machine WHC, celui du certificat FTPS (ftp.marchemvogmbi.com n'est pas sur le certificat).
 name: Mise en ligne
 
 on:
@@ -30,7 +31,7 @@ jobs:
       - name: Envoyer par FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVEUR }}
+          server: srv11.swhc.ca
           username: ${{ secrets.FTP_UTILISATEUR }}
           password: ${{ secrets.FTP_MOT_DE_PASSE }}
           protocol: ftps
