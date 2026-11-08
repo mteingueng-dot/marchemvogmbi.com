@@ -35,6 +35,8 @@ def fichiers() -> list[Path]:
     for nom in ("robots.txt", "sitemap.xml"):             # écrits par outils/generer_sitemap.py
         if (SITE / nom).exists():
             liste.append(SITE / nom)
+    # clé IndexNow (Bing, Yandex…) : fichier <clé>.txt à la racine, lu par outils/mise_a_jour_auto.py
+    liste += [p for p in SITE.glob("*.txt") if re.fullmatch(r"[0-9a-f]{32}\.txt", p.name)]
     return liste
 
 
