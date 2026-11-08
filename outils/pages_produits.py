@@ -24,7 +24,7 @@ TEXTES = {
            "appeler": "Vérifier la disponibilité : 819 239-9864", "voirRecette": "Voir la recette", "aVenir": "Photo à venir",
            "photo": "Photo", "illustration": "Photo d’illustration", "dp": " : ",
            "format": "format", "formats": "formats", "couleur": "couleur", "couleurs": "couleurs",
-           "ville": "à Sherbrooke", "vente": " En vente au Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
+           "ville": "à Sherbrooke", "enseigne": "Marché Mvog-Mbi", "vente": " En vente au Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
            "vente_court": " En vente au Marché Mvog-Mbi, à Sherbrooke.",
            "heures": " Ouvert tous les jours de 9 h à 21 h."},
     "en": {"boutique": "Shop", "carac": "Details", "conditionnements": "Available sizes", "couleursDispo": "Available colours",
@@ -33,7 +33,7 @@ TEXTES = {
            "appeler": "Check availability: 819 239-9864", "voirRecette": "See the recipe", "aVenir": "Photo coming soon",
            "photo": "Photo", "illustration": "Illustration photo", "dp": ": ",
            "format": "size", "formats": "sizes", "couleur": "colour", "couleurs": "colours",
-           "ville": "in Sherbrooke", "vente": " Available at Marché Mvog-Mbi, 3071 Portland Blvd, Sherbrooke.",
+           "ville": "in Sherbrooke", "enseigne": "Mvog-Mbi Grocery", "vente": " Available at Marché Mvog-Mbi, 3071 Portland Blvd, Sherbrooke.",
            "vente_court": " Available at Marché Mvog-Mbi in Sherbrooke.",
            "heures": " Open every day from 9 a.m. to 9 p.m."},
     "es": {"boutique": "Tienda", "carac": "Características", "conditionnements": "Formatos disponibles", "couleursDispo": "Colores disponibles",
@@ -42,7 +42,7 @@ TEXTES = {
            "appeler": "Consultar disponibilidad: 819 239-9864", "voirRecette": "Ver la receta", "aVenir": "Foto próximamente",
            "photo": "Foto", "illustration": "Foto ilustrativa", "dp": ": ",
            "format": "formato", "formats": "formatos", "couleur": "color", "couleurs": "colores",
-           "ville": "en Sherbrooke", "vente": " A la venta en el Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
+           "ville": "en Sherbrooke", "enseigne": "Tienda Mvog-Mbi", "vente": " A la venta en el Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
            "vente_court": " A la venta en el Marché Mvog-Mbi de Sherbrooke.",
            "heures": " Abierto todos los días de 9 a 21 h."},
     "pt": {"boutique": "Loja", "carac": "Características", "conditionnements": "Formatos disponíveis", "couleursDispo": "Cores disponíveis",
@@ -51,7 +51,7 @@ TEXTES = {
            "appeler": "Verificar disponibilidade: 819 239-9864", "voirRecette": "Ver a receita", "aVenir": "Foto em breve",
            "photo": "Foto", "illustration": "Foto ilustrativa", "dp": ": ",
            "format": "formato", "formats": "formatos", "couleur": "cor", "couleurs": "cores",
-           "ville": "em Sherbrooke", "vente": " À venda no Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
+           "ville": "em Sherbrooke", "enseigne": "Mercearia Mvog-Mbi", "vente": " À venda no Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
            "vente_court": " À venda no Marché Mvog-Mbi, em Sherbrooke.",
            "heures": " Aberto todos os dias das 9h às 21h."},
     "it": {"boutique": "Negozio", "carac": "Caratteristiche", "conditionnements": "Formati disponibili", "couleursDispo": "Colori disponibili",
@@ -60,7 +60,7 @@ TEXTES = {
            "appeler": "Verifica la disponibilità: 819 239-9864", "voirRecette": "Vedi la ricetta", "aVenir": "Foto in arrivo",
            "photo": "Foto", "illustration": "Foto illustrativa", "dp": ": ",
            "format": "formato", "formats": "formati", "couleur": "colore", "couleurs": "colori",
-           "ville": "a Sherbrooke", "vente": " In vendita al Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
+           "ville": "a Sherbrooke", "enseigne": "Negozio Mvog-Mbi", "vente": " In vendita al Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
            "vente_court": " In vendita al Marché Mvog-Mbi di Sherbrooke.",
            "heures": " Aperto tutti i giorni dalle 9 alle 21."},
     "de": {"boutique": "Shop", "carac": "Merkmale", "conditionnements": "Erhältliche Größen", "couleursDispo": "Erhältliche Farben",
@@ -69,7 +69,7 @@ TEXTES = {
            "appeler": "Verfügbarkeit prüfen: 819 239-9864", "voirRecette": "Zum Rezept", "aVenir": "Foto folgt",
            "photo": "Foto", "illustration": "Beispielfoto", "dp": ": ",
            "format": "Größe", "formats": "Größen", "couleur": "Farbe", "couleurs": "Farben",
-           "ville": "in Sherbrooke", "vente": " Erhältlich im Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
+           "ville": "in Sherbrooke", "enseigne": "Mvog-Mbi Laden", "vente": " Erhältlich im Marché Mvog-Mbi, 3071 boul. Portland, Sherbrooke.",
            "vente_court": " Erhältlich im Marché Mvog-Mbi in Sherbrooke.",
            "heures": " Täglich von 9 bis 21 Uhr geöffnet."},
 }
@@ -160,10 +160,14 @@ def vignette(p: dict, cat: Catalogue, t: dict) -> str:
 
 
 def titre_page(nom: str, t: dict) -> str:
-    for f in (f"{nom} {t['ville']} | Marché Mvog-Mbi", f"{nom} | Marché Mvog-Mbi", f"{nom} | Mvog-Mbi"):
-        if len(f) <= 60:
+    """Titre propre à chaque langue : les noms Clover ne sont pas traduits, l'enseigne l'est
+    (sinon les 6 langues d'une fiche avaient le même titre : « titre en double » de l'audit SEO)."""
+    # nom entier jusqu'à 75 caractères : couper le nom donnait le même titre à deux formats d'un produit
+    for f, maximum in ((f"{nom} | {t['enseigne']} Sherbrooke", 60), (f"{nom} | {t['enseigne']}", 75)):
+        if len(f) <= maximum:
             return f
-    return f"{nom[:48].rsplit(' ', 1)[0]} | Mvog-Mbi"
+    fin = f" | {t['enseigne']}"
+    return f"{nom[:75 - len(fin)].rsplit(' ', 1)[0]}{fin}"
 
 
 def description_page(texte: str, t: dict, nom: str = "") -> str:
