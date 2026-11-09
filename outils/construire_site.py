@@ -443,6 +443,8 @@ def construire(fichier: str, langue: str, impose: tuple | dict | None = None) ->
         alternatives += "".join(f'  <link rel="alternate" hreflang="{L[c]["lang"]}" href="{adresse(c, fichier)}">\n' for c in LANGUES)
         alternatives += f'  <link rel="alternate" hreflang="x-default" href="{adresse("fr", fichier)}">\n'
         alternatives += f'  <meta property="og:url" content="{adresse(langue, fichier)}">\n'
+    else:                                               # modèle ?id= : jamais indexé (les fiches produit-<ID>.html le sont)
+        alternatives = '  <meta name="robots" content="noindex, follow">\n'
     page = f'''<!doctype html>
 <html lang="{t["lang"]}">
 <head>
