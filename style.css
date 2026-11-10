@@ -817,3 +817,6 @@ html, body { overflow-x: clip; }
 .pastilles-liens li { padding: 0; }
 .pastilles-liens a { display: block; padding: 6px 14px; color: var(--vert-fonce); text-decoration: none; }
 .pastilles-liens a:hover { text-decoration: underline; }
+
+/* Logo Ria de la section « Transfert d'argent » (fichier fourni par le magasin, agent autorisé) */
+.logo-ria { width: 230px; max-width: 60%; height: auto; padding: 10px 14px; background: #fff; border-radius: var(--rayon); box-shadow: var(--ombre-douce); }

@@ -202,6 +202,11 @@ FICHE_COMMERCE = {
     "openingHoursSpecification": [{"@type": "OpeningHoursSpecification",
                                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
                                    "opens": "09:00", "closes": "21:00"}],
+    # le magasin est agent RIA : envoi et réception de transferts d'argent au comptoir (aucun tarif publié)
+    "makesOffer": [{"@type": "Offer", "itemOffered": {
+        "@type": "Service", "name": "Transfert d'argent RIA", "serviceType": "Transfert d'argent",
+        "description": "Envoi et réception de transferts d'argent RIA au comptoir du magasin, avec une pièce d'identité valide.",
+        "provider": {"@id": f"{URL}/#magasin"}, "areaServed": {"@type": "City", "name": "Sherbrooke"}}}],
 }
 
 
