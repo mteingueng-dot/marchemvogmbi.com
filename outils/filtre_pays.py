@@ -17,10 +17,10 @@ REGIONS = [
     ("ouest", ["Côte d’Ivoire", "Nigeria", "Ghana", "Sénégal", "Mali", "Burkina Faso", "Bénin", "Togo", "Guinée",
                "Gambie", "Cap-Vert", "Afrique de l’Ouest"]),
     ("est", ["Rwanda", "Burundi", "Kenya", "Tanzanie", "Ouganda", "Éthiopie", "Afrique du Sud", "Mozambique"]),
-    ("nord", ["Maroc", "Tunisie"]),
+    ("nord", ["Maroc", "Algérie", "Tunisie", "Égypte"]),
     ("caraibes", ["Haïti", "Jamaïque", "Guadeloupe", "Martinique", "Antilles", "Trinidad", "Cuba", "Porto Rico",
                   "République dominicaine"]),
-    ("latine", ["Mexique", "Colombie", "Venezuela", "Salvador", "Brésil"]),
+    ("latine", ["Mexique", "Colombie", "Venezuela", "Salvador", "Costa Rica", "Nicaragua", "Équateur", "Pérou", "Bolivie", "Brésil"]),
 ]
 NOMS_REGIONS = {
     "fr": {"centrale": "Afrique centrale", "ouest": "Afrique de l’Ouest", "est": "Afrique de l’Est et australe",

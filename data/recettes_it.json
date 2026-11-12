@@ -296,6 +296,27 @@
    "Cuocere 1 h 30 a fuoco basso senza mescolare, scuotendo la pentola ogni tanto, finché l'olio affiora."
   ]
  },
+ "nnam-owondo": {
+  "titre": "Nnam owondo",
+  "pays": "Camerun",
+  "temps": "1 h 30",
+  "portions": "6 persone",
+  "resume": "La torta di arachidi dei beti: arachidi macinate con pesce affumicato e gamberetti, cotte al vapore in foglie di banano.",
+  "ingredients": [
+   "500 g di arachidi crude sgusciate (o pasta di arachidi)",
+   "100 g di gamberetti secchi",
+   "1 pesce affumicato",
+   "Foglie di banano",
+   "Peperoncino, 1 dado, sale"
+  ],
+  "etapes": [
+   "Tostare leggermente le arachidi, togliere la pellicina e macinarle con poca acqua fino a una pasta densa.",
+   "Aggiungere il pesce sbriciolato, i gamberetti macinati, il peperoncino, il dado e il sale.",
+   "Sbattere bene l'impasto per qualche minuto.",
+   "Distribuirlo in foglie di banano passate sulla fiamma e chiuderle bene.",
+   "Cuocere al vapore 1 ora. Servire con manioca, platano o bastoncini di manioca."
+  ]
+ },
  "attieke-poisson": {
   "titre": "Attiéké con pesce alla brace",
   "pays": "Costa d’Avorio",
@@ -419,6 +440,27 @@
    "Rimettere la purea nel brodo con il gombo e il dado; cuocere 20 minuti.",
    "Foutou: lessare platano e manioca 20 minuti, poi pestarli insieme fino a una pasta liscia ed elastica.",
    "Formare palline di foutou e servirle nella salsa chiara."
+  ]
+ },
+ "placali-kope": {
+  "titre": "Placali con salsa kopè",
+  "pays": "Costa d'Avorio",
+  "temps": "1 h",
+  "portions": "6 persone",
+  "resume": "La pasta di manioca fermentata (placali) con la salsa kopè: una salsa di gombo con olio di palma, pesce affumicato e granchio.",
+  "ingredients": [
+   "500 g di placali (pasta di manioca fermentata)",
+   "500 g di gombo fresco",
+   "150 ml di olio di palma",
+   "1 pesce affumicato e 2 granchi",
+   "Peperoncino, 1 cipolla, 1 dado, sale"
+  ],
+  "etapes": [
+   "Tagliare finemente il gombo o frullarlo grossolanamente.",
+   "Scaldare 1 litro d'acqua con la cipolla, il pesce sbriciolato, i granchi, il peperoncino e il dado; cuocere 15 minuti.",
+   "Aggiungere il gombo e l'olio di palma; cuocere 15 minuti sbattendo perché la salsa diventi filante.",
+   "Placali: stemperare la pasta in 750 ml d'acqua e cuocere 10-15 minuti mescolando sempre, finché è liscia e traslucida.",
+   "Servire il placali in piatti fondi, coperto di salsa kopè."
   ]
  },
  "pondu": {
@@ -597,6 +639,27 @@
    "Servire l'ugali con il sukuma e, se si vuole, carne alla griglia (nyama choma)."
   ]
  },
+ "githeri-chapati": {
+  "titre": "Githeri e chapati",
+  "pays": "Kenya",
+  "temps": "1 h 30",
+  "portions": "6 persone",
+  "resume": "Il piatto di tutti i giorni in Kenya: mais e fagioli stufati con pomodoro e verdure, con chapati sfogliati.",
+  "ingredients": [
+   "2 tazze di mais bianco secco e 1 tazza di fagioli rossi, in ammollo per una notte (o in scatola)",
+   "2 pomodori, 1 cipolla, 1 carota, 1 patata",
+   "Chapati: 500 g di farina",
+   "1 cucchiaino di sale, 1 cucchiaio di zucchero, 300 ml di acqua tiepida",
+   "Olio, 1 cucchiaino di curry, sale"
+  ],
+  "etapes": [
+   "Lessare il mais e i fagioli ammollati per 1 ora, finché sono teneri; scolare.",
+   "Rosolare la cipolla, la carota e la patata a cubetti nell’olio, aggiungere i pomodori e il curry, poi il mais e i fagioli; stufare 15 minuti.",
+   "Chapati: impastare la farina, il sale, lo zucchero, 2 cucchiai d’olio e l’acqua per 10 minuti e lasciar riposare 30 minuti.",
+   "Stendere l’impasto, spennellarlo d’olio, arrotolarlo a cilindro e poi a spirale; lasciar riposare e stendere in dischi sottili.",
+   "Cuocere i chapati in una padella asciutta, ungendoli d’olio da entrambi i lati, finché sono dorati. Servire con il githeri."
+  ]
+ },
  "mandazi": {
   "titre": "Mandazi",
   "pays": "Kenya e Tanzania",
@@ -686,6 +749,27 @@
    "Servire sull'injera."
   ]
  },
+ "misir-wat": {
+  "titre": "Misir wat",
+  "pays": "Etiopia",
+  "temps": "45 min",
+  "portions": "4 persone",
+  "resume": "Lo stufato etiope di lenticchie rosse al berberè, rosso e piccante, servito sull’injera.",
+  "ingredients": [
+   "250 g di lenticchie rosse",
+   "2 cipolle rosse tritate finissime",
+   "2 cucchiai di berberè (o peperoncino in polvere con paprika e spezie)",
+   "3 spicchi d’aglio",
+   "1 pezzo di zenzero, 4 cucchiai d’olio o burro chiarificato, sale"
+  ],
+  "etapes": [
+   "Cuocere le cipolle senza grassi a fuoco basso per 10 minuti, mescolando, finché si ammorbidiscono.",
+   "Aggiungere l’olio, l’aglio e lo zenzero grattugiati, poi il berberè; cuocere 3 minuti.",
+   "Aggiungere le lenticchie sciacquate e 750 ml d’acqua.",
+   "Cuocere 25 minuti a fuoco basso, mescolando, finché le lenticchie si disfano; salare.",
+   "Servire con injera, pane o riso."
+  ]
+ },
  "bobotie": {
   "titre": "Bobotie",
   "pays": "Sudafrica",
@@ -750,6 +834,27 @@
    "Aggiungere il riso sciacquato, salare e aggiungere acqua fino a 2 cm sopra.",
    "Cuocere coperto a fuoco basso 20-25 minuti.",
    "Togliere le foglie e servire con shito, gari, uovo e platano fritto."
+  ]
+ },
+ "banku-okro": {
+  "titre": "Banku con zuppa di gombo",
+  "pays": "Ghana",
+  "temps": "1 h",
+  "portions": "6 persone",
+  "resume": "Il banku ghanese, una pasta leggermente acidula di mais e manioca fermentati, con zuppa di gombo al pesce.",
+  "ingredients": [
+   "1 kg di banku mix (pasta di mais e manioca)",
+   "300 g di gombo",
+   "500 g di pesce (tilapia o sgombro) o di manzo",
+   "3 pomodori, 2 cipolle, peperoncino, zenzero",
+   "2 cucchiai di gamberetti secchi macinati, 100 ml di olio di palma, 1 dado, sale"
+  ],
+  "etapes": [
+   "Banku: stemperare la pasta in circa 750 ml di acqua salata finché è liscia.",
+   "Cuocerla a fuoco medio mescolando senza sosta con una spatola per 20 minuti, finché è densa e liscia; formare delle palle.",
+   "Zuppa: rosolare una cipolla nell’olio di palma, aggiungere i pomodori frullati con l’altra cipolla, lo zenzero e il peperoncino; cuocere 10 minuti.",
+   "Aggiungere 500 ml d’acqua, il pesce, i gamberetti e il dado; cuocere 10 minuti.",
+   "Aggiungere il gombo a rondelle e cuocere 8 minuti. Servire con il banku."
   ]
  },
  "fufu-light-soup": {
@@ -925,6 +1030,27 @@
    "Coprire e cuocere 25 minuti a fuoco basso. Servire con la carne e le verdure."
   ]
  },
+ "to-sauce-gombo": {
+  "titre": "Tô con salsa di gombo",
+  "pays": "Burkina Faso e Mali",
+  "temps": "1 h",
+  "portions": "6 persone",
+  "resume": "La pasta di miglio del Burkina e del Mali, soda e liscia, con una salsa filante di gombo, carne e soumbala.",
+  "ingredients": [
+   "500 g di farina di miglio o di sorgo (o di mais)",
+   "500 g di gombo fresco o 3 cucchiai di gombo in polvere",
+   "500 g di manzo o di montone a pezzi",
+   "1 cucchiaio di soumbala (o 1 dado)",
+   "2 pomodori, 1 cipolla, peperoncino, sale"
+  ],
+  "etapes": [
+   "Salsa: cuocere la carne con la cipolla, i pomodori, il soumbala e il sale in 1 litro d’acqua per 40 minuti.",
+   "Aggiungere il gombo tagliato (o la polvere) e il peperoncino; cuocere 15 minuti mescolando finché la salsa fila.",
+   "Tô: stemperare un terzo della farina in 500 ml di acqua fredda, versarla in 1 litro di acqua bollente e cuocere 10 minuti mescolando.",
+   "Togliere una ciotola di questa pappa, poi aggiungere il resto della farina a pioggia mescolando con forza con una spatola; ammorbidire con la pappa tenuta da parte se è troppo soda.",
+   "Coprire 5 minuti a fuoco basso, formare delle palle in una ciotola bagnata e servire con la salsa."
+  ]
+ },
  "efo-riro": {
   "titre": "Efo riro",
   "pays": "Nigeria",
@@ -944,6 +1070,48 @@
    "Aggiungere i peperoni ridotti e friggere 15 minuti mescolando.",
    "Aggiungere carni, pesce, gamberetti e dadi; cuocere 5 minuti.",
    "Aggiungere gli spinaci tritati, mescolare e cuocere solo 5 minuti. Servire con eba, igname pestato o riso."
+  ]
+ },
+ "red-red": {
+  "titre": "Red red",
+  "pays": "Ghana",
+  "temps": "1 h 15",
+  "portions": "4 persone",
+  "resume": "Fagioli dall'occhio stufati nell'olio di palma con pomodoro, serviti con platano maturo fritto: il piatto rosso… e rosso del Ghana.",
+  "ingredients": [
+   "400 g di fagioli dall'occhio",
+   "150 ml di olio di palma",
+   "3 pomodori, 1 cipolla, 1 peperoncino, 1 pezzo di zenzero",
+   "4 platani maturi",
+   "Gari per servire, sale, 1 dado"
+  ],
+  "etapes": [
+   "Mettere i fagioli in ammollo 2 ore, poi lessarli 45 minuti; scolare.",
+   "Scaldare l'olio di palma e soffriggere cipolla, zenzero e peperoncino.",
+   "Aggiungere i pomodori frullati, il dado e il sale; cuocere 10 minuti.",
+   "Aggiungere i fagioli e un po' d'acqua; cuocere 10 minuti schiacciando leggermente.",
+   "Friggere il platano a fette e servire con i fagioli, cosparsi di gari."
+  ]
+ },
+ "sauce-feuille-patate": {
+  "titre": "Salsa di foglie di patata dolce",
+  "pays": "Guinea",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "La salsa guineana di foglie di patata dolce pestate, cotta nell'olio di palma con carne e pesce affumicato, servita sul riso.",
+  "ingredients": [
+   "1 kg di foglie di patata dolce (fresche o surgelate)",
+   "200 ml di olio di palma",
+   "600 g di manzo a pezzi",
+   "1 pesce affumicato, 2 cucchiai di gamberetti secchi",
+   "2 cipolle, peperoncino, 2 dadi, sale; riso per servire"
+  ],
+  "etapes": [
+   "Lavare le foglie e pestarle o tritarle finissime.",
+   "Cuocere la carne con una cipolla, il sale e 1 litro d'acqua per 40 minuti.",
+   "Aggiungere le foglie, il pesce sbriciolato e i gamberetti; cuocere 20 minuti.",
+   "Aggiungere l'olio di palma, l'altra cipolla tritata, il peperoncino e i dadi.",
+   "Cuocere 20 minuti finché l'olio affiora. Servire su riso bianco."
   ]
  },
  "ofe-onugbu": {
@@ -1235,6 +1403,27 @@
    "Servire con riso con fagioli o platani fritti."
   ]
  },
+ "sorrel": {
+  "titre": "Sorrel (bevanda di Natale)",
+  "pays": "Giamaica",
+  "temps": "30 min (+ 1 notte di infusione)",
+  "portions": "8 persone",
+  "resume": "La bevanda rosso rubino del Natale giamaicano: calici di karkadè in infusione con molto zenzero e spezie, serviti ben freddi.",
+  "ingredients": [
+   "2 tazze di calici di karkadè essiccati (sorrel)",
+   "1 grosso pezzo di zenzero grattugiato e 2 litri d’acqua",
+   "6 chiodi di garofano, 1 stecca di cannella, qualche grano di pimento",
+   "1 tazza di zucchero",
+   "Succo di lime; un goccio di rum (facoltativo, per gli adulti)"
+  ],
+  "etapes": [
+   "Sciacquare i calici.",
+   "Portare l’acqua a ebollizione con lo zenzero, i chiodi di garofano, la cannella e il pimento.",
+   "Aggiungere il sorrel, spegnere il fuoco e lasciare in infusione una notte, coperto.",
+   "Filtrare, zuccherare e aggiungere succo di lime a piacere.",
+   "Servire con ghiaccio, con un goccio di rum per gli adulti."
+  ]
+ },
  "ackee-morue": {
   "titre": "Ackee e baccalà",
   "pays": "Giamaica",
@@ -1301,6 +1490,48 @@
    "Servire con riso e fagioli."
   ]
  },
+ "festival": {
+  "titre": "Festival",
+  "pays": "Giamaica",
+  "temps": "40 min",
+  "portions": "6 persone",
+  "resume": "Frittelle giamaicane di farina di mais, dolci e dorate, che accompagnano il pesce fritto e il pollo jerk.",
+  "ingredients": [
+   "250 g di farina di grano",
+   "150 g di farina di mais fine",
+   "3 cucchiai di zucchero e 1 bustina di lievito per dolci",
+   "1 cucchiaino di vaniglia, 1 pizzico di sale",
+   "Olio per friggere"
+  ],
+  "etapes": [
+   "Mescolare farina, farina di mais, zucchero, lievito e sale.",
+   "Aggiungere la vaniglia e circa 200 ml d'acqua per ottenere un impasto morbido.",
+   "Impastare 2 minuti e lasciar riposare 15 minuti.",
+   "Formare dei bastoncini lunghi 10 cm.",
+   "Friggere 5 minuti nell'olio caldo finché sono dorati."
+  ]
+ },
+ "run-down": {
+  "titre": "Run down",
+  "pays": "Giamaica",
+  "temps": "45 min",
+  "portions": "4 persone",
+  "resume": "Pesce (sgombro o baccalà) stufato nel latte di cocco ridotto con pomodori, cipolle, timo e peperoncino.",
+  "ingredients": [
+   "600 g di sgombro salato o pesce fresco",
+   "800 ml di latte di cocco",
+   "2 pomodori, 1 cipolla, 3 cipollotti, 3 spicchi d'aglio",
+   "Timo, 1 peperoncino scotch bonnet, pimento",
+   "Banane verdi o dumplings per servire"
+  ],
+  "etapes": [
+   "Se il pesce è salato, dissalarlo una notte e sbriciolarlo.",
+   "Far ridurre il latte di cocco 15 minuti finché compare l'olio.",
+   "Aggiungere cipolla, aglio, cipollotti, pomodori, timo e il peperoncino intero; cuocere 5 minuti.",
+   "Aggiungere il pesce e cuocere 10 minuti a fuoco basso.",
+   "Servire con banane verdi lessate o dumplings."
+  ]
+ },
  "pozole": {
   "titre": "Pozole rojo",
   "pays": "Messico",
@@ -1321,6 +1552,48 @@
    "Aggiungere la salsa di peperoncini e il mais sciacquato al brodo; cuocere 30 minuti.",
    "Regolare di sale e aggiungere il cumino.",
    "Servire in grandi ciotole con cavolo, ravanelli, cipolla, origano e lime a parte, e tostadas."
+  ]
+ },
+ "cochinita-pibil": {
+  "titre": "Cochinita pibil",
+  "pays": "Messico",
+  "temps": "4 h (+ 1 notte di marinatura)",
+  "portions": "8 persone",
+  "resume": "Il maiale sfilacciato dello Yucatán: marinato nell’achiote e negli agrumi, poi cotto lentamente in foglie di banano finché si scioglie.",
+  "ingredients": [
+   "2 kg di spalla di maiale a pezzi grossi",
+   "100 g di pasta di achiote (annatto)",
+   "Il succo di 4 arance e 2 lime, 4 spicchi d’aglio, 1 cucchiaino di origano e di cumino, sale",
+   "Foglie di banano",
+   "Tortillas di mais, cipolla rossa marinata nel succo di lime e peperoncino habanero per servire"
+  ],
+  "etapes": [
+   "Sciogliere l’achiote nel succo di arancia e lime con l’aglio schiacciato, l’origano, il cumino e il sale.",
+   "Ricoprire il maiale con questa marinata e lasciarlo una notte in frigorifero.",
+   "Foderare una teglia con foglie di banano passate sulla fiamma, adagiarvi il maiale con la marinata e richiudere le foglie.",
+   "Coprire con carta stagnola e cuocere in forno a 160 °C per 4 ore, finché la carne si sfilaccia con una forchetta.",
+   "Sfilacciare il maiale nel suo sugo e servirlo in tortillas calde con la cipolla marinata e il peperoncino."
+  ]
+ },
+ "tamales": {
+  "titre": "Tamales di pollo",
+  "pays": "Messico",
+  "temps": "2 h 30",
+  "portions": "6 persone",
+  "resume": "I fagottini di pasta di mais del Messico, ripieni di pollo in salsa piccante e cotti al vapore nelle foglie di mais.",
+  "ingredients": [
+   "500 g di farina di mais per tamales (masa)",
+   "20 foglie di mais essiccate",
+   "500 g di pollo cotto sfilacciato",
+   "1 scatola di peperoncini chipotle in salsa adobo (o salsa verde)",
+   "150 g di strutto o grasso vegetale, 500 ml di brodo di pollo, 1 cucchiaino di lievito per dolci, sale"
+  ],
+  "etapes": [
+   "Mettere a bagno le foglie di mais in acqua calda per 30 minuti.",
+   "Montare il grasso finché diventa chiaro, poi aggiungere la masa, il lievito, il sale e il brodo a poco a poco, fino a un impasto morbido di cui una pallina galleggi nell’acqua.",
+   "Mescolare il pollo con i peperoncini chipotle tritati e un po’ della loro salsa.",
+   "Spalmare 2 cucchiaiate di impasto su ogni foglia, aggiungere un cucchiaio di pollo e ripiegare i lati e poi il fondo.",
+   "Cuocere in piedi al vapore per 1 h 15, finché l’impasto si stacca bene dalla foglia."
   ]
  },
  "arepas": {
@@ -1344,6 +1617,48 @@
    "Aprirle di lato, farcirle di formaggio e servirle calde."
   ]
  },
+ "patacones": {
+  "titre": "Patacones",
+  "pays": "Colombia",
+  "temps": "30 min",
+  "portions": "4 persone",
+  "resume": "Dischi di platano verde fritti due volte, croccanti, con hogao (salsa di pomodoro e cipollotto) e avocado.",
+  "ingredients": [
+   "3 platani verdi",
+   "Olio per friggere",
+   "Sale e 1 spicchio d’aglio schiacciato in una ciotola d’acqua",
+   "Hogao: 2 pomodori, 4 cipollotti, olio, sale",
+   "1 avocado"
+  ],
+  "etapes": [
+   "Sbucciare i platani e tagliarli a tocchetti di 4 cm.",
+   "Friggerli 5 minuti in olio a media temperatura senza dorarli, poi scolarli.",
+   "Schiacciarli tra due taglieri o con il fondo di un bicchiere e immergerli nell’acqua all’aglio salata.",
+   "Friggerli di nuovo in olio ben caldo finché sono dorati e croccanti; salare.",
+   "Hogao: cuocere i pomodori e i cipollotti tritati nell’olio per 10 minuti. Servire con l’avocado schiacciato."
+  ]
+ },
+ "bolon-verde": {
+  "titre": "Bolón de verde",
+  "pays": "Ecuador",
+  "temps": "40 min",
+  "portions": "4 persone",
+  "resume": "Le palle di platano verde della costa dell’Ecuador, schiacciate con formaggio e ciccioli di maiale e dorate in padella.",
+  "ingredients": [
+   "4 platani verdi",
+   "150 g di formaggio da griglia o mozzarella a cubetti",
+   "150 g di chicharrón (ciccioli di maiale) o pancetta",
+   "2 cucchiai di burro o strutto",
+   "½ cucchiaino di achiote (annatto), sale"
+  ],
+  "etapes": [
+   "Tagliare i platani a pezzi e lessarli 20 minuti in acqua salata.",
+   "Rosolare il maiale a pezzetti e conservare il grasso.",
+   "Schiacciare i platani caldi con il burro, l’achiote e un po’ del grasso.",
+   "Aggiungere il formaggio e il maiale e formare palle grandi come un’arancia.",
+   "Dorarle in padella con un filo d’olio. Servire a colazione con un uovo e un caffè."
+  ]
+ },
  "pupusas": {
   "titre": "Pupusas al formaggio e loroco",
   "pays": "El Salvador",
@@ -1363,6 +1678,27 @@
    "Mescolare il formaggio grattugiato e il loroco tritato.",
    "Formare una pallina di impasto, scavarla, farcirla, richiuderla e appiattirla delicatamente tra le mani.",
    "Cuocere su una piastra calda senza grassi 3-4 minuti per lato. Servire con il curtido e la salsa di pomodoro."
+  ]
+ },
+ "gallo-pinto": {
+  "titre": "Gallo pinto",
+  "pays": "Costa Rica e Nicaragua",
+  "temps": "30 min",
+  "portions": "4 persone",
+  "resume": "La colazione dell’America centrale: riso del giorno prima saltato con fagioli neri, cipolla, peperone e coriandolo.",
+  "ingredients": [
+   "2 tazze di fagioli neri cotti, con un po’ del loro liquido",
+   "3 tazze di riso bianco cotto il giorno prima",
+   "1 cipolla e 1 peperone rosso tritati, 2 spicchi d’aglio",
+   "1 mazzetto di coriandolo",
+   "2 cucchiai d’olio, sale; salsa Lizano o Worcestershire a piacere"
+  ],
+  "etapes": [
+   "Rosolare la cipolla, il peperone e l’aglio nell’olio per 5 minuti.",
+   "Aggiungere i fagioli con il loro liquido e lasciar ridurre 3 minuti.",
+   "Aggiungere il riso e mescolare delicatamente finché prende il colore dei fagioli.",
+   "Condire con sale e un goccio di salsa Lizano.",
+   "Cospargere di coriandolo e servire con uova, platano maturo fritto e panna acida."
   ]
  },
  "feijoada": {
@@ -1388,6 +1724,27 @@
    "Servire con il riso, il cavolo saltato, la farofa e spicchi d'arancia."
   ]
  },
+ "sopa-quinoa": {
+  "titre": "Zuppa di quinoa",
+  "pays": "Perù e Bolivia",
+  "temps": "45 min",
+  "portions": "6 persone",
+  "resume": "La zuppa delle Ande: quinoa, patate e verdure in un brodo profumato all’ají, con formaggio fresco.",
+  "ingredients": [
+   "200 g di quinoa ben sciacquata",
+   "3 patate e 2 carote a cubetti",
+   "1 cipolla, 2 spicchi d’aglio, 1 cucchiaio di pasta di ají (o paprika)",
+   "2 litri di brodo di pollo o vegetale, 1 tazza di piselli o fave",
+   "Coriandolo o prezzemolo, formaggio fresco a cubetti, sale"
+  ],
+  "etapes": [
+   "Rosolare la cipolla, l’aglio e l’ají in un po’ d’olio per 5 minuti.",
+   "Aggiungere il brodo e la quinoa; cuocere 15 minuti.",
+   "Aggiungere le patate e le carote; cuocere 15 minuti.",
+   "Aggiungere i piselli o le fave, cuocere ancora 5 minuti e salare.",
+   "Servire con coriandolo tritato e qualche cubetto di formaggio fresco."
+  ]
+ },
  "couscous-legumes": {
   "titre": "Cuscus alle verdure e agnello",
   "pays": "Marocco",
@@ -1408,6 +1765,27 @@
    "Aggiungere le verdure cominciando dalle più sode (carote, rape), poi zucchine, cavolo e zucca; aggiungere i ceci.",
    "Inumidire la semola con acqua salata, sgranarla e cuocerla al vapore sopra il brodo due volte per 15 minuti.",
    "Sgranare la semola con il burro, disporla a cupola con la carne e le verdure e servire il brodo a parte."
+  ]
+ },
+ "chorba-frik": {
+  "titre": "Chorba frik",
+  "pays": "Algeria",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "La zuppa del Ramadan in Algeria: agnello, pomodoro e grano verde spezzato, profumati al coriandolo e alla menta.",
+  "ingredients": [
+   "500 g di agnello a pezzetti",
+   "100 g di frik (grano verde spezzato)",
+   "1 scatola di ceci",
+   "2 pomodori grattugiati e 1 cucchiaio di concentrato di pomodoro",
+   "1 cipolla, 1 mazzetto di coriandolo, menta secca, cannella, paprika, sale, pepe"
+  ],
+  "etapes": [
+   "Rosolare l’agnello e la cipolla tritata in un po’ d’olio con la cannella, la paprika, il sale e il pepe.",
+   "Aggiungere i pomodori, il concentrato, metà del coriandolo tritato e 2 litri d’acqua; cuocere 40 minuti.",
+   "Aggiungere i ceci scolati e il frik a pioggia; cuocere 20 minuti mescolando di tanto in tanto.",
+   "Aggiungere il resto del coriandolo e un pizzico di menta secca.",
+   "Servire con uno spicchio di limone, datteri e pane."
   ]
  },
  "harira": {
@@ -1432,6 +1810,48 @@
    "Aggiungere i ceci e i vermicelli e cuocere 10 minuti.",
    "Stemperare la farina in un po' d'acqua fredda e versarla a filo mescolando; cuocere 10 minuti finché la zuppa vela il cucchiaio.",
    "Servire con limone, datteri e uova sode."
+  ]
+ },
+ "ful-medames": {
+  "titre": "Ful medames",
+  "pays": "Egitto",
+  "temps": "20 min",
+  "portions": "4 persone",
+  "resume": "La colazione dell’Egitto: fave cotte lentamente e schiacciate con aglio, cumino, limone e olio d’oliva.",
+  "ingredients": [
+   "2 scatole di fave (ful) da 400 g",
+   "2 spicchi d’aglio, 1 cucchiaino di cumino, sale",
+   "Il succo di 1 limone",
+   "4 cucchiai di olio d’oliva",
+   "Pomodoro, prezzemolo, cipolla, uova sode e pane pita per servire"
+  ],
+  "etapes": [
+   "Scaldare le fave con il loro liquido 10 minuti a fuoco basso.",
+   "Schiacciare l’aglio con il sale e il cumino.",
+   "Schiacciare grossolanamente una parte delle fave, aggiungere l’aglio e il succo di limone, e un po’ d’acqua calda se troppo denso.",
+   "Versare in un piatto fondo e condire abbondantemente con olio d’oliva.",
+   "Guarnire con pomodoro e prezzemolo tritati, cipolla e uovo sodo; servire con pane pita caldo."
+  ]
+ },
+ "chakchouka": {
+  "titre": "Chakchouka",
+  "pays": "Tunisia",
+  "temps": "40 min",
+  "portions": "4 persone",
+  "resume": "Uova in camicia in un sugo di pomodori e peperoni al cumino e harissa, da raccogliere con il pane.",
+  "ingredients": [
+   "6 pomodori (o 1 lattina di pomodori a pezzi)",
+   "3 peperoni, 1 cipolla, 3 spicchi d'aglio",
+   "6 uova",
+   "1 cucchiaino di cumino, 1 di paprica",
+   "1 cucchiaino di harissa, olio d'oliva, sale; pane per servire"
+  ],
+  "etapes": [
+   "Soffriggere cipolla e peperoni a listarelle nell'olio d'oliva per 10 minuti.",
+   "Aggiungere aglio, cumino, paprica e harissa; cuocere 1 minuto.",
+   "Aggiungere i pomodori e il sale; cuocere a fuoco lento 15 minuti.",
+   "Formare delle conche nel sugo e rompervi le uova.",
+   "Coprire e cuocere 6-8 minuti, finché gli albumi sono rappresi. Servire con il pane."
   ]
  },
  "kelewele": {
@@ -1476,6 +1896,27 @@
    "Mettere in frigo almeno 2 ore e servire ben freddo."
   ]
  },
+ "bouye": {
+  "titre": "Bouye (succo di baobab)",
+  "pays": "Senegal",
+  "temps": "15 min (+ 1 h in frigo)",
+  "portions": "6 persone",
+  "resume": "La polpa del frutto del baobab sciolta in una bevanda cremosa, dolce e acidula, servita ben fredda.",
+  "ingredients": [
+   "200 g di polvere di frutto di baobab e 1 litro di acqua fredda",
+   "250 ml di latte condensato (o 150 g di zucchero)",
+   "Zucchero a piacere",
+   "1 bustina di zucchero vanigliato",
+   "Acqua di fiori d’arancio o un pizzico di noce moscata (facoltativo)"
+  ],
+  "etapes": [
+   "Stemperare la polvere di baobab in metà dell’acqua fredda e lasciar riposare 15 minuti.",
+   "Mescolare bene per sciogliere la polpa, poi filtrare con un colino fine.",
+   "Aggiungere il resto dell’acqua, il latte condensato, lo zucchero e lo zucchero vanigliato.",
+   "Profumare con un po’ di acqua di fiori d’arancio o di noce moscata.",
+   "Mettere in frigorifero 1 ora e servire ben fresco."
+  ]
+ },
  "cachupa": {
   "titre": "Cachupa",
   "pays": "Capo Verde",
@@ -1518,6 +1959,27 @@
    "Chiudere e lasciar marinare almeno 24 ore in frigorifero."
   ]
  },
+ "colombo-poulet": {
+  "titre": "Colombo di pollo",
+  "pays": "Guadalupa e Martinica",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "Il curry delle Antille francesi: pollo stufato con polvere di colombo, patate, melanzana e chayote.",
+  "ingredients": [
+   "1 pollo a pezzi",
+   "3 cucchiai di polvere di colombo",
+   "3 patate, 1 melanzana, 1 chayote",
+   "2 cipolle, 4 spicchi d'aglio, 1 peperoncino, timo",
+   "Il succo di 2 lime; riso bianco per servire"
+  ],
+  "etapes": [
+   "Marinare il pollo 1 ora con lime, aglio, sale e un cucchiaio di colombo.",
+   "Rosolarlo nell'olio con le cipolle.",
+   "Aggiungere il resto del colombo, il timo e il peperoncino intero; mescolare 2 minuti.",
+   "Aggiungere le verdure a pezzi e acqua a filo; cuocere coperto 40 minuti.",
+   "Aggiungere un filo di lime alla fine e servire con riso bianco."
+  ]
+ },
  "bouyon": {
   "titre": "Bouyon",
   "pays": "Haiti",
@@ -1537,6 +1999,48 @@
    "Doumbrey: mescolare la farina, un pizzico di sale e un po' d'acqua e formare piccoli cilindri.",
    "Aggiungere gli gnocchetti, gli spinaci, il timo, il peperoncino intero e i dadi; cuocere 30 minuti.",
    "Schiacciare un po' di verdure per addensare e servire bollente."
+  ]
+ },
+ "diri-ak-pwa": {
+  "titre": "Diri ak pwa (riso con fagioli rossi)",
+  "pays": "Haiti",
+  "temps": "1 h 15",
+  "portions": "6 persone",
+  "resume": "Il riso haitiano di tutti i giorni, cotto nel brodo dei fagioli rossi con epis, chiodi di garofano e un peperoncino intero.",
+  "ingredients": [
+   "500 g di riso",
+   "250 g di fagioli rossi secchi",
+   "2 cucchiai di epis (condimento haitiano)",
+   "3 chiodi di garofano, timo, 1 peperoncino scotch bonnet",
+   "2 cucchiai d'olio o burro, sale"
+  ],
+  "etapes": [
+   "Cuocere i fagioli in 1,5 litri d'acqua per 1 ora; tenere il brodo.",
+   "Soffriggere l'epis nell'olio, aggiungere i fagioli scolati e rosolarli 3 minuti.",
+   "Aggiungere 1 litro di brodo, i chiodi di garofano, il timo, il sale e il peperoncino intero; portare a bollore.",
+   "Aggiungere il riso lavato e cuocere scoperto finché assorbe il liquido.",
+   "Coprire e terminare 15 minuti a fuoco bassissimo. Togliere il peperoncino e servire."
+  ]
+ },
+ "pain-patate": {
+  "titre": "Pain patate (budino di patata dolce)",
+  "pays": "Haiti",
+  "temps": "1 h 45",
+  "portions": "8 persone",
+  "resume": "Il dolce haitiano di patata dolce grattugiata, banana matura e latte di cocco, profumato a cannella, zenzero e vaniglia.",
+  "ingredients": [
+   "1 kg di patate dolci",
+   "2 banane mature",
+   "400 ml di latte di cocco e 200 ml di latte evaporato",
+   "150 g di zucchero di canna, 50 g di burro fuso, uvetta",
+   "Cannella, zenzero grattugiato, noce moscata, vaniglia"
+  ],
+  "etapes": [
+   "Scaldare il forno a 180 °C e imburrare uno stampo.",
+   "Sbucciare e grattugiare finemente le patate dolci; schiacciare le banane.",
+   "Mescolare con latte di cocco, latte evaporato, zucchero, burro e spezie.",
+   "Aggiungere l'uvetta e versare nello stampo.",
+   "Cuocere 1 h 15, finché la superficie è dorata e soda. Servire tiepido o freddo."
   ]
  },
  "accras-morue": {
@@ -1728,6 +2232,27 @@
    "Aggiungere la carne e le olive e cuocere 20 minuti. Servire con riso e fagioli neri."
   ]
  },
+ "yuca-mojo": {
+  "titre": "Yuca con mojo",
+  "pays": "Cuba",
+  "temps": "45 min",
+  "portions": "4 persone",
+  "resume": "La manioca alla cubana: lessata finché è tenera e condita con un mojo caldo di aglio, agrumi e cipolla.",
+  "ingredients": [
+   "1 kg di manioca (yuca), fresca o surgelata",
+   "8 spicchi d’aglio",
+   "Il succo di 2 arance e 2 lime",
+   "1 cipolla ad anelli sottili",
+   "100 ml di olio d’oliva, 1 cucchiaino di cumino, sale"
+  ],
+  "etapes": [
+   "Sbucciare la manioca, tagliarla a pezzi e togliere la fibra centrale.",
+   "Lessarla 25-30 minuti in acqua salata, finché si apre; scolare.",
+   "Schiacciare l’aglio con il sale e il cumino e stemperarlo nel succo di arancia e lime.",
+   "Scaldare l’olio, ammorbidirvi la cipolla 3 minuti e versare il composto all’aglio fuori dal fuoco.",
+   "Versare il mojo caldo sulla manioca e servire con maiale arrosto, o con riso e fagioli."
+  ]
+ },
  "mofongo": {
   "titre": "Mofongo",
   "pays": "Porto Rico",
@@ -1770,6 +2295,27 @@
    "Coprire e terminare 15 minuti a fuoco bassissimo."
   ]
  },
+ "mangu": {
+  "titre": "Mangú",
+  "pays": "Repubblica Dominicana",
+  "temps": "40 min",
+  "portions": "4 persone",
+  "resume": "Il purè di platano verde dominicano, coperto di cipolla rossa all’aceto e servito con i «tre colpi»: salame, formaggio fritto e uovo.",
+  "ingredients": [
+   "4 platani verdi",
+   "2 cipolle rosse ad anelli",
+   "3 cucchiai di burro",
+   "Aceto, olio, sale",
+   "Formaggio da friggere, salame e uova per servire"
+  ],
+  "etapes": [
+   "Sbucciare i platani, tagliarli a pezzi e lessarli 20 minuti in acqua salata.",
+   "Rosolare le cipolle in un po’ d’olio e aggiungere un goccio d’aceto e sale.",
+   "Schiacciare i platani con il burro e un po’ di acqua di cottura fredda fino a un purè liscio.",
+   "Friggere le fette di salame e di formaggio e cuocere le uova.",
+   "Servire il purè coperto di cipolla, con il salame, il formaggio e le uova."
+  ]
+ },
  "sanga": {
   "titre": "Sanga",
   "pays": "Camerun",
@@ -1791,6 +2337,27 @@
    "Aggiungere le foglie, lo zucchero e il sale; cuocere altri 15 minuti. Servire caldo o tiepido."
   ]
  },
+ "kwacoco-bible": {
+  "titre": "Kwacoco bible",
+  "pays": "Camerun",
+  "temps": "2 h",
+  "portions": "6 persone",
+  "resume": "Un cartoccio del Sud-Ovest: taro grattugiato con pesce affumicato, spezie e olio di palma, cotto in foglie di banano.",
+  "ingredients": [
+   "1 kg di macabo (taro)",
+   "1 pesce affumicato e 50 g di gamberetti secchi",
+   "Foglie di banano",
+   "100 ml di olio di palma",
+   "Peperoncino, 1 cipolla, 1 dado, sale"
+  ],
+  "etapes": [
+   "Sbucciare e grattugiare finemente il macabo.",
+   "Aggiungere il pesce sbriciolato, i gamberetti macinati, la cipolla tritata, il peperoncino, il dado, il sale e l'olio di palma; mescolare bene.",
+   "Distribuire l'impasto in foglie di banano passate sulla fiamma.",
+   "Piegare e legare i cartocci.",
+   "Cuocere al vapore 1 h 30. Servire con una salsa piccante o uno stufato."
+  ]
+ },
  "kedjenou-pintade": {
   "titre": "Kedjenou di faraona",
   "pays": "Costa d'Avorio",
@@ -1810,6 +2377,27 @@
    "Chiudere ermeticamente e cuocere a fuoco basso 1 ora.",
    "Scuotere la pentola ogni 10 minuti senza aprirla, perché nulla si attacchi.",
    "Servire con attiéké o riso."
+  ]
+ },
+ "attieke-aubergine": {
+  "titre": "Attiéké con salsa di melanzane",
+  "pays": "Costa d'Avorio",
+  "temps": "1 h",
+  "portions": "6 persone",
+  "resume": "Attiéké servito con una salsa delicata e profumata di melanzane schiacciate, pomodoro e pesce.",
+  "ingredients": [
+   "1 kg di attiéké",
+   "6 melanzane africane (o 2 melanzane grandi)",
+   "800 g di pesce (o 1 pesce affumicato)",
+   "3 pomodori, 2 cipolle, 2 spicchi d'aglio",
+   "4 cucchiai d'olio, peperoncino, 1 dado, sale"
+  ],
+  "etapes": [
+   "Lessare le melanzane sbucciate 15 minuti e schiacciarle.",
+   "Soffriggere cipolle e aglio nell'olio e aggiungere i pomodori frullati; cuocere 10 minuti.",
+   "Aggiungere le melanzane schiacciate, 300 ml d'acqua, il peperoncino, il dado e il sale; cuocere 10 minuti.",
+   "Aggiungere il pesce e cuocere 15 minuti a fuoco basso.",
+   "Scaldare l'attiéké al vapore 5 minuti e servire con la salsa."
   ]
  },
  "mbongo-porc": {

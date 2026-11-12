@@ -296,6 +296,27 @@
    "1 Std. 30 bei schwacher Hitze garen, ohne zu rühren, dabei den Topf ab und zu schwenken, bis das Öl aufsteigt."
   ]
  },
+ "nnam-owondo": {
+  "titre": "Nnam Owondo",
+  "pays": "Kamerun",
+  "temps": "1 Std. 30",
+  "portions": "6 Personen",
+  "resume": "Der Erdnusskuchen der Beti: gemahlene Erdnüsse mit Räucherfisch und Garnelen, in Bananenblättern gedämpft.",
+  "ingredients": [
+   "500 g rohe geschälte Erdnüsse (oder Erdnusspaste)",
+   "100 g getrocknete Garnelen",
+   "1 Räucherfisch",
+   "Bananenblätter",
+   "Chili, 1 Brühwürfel, Salz"
+  ],
+  "etapes": [
+   "Die Erdnüsse leicht rösten, die Haut entfernen und mit etwas Wasser zu einer dicken Paste mahlen.",
+   "Den zerpflückten Fisch, die gemahlenen Garnelen, Chili, Brühwürfel und Salz dazugeben.",
+   "Die Masse einige Minuten kräftig schlagen.",
+   "Auf über der Flamme erweichte Bananenblätter verteilen und gut verschließen.",
+   "1 Stunde dämpfen. Mit Maniok, Kochbanane oder Maniokstangen servieren."
+  ]
+ },
  "attieke-poisson": {
   "titre": "Attiéké mit gegrilltem Fisch",
   "pays": "Elfenbeinküste",
@@ -419,6 +440,27 @@
    "Das Püree mit Okra und Brühwürfel zurück in die Brühe geben; 20 Minuten köcheln lassen.",
    "Foutou: Kochbanane und Maniok 20 Minuten kochen und zusammen zu einer glatten, elastischen Masse stampfen.",
    "Foutou-Kugeln formen und in der klaren Soße servieren."
+  ]
+ },
+ "placali-kope": {
+  "titre": "Placali mit Kopè-Soße",
+  "pays": "Elfenbeinküste",
+  "temps": "1 Std.",
+  "portions": "6 Personen",
+  "resume": "Fermentierte Maniokpaste (Placali) mit Kopè: einer Okrasoße mit Palmöl, Räucherfisch und Krabben.",
+  "ingredients": [
+   "500 g Placali (fermentierte Maniokpaste)",
+   "500 g frische Okra",
+   "150 ml Palmöl",
+   "1 Räucherfisch und 2 Krabben",
+   "Chili, 1 Zwiebel, 1 Brühwürfel, Salz"
+  ],
+  "etapes": [
+   "Die Okra fein schneiden oder grob pürieren.",
+   "1 Liter Wasser mit Zwiebel, zerpflücktem Fisch, Krabben, Chili und Brühwürfel erhitzen; 15 Minuten kochen.",
+   "Okra und Palmöl dazugeben; 15 Minuten unter Schlagen kochen, bis die Soße Fäden zieht.",
+   "Placali: die Paste in 750 ml Wasser verrühren und 10 bis 15 Minuten unter ständigem Rühren garen, bis sie glatt und durchscheinend ist.",
+   "Das Placali in tiefen Tellern mit der Kopè-Soße servieren."
   ]
  },
  "pondu": {
@@ -597,6 +639,27 @@
    "Das Ugali mit dem Sukuma servieren, nach Belieben mit gegrilltem Fleisch (Nyama Choma)."
   ]
  },
+ "githeri-chapati": {
+  "titre": "Githeri und Chapati",
+  "pays": "Kenia",
+  "temps": "1 h 30",
+  "portions": "6 Personen",
+  "resume": "Kenias Alltagsgericht: Mais und Bohnen mit Tomate und Gemüse geschmort, dazu blättrige Chapatis.",
+  "ingredients": [
+   "2 Tassen getrockneter weißer Mais und 1 Tasse Kidneybohnen, über Nacht eingeweicht (oder aus der Dose)",
+   "2 Tomaten, 1 Zwiebel, 1 Karotte, 1 Kartoffel",
+   "Chapati: 500 g Mehl",
+   "1 Teelöffel Salz, 1 Esslöffel Zucker, 300 ml lauwarmes Wasser",
+   "Öl, 1 Teelöffel Currypulver, Salz"
+  ],
+  "etapes": [
+   "Den eingeweichten Mais und die Bohnen 1 Stunde in Wasser weich kochen; abgießen.",
+   "Zwiebel, gewürfelte Karotte und Kartoffel im Öl anbraten, Tomaten und Curry zugeben, dann Mais und Bohnen; 15 Minuten schmoren.",
+   "Chapati: Mehl, Salz, Zucker, 2 Löffel Öl und Wasser 10 Minuten kneten und 30 Minuten ruhen lassen.",
+   "Den Teig ausrollen, mit Öl bestreichen, zu einer Rolle und dann zu einer Schnecke formen; ruhen lassen und zu dünnen Fladen ausrollen.",
+   "Die Chapatis in einer trockenen Pfanne backen, beidseitig mit Öl bestreichen, bis sie goldbraun sind. Mit dem Githeri servieren."
+  ]
+ },
  "mandazi": {
   "titre": "Mandazi",
   "pays": "Kenia und Tansania",
@@ -686,6 +749,27 @@
    "Auf Injera servieren."
   ]
  },
+ "misir-wat": {
+  "titre": "Misir wat",
+  "pays": "Äthiopien",
+  "temps": "45 min",
+  "portions": "4 Personen",
+  "resume": "Äthiopischer Eintopf aus roten Linsen mit Berbere, rot und scharf, auf Injera serviert.",
+  "ingredients": [
+   "250 g rote Linsen",
+   "2 rote Zwiebeln, sehr fein gehackt",
+   "2 Esslöffel Berbere (oder Chilipulver mit Paprika und Gewürzen)",
+   "3 Knoblauchzehen",
+   "1 Stück Ingwer, 4 Esslöffel Öl oder geklärte Butter, Salz"
+  ],
+  "etapes": [
+   "Die Zwiebeln ohne Fett bei schwacher Hitze 10 Minuten unter Rühren weich garen.",
+   "Öl, geriebenen Knoblauch und Ingwer, dann das Berbere zugeben; 3 Minuten garen.",
+   "Die gespülten Linsen und 750 ml Wasser zugeben.",
+   "25 Minuten bei schwacher Hitze unter Rühren köcheln, bis die Linsen zerfallen; salzen.",
+   "Mit Injera, Brot oder Reis servieren."
+  ]
+ },
  "bobotie": {
   "titre": "Bobotie",
   "pays": "Südafrika",
@@ -750,6 +834,27 @@
    "Den gewaschenen Reis dazugeben, salzen und mit Wasser auffüllen, bis es 2 cm darübersteht.",
    "Zugedeckt bei schwacher Hitze 20 bis 25 Minuten garen.",
    "Die Blätter entfernen und mit Shito, Gari, Ei und gebratener Kochbanane servieren."
+  ]
+ },
+ "banku-okro": {
+  "titre": "Banku mit Okrasuppe",
+  "pays": "Ghana",
+  "temps": "1 h",
+  "portions": "6 Personen",
+  "resume": "Ghanaisches Banku, ein leicht säuerlicher Teig aus fermentiertem Mais und Maniok, mit Okrasuppe und Fisch.",
+  "ingredients": [
+   "1 kg Banku-Mix (Teig aus Mais und Maniok)",
+   "300 g Okra",
+   "500 g Fisch (Tilapia oder Makrele) oder Rindfleisch",
+   "3 Tomaten, 2 Zwiebeln, Chili, Ingwer",
+   "2 Esslöffel gemahlene getrocknete Garnelen, 100 ml Palmöl, 1 Brühwürfel, Salz"
+  ],
+  "etapes": [
+   "Banku: den Teig in etwa 750 ml Salzwasser glatt rühren.",
+   "Bei mittlerer Hitze 20 Minuten ununterbrochen mit einem Spatel rühren, bis er dick und glatt ist; zu Kugeln formen.",
+   "Suppe: eine Zwiebel im Palmöl anbraten, die mit der anderen Zwiebel, Ingwer und Chili pürierten Tomaten zugeben; 10 Minuten kochen.",
+   "500 ml Wasser, Fisch, Garnelen und Brühwürfel zugeben; 10 Minuten kochen.",
+   "Die Okra in Scheiben zugeben und 8 Minuten kochen. Mit dem Banku servieren."
   ]
  },
  "fufu-light-soup": {
@@ -925,6 +1030,27 @@
    "Zudecken und 25 Minuten bei schwacher Hitze garen. Mit Fleisch und Gemüse servieren."
   ]
  },
+ "to-sauce-gombo": {
+  "titre": "Tô mit Okra-Soße",
+  "pays": "Burkina Faso und Mali",
+  "temps": "1 h",
+  "portions": "6 Personen",
+  "resume": "Der feste, glatte Hirsebrei aus Burkina Faso und Mali mit einer zähflüssigen Soße aus Okra, Fleisch und Soumbala.",
+  "ingredients": [
+   "500 g Hirse- oder Sorghummehl (oder Maismehl)",
+   "500 g frische Okra oder 3 Esslöffel Okrapulver",
+   "500 g Rind- oder Hammelfleisch in Stücken",
+   "1 Esslöffel Soumbala (oder 1 Brühwürfel)",
+   "2 Tomaten, 1 Zwiebel, Chili, Salz"
+  ],
+  "etapes": [
+   "Soße: das Fleisch mit Zwiebel, Tomaten, Soumbala und Salz in 1 Liter Wasser 40 Minuten kochen.",
+   "Die geschnittene Okra (oder das Pulver) und Chili zugeben; 15 Minuten unter Rühren kochen, bis die Soße Fäden zieht.",
+   "Tô: ein Drittel des Mehls in 500 ml kaltem Wasser verrühren, in 1 Liter kochendes Wasser gießen und 10 Minuten unter Rühren kochen.",
+   "Eine Schüssel dieses Breis abnehmen, dann das restliche Mehl einrieseln lassen und kräftig mit einem Spatel rühren; mit dem abgenommenen Brei lockern, wenn er zu fest ist.",
+   "Zugedeckt 5 Minuten bei schwacher Hitze ziehen lassen, in einer nassen Schüssel zu Kugeln formen und mit der Soße servieren."
+  ]
+ },
  "efo-riro": {
   "titre": "Efo Riro",
   "pays": "Nigeria",
@@ -944,6 +1070,48 @@
    "Die eingekochte Paprika dazugeben und 15 Minuten unter Rühren braten.",
    "Fleisch, Fisch, Garnelen und Brühwürfel dazugeben; 5 Minuten garen.",
    "Den gehackten Spinat unterrühren und nur 5 Minuten garen. Mit Eba, gestampftem Yam oder Reis servieren."
+  ]
+ },
+ "red-red": {
+  "titre": "Red Red",
+  "pays": "Ghana",
+  "temps": "1 Std. 15",
+  "portions": "4 Personen",
+  "resume": "Augenbohnen, in Palmöl und Tomate geschmort, mit gebratener reifer Kochbanane: Ghanas rotes… und rotes Gericht.",
+  "ingredients": [
+   "400 g Augenbohnen",
+   "150 ml Palmöl",
+   "3 Tomaten, 1 Zwiebel, 1 Chili, 1 Stück Ingwer",
+   "4 reife Kochbananen",
+   "Gari zum Servieren, Salz, 1 Brühwürfel"
+  ],
+  "etapes": [
+   "Die Bohnen 2 Stunden einweichen, dann 45 Minuten kochen; abgießen.",
+   "Das Palmöl erhitzen und Zwiebel, Ingwer und Chili anbraten.",
+   "Pürierte Tomaten, Brühwürfel und Salz dazugeben; 10 Minuten garen.",
+   "Bohnen und etwas Wasser dazugeben; 10 Minuten köcheln lassen und leicht zerdrücken.",
+   "Die Kochbanane in Scheiben braten und mit den Bohnen servieren, mit Gari bestreut."
+  ]
+ },
+ "sauce-feuille-patate": {
+  "titre": "Süßkartoffelblätter-Soße",
+  "pays": "Guinea",
+  "temps": "1 Std. 15",
+  "portions": "6 Personen",
+  "resume": "Die guineische Soße aus gestampften Süßkartoffelblättern, in Palmöl mit Fleisch und Räucherfisch gegart, auf Reis serviert.",
+  "ingredients": [
+   "1 kg Süßkartoffelblätter (frisch oder tiefgekühlt)",
+   "200 ml Palmöl",
+   "600 g Rindfleisch in Stücken",
+   "1 Räucherfisch, 2 EL getrocknete Garnelen",
+   "2 Zwiebeln, Chili, 2 Brühwürfel, Salz; Reis zum Servieren"
+  ],
+  "etapes": [
+   "Die Blätter waschen und stampfen oder sehr fein hacken.",
+   "Das Fleisch mit einer Zwiebel, Salz und 1 Liter Wasser 40 Minuten kochen.",
+   "Blätter, zerpflückten Fisch und Garnelen dazugeben; 20 Minuten garen.",
+   "Palmöl, die zweite gehackte Zwiebel, Chili und Brühwürfel dazugeben.",
+   "20 Minuten köcheln lassen, bis das Öl aufsteigt. Auf weißem Reis servieren."
   ]
  },
  "ofe-onugbu": {
@@ -1235,6 +1403,27 @@
    "Mit Rice and Peas oder frittierten Kochbananen servieren."
   ]
  },
+ "sorrel": {
+  "titre": "Sorrel (Weihnachtsgetränk)",
+  "pays": "Jamaika",
+  "temps": "30 min (+ 1 Nacht ziehen lassen)",
+  "portions": "8 Personen",
+  "resume": "Jamaikas rubinrotes Weihnachtsgetränk: Hibiskuskelche, mit viel Ingwer und Gewürzen aufgegossen und eiskalt serviert.",
+  "ingredients": [
+   "2 Tassen getrocknete Hibiskuskelche (Sorrel)",
+   "1 großes Stück Ingwer, gerieben, und 2 Liter Wasser",
+   "6 Gewürznelken, 1 Zimtstange, einige Pimentkörner",
+   "1 Tasse Zucker",
+   "Limettensaft; ein Schuss Rum (nach Belieben, für Erwachsene)"
+  ],
+  "etapes": [
+   "Die Kelche abspülen.",
+   "Das Wasser mit Ingwer, Nelken, Zimt und Piment aufkochen.",
+   "Den Sorrel zugeben, den Herd ausschalten und zugedeckt über Nacht ziehen lassen.",
+   "Abseihen, süßen und nach Geschmack Limettensaft zugeben.",
+   "Auf Eis servieren, für Erwachsene mit einem Schuss Rum."
+  ]
+ },
  "ackee-morue": {
   "titre": "Ackee und Stockfisch",
   "pays": "Jamaika",
@@ -1301,6 +1490,48 @@
    "Mit Rice and Peas servieren."
   ]
  },
+ "festival": {
+  "titre": "Festival",
+  "pays": "Jamaika",
+  "temps": "40 Min.",
+  "portions": "6 Personen",
+  "resume": "Jamaikanische süße Maismehlkrapfen, goldbraun frittiert, zu gebratenem Fisch und Jerk Chicken.",
+  "ingredients": [
+   "250 g Weizenmehl",
+   "150 g feines Maismehl",
+   "3 EL Zucker und 1 Päckchen Backpulver",
+   "1 TL Vanille, 1 Prise Salz",
+   "Öl zum Frittieren"
+  ],
+  "etapes": [
+   "Mehl, Maismehl, Zucker, Backpulver und Salz mischen.",
+   "Vanille und etwa 200 ml Wasser dazugeben, bis ein weicher Teig entsteht.",
+   "2 Minuten kneten und 15 Minuten ruhen lassen.",
+   "Zu 10 cm langen Röllchen formen.",
+   "5 Minuten im heißen Öl goldbraun frittieren."
+  ]
+ },
+ "run-down": {
+  "titre": "Run Down",
+  "pays": "Jamaika",
+  "temps": "45 Min.",
+  "portions": "4 Personen",
+  "resume": "Fisch (Makrele oder Kabeljau), in eingekochter Kokosmilch mit Tomaten, Zwiebeln, Thymian und Chili geschmort.",
+  "ingredients": [
+   "600 g gesalzene Makrele oder frischer Fisch",
+   "800 ml Kokosmilch",
+   "2 Tomaten, 1 Zwiebel, 3 Frühlingszwiebeln, 3 Knoblauchzehen",
+   "Thymian, 1 Scotch Bonnet, Piment",
+   "Grüne Bananen oder Dumplings zum Servieren"
+  ],
+  "etapes": [
+   "Gesalzenen Fisch über Nacht wässern und zerpflücken.",
+   "Die Kokosmilch 15 Minuten einkochen, bis sich das Öl absetzt.",
+   "Zwiebel, Knoblauch, Frühlingszwiebeln, Tomaten, Thymian und die ganze Chili dazugeben; 5 Minuten garen.",
+   "Den Fisch dazugeben und 10 Minuten bei schwacher Hitze garen.",
+   "Mit gekochten grünen Bananen oder Dumplings servieren."
+  ]
+ },
  "pozole": {
   "titre": "Pozole rojo",
   "pays": "Mexiko",
@@ -1321,6 +1552,48 @@
    "Die Chilisoße und den abgespülten Mais in die Brühe geben; 30 Minuten köcheln lassen.",
    "Abschmecken und den Kreuzkümmel dazugeben.",
    "In großen Schalen servieren, mit Kohl, Radieschen, Zwiebel, Oregano und Limette extra, dazu Tostadas."
+  ]
+ },
+ "cochinita-pibil": {
+  "titre": "Cochinita pibil",
+  "pays": "Mexiko",
+  "temps": "4 h (+ 1 Nacht Marinieren)",
+  "portions": "8 Personen",
+  "resume": "Gezupftes Schweinefleisch aus Yucatán: in Achiote und Zitrussaft mariniert und langsam in Bananenblättern gegart, bis es zerfällt.",
+  "ingredients": [
+   "2 kg Schweineschulter in großen Stücken",
+   "100 g Achiote-Paste (Annatto)",
+   "Saft von 4 Orangen und 2 Limetten, 4 Knoblauchzehen, je 1 Teelöffel Oregano und Kreuzkümmel, Salz",
+   "Bananenblätter",
+   "Maistortillas, in Limettensaft eingelegte rote Zwiebel und Habanero-Chili zum Servieren"
+  ],
+  "etapes": [
+   "Die Achiote-Paste im Orangen- und Limettensaft mit dem zerdrückten Knoblauch, Oregano, Kreuzkümmel und Salz auflösen.",
+   "Das Fleisch mit der Marinade bedecken und über Nacht in den Kühlschrank stellen.",
+   "Eine Form mit über der Flamme geschmeidig gemachten Bananenblättern auslegen, das Fleisch mit der Marinade hineingeben und die Blätter darüber schlagen.",
+   "Mit Alufolie abdecken und bei 160 °C 4 Stunden im Ofen garen, bis sich das Fleisch mit der Gabel zerzupfen lässt.",
+   "Das Fleisch im eigenen Saft zerzupfen und in warmen Tortillas mit der eingelegten Zwiebel und Chili servieren."
+  ]
+ },
+ "tamales": {
+  "titre": "Hähnchen-Tamales",
+  "pays": "Mexiko",
+  "temps": "2 h 30",
+  "portions": "6 Personen",
+  "resume": "Mexikos Päckchen aus Maisteig, gefüllt mit Hähnchen in scharfer Soße und in Maisblättern gedämpft.",
+  "ingredients": [
+   "500 g Maismehl für Tamales (Masa)",
+   "20 getrocknete Maisblätter",
+   "500 g gegartes, gezupftes Hähnchen",
+   "1 Dose Chipotle-Chilis in Adobo-Soße (oder Salsa verde)",
+   "150 g Schmalz oder Pflanzenfett, 500 ml Hühnerbrühe, 1 Teelöffel Backpulver, Salz"
+  ],
+  "etapes": [
+   "Die Maisblätter 30 Minuten in heißem Wasser einweichen.",
+   "Das Fett hell aufschlagen, dann Masa, Backpulver, Salz und nach und nach die Brühe zugeben, bis ein weicher Teig entsteht, von dem eine kleine Kugel im Wasser schwimmt.",
+   "Das Hähnchen mit den gehackten Chipotle-Chilis und etwas Soße mischen.",
+   "2 Löffel Teig auf jedes Blatt streichen, einen Löffel Hähnchen daraufgeben, die Seiten und dann das untere Ende einschlagen.",
+   "Stehend 1 h 15 dämpfen, bis sich der Teig sauber vom Blatt löst."
   ]
  },
  "arepas": {
@@ -1344,6 +1617,48 @@
    "Seitlich aufschneiden, mit Käse füllen und heiß servieren."
   ]
  },
+ "patacones": {
+  "titre": "Patacones",
+  "pays": "Kolumbien",
+  "temps": "30 min",
+  "portions": "4 Personen",
+  "resume": "Zweimal frittierte, knusprige Taler aus grüner Kochbanane, mit Hogao (Tomaten-Frühlingszwiebel-Soße) und Avocado.",
+  "ingredients": [
+   "3 grüne Kochbananen",
+   "Öl zum Frittieren",
+   "Salz und 1 zerdrückte Knoblauchzehe in einer Schüssel Wasser",
+   "Hogao: 2 Tomaten, 4 Frühlingszwiebeln, Öl, Salz",
+   "1 Avocado"
+  ],
+  "etapes": [
+   "Die Kochbananen schälen und in 4 cm lange Stücke schneiden.",
+   "5 Minuten in mittelheißem Öl frittieren, ohne sie zu bräunen, dann abtropfen lassen.",
+   "Zwischen zwei Brettern oder mit dem Boden eines Glases flach drücken und in das gesalzene Knoblauchwasser tauchen.",
+   "In sehr heißem Öl erneut frittieren, bis sie goldbraun und knusprig sind; salzen.",
+   "Hogao: die gehackten Tomaten und Frühlingszwiebeln 10 Minuten im Öl schmoren. Mit zerdrückter Avocado servieren."
+  ]
+ },
+ "bolon-verde": {
+  "titre": "Bolón de verde",
+  "pays": "Ecuador",
+  "temps": "40 min",
+  "portions": "4 Personen",
+  "resume": "Kugeln aus grüner Kochbanane von Ecuadors Küste, mit Käse und knusprigem Schweinefleisch gestampft und in der Pfanne gebräunt.",
+  "ingredients": [
+   "4 grüne Kochbananen",
+   "150 g Grillkäse oder Mozzarella, gewürfelt",
+   "150 g Chicharrón (frittiertes Schweinefleisch) oder Speck",
+   "2 Esslöffel Butter oder Schmalz",
+   "½ Teelöffel Achiote (Annatto), Salz"
+  ],
+  "etapes": [
+   "Die Kochbananen in Stücke schneiden und 20 Minuten in Salzwasser kochen.",
+   "Das Schweinefleisch in kleinen Stücken anbraten und das Fett aufbewahren.",
+   "Die heißen Kochbananen mit Butter, Achiote und etwas Fett stampfen.",
+   "Käse und Fleisch untermischen und orangengroße Kugeln formen.",
+   "In etwas Öl in der Pfanne bräunen. Zum Frühstück mit einem Ei und Kaffee servieren."
+  ]
+ },
  "pupusas": {
   "titre": "Pupusas mit Käse und Loroco",
   "pays": "El Salvador",
@@ -1363,6 +1678,27 @@
    "Geriebenen Käse und gehackten Loroco mischen.",
    "Eine Teigkugel formen, aushöhlen, füllen, verschließen und zwischen den Händen sanft flach drücken.",
    "Auf einer heißen, ungefetteten Platte 3 bis 4 Minuten pro Seite backen. Mit Curtido und Tomatensoße servieren."
+  ]
+ },
+ "gallo-pinto": {
+  "titre": "Gallo pinto",
+  "pays": "Costa Rica und Nicaragua",
+  "temps": "30 min",
+  "portions": "4 Personen",
+  "resume": "Das Frühstück Mittelamerikas: Reis vom Vortag, angebraten mit schwarzen Bohnen, Zwiebel, Paprika und Koriander.",
+  "ingredients": [
+   "2 Tassen gekochte schwarze Bohnen mit etwas Kochflüssigkeit",
+   "3 Tassen weißer Reis vom Vortag",
+   "1 Zwiebel und 1 rote Paprika, gehackt, 2 Knoblauchzehen",
+   "1 Bund Koriander",
+   "2 Esslöffel Öl, Salz; Lizano- oder Worcestershiresoße nach Geschmack"
+  ],
+  "etapes": [
+   "Zwiebel, Paprika und Knoblauch 5 Minuten im Öl anbraten.",
+   "Die Bohnen mit ihrer Flüssigkeit zugeben und 3 Minuten einkochen lassen.",
+   "Den Reis zugeben und vorsichtig mischen, bis er die Farbe der Bohnen annimmt.",
+   "Mit Salz und einem Spritzer Lizano-Soße würzen.",
+   "Mit Koriander bestreuen und mit Eiern, gebratener reifer Kochbanane und Sauerrahm servieren."
   ]
  },
  "feijoada": {
@@ -1388,6 +1724,27 @@
    "Mit Reis, gebratenem Grünkohl, Farofa und Orangenspalten servieren."
   ]
  },
+ "sopa-quinoa": {
+  "titre": "Quinoasuppe",
+  "pays": "Peru und Bolivien",
+  "temps": "45 min",
+  "portions": "6 Personen",
+  "resume": "Die Suppe der Anden: Quinoa, Kartoffeln und Gemüse in einer mit Ají gewürzten Brühe, mit Frischkäse.",
+  "ingredients": [
+   "200 g Quinoa, gründlich gespült",
+   "3 Kartoffeln und 2 Karotten, gewürfelt",
+   "1 Zwiebel, 2 Knoblauchzehen, 1 Esslöffel Ají-Paste (oder Paprikapulver)",
+   "2 Liter Hühner- oder Gemüsebrühe, 1 Tasse Erbsen oder Saubohnen",
+   "Koriander oder Petersilie, gewürfelter Frischkäse, Salz"
+  ],
+  "etapes": [
+   "Zwiebel, Knoblauch und Ají 5 Minuten in etwas Öl anbraten.",
+   "Brühe und Quinoa zugeben; 15 Minuten kochen.",
+   "Kartoffeln und Karotten zugeben; 15 Minuten kochen.",
+   "Erbsen oder Saubohnen zugeben, weitere 5 Minuten kochen und salzen.",
+   "Mit gehacktem Koriander und einigen Würfeln Frischkäse servieren."
+  ]
+ },
  "couscous-legumes": {
   "titre": "Couscous mit Gemüse und Lamm",
   "pays": "Marokko",
@@ -1408,6 +1765,27 @@
    "Das Gemüse dazugeben, zuerst das festeste (Karotten, Rüben), dann Zucchini, Kohl und Kürbis; die Kichererbsen dazugeben.",
    "Den Grieß mit Salzwasser befeuchten, auflockern und zweimal 15 Minuten über der Brühe dämpfen.",
    "Den Grieß mit Butter auflockern, als Kuppel mit Fleisch und Gemüse anrichten und die Brühe getrennt servieren."
+  ]
+ },
+ "chorba-frik": {
+  "titre": "Chorba frik",
+  "pays": "Algerien",
+  "temps": "1 h 15",
+  "portions": "6 Personen",
+  "resume": "Algeriens Ramadan-Suppe: Lamm, Tomate und geschroteter grüner Weizen, mit Koriander und Minze gewürzt.",
+  "ingredients": [
+   "500 g Lammfleisch in kleinen Stücken",
+   "100 g Frik (geschroteter grüner Weizen)",
+   "1 Dose Kichererbsen",
+   "2 geriebene Tomaten und 1 Esslöffel Tomatenmark",
+   "1 Zwiebel, 1 Bund Koriander, getrocknete Minze, Zimt, Paprikapulver, Salz, Pfeffer"
+  ],
+  "etapes": [
+   "Lamm und gehackte Zwiebel in etwas Öl mit Zimt, Paprika, Salz und Pfeffer anbraten.",
+   "Tomaten, Tomatenmark, die Hälfte des gehackten Korianders und 2 Liter Wasser zugeben; 40 Minuten kochen.",
+   "Die abgetropften Kichererbsen zugeben und den Frik einrieseln lassen; 20 Minuten kochen und gelegentlich umrühren.",
+   "Den restlichen Koriander und eine Prise getrocknete Minze zugeben.",
+   "Mit einem Zitronenschnitz, Datteln und Brot servieren."
   ]
  },
  "harira": {
@@ -1432,6 +1810,48 @@
    "Kichererbsen und Fadennudeln dazugeben und 10 Minuten kochen.",
    "Das Mehl mit etwas kaltem Wasser anrühren und unter Rühren einlaufen lassen; 10 Minuten kochen, bis die Suppe sämig ist.",
    "Mit Zitrone, Datteln und hart gekochten Eiern servieren."
+  ]
+ },
+ "ful-medames": {
+  "titre": "Ful medames",
+  "pays": "Ägypten",
+  "temps": "20 min",
+  "portions": "4 Personen",
+  "resume": "Ägyptens Frühstück: langsam gegarte Saubohnen, zerdrückt mit Knoblauch, Kreuzkümmel, Zitrone und Olivenöl.",
+  "ingredients": [
+   "2 Dosen Saubohnen (Ful) à 400 g",
+   "2 Knoblauchzehen, 1 Teelöffel Kreuzkümmel, Salz",
+   "Saft von 1 Zitrone",
+   "4 Esslöffel Olivenöl",
+   "Tomate, Petersilie, Zwiebel, hartgekochte Eier und Pitabrot zum Servieren"
+  ],
+  "etapes": [
+   "Die Bohnen mit ihrer Flüssigkeit 10 Minuten bei schwacher Hitze erwärmen.",
+   "Den Knoblauch mit Salz und Kreuzkümmel zerdrücken.",
+   "Einen Teil der Bohnen grob zerdrücken, Knoblauch und Zitronensaft zugeben, bei Bedarf etwas heißes Wasser.",
+   "In eine flache Schale geben und großzügig mit Olivenöl beträufeln.",
+   "Mit gehackter Tomate und Petersilie, Zwiebel und Ei garnieren; mit warmem Pitabrot servieren."
+  ]
+ },
+ "chakchouka": {
+  "titre": "Shakshuka",
+  "pays": "Tunesien",
+  "temps": "40 Min.",
+  "portions": "4 Personen",
+  "resume": "Pochierte Eier in einer Tomaten-Paprika-Soße mit Kreuzkümmel und Harissa, zum Tunken mit Brot.",
+  "ingredients": [
+   "6 Tomaten (oder 1 Dose gehackte Tomaten)",
+   "3 Paprikaschoten, 1 Zwiebel, 3 Knoblauchzehen",
+   "6 Eier",
+   "1 TL Kreuzkümmel, 1 TL Paprikapulver",
+   "1 TL Harissa, Olivenöl, Salz; Brot zum Servieren"
+  ],
+  "etapes": [
+   "Zwiebel und Paprikastreifen 10 Minuten im Olivenöl anbraten.",
+   "Knoblauch, Kreuzkümmel, Paprika und Harissa dazugeben; 1 Minute garen.",
+   "Tomaten und Salz dazugeben; 15 Minuten köcheln lassen.",
+   "Mulden in die Soße drücken und die Eier hineinschlagen.",
+   "Zudecken und 6 bis 8 Minuten garen, bis das Eiweiß gestockt ist. Mit Brot servieren."
   ]
  },
  "kelewele": {
@@ -1476,6 +1896,27 @@
    "Mindestens 2 Stunden kühlen und sehr kalt servieren."
   ]
  },
+ "bouye": {
+  "titre": "Bouye (Baobab-Saft)",
+  "pays": "Senegal",
+  "temps": "15 min (+ 1 h kühlen)",
+  "portions": "6 Personen",
+  "resume": "Das Fruchtmark des Affenbrotbaums, zu einem cremigen, süß-säuerlichen Getränk verrührt und eiskalt serviert.",
+  "ingredients": [
+   "200 g Baobab-Fruchtpulver und 1 Liter kaltes Wasser",
+   "250 ml gezuckerte Kondensmilch (oder 150 g Zucker)",
+   "Zucker nach Geschmack",
+   "1 Päckchen Vanillezucker",
+   "Orangenblütenwasser oder eine Prise Muskat (nach Belieben)"
+  ],
+  "etapes": [
+   "Das Baobabpulver in die Hälfte des kalten Wassers rühren und 15 Minuten stehen lassen.",
+   "Gut verrühren, damit sich das Fruchtmark löst, dann durch ein feines Sieb gießen.",
+   "Restliches Wasser, Kondensmilch, Zucker und Vanillezucker zugeben.",
+   "Mit etwas Orangenblütenwasser oder Muskat aromatisieren.",
+   "1 Stunde kühlen und eiskalt servieren."
+  ]
+ },
  "cachupa": {
   "titre": "Cachupa",
   "pays": "Kap Verde",
@@ -1518,6 +1959,27 @@
    "Verschließen und mindestens 24 Stunden im Kühlschrank ziehen lassen."
   ]
  },
+ "colombo-poulet": {
+  "titre": "Hähnchen-Colombo",
+  "pays": "Guadeloupe und Martinique",
+  "temps": "1 Std. 15",
+  "portions": "6 Personen",
+  "resume": "Das Curry der Französischen Antillen: Huhn, mit Colombo-Pulver, Kartoffeln, Aubergine und Chayote geschmort.",
+  "ingredients": [
+   "1 Huhn in Stücken",
+   "3 EL Colombo-Pulver",
+   "3 Kartoffeln, 1 Aubergine, 1 Chayote",
+   "2 Zwiebeln, 4 Knoblauchzehen, 1 Chili, Thymian",
+   "Saft von 2 Limetten; weißer Reis zum Servieren"
+  ],
+  "etapes": [
+   "Das Huhn 1 Stunde mit Limette, Knoblauch, Salz und einem Löffel Colombo marinieren.",
+   "Im Öl mit den Zwiebeln anbraten.",
+   "Den restlichen Colombo, Thymian und die ganze Chili dazugeben; 2 Minuten rühren.",
+   "Das Gemüse in Stücken und Wasser zum Bedecken dazugeben; zugedeckt 40 Minuten garen.",
+   "Zum Schluss etwas Limettensaft dazugeben und mit weißem Reis servieren."
+  ]
+ },
  "bouyon": {
   "titre": "Bouyon",
   "pays": "Haiti",
@@ -1537,6 +1999,48 @@
    "Doumbrey: Mehl, eine Prise Salz und etwas Wasser mischen und zu kleinen Röllchen formen.",
    "Klößchen, Spinat, Thymian, ganze Chili und Brühwürfel dazugeben; 30 Minuten garen.",
    "Etwas Gemüse zerdrücken, um die Suppe zu binden, und sehr heiß servieren."
+  ]
+ },
+ "diri-ak-pwa": {
+  "titre": "Diri ak Pwa (Reis mit roten Bohnen)",
+  "pays": "Haiti",
+  "temps": "1 Std. 15",
+  "portions": "6 Personen",
+  "resume": "Haitis Alltagsreis, in der Brühe roter Bohnen mit Epis, Nelken und einer ganzen Chili gegart.",
+  "ingredients": [
+   "500 g Reis",
+   "250 g getrocknete rote Kidneybohnen",
+   "2 EL Epis (haitianische Würze)",
+   "3 Nelken, Thymian, 1 Scotch Bonnet",
+   "2 EL Öl oder Butter, Salz"
+  ],
+  "etapes": [
+   "Die Bohnen 1 Stunde in 1,5 Liter Wasser kochen; die Brühe aufbewahren.",
+   "Das Epis im Öl anbraten, die abgetropften Bohnen dazugeben und 3 Minuten anbraten.",
+   "1 Liter Brühe, Nelken, Thymian, Salz und die ganze Chili dazugeben; aufkochen.",
+   "Den gewaschenen Reis dazugeben und offen garen, bis die Flüssigkeit aufgesogen ist.",
+   "Zudecken und 15 Minuten bei sehr schwacher Hitze fertig garen. Die Chili entfernen und servieren."
+  ]
+ },
+ "pain-patate": {
+  "titre": "Pain Patate (Süßkartoffelkuchen)",
+  "pays": "Haiti",
+  "temps": "1 Std. 45",
+  "portions": "8 Personen",
+  "resume": "Der haitianische Kuchen aus geriebener Süßkartoffel, reifer Banane und Kokosmilch, mit Zimt, Ingwer und Vanille.",
+  "ingredients": [
+   "1 kg Süßkartoffeln",
+   "2 reife Bananen",
+   "400 ml Kokosmilch und 200 ml Kondensmilch (ungesüßt)",
+   "150 g brauner Zucker, 50 g geschmolzene Butter, Rosinen",
+   "Zimt, geriebener Ingwer, Muskat, Vanille"
+  ],
+  "etapes": [
+   "Den Ofen auf 180 °C vorheizen und eine Form einfetten.",
+   "Die Süßkartoffeln schälen und fein reiben; die Bananen zerdrücken.",
+   "Mit Kokosmilch, Kondensmilch, Zucker, Butter und Gewürzen mischen.",
+   "Die Rosinen dazugeben und in die Form gießen.",
+   "1 Std. 15 backen, bis die Oberfläche goldbraun und fest ist. Lauwarm oder kalt servieren."
   ]
  },
  "accras-morue": {
@@ -1728,6 +2232,27 @@
    "Fleisch und Oliven dazugeben und 20 Minuten köcheln lassen. Mit Reis und schwarzen Bohnen servieren."
   ]
  },
+ "yuca-mojo": {
+  "titre": "Yuca con mojo",
+  "pays": "Kuba",
+  "temps": "45 min",
+  "portions": "4 Personen",
+  "resume": "Maniok auf kubanische Art: weich gekocht und mit einer heißen Mojo-Soße aus Knoblauch, Zitrussaft und Zwiebel übergossen.",
+  "ingredients": [
+   "1 kg Maniok (Yuca), frisch oder tiefgekühlt",
+   "8 Knoblauchzehen",
+   "Saft von 2 Orangen und 2 Limetten",
+   "1 Zwiebel in dünnen Ringen",
+   "100 ml Olivenöl, 1 Teelöffel Kreuzkümmel, Salz"
+  ],
+  "etapes": [
+   "Den Maniok schälen, in Stücke schneiden und die holzige Mitte entfernen.",
+   "25 bis 30 Minuten in Salzwasser kochen, bis er aufplatzt; abgießen.",
+   "Den Knoblauch mit Salz und Kreuzkümmel zerdrücken und im Orangen- und Limettensaft verrühren.",
+   "Das Öl erhitzen, die Zwiebel darin 3 Minuten weich dünsten und die Knoblauchmischung neben dem Herd zugießen.",
+   "Die heiße Mojo-Soße über den Maniok gießen und mit Schweinebraten oder Reis und Bohnen servieren."
+  ]
+ },
  "mofongo": {
   "titre": "Mofongo",
   "pays": "Puerto Rico",
@@ -1770,6 +2295,27 @@
    "Zudecken und 15 Minuten bei sehr schwacher Hitze fertig garen."
   ]
  },
+ "mangu": {
+  "titre": "Mangú",
+  "pays": "Dominikanische Republik",
+  "temps": "40 min",
+  "portions": "4 Personen",
+  "resume": "Dominikanisches Püree aus grüner Kochbanane mit Essig-Zwiebeln, serviert mit den „drei Schlägen“: Salami, gebratener Käse und Ei.",
+  "ingredients": [
+   "4 grüne Kochbananen",
+   "2 rote Zwiebeln in Ringen",
+   "3 Esslöffel Butter",
+   "Essig, Öl, Salz",
+   "Bratkäse, Salami und Eier zum Servieren"
+  ],
+  "etapes": [
+   "Die Kochbananen schälen, in Stücke schneiden und 20 Minuten in Salzwasser kochen.",
+   "Die Zwiebeln in etwas Öl andünsten, einen Schuss Essig und Salz zugeben.",
+   "Die Kochbananen mit der Butter und etwas kaltem Kochwasser zu einem glatten Püree stampfen.",
+   "Salami- und Käsescheiben braten und die Eier zubereiten.",
+   "Das Püree mit den Zwiebeln bedeckt servieren, dazu Salami, Käse und Eier."
+  ]
+ },
  "sanga": {
   "titre": "Sanga",
   "pays": "Kamerun",
@@ -1791,6 +2337,27 @@
    "Blätter, Zucker und Salz dazugeben; weitere 15 Minuten garen. Heiß oder lauwarm servieren."
   ]
  },
+ "kwacoco-bible": {
+  "titre": "Kwacoco Bible",
+  "pays": "Kamerun",
+  "temps": "2 Std.",
+  "portions": "6 Personen",
+  "resume": "Ein Päckchen aus dem Südwesten: geriebene Malanga mit Räucherfisch, Gewürzen und Palmöl, in Bananenblättern gegart.",
+  "ingredients": [
+   "1 kg Malanga (Macabo)",
+   "1 Räucherfisch und 50 g getrocknete Garnelen",
+   "Bananenblätter",
+   "100 ml Palmöl",
+   "Chili, 1 Zwiebel, 1 Brühwürfel, Salz"
+  ],
+  "etapes": [
+   "Die Malanga schälen und fein reiben.",
+   "Zerpflückten Fisch, gemahlene Garnelen, gehackte Zwiebel, Chili, Brühwürfel, Salz und Palmöl dazugeben; gut mischen.",
+   "Die Masse auf über der Flamme erweichte Bananenblätter verteilen.",
+   "Die Päckchen falten und zubinden.",
+   "1 Std. 30 dämpfen. Mit einer Chilisoße oder einem Eintopf servieren."
+  ]
+ },
  "kedjenou-pintade": {
   "titre": "Perlhuhn-Kedjenou",
   "pays": "Elfenbeinküste",
@@ -1810,6 +2377,27 @@
    "Fest verschließen und 1 Stunde bei schwacher Hitze garen.",
    "Den Topf alle 10 Minuten schütteln, ohne ihn zu öffnen, damit nichts ansetzt.",
    "Mit Attiéké oder Reis servieren."
+  ]
+ },
+ "attieke-aubergine": {
+  "titre": "Attiéké mit Auberginensoße",
+  "pays": "Elfenbeinküste",
+  "temps": "1 Std.",
+  "portions": "6 Personen",
+  "resume": "Attiéké mit einer milden, duftenden Soße aus zerdrückten Auberginen, Tomate und Fisch.",
+  "ingredients": [
+   "1 kg Attiéké",
+   "6 afrikanische Auberginen (oder 2 große Auberginen)",
+   "800 g Fisch (oder 1 Räucherfisch)",
+   "3 Tomaten, 2 Zwiebeln, 2 Knoblauchzehen",
+   "4 EL Öl, Chili, 1 Brühwürfel, Salz"
+  ],
+  "etapes": [
+   "Die geschälten Auberginen 15 Minuten kochen und zerdrücken.",
+   "Zwiebeln und Knoblauch im Öl anbraten, die pürierten Tomaten dazugeben; 10 Minuten garen.",
+   "Die zerdrückten Auberginen, 300 ml Wasser, Chili, Brühwürfel und Salz dazugeben; 10 Minuten garen.",
+   "Den Fisch dazugeben und 15 Minuten bei schwacher Hitze garen.",
+   "Das Attiéké 5 Minuten dämpfen und mit der Soße servieren."
   ]
  },
  "mbongo-porc": {
